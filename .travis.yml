@@ -1,0 +1,23 @@
+# This file compiled from .travis.yml.in
+
+sudo: false
+
+language: python
+
+python:
+  - "3.6.6"
+
+cache:
+  pip: true
+
+install:
+  # Install Python dependencies
+  - python -m pip install --upgrade pip==18.0
+  - python -m pip install -r requirements3.txt
+
+  # Invoke will get our other dependencies
+  - invoke dependencies_ensure
+
+script:
+  - nosetests tests.fast
+  - nosetests
