@@ -5,6 +5,7 @@ task_module_names = [
     'base.invoke.tasks.compile',
     'base.invoke.tasks.dependencies',
     'base.invoke.tasks.docker',
+    'base.invoke.tasks.jekyll',
 ]
 
 # Create our task collection
