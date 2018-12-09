@@ -2,9 +2,7 @@
 
 [![Build Status](https://travis-ci.org/uwcse440/web-cse440-wi19.svg?branch=master)](https://travis-ci.org/uwcse440/web-cse440-wi19)
 
-A fogies project used as a template for Jekyll websites.
-
-Provides for a build process, common dependencies and extensions, and serving via docker-jekyll-site.
+The course website for CSE 440 in Winter 2019.
 
 ## Project Dependencies
 
