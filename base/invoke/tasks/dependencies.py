@@ -15,7 +15,7 @@ def dependencies_ensure():
     try:
         response = requests.head(url='http://www.google.com', timeout=5)
     except (requests.ConnectionError, requests.ConnectTimeout):
-        print('No connection for ensuring dependencies')
+        print('No connection for updating dependencies')
         return
 
     # Parse our config
@@ -83,4 +83,5 @@ def dependencies_ensure():
 
 @invoke.task
 def dependencies_base_update():
+    invoke.run('git pull https://github.com/fogies/web-jekyll-base.git master', encoding=sys.stdout.encoding)
     invoke.run('git pull https://github.com/fogies/invoke-base.git master', encoding=sys.stdout.encoding)

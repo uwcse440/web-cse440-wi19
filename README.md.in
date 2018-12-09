@@ -4,9 +4,9 @@
 {{ readme.travis_badge }}
 {% endif %}
 
-A fogies project used as a template for other projects.
+A fogies project used as a template for Jekyll websites.
 
-Provides for dependency management, tasks via the invoke tool, and testing.
+Provides for a build process, common dependencies and extensions, and serving via docker-jekyll-site.
 
 {% include "base/readme/install.md" %}
 
