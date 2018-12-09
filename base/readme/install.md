@@ -2,6 +2,10 @@
 
 This project is based on a template:
 
+[https://github.com/fogies/web-jekyll-base](https://github.com/fogies/web-jekyll-base)
+
+Which is in turn based on:
+
 [https://github.com/fogies/invoke-base](https://github.com/fogies/invoke-base)
 
 Runtime dependencies for this project are:
