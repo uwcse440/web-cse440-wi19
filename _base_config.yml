@@ -36,14 +36,14 @@ config:
       compose_up_delay: 60
 
   readme:
-    url_github: https://github.com/uwcse440/web-cse440-au19
+    url_github: https://github.com/uwcse440/web-cse440-wi19
     url_github_readme: blob/master/README.md
     url_github_readme_basedir: blob/master/readme
 
-    travis_badge: '[![Build Status](https://travis-ci.org/uwcse440/web-cse440-au19.svg?branch=master)](https://travis-ci.org/uwcse440/web-cse440-au19)'
+    travis_badge: '[![Build Status](https://travis-ci.org/uwcse440/web-cse440-wi19.svg?branch=master)](https://travis-ci.org/uwcse440/web-cse440-wi19)'
 
-    working_directory_windows: c:\devel\web-cse440-au19
-    working_directory_mac: ~/Desktop/web-cse440-au19
+    working_directory_windows: c:\devel\web-cse440-wi19
+    working_directory_mac: ~/Desktop/web-cse440-wi19
 
     invoke_readme_frequent:
       - compile_config

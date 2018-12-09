@@ -31,13 +31,13 @@ When installing Python:
 
 ### Creating a Virtual Environment and Installing Dependencies
 
-Create the virtual environment. From the working directory of our project (e.g., `c:\devel\web-cse440-au19`):
+Create the virtual environment. From the working directory of our project (e.g., `c:\devel\web-cse440-wi19`):
 
 ~~~
 c:\Python36/python.exe -m venv env36
 ~~~
 
-This will create a directory for the virtual environment (e.g., `c:\devel\web-cse440-au19/env36/`).
+This will create a directory for the virtual environment (e.g., `c:\devel\web-cse440-wi19/env36/`).
 
 Next activate that virtual environment and install our Python dependencies:
 
