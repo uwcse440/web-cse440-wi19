@@ -1,4 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClient, HttpClientModule } from "@angular/common/http";
+import { MarkdownModule } from "ngx-markdown";
 import { NgModule } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
@@ -19,8 +21,10 @@ import { CalendarComponent } from './calendar/calendar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    NgbModule
+    HttpClientModule, // after BrowserModule
+    MarkdownModule.forRoot({ loader: HttpClient }),
+    NgbModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
