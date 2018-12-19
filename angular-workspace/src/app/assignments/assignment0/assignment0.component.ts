@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { page as PageData } from './assignment0.pagedata.ts';
+import { page as PageData } from './assignment0.pagedata';
 
 @Component({
   selector: 'app-assignment0',
