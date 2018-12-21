@@ -34,7 +34,7 @@ import { ReadingsComponent } from './assignments/readings/readings.component';
     ReadingsComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({appId: 'angular-workspace'}),
     HttpClientModule, // after BrowserModule
     MarkdownModule.forRoot({ loader: HttpClient }),
     NgbModule,
