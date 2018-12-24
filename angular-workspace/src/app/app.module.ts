@@ -1,8 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClient, HttpClientModule } from "@angular/common/http";
-import { MarkdownModule } from "ngx-markdown";
+import { MarkdownModule, MarkedOptions } from "ngx-markdown";
 import { NgModule } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
+import { DynamicMarkdownComponent } from './markdown/dynamic-markdown.component';
+import { markedOptionsFactory } from "./markdown/marked-options-factory";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -21,6 +24,7 @@ import { ReadingsComponent } from './assignments/readings/readings.component';
 @NgModule({
   declarations: [
     AppComponent,
+    DynamicMarkdownComponent,
     NavbarComponent,
     HomeComponent,
     ProjectsComponent,
@@ -36,7 +40,13 @@ import { ReadingsComponent } from './assignments/readings/readings.component';
   imports: [
     BrowserModule.withServerTransition({appId: 'angular-workspace'}),
     HttpClientModule, // after BrowserModule
-    MarkdownModule.forRoot({ loader: HttpClient }),
+    MarkdownModule.forRoot({
+      loader: HttpClient,
+      markedOptions: {
+        provide: MarkedOptions,
+        useFactory: markedOptionsFactory
+      }
+    }),
     NgbModule,
     AppRoutingModule
   ],

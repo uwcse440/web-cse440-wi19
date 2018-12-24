@@ -41,6 +41,7 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
+              "baseHref": "/courses/cse440/19wi/",
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
