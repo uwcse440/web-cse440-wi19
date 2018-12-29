@@ -17,7 +17,7 @@
 <p>One page in PDF format. Submit via Canvas here:</p>
 <html>
   <ng-template [ngIf]="page.link_assignment_0" [ngIfElse]="missingLink">
-    <a href="{{ page.link_assignment_0 }}">{{ page.link_assignment_0 }}</a>
+    <html><app-generated-link linkHREF="{{ page.link_assignment_0 }}" linkText="{{ page.link_assignment_0 }}"></app-generated-link></html>
   </ng-template>
   <ng-template #missingLink>
     Link to be added

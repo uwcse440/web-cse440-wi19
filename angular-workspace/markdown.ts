@@ -1,26 +1,32 @@
+// Basic file manipulation
 import { readFileSync, writeFileSync } from "fs";
 import { join } from "path";
 
+// Configuration of Markdown-It
 import * as MarkdownIt from "markdown-it";
 import * as MarkdownItAnchor from "markdown-it-anchor";
 
+// Paths we will process
+import { PATHS_DATA } from "./markdown.paths";
+
+// Our primary Markdown renderer
 let markdownIt = MarkdownIt("commonmark")
   .use(MarkdownItAnchor, {});
 
 function renderMarkdown(markdown: string) {
+  // Preprocess to match link, because the library requires they have a protocol,
+  // which our links that are Angular interpolations will be lacking (e.g., [{{ linktext }}]({{ linkhref }})).
   let regexLink = /\[(.*)\]\((.*)\)/g;
+  markdown = markdown.replace(regexLink, function (match: string, tokenLinkText: string, tokenLinkHREF: string) {
+    // Replace it with an Angular component that will render the link according to its properties
+    let generated = `<html><app-generated-link linkHREF="${tokenLinkHREF}" linkText="${tokenLinkText}"></app-generated-link></html>`;
 
-  // Match links, because the library requires they have a protocol, which our Angular links do not
-  markdown = markdown.replace(regexLink, function (match: string, tokenLinkText: string, tokenHREF: string) {
-    return `<a href="${tokenHREF}">${tokenLinkText}</a>`;
+    return generated;
   });
 
   // Use the library for primary Markdown rendering
   return markdownIt.render(markdown);
 }
-
-// Data about the Markdown we'll render into Angular templates
-import { PATHS_DATA } from "./markdown.paths";
 
 for (let pathDataCurrent of PATHS_DATA) {
   let pathAngularTemplate = join(pathDataCurrent.pathDirectory, `${pathDataCurrent.pathPrefix}.template.html`);
