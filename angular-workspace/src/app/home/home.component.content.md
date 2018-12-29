@@ -146,10 +146,18 @@ Projects are organized around four assignments, each consisting of several miles
 Sample projects from prior offerings include:
 
 <div class="alert alert-danger">
-<!--
-{{ for currentoffering in site.data.samples.offering }}{{ for currentsample in site.data.samples[currentoffering.key] }}
-  -  {{ currentoffering.name }} - [{{ currentsample.name }}]({{ currentsample.link }}){{ endfor }}{{ endfor }}
--->
+<html>
+  <ul>
+    <li *ngFor="let offeringCurrent of page.projectSamples.offerings">
+      {{ offeringCurrent.name }}
+      <ul>
+        <li *ngFor="let projectCurrent of page.projectSamples.projects[offeringCurrent.key]">
+          [{{ projectCurrent.name }}]( projectCurrent.link )
+        </li>
+      </ul>
+    </li>
+  </ul>
+</html>
 </div>
 
 Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
