@@ -1,3 +1,7 @@
+<ng-template #content>
+  Content Until Rendering Works
+</ng-template>
+
 <div class="container app-main">
   <div class="row">
     <div class="col">
@@ -6,9 +10,7 @@
   </div>
   <div class="row">
     <div class="col">
-      test before
-      <!-- <ng-container *ngTemplateOutlet="content"></ng-container> -->
-      test after
+      <ng-container *ngTemplateOutlet="content"></ng-container>
     </div>
   </div>
 </div>
