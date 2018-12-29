@@ -1,5 +1,5 @@
 <ng-template #content>
-<h1 id="assignment-0-introduction-slide">Assignment 0: Introduction Slide</h1>
+<h1 id="assignment-0%3A-introduction-slide">Assignment 0: Introduction Slide</h1>
 <h2 id="overview">Overview</h2>
 <p>Submit an informal slide that will help us as we get to know you:</p>
 <ul>
@@ -17,13 +17,12 @@
 <p>One page in PDF format. Submit via Canvas here:</p>
 <html>
   <ng-template [ngIf]="page.link_assignment_0" [ngIfElse]="missingLink">
-    [{{ page.link_assignment_0 }}]({{ page.link_assignment_0 }})
+    <a href="{{ page.link_assignment_0 }}">{{ page.link_assignment_0 }}</a>
   </ng-template>
   <ng-template #missingLink>
     Link to be added
   </ng-template>
 </html>
-
 <h3 id="grading">Grading</h3>
 <p>This assignment will be graded on a scale of <strong>0</strong> points.</p>
 
