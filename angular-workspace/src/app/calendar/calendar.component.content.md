@@ -1,4 +1,9 @@
 test
 
-[test](https://homes.cs.washington.edu/~jfogarty/)
+--
 
+[testInternal](/assignments)
+
+--
+
+[testExternal](https://homes.cs.washington.edu/~jfogarty/)
