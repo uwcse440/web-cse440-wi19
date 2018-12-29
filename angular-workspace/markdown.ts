@@ -44,5 +44,5 @@ for (let pathDataCurrent of PATHS_DATA) {
   let pathRenderedTemplate = join(pathDataCurrent.pathDirectory, `${pathDataCurrent.pathPrefix}.rendered.html`);
   writeFileSync(pathRenderedTemplate, combinedTemplate);
 
-  console.log(combinedTemplate);
+  console.log(`Rendered ${pathRenderedTemplate}`);
 }

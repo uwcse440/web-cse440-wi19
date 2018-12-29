@@ -1,0 +1,20 @@
+<ng-template #content>
+<p><a routerLink="/assignments/assignment0">Assignment 0</a></p>
+<p><a routerLink="/assignments/assignment1">Assignment 1</a></p>
+<p><a routerLink="/assignments/assignment2">Assignment 2</a></p>
+<p><a routerLink="/assignments/assignment3">Assignment 3</a></p>
+<p><a routerLink="/assignments/assignment4">Assignment 4</a></p>
+<p><a routerLink="/assignments/readings">Readings</a></p>
+
+</ng-template>
+
+<div class="container app-main">
+  <div class="row">
+    <div class="col-md-9">
+      <router-outlet></router-outlet>
+    </div>
+    <div class="col-md-3">
+      <ng-container *ngTemplateOutlet="content"></ng-container>
+    </div>
+  </div>
+</div>

@@ -21,12 +21,14 @@ Due: {{ page.date_assignment_0 }}.
 
 One page in PDF format. Submit via Canvas here:
 
-<ng-template [ngIf]="page.link_assignment_0" [ngIfElse]="missingLink">
-  <{{ page.link_assignment_0 }}>
-</ng-template>
-<ng-template #missingLink>
-  Link to be added
-</ng-template>
+<html>
+  <ng-template [ngIf]="page.link_assignment_0" [ngIfElse]="missingLink">
+    [{{ page.link_assignment_0 }}]({{ page.link_assignment_0 }})
+  </ng-template>
+  <ng-template #missingLink>
+    Link to be added
+  </ng-template>
+</html>
 
 ### Grading
 

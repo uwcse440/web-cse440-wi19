@@ -15,14 +15,18 @@
 <h3 id="submission">Submission</h3>
 <p>Due: {{ page.date_assignment_0 }}.</p>
 <p>One page in PDF format. Submit via Canvas here:</p>
-<p>&lt;ng-template [ngIf]=&quot;page.link_assignment_0&quot; [ngIfElse]=&quot;missingLink&quot;&gt;
-  &lt;{{ page.link_assignment_0 }}&gt;
-</ng-template>
-&lt;ng-template #missingLink&gt;
-  Link to be added
-</ng-template></p>
+<html>
+  <ng-template [ngIf]="page.link_assignment_0" [ngIfElse]="missingLink">
+    [{{ page.link_assignment_0 }}]({{ page.link_assignment_0 }})
+  </ng-template>
+  <ng-template #missingLink>
+    Link to be added
+  </ng-template>
+</html>
+
 <h3 id="grading">Grading</h3>
 <p>This assignment will be graded on a scale of <strong>0</strong> points.</p>
 
 </ng-template>
 
+<ng-container *ngTemplateOutlet="content"></ng-container>
