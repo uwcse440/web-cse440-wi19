@@ -148,14 +148,11 @@ Sample projects from prior offerings include:
 <div class="alert alert-danger">
 <html>
   <ul>
-    <li *ngFor="let offeringCurrent of page.projectSamples.offerings">
-      {{ offeringCurrent.name }}
-      <ul>
-        <li *ngFor="let projectCurrent of page.projectSamples.projects[offeringCurrent.key]">
-          [{{ projectCurrent.name }}]( projectCurrent.link )
-        </li>
-      </ul>
-    </li>
+    <ng-container *ngFor="let offeringCurrent of page.projectSamples.offerings">      
+      <li *ngFor="let projectCurrent of page.projectSamples.projects[offeringCurrent.key]">
+        {{ offeringCurrent.name }} - [{{ projectCurrent.name }}]({{ projectCurrent.link }})
+      </li>
+    </ng-container>
   </ul>
 </html>
 </div>
