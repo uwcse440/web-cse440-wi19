@@ -1,1 +1,28 @@
-<ng-container *ngTemplateOutlet="content"></ng-container>
+<ng-template #content>
+<h1 id="assignment-0-introduction-slide">Assignment 0: Introduction Slide</h1>
+<h2 id="overview">Overview</h2>
+<p>Submit an informal slide that will help us as we get to know you:</p>
+<ul>
+<li>Picture</li>
+<li>Name (e.g., formal, preferred, pronouns)</li>
+<li>Academics (e.g., majors, minors, career goals)</li>
+<li>Year (e.g., 1,2,3,4,5,6,...)</li>
+<li>Hometown</li>
+<li>Interesting Fact or &quot;What I did on my ...&quot;</li>
+</ul>
+<p>Please keep it clean, and understand that your classmates may at some point see this flash card.</p>
+<p>For example, your slide might be similar to our introduction slides in the first lecture.</p>
+<h3 id="submission">Submission</h3>
+<p>Due: {{ page.date_assignment_0 }}.</p>
+<p>One page in PDF format. Submit via Canvas here:</p>
+<p>&lt;ng-template [ngIf]=&quot;page.link_assignment_0&quot; [ngIfElse]=&quot;missingLink&quot;&gt;
+  &lt;{{ page.link_assignment_0 }}&gt;
+</ng-template>
+&lt;ng-template #missingLink&gt;
+  Link to be added
+</ng-template></p>
+<h3 id="grading">Grading</h3>
+<p>This assignment will be graded on a scale of <strong>0</strong> points.</p>
+
+</ng-template>
+
