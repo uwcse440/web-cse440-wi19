@@ -11,7 +11,21 @@ import { PATHS_DATA } from "./markdown.paths";
 
 // Our primary Markdown renderer
 let markdownIt = MarkdownIt("commonmark")
-  .use(MarkdownItAnchor, {});
+  .use(MarkdownItAnchor, {
+    slugify: function (input: string) {
+      // Default slug was encoding colons that are common in our titles
+      let slug = input;
+      slug = slug.trim();
+      slug = slug.toLowerCase();
+      slug = slug.replace(/[^a-z|0-9]/g, '-');
+      slug = slug.replace(/\-+/g, '-');
+
+      // ID cannot start with a number
+      slug = slug.replace(/^([0-9])/, 'id-$1')
+
+      return slug;
+    }
+  });
 
 function renderMarkdown(markdown: string) {
   // Preprocess to match link, because the library requires they have a protocol,
@@ -25,7 +39,17 @@ function renderMarkdown(markdown: string) {
   });
 
   // Use the library for primary Markdown rendering
-  return markdownIt.render(markdown);
+  let renderedMarkdown = markdownIt.render(markdown);
+
+  // We use <html> tags in Markdown so that it will render the HTML, rather than encoding it as a code example.
+  // But those are block tags that can then interfere with the desired page.
+  // So remove them after the Markdown rendering process.
+  let regexHTMLTags = /\<html\>|\<\/html\>/g;
+  renderedMarkdown = renderedMarkdown.replace(regexHTMLTags, function (match: string) {
+    return '';
+  });
+
+  return renderedMarkdown;
 }
 
 for (let pathDataCurrent of PATHS_DATA) {
@@ -42,7 +66,7 @@ for (let pathDataCurrent of PATHS_DATA) {
     let renderedContentCurrent = renderMarkdown(markdownContentCurrent);
 
     combinedTemplate += `<ng-template #${contentNameCurrent}>\n`;
-    combinedTemplate += `${renderedContentCurrent}\n`;
+    combinedTemplate += `${renderedContentCurrent.trim()}\n`;
     combinedTemplate += `</ng-template>\n`;
     combinedTemplate += `\n`;
   }

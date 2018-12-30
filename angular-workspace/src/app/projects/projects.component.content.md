@@ -2,36 +2,9 @@
 This page is still being migrated and developed. All content remains subject to change.
 </div>
 
-<div class="sidebar_start"></div>
-
-<div class="row">
-<div class="col-md-12" markdown="block">
-<div class="panel panel-default" style="margin-top:20px;">
-<div class="panel-heading" markdown="block">
-## Poster Session
-</div>
-
-<div class="panel-body" markdown="block">
-Please join us for a poster session celebrating the outstanding design work of CSE 440 students:
-
-<!--
-Thank you for joining us to celebrate the outstanding design work of CSE 440 students:
--->
-
-Thursday, December 14, 2017
-
-11:15 am to 12:15pm, [CSE Atrium](http://www.washington.edu/maps/#!/cse)
-
-<img src="images/poster_session.jpg" width="100%" alt="Poster Session"/>
-</div>
-</div>
-</div>
-</div>
-
-<div class="sidebar_end"></div>
-
 ## Project Theme
 
+<div class="alert alert-danger">
 People have long sought to better understand themselves, but recently technology advances enable new approaches.
 Projects explored opportunities and challenges in self-tracking, also known as personal informatics:
 
@@ -51,6 +24,7 @@ Instead of limiting self-tracking to dashboards for an isolated self-analyst,
 we asked students to consider the many different ways people might gather and interact around personal data.
 Students have examined the problems people encounter,
 then explored how new technology design help people in using data to reach their goals.
+</div>
 
 ## Project Websites
 
@@ -95,4 +69,34 @@ Will be linked here as course projects are proposed and developed.
     </div>
   {% endfor %}
 </div>
+-->
+
+<!--
+<div class="sidebar_start"></div>
+
+<div class="row">
+<div class="col-md-12" markdown="block">
+<div class="panel panel-default" style="margin-top:20px;">
+<div class="panel-heading" markdown="block">
+## Poster Session
+</div>
+
+<div class="panel-body" markdown="block">
+Please join us for a poster session celebrating the outstanding design work of CSE 440 students:
+
+<!--
+Thank you for joining us to celebrate the outstanding design work of CSE 440 students:
+--!>
+
+Thursday, December 14, 2017
+
+11:15 am to 12:15pm, [CSE Atrium](http://www.washington.edu/maps/#!/cse)
+
+<img src="images/poster_session.jpg" width="100%" alt="Poster Session"/>
+</div>
+</div>
+</div>
+</div>
+
+<div class="sidebar_end"></div>
 -->

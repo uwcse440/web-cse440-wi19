@@ -1,2 +1,3 @@
 <a *ngIf="isInternal()" [routerLink]="linkHREF">{{ linkText }}</a>
+<a *ngIf="isPageAnchor()" [routerLink]="'./'" [fragment]="linkHREF.slice(1)">{{ linkText }}</a>
 <a *ngIf="isExternal()" [href]="linkHREF" target="_blank">{{ linkText }}</a>

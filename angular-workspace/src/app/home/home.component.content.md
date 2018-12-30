@@ -26,6 +26,7 @@ The course is overwhelmingly organized around a group project, in which students
 
 ## Course Staff
 
+<div class="alert alert-danger">
 <html>
   <div class="row">
     <div class="col-md-2">
@@ -54,12 +55,13 @@ The course is overwhelmingly organized around a group project, in which students
     </div>
   </div>
 </html>
+</div>
 
 ## Basic Information
 
 __Contact__:
 
-- Email all instructors at cse440-staff [at] cs.washington.edu
+- Email entire staff at cse440-staff [at] cs.washington.edu
 
 __Class Time & Location__:
 
@@ -145,17 +147,7 @@ Projects are organized around four assignments, each consisting of several miles
 
 Sample projects from prior offerings include:
 
-<div class="alert alert-danger">
-<html>
-  <ul>
-    <ng-container *ngFor="let offeringCurrent of page.projectSamples.offerings">      
-      <li *ngFor="let projectCurrent of page.projectSamples.projects[offeringCurrent.key]">
-        {{ offeringCurrent.name }} - [{{ projectCurrent.name }}]({{ projectCurrent.link }})
-      </li>
-    </ng-container>
-  </ul>
-</html>
-</div>
+<app-assignment-samples sampleToLink="website"></app-assignment-samples>
 
 Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
 Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
