@@ -1,0 +1,6 @@
+<ng-container *ngIf="isValid(); else invalid">
+  Due: {{ dueText }}.
+</ng-container>
+<ng-template #invalid>
+  Due: <span class="text-warning">Deadline to be added</span>.
+</ng-template>

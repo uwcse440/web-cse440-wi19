@@ -1,5 +1,5 @@
 <ng-template #content>
-<h1 id="assignment-0%3A-introduction-slide">Assignment 0: Introduction Slide</h1>
+<h1 id="assignment-0-introduction-slide">Assignment 0: Introduction Slide</h1>
 <h2 id="overview">Overview</h2>
 <p>Submit an informal slide that will help us as we get to know you:</p>
 <ul>
@@ -13,19 +13,11 @@
 <p>Please keep it clean, and understand that your classmates may at some point see this flash card.</p>
 <p>For example, your slide might be similar to our introduction slides in the first lecture.</p>
 <h3 id="submission">Submission</h3>
-<p>Due: {{ page.date_assignment_0 }}.</p>
+<p><app-assignment-due-text dueText="{{ page.due_assignment_0 }}"></app-assignment-due-text></p>
 <p>One page in PDF format. Submit via Canvas here:</p>
-<html>
-  <ng-template [ngIf]="page.link_assignment_0" [ngIfElse]="missingLink">
-    <html><app-generated-link linkHREF="{{ page.link_assignment_0 }}" linkText="{{ page.link_assignment_0 }}"></app-generated-link></html>
-  </ng-template>
-  <ng-template #missingLink>
-    Link to be added
-  </ng-template>
-</html>
+<p><app-assignment-submission-link linkSubmission="{{ page.link_assignment_0 }}"></app-assignment-submission-link></p>
 <h3 id="grading">Grading</h3>
 <p>This assignment will be graded on a scale of <strong>0</strong> points.</p>
-
 </ng-template>
 
 <ng-container *ngTemplateOutlet="content"></ng-container>

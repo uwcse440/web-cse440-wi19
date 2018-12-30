@@ -24,7 +24,8 @@ The course is overwhelmingly organized around a group project, in which students
 <li>Critical Perspective on Design Solutions</li>
 </ul>
 <h2 id="course-staff">Course Staff</h2>
-<html>
+<div class="alert alert-danger">
+
   <div class="row">
     <div class="col-md-2">
       <p>James Fogarty</p>
@@ -51,11 +52,12 @@ The course is overwhelmingly organized around a group project, in which students
       <p><img src="assets/images/jihoon_photo.jpg" height="140" alt="Jihoon Suh"/></p>
     </div>
   </div>
-</html>
+
+</div>
 <h2 id="basic-information">Basic Information</h2>
 <p><strong>Contact</strong>:</p>
 <ul>
-<li>Email all instructors at cse440-staff [at] cs.washington.edu</li>
+<li>Email entire staff at cse440-staff [at] cs.washington.edu</li>
 </ul>
 <p><strong>Class Time &amp; Location</strong>:</p>
 <ul>
@@ -87,12 +89,12 @@ then explore how new technology can go beyond simple data fetishes to help peopl
 <blockquote>
 <p>Personal informatics systems are systems that help people collect personally relevant information for the purpose of
 self-reflection and gaining self-knowledge.</p>
-<html><app-generated-link linkHREF="readings/PersonalInformatics-Li2010.pdf" linkText="Li _et al._, 2010"></app-generated-link></html>.
+<app-generated-link linkHREF="readings/PersonalInformatics-Li2010.pdf" linkText="Li _et al._, 2010"></app-generated-link>.
 </blockquote>
-<p>Self-tracking and personal informatics are related to the <html><app-generated-link linkHREF="http://quantifiedself.com/" linkText="Quantified Self"></app-generated-link></html> movement, which describes itself as:</p>
+<p>Self-tracking and personal informatics are related to the <app-generated-link linkHREF="http://quantifiedself.com/" linkText="Quantified Self"></app-generated-link> movement, which describes itself as:</p>
 <blockquote>
 <p>Self-knowledge through numbers.</p>
-<html><app-generated-link linkHREF="http://archive.wired.com/medtech/health/magazine/17-07/lbnp_knowthyself" linkText="Gary Wolf, 2009"></app-generated-link></html>
+<app-generated-link linkHREF="http://archive.wired.com/medtech/health/magazine/17-07/lbnp_knowthyself" linkText="Gary Wolf, 2009"></app-generated-link>
 </blockquote>
 <p>As a focus for Autumn 2017, we will ask students to explore <strong>tracking beyond the self</strong>.
 Instead of limiting self-tracking to dashboards for an isolated self-analyst,
@@ -125,30 +127,20 @@ introduces opportunities and challenges in designing for effective interaction a
 <p>Projects are organized around four assignments, each consisting of several milestones:</p>
 <ul>
 <li>
-<html><app-generated-link linkHREF="assignments/assignment1/" linkText="Assignment 1 - Project Proposal"></app-generated-link></html>
+<app-generated-link linkHREF="assignments/assignment1/" linkText="Assignment 1 - Project Proposal"></app-generated-link>
 </li>
 <li>
-<html><app-generated-link linkHREF="assignments/assignment2/" linkText="Assignment 2 - Getting the Right Design"></app-generated-link></html>
+<app-generated-link linkHREF="assignments/assignment2/" linkText="Assignment 2 - Getting the Right Design"></app-generated-link>
 </li>
 <li>
-<html><app-generated-link linkHREF="assignments/assignment3/" linkText="Assignment 3 - Getting the Design Right"></app-generated-link></html>
+<app-generated-link linkHREF="assignments/assignment3/" linkText="Assignment 3 - Getting the Design Right"></app-generated-link>
 </li>
 <li>
-<html><app-generated-link linkHREF="assignments/assignment4/" linkText="Assignment 4 - Communicating the Design"></app-generated-link></html>
+<app-generated-link linkHREF="assignments/assignment4/" linkText="Assignment 4 - Communicating the Design"></app-generated-link>
 </li>
 </ul>
 <p>Sample projects from prior offerings include:</p>
-<div class="alert alert-danger">
-<html>
-  <ul>
-    <ng-container *ngFor="let offeringCurrent of page.projectSamples.offerings">      
-      <li *ngFor="let projectCurrent of page.projectSamples.projects[offeringCurrent.key]">
-        {{ offeringCurrent.name }} - <html><app-generated-link linkHREF="{{ projectCurrent.link }}" linkText="{{ projectCurrent.name }}"></app-generated-link></html>
-      </li>
-    </ng-container>
-  </ul>
-</html>
-</div>
+<p><app-assignment-samples sampleToLink="website"></app-assignment-samples></p>
 <p>Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
 Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
 Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.</p>
@@ -156,7 +148,7 @@ Be sure to understand and carefully consider project requirements and feedback f
 <p>A small set of readings are assigned throughout the quarter, with additional resources also made available.</p>
 <ul>
 <li>
-<html><app-generated-link linkHREF="assignments/readings/" linkText="Reading Assignments"></app-generated-link></html>
+<app-generated-link linkHREF="assignments/readings/" linkText="Reading Assignments"></app-generated-link>
 </li>
 </ul>
 <h2 id="grading">Grading</h2>
@@ -222,7 +214,6 @@ The course staff has a large number of submissions to manage, so format and comp
 <p>This course website lives on GitHub:</p>
 <p><a href="https://github.com/uwcse440/web-cse440-wi19">https://github.com/uwcse440/web-cse440-wi19</a></p>
 <p>You can submit pull requests to update the webpage, and you will publish project webpages via pull request.</p>
-
 </ng-template>
 
 <div class="container app-main">

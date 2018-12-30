@@ -16,12 +16,20 @@ export class GeneratedLinkComponent implements OnInit {
   }
 
   isExternal(): boolean {
-    return ( this.linkHREF.startsWith('http:')
-          || this.linkHREF.startsWith('https:')
+    return (
+      this.linkHREF.startsWith('http:')
+      || this.linkHREF.startsWith('https:')
     );
   }
 
   isInternal(): boolean {
-    return !(this.isExternal());
+    return (
+      !this.isExternal()
+      && !this.isPageAnchor()
+    );
+  }
+
+  isPageAnchor(): boolean {
+    return (this.linkHREF.startsWith('#'));
   }
 }

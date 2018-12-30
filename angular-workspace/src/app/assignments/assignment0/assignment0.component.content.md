@@ -17,18 +17,11 @@ For example, your slide might be similar to our introduction slides in the first
 
 ### Submission
 
-Due: {{ page.date_assignment_0 }}.
+<app-assignment-due-text dueText="{{ page.due_assignment_0 }}"></app-assignment-due-text>
 
 One page in PDF format. Submit via Canvas here:
 
-<html>
-  <ng-template [ngIf]="page.link_assignment_0" [ngIfElse]="missingLink">
-    [{{ page.link_assignment_0 }}]({{ page.link_assignment_0 }})
-  </ng-template>
-  <ng-template #missingLink>
-    Link to be added
-  </ng-template>
-</html>
+<app-assignment-submission-link linkSubmission="{{ page.link_assignment_0 }}"></app-assignment-submission-link>
 
 ### Grading
 

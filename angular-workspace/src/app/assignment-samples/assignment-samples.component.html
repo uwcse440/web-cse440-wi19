@@ -1,0 +1,14 @@
+<ul>
+  <ng-container *ngFor="let offeringCurrent of site.projectSamples.offerings">
+    <li *ngFor="let projectCurrent of site.projectSamples.projects[offeringCurrent.key]">
+      {{ offeringCurrent.name }} - {{ sample }}
+      <ng-container *ngIf="sampleToLink==='website'">
+        <app-generated-link linkHREF="{{ projectCurrent.link }}" linkText="{{ projectCurrent.name }}"></app-generated-link>
+      </ng-container>
+      <ng-container *ngIf="sampleToLink==='1b'">
+        Proposal that ultimately became <app-generated-link linkHREF="{{ projectCurrent.link }}" linkText="{{ projectCurrent.name }}"></app-generated-link>:
+        <app-generated-link linkHREF="/samples/{{ sampleToLink }}/{{ sampleToLink }}_{{ projectCurrent.suffix }}.pdf" linkText="{{ sampleToLink }}_{{ projectCurrent.suffix }}.pdf"></app-generated-link>
+      </ng-container>
+    </li>
+  </ng-container>
+</ul>
