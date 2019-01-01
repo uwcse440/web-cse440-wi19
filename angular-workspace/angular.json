@@ -40,7 +40,7 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
-              "baseHref": "/",
+              "baseHref": "/courses/cse440/18au/",
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,

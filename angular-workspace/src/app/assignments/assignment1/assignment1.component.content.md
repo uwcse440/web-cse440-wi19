@@ -175,15 +175,12 @@ constraints of this course, and worthy of investigation.
 
 ## Deliverables
 
-<a name="proposal_brainstorm"></a>
-
 ### 1a: Proposal Brainstorm
 
 <app-assignment-due-text dueText="{{ page.due_project_1a }}"></app-assignment-due-text>
 
-Friday's section will focus on brainstorming potential directions for project proposals.
-
-The goal of this milestone is to help get you started in thinking up some ideas, which will also help seed brainstorming.
+The goal of this milestone is to help get you started in thinking of some ideas for potential project proposals.
+Friday's section will then build on these in brainstorming additional potential directions for project proposals.
 
 Propose three starting points for brainstorming domains, problems, and goals that might be supported via self-tracking.
 
@@ -215,7 +212,7 @@ No more than one page of text in PDF format. Submit via Canvas here:
 
 <app-assignment-submission-link linkSubmission="{{ page.link_project_1a }}"></app-assignment-submission-link>
 
-If you are still attempting to add, or otherwise unable to access the submission system, submit via the instructor email address.
+If you are still attempting to add, or otherwise unable to access the submission system, submit via the staff email address.
 
 In section, be prepared to contribute your initial ideas as part of a larger brainstorm.
 
@@ -224,8 +221,6 @@ In section, be prepared to contribute your initial ideas as part of a larger bra
 This milestone will be graded on a scale of __3 points__:
 
 - 1 point for each unique proposed idea (i.e., do not submit small variations on the same idea).
-
-<a name="project_proposal"></a>
 
 ### 1b: Project Proposal
 
@@ -287,8 +282,6 @@ This proposal will be graded on a scale of __10 points__:
 2. __Analysis of Problem__: (3 points)
 3. __Novelty and Creativity__: (2 points)
 4. __Report Clarity and Presentation__: (2 points)
-
-<a name="project_bid"></a>
 
 ### 1c: Project Bid
 
