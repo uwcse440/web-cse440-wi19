@@ -13,7 +13,6 @@ export class AssignmentSubmissionLinkComponent implements OnInit {
   }
 
   ngOnInit() {
-    console.log(this.linkSubmission);
   }
 
   isValid(): boolean {

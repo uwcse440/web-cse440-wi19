@@ -30,8 +30,13 @@ let markdownIt = MarkdownIt("commonmark")
 function renderMarkdown(markdown: string) {
   // Preprocess to match link, because the library requires they have a protocol,
   // which our links that are Angular interpolations will be lacking (e.g., [{{ linktext }}]({{ linkhref }})).
-  let regexLink = /\[(.*)\]\((.*)\)/g;
+  //
+  // Need lazy matching to handle multiple links in a line, parentheses around a link (i.e., "([text](href))")
+  let regexLink = /\[(.+?)\]\((.+?)\)/g;
   markdown = markdown.replace(regexLink, function (match: string, tokenLinkText: string, tokenLinkHREF: string) {
+    // Encode quotes in the link text
+    tokenLinkText = tokenLinkText.replace(/\"/g, '&quot;');
+
     // Replace it with an Angular component that will render the link according to its properties
     let generated = `<html><app-generated-link linkHREF="${tokenLinkHREF}" linkText="${tokenLinkText}"></app-generated-link></html>`;
 
