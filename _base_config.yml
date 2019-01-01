@@ -13,7 +13,7 @@ config:
     version: 10.14.1
 
   ruby:
-    required: true
+    required: false
     version: 2.5.1
     bundler_version: 1.16.5
 
@@ -45,11 +45,11 @@ config:
     working_directory_windows: c:\devel\web-cse440-wi19
     working_directory_mac: ~/Desktop/web-cse440-wi19
 
-    invoke_readme_frequent:
-      - build_production
-      - build_test
-      - serve_production
-      - serve_test
+    invoke_readme_frequent: []
+#      - build_production
+#      - build_test
+#      - serve_production
+#      - serve_test
 
     invoke_readme_paths:
       build_production: base/readme/invoke/build_production.md
