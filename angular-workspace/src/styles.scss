@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+$body-bg:     #d3d3d3;
+$link-color:  #9657a6;
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../node_modules/font-awesome/css/font-awesome.min.css';
+
+div.app-main {
+  background-color: #ffffff;
+  margin-top: 20px;
+  padding-top: 20px;
+}

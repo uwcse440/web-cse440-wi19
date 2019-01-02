@@ -1,0 +1,19 @@
+<ng-template #content>
+<p><app-generated-link linkHREF="/assignments/assignment0" linkText="Assignment 0"></app-generated-link></p>
+<p><app-generated-link linkHREF="/assignments/assignment1" linkText="Assignment 1"></app-generated-link></p>
+<p><app-generated-link linkHREF="/assignments/assignment2" linkText="Assignment 2"></app-generated-link></p>
+<p><app-generated-link linkHREF="/assignments/assignment3" linkText="Assignment 3"></app-generated-link></p>
+<p><app-generated-link linkHREF="/assignments/assignment4" linkText="Assignment 4"></app-generated-link></p>
+<p><app-generated-link linkHREF="/assignments/readings" linkText="Readings"></app-generated-link></p>
+</ng-template>
+
+<div class="container app-main">
+  <div class="row">
+    <div class="col-md-9">
+      <router-outlet></router-outlet>
+    </div>
+    <div class="col-md-3">
+      <ng-container *ngTemplateOutlet="content"></ng-container>
+    </div>
+  </div>
+</div>

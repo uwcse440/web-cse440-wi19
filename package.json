@@ -1,5 +1,6 @@
 {
-  "dependencies": {
-    "less": "^3.8.1"
+  "dependencies": {},
+  "devDependencies": {
+    "@angular/cli": "^7.1.2"
   }
 }

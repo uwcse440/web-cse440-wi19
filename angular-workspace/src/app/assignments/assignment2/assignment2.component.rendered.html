@@ -1,0 +1,631 @@
+<ng-template #content>
+<h1 id="assignment-2-getting-the-right-design">Assignment 2: Getting the Right Design</h1>
+<div class="alert alert-danger">
+This page is still being migrated and developed. All content remains subject to change.
+</div>
+<h2 id="overview">Overview</h2>
+<p>Even for a well-understood, well-motivated problem, choosing a design to invest time into is a difficult and laborious process.
+This group assignment, spanning multiple weeks of the course, tackles the problem of selecting the right design through
+<strong>design research</strong>, <strong>task development</strong>, <strong>generating multiple potential designs</strong>, and finally <strong>selecting a design</strong> to pursue.</p>
+<p>This assignment is worth <strong>21%</strong> of your overall course grade:</p>
+<ul>
+<li><strong>15%</strong> for <app-generated-link linkHREF="#id-2h-final-report" linkText="Assignment 2h: Final Report"></app-generated-link></li>
+<li><strong>6%</strong> for the milestones
+<ul>
+<li><strong>0.5%</strong> for <app-generated-link linkHREF="#id-2a-project-ideation" linkText="Assignment 2a: Project Ideation"></app-generated-link></li>
+<li><strong>0.5%</strong> for <app-generated-link linkHREF="#id-2b-design-research-plan" linkText="Assignment 2b: Design Research Plan"></app-generated-link></li>
+<li><strong>1%</strong> for <app-generated-link linkHREF="#id-2c-design-research-checkin" linkText="Assignment 2c: Design Research Check-In"></app-generated-link></li>
+<li><strong>1%</strong> for <app-generated-link linkHREF="#id-2d-design-research-review" linkText="Assignment 2d: Design Research Review"></app-generated-link></li>
+<li><strong>1%</strong> for <app-generated-link linkHREF="#id-2e-task-review" linkText="Assignment 2e: Task Review"></app-generated-link></li>
+<li><strong>1%</strong> for <app-generated-link linkHREF="#id-2f-design-checkin" linkText="Assignment 2f: Design Check-In (&quot;3x4&quot;)"></app-generated-link></li>
+<li><strong>1%</strong> for <app-generated-link linkHREF="#id-2g-design-review" linkText="Assignment 2g: Design Review (&quot;1x2&quot;)"></app-generated-link></li>
+</ul>
+</li>
+</ul>
+<p>The content of <app-generated-link linkHREF="#id-2i-presentation" linkText="Assignment 2i: Presentation"></app-generated-link> is worth <strong>5%</strong> of your overall course grade.</p>
+<p>Your delivery of a presentation this quarter is worth <strong>2%</strong> of your overall course grade.</p>
+<p><code>fix anchors [^#]#[^#]</code></p>
+<h2 id="milestones">Milestones</h2>
+<p>This is a group assignment, consisting of nine milestones.</p>
+<ul>
+<li>
+<app-generated-link linkHREF="#id-2a-project-ideation" linkText="Assignment 2a: Project Ideation"></app-generated-link>
+<p><app-assignment-due-text dueText="{{ page.due_project_2a }}"></app-assignment-due-text></p>
+</li>
+<li>
+<app-generated-link linkHREF="#id-2b-design-research-plan" linkText="Assignment 2b: Design Research Plan"></app-generated-link>
+<p><app-assignment-due-text dueText="{{ page.due_project_2b }}"></app-assignment-due-text></p>
+</li>
+<li>
+<app-generated-link linkHREF="#id-2c-design-research-checkin" linkText="Assignment 2c: Design Research Check-In"></app-generated-link>
+<p><app-assignment-due-text dueText="{{ page.due_project_2c }}"></app-assignment-due-text></p>
+</li>
+<li>
+<app-generated-link linkHREF="#id-2d-design-research-review" linkText="Assignment 2d: Design Research Review"></app-generated-link>
+<p><app-assignment-due-text dueText="{{ page.due_project_2d }}"></app-assignment-due-text></p>
+</li>
+<li>
+<app-generated-link linkHREF="#id-2e-task-review" linkText="Assignment 2e: Task Review"></app-generated-link>
+<p><app-assignment-due-text dueText="{{ page.due_project_2e }}"></app-assignment-due-text></p>
+</li>
+<li>
+<app-generated-link linkHREF="#id-2f-design-checkin" linkText="Assignment 2f: Design Check-In (&quot;3x4&quot;)"></app-generated-link>
+<p><app-assignment-due-text dueText="{{ page.due_project_2f }}"></app-assignment-due-text></p>
+</li>
+<li>
+<app-generated-link linkHREF="#id-2g-design-review" linkText="Assignment 2g: Design Review (&quot;1x2&quot;)"></app-generated-link>
+<p><app-assignment-due-text dueText="{{ page.due_project_2g }}"></app-assignment-due-text></p>
+</li>
+<li>
+<app-generated-link linkHREF="#id-2h-final-report" linkText="Assignment 2h: Final Report"></app-generated-link>
+<p><app-assignment-due-text dueText="{{ page.due_project_2h }}"></app-assignment-due-text></p>
+</li>
+<li>
+<app-generated-link linkHREF="#id-2i-presentation" linkText="Assignment 2i: Presentation"></app-generated-link>
+<p><app-assignment-due-text dueText="{{ page.due_project_2i }}"></app-assignment-due-text></p>
+</li>
+<li>
+<app-generated-link linkHREF="#id-2j-team-peer-feedback" linkText="Assignment 2j: Team Peer Feedback"></app-generated-link>
+<p><app-assignment-due-text dueText="{{ page.due_project_2j }}"></app-assignment-due-text></p>
+</li>
+</ul>
+<h2 id="project-description">Project Description</h2>
+<p>In this assignment, you will brainstorm a large set of possible tasks and design ideas for your project.
+You will then conduct design research to learn more about your problem and the current practices of people who might use your design.
+You will draw upon the ideas developed in your brainstorming and the observations made in your design research
+to help develop a set of potential tasks your design might support.
+You will next sketch how a set of initial designs might support those tasks.
+You will choose a design to pursue in the remainder of the course and storyboard the details of your design in the context of important tasks.
+Finally, you will present your design process in a report and presentation.</p>
+<p>More specifically, you will do the following:</p>
+<ol>
+<li>
+<p>Generate ideas for potential problems, tasks, features, and interactions using a group ideation exercise.</p>
+<p>(<app-generated-link linkHREF="#id-2a-project-ideation" linkText="Assignment 2a"></app-generated-link>)</p>
+</li>
+<li>
+<p>Conduct design research (e.g., contextual inquiry, interviews, observations) to learn from at least <strong>three</strong> people who might use your design.</p>
+<p>(<app-generated-link linkHREF="#id-2b-design-research-plan" linkText="Assignment 2b"></app-generated-link>), (<app-generated-link linkHREF="#id-2c-design-research-checkin" linkText="Assignment 2c"></app-generated-link>), (<app-generated-link linkHREF="#id-2d-design-research-review" linkText="Assignment 2d"></app-generated-link>)</p>
+</li>
+<li>
+<p>Develop <strong>six</strong> tasks that might be performed with your design.</p>
+<p>Select these to capture the important aspects of the problem you are solving and to provide coverage of the designs
+you will explore. Create these based on your observations and analyses of existing tasks as well as your vision for
+new tasks enabled by potential designs. Remember that tasks say what is accomplished, while leaving open how to accomplish it.</p>
+<p>As you progress through your project, you can and should consider revising your tasks.
+Expect to refine or change your tasks as your understanding of the problem matures or according to feedback you receive.
+The tasks you report in this assignment therefore must be appropriate but are not necessarily final.</p>
+<p>(<app-generated-link linkHREF="#id-2e-task-review" linkText="Assignment 2e"></app-generated-link>)</p>
+</li>
+<li>
+<p>Brainstorm and sketch <strong>three</strong> very different initial designs for your interface.
+Each design should support <strong>four</strong> of your tasks.</p>
+<p>Do not illustrate the entire design, but instead sketch key aspects needed to illustrate the functionality.
+These should be rough sketches on paper (i.e., not digital mockups), including illustrations of their relations
+(e.g., arrows showing transitions and relationships).</p>
+<p>The purpose of these sketches is to explore the design space before you lock yourself into a single design.
+They must demonstrate significant consideration of substantially different approaches to your problem.</p>
+<p>(<app-generated-link linkHREF="#id-2f-design-checkin" linkText="Assignment 2f"></app-generated-link>)</p>
+</li>
+<li>
+<p>From your sketches, select <strong>one</strong> design to pursue for the remainder of the quarter and <strong>two</strong> tasks that emphasize
+critical functionality of your design. These tasks should be non-trivial, critical to solving your problem, and should
+emphasize long-lived or repeated activities. In contrast, a one-time login screen for a social networking application
+is not worth being the focus of your project, does not define your project functionality, and is not sufficiently interesting.</p>
+<p>Storyboard your chosen design for your chosen tasks, illustrating how the tasks are accomplished in your design.</p>
+<p>(<app-generated-link linkHREF="#id-2g-design-review" linkText="Assignment 2g"></app-generated-link>)</p>
+</li>
+<li>
+<p>Summarize your design process in a report and presentation.</p>
+<p>(<app-generated-link linkHREF="#id-2h-final-report" linkText="Assignment 2h"></app-generated-link>), (<app-generated-link linkHREF="#id-2i-presentation" linkText="Presentation"></app-generated-link>)</p>
+</li>
+</ol>
+<h2 id="deliverables">Deliverables</h2>
+<h3 id="id-2a-project-ideation">2a: Project Ideation</h3>
+<p><app-assignment-due-text dueText="{{ page.due_project_2a }}"></app-assignment-due-text></p>
+<p>The goal of this milestone is to begin thinking about how to plan effective design research to inform your design process.</p>
+<p>Generate 5 to 10 different ideas related to each of the following aspects of your project proposal:</p>
+<ul>
+<li>Forms: types of technology on which a design might be developed (e.g., wearable sensors, watch/phone/tablet, desktop, appliances or other artifacts in the environment).</li>
+<li>Data: types of data a design might track or help a person track.</li>
+<li>Tasks: what a person might accomplish with a design.</li>
+<li>Features: a specific capability a design might have.</li>
+<li>Social Interactions: types of social interactions and situations a design might engage or support.</li>
+</ul>
+<p>We will provide large sheets of paper. Divide a large sheet of paper into 32 squares, each approximately 2in by 2in.
+Sketch your ideas, one in each square. Each idea should be either a quick doodle with a caption or a one-sentence idea.
+A person familiar with your project but not in your group should be able to understand the idea each sketch conveys.</p>
+<p>The goal is to begin exploring the space of possibilities, not attempting to polish some particular possibility.
+Focus on the quantity of ideas, not the quality of any one idea.
+You may include ideas from existing products. No two ideas should be alike.
+When you get stuck, find a context to inspire new ideas.</p>
+<p>Given a space of possible directions, your project needs to begin to gather information on how to generate and consider ideas.
+Following up on the above, additionally brainstorm:</p>
+<ul>
+<li>People: types of people you might work with to learn more.</li>
+<li>Foci: potential foci you might apply in your learning.</li>
+</ul>
+<h4 id="submission">Submission</h4>
+<p>At the end of section, capture and submit an image of your brainstorm.</p>
+<p>Submit via Canvas here:</p>
+<p><app-assignment-submission-link linkSubmission="{{ page.link_project_2a }}"></app-assignment-submission-link></p>
+<p>You will be able to take your paper with you, and you should continue brainstorming throughout your project.</p>
+<h3 id="grading">Grading</h3>
+<p>This milestone will be graded on a scale of <strong>3 points</strong> based on participation in generating ideas during the brainstorming exercise.</p>
+<h3 id="id-2b-design-research-plan">2b: Design Research Plan</h3>
+<p><app-assignment-due-text dueText="{{ page.due_project_2b }}"></app-assignment-due-text></p>
+<p>The goal of this milestone is to develop an initial plan for your design research.</p>
+<p>In one paragraph, describe the people who might use your design and other stakeholders to consider in your design.
+Describe the particular design research methods and participants you plan to pursue,
+including such details as their background and the environment where you will examine their current practices.
+Give enough information to convince us that you can actually find and engage with your target participants in the next week.</p>
+<ul>
+<li>For example, your target participants should not be &quot;doctors&quot; but instead a specific group of doctors
+(e.g., Family Practitioners in the UW Roosevelt Clinic).
+If gaining access to the target participants is non-trivial (e.g., as with busy doctors),
+describe the steps you have already taken to gain access and your plans to recover if you are unable to gain access.
+Indicate when you will be conducting your design research, being as specific as possible.</li>
+</ul>
+<p>In another paragraph, describe the methods you will use to engage with and learn from these people.
+Our starting assumption is that you will conduct contextual inquiries with three participants.
+You can and should propose alternative or additional design research methods according to your needs.
+Please be as specific as possible, providing relevant details for you proposed methods. For example:</p>
+<ul>
+<li>If you propose contextual inquiries, discuss current behaviors you want to observe and your planned focus.</li>
+<li>If you propose interviews, discuss the types of questions you plan to explore.</li>
+<li>If you propose a diary study, discuss what type of data you plan to ask participants to bring or collect.</li>
+</ul>
+<p>On a second page, provide more detail regarding your primary proposed method. For example:</p>
+<ul>
+<li>If you propose contextual inquiries, enumerate what activities you intend to observe,
+what focus you intend to bring to observation of each activity,
+how you will approach the development of partnership,
+and any other strategies you intend to pursue for gaining insight through your observations.</li>
+<li>If you propose interviews, give an example set of talking points, such as these
+(note these are all longer than a page, but intended to illustrate a thorough script):
+<ul>
+<li>
+<app-generated-link linkHREF="https://canvas.uw.edu/files/44093099/download?download_frd=1" linkText="Menstrual Interview Protocol"></app-generated-link>
+</li>
+<li>
+<app-generated-link linkHREF="https://canvas.uw.edu/files/44093100/download?download_frd=1" linkText="Migraine Interview Protocol"></app-generated-link>
+</li>
+<li>
+<app-generated-link linkHREF="https://canvas.uw.edu/files/44093101/download?download_frd=1" linkText="Migraine Provider Protocol"></app-generated-link>
+</li>
+</ul>
+</li>
+<li>If you propose a diary study, give details of what and how you will ask participants to diary.</li>
+</ul>
+<h4 id="samples-from-prior-offerings">Samples from Prior Offerings</h4>
+<div class="alert alert-warning" markdown="1">
+The request for more detail is a new part of this milestone, and does not appear in prior samples.
+<p>Relative to prior plans, our goal in soliciting this additional detail is to:</p>
+<ul>
+<li>Encourage you to work through more of the details.</li>
+<li>Help improve those details through critique and peer feedback.</li>
+</ul>
+</div>
+<p>Samples from prior offerings include:</p>
+<p><app-assignment-samples sampleToLink="2b"></app-assignment-samples></p>
+<p>Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
+Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
+Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.</p>
+<h4 id="submission-2">Submission</h4>
+<p>No more than two pages of text in PDF format. Submit via Canvas here:</p>
+<p><app-assignment-submission-link linkSubmission="{{ page.link_project_2b }}"></app-assignment-submission-link></p>
+<p>Be prepared to discuss your design research with other teams and the course staff.</p>
+<h4 id="grading-2">Grading</h4>
+<p>This milestone will be graded on a scale of <strong>3 points</strong>:</p>
+<ol>
+<li><strong>People and Plan</strong>: (1 point)</li>
+<li><strong>Feasibility</strong>: (1 point)</li>
+<li><strong>Specificity</strong>: (1 point)</li>
+</ol>
+<h3 id="id-2c-design-research-check-in">2c: Design Research Check-In</h3>
+<p><app-assignment-due-text dueText="{{ page.due_project_2c }}"></app-assignment-due-text></p>
+<p>The goal of this milestone is to begin your design research,
+reflect on what you observe and learn,
+then update your plans for additional design research.</p>
+<p>Complete design research with at least one participant prior to this check-in.
+You hopefully learned something about the needs of people who might use your design,
+but also about effectively conducting your design research.</p>
+<p>Describe your first design research participant and your findings:</p>
+<ul>
+<li>Who you observed or interviewed, their background, and the environment.</li>
+<li>What did you learn?</li>
+<li>What tasks, problems, or opportunities did you uncover?</li>
+<li>Did you encounter any difficulties establishing rapport or getting the information you need?</li>
+</ul>
+<p>Discuss what remains to be pursued in your additional design research.
+We fully expect changes will be necessary, as design research
+can be difficult to get right and often important topics are left unresolved.</p>
+<ul>
+<li>What are your plans for the remaining participants?</li>
+<li>How do you plan to change your design research plan based on what you learned with your first participant?</li>
+</ul>
+<h4 id="samples-from-prior-offerings-2">Samples from Prior Offerings</h4>
+<p>Samples from prior offerings include:</p>
+<p><app-assignment-samples sampleToLink="2c"></app-assignment-samples></p>
+<p>Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
+Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
+Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.</p>
+<h4 id="submission-3">Submission</h4>
+<p>No more than one page of text in PDF format. Submit via Canvas here:</p>
+<p><app-assignment-submission-link linkSubmission="{{ page.link_project_2c }}"></app-assignment-submission-link></p>
+<p>Names of participants should be replaced with pseudonyms in all documents.
+It is important to protect participant anonymity, even in the case that reporting seems harmless.</p>
+<p>Be prepared to discuss your design research with other teams and the course staff.</p>
+<h4 id="grading-3">Grading</h4>
+<p>This milestone will be graded on a scale of <strong>6 points</strong>:</p>
+<ol>
+<li><strong>Information from First Participant</strong>: (3 points)</li>
+<li><strong>Plan for Remaining Participants</strong>: (3 points)</li>
+</ol>
+<h3 id="id-2d-design-research-review">2d: Design Research Review</h3>
+<p><app-assignment-due-text dueText="{{ page.due_project_2d }}"></app-assignment-due-text></p>
+<p>The goal of this milestone is to reflect on what you observed and learned in your design research,
+organizing observations around themes to tasks to help inform your design.</p>
+<h5 id="themes">Themes</h5>
+<p>Complete design research with at least three participants. Discuss your process and what you learned:</p>
+<ul>
+<li>Who you observed or interviewed, their background, and the environment.</li>
+<li>Note anything unique about each participant and comment on the rationale behind these observations.</li>
+</ul>
+<p>Across your participants, we expect some emergence of common themes, problems, and practices.</p>
+<ul>
+<li>Identify high-level themes and problems the participants share in their practices.</li>
+<li>Do these themes, problems, and practices suggest tasks to important to design for?</li>
+</ul>
+<p>If you are having trouble identifying high-level themes, problems, and practices,
+it may indicate a need to develop additional understanding through more design research.
+Because your findings at this point are critical to setting a foundation for your project,
+ensure your design research has provided you the insights and perspective you need to proceed.</p>
+<h4 id="task-analysis-questions">Task Analysis Questions</h4>
+<p>Informed by your design research, provide brief answers to the following questions.
+These should help you begin to identify tasks essential to your design.</p>
+<ol>
+<li>Who is going to use the design?</li>
+<li>What tasks do they now perform?</li>
+<li>What tasks are desired?</li>
+<li>How are the tasks learned?</li>
+<li>Where are the tasks performed?</li>
+<li>What is the relationship between the person and data?</li>
+<li>What other tools does the person have?</li>
+<li>How do people communicate with each other?</li>
+<li>How often are the tasks performed?</li>
+<li>What are the time constraints on the tasks?</li>
+<li>What happens when things go wrong?</li>
+</ol>
+<h4 id="samples-from-prior-offerings-3">Samples from Prior Offerings</h4>
+<p>Samples from prior offerings include:</p>
+<p><app-assignment-samples sampleToLink="2d"></app-assignment-samples></p>
+<p>Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
+Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
+Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.</p>
+<h4 id="submission-4">Submission</h4>
+<p>No more than four pages of text in PDF format:</p>
+<ul>
+<li>summary of key findings or takeaways (one paragraph at beginning)</li>
+<li>design research participants (less than one page)</li>
+<li>design research themes (less than one page)</li>
+<li>task analysis questions (less than two pages)</li>
+</ul>
+<p>Submit via Canvas here:</p>
+<p><app-assignment-submission-link linkSubmission="{{ page.link_project_2d }}"></app-assignment-submission-link></p>
+<p>Names of participants should be replaced with pseudonyms in all documents.
+It is important to protect participant anonymity, even in the case that reporting seems harmless.</p>
+<p>Be prepared to discuss your design research with other teams and the course staff.</p>
+<h4 id="grading-4">Grading</h4>
+<p>This milestone will be graded on a scale of <strong>6 points</strong>:</p>
+<ol>
+<li><strong>Description of Participants and Quality of Themes Developed</strong>: (3 points)</li>
+<li><strong>Answers to Task Analysis Questions</strong>: (3 points)</li>
+</ol>
+<h3 id="id-2e-task-review">2e: Task Review</h3>
+<p><app-assignment-due-text dueText="{{ page.due_project_2e }}"></app-assignment-due-text></p>
+<p>The goal of this milestone is to develop a set of tasks that you will explore in a set of potential designs.</p>
+<p>Building on what you learned in your design research, design six tasks that you believe are integral to your overall design goal:</p>
+<ul>
+<li>You should include existing tasks (i.e., tasks people already do) and new tasks (i.e., tasks that will be enabled by your design).</li>
+<li>These should be real world tasks that have details (e.g., instead of &quot;programming a DVR&quot;, details like &quot;programming a DVR to record the Simpsons on Sundays&quot;).</li>
+<li>These tasks should not have any specific relation to the exact design sketches you will brainstorm next.</li>
+<li>Your six tasks should span a wide range of functionality and difficulty, from easy to hard tasks.</li>
+</ul>
+<p>Each task should be described in text. Tasks say what is accomplished, leaving open how to accomplish it.
+Be sure that your task conveys a problem and what is accomplished, rather than a step-by-step walkthrough of scenario with a particular design.</p>
+<h4 id="samples-from-prior-offerings-4">Samples from Prior Offerings</h4>
+<p>Samples from prior offerings include:</p>
+<p><app-assignment-samples sampleToLink="2e"></app-assignment-samples></p>
+<p>Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
+Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
+Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.</p>
+<h4 id="submission-5">Submission</h4>
+<p>No more than two pages of text in PDF format:</p>
+<ul>
+<li>six task descriptions (one paragraph each)</li>
+</ul>
+<p>Submit via Canvas here:</p>
+<p><app-assignment-submission-link linkSubmission="{{ page.link_project_2e }}"></app-assignment-submission-link></p>
+<p>Be prepared to discuss your design research with other teams and the course staff.</p>
+<h4 id="grading-5">Grading</h4>
+<p>This milestone will be graded on a scale of <strong>6 points</strong>:</p>
+<ol>
+<li><strong>Each of 6 Tasks</strong>: (1 point)</li>
+</ol>
+<h3 id="id-2f-design-check-in-3x4-">2f: Design Check-In (&quot;3x4&quot;)</h3>
+<p><app-assignment-due-text dueText="{{ page.due_project_2f }}"></app-assignment-due-text></p>
+<p>The goal of this milestone is to develop distinct design ideas that address your tasks.</p>
+<p>You have identified and described six important tasks for your design problem.
+You will now brainstorm and sketch three very different initial designs for your interface:</p>
+<ul>
+<li>Each design should support four of your tasks, but they do not necessarily need to all support the same four tasks.</li>
+<li>Sketch key aspects needed to illustrate the functionality in your four tasks. A design may imply additional tasks, but do not illustrate the entire design.</li>
+<li>These should be rough sketches on paper (i.e., not digital mockups), including illustrations of their relations (e.g., arrows showing transitions and relationships).</li>
+</ul>
+<p>The purpose of these sketches is to explore the design space before you lock yourself into a single design.
+They must demonstrate significant consideration of substantially different approaches to your problem.</p>
+<h4 id="samples-from-prior-offerings-5">Samples from Prior Offerings</h4>
+<p>Samples from prior offerings include:</p>
+<p><app-assignment-samples sampleToLink="2f"></app-assignment-samples></p>
+<p>Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
+Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
+Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.</p>
+<h4 id="submission-6">Submission</h4>
+<p>No more than three pages of text in PDF format:</p>
+<ul>
+<li>six task descriptions (one paragraph each, updated as needed from prior assignment)</li>
+<li>for each of three initial designs
+<ul>
+<li>the high-level idea of the design (one paragraph)</li>
+<li>scanned images of the design (sketches, not digital mockups)</li>
+<li>how to complete each the four sketched tasks (e.g., a list of steps, one or two sentences per task)</li>
+</ul>
+</li>
+</ul>
+<p>Images do not count against your page limit, and are therefore effectively free.
+You should embed images throughout your PDF, keeping them near the text that references them.
+The limit applies to the approximate amount of text you would have if all images were removed.</p>
+<p>Submit via Canvas here:</p>
+<p><app-assignment-submission-link linkSubmission="{{ page.link_project_2f }}"></app-assignment-submission-link></p>
+<p>Be prepared to discuss your designs with other teams and the course staff.</p>
+<h4 id="grading-6">Grading</h4>
+<p>This milestone will be graded on a scale of <strong>6 points</strong>:</p>
+<ol>
+<li><strong>Each of 3 Designs</strong>: (2 points)</li>
+</ol>
+<h3 id="id-2g-design-review-1x2-">2g: Design Review (&quot;1x2&quot;)</h3>
+<p><app-assignment-due-text dueText="{{ page.due_project_2g }}"></app-assignment-due-text></p>
+<p>The goal of this milestone is to choose a design idea to pursue in the remainder of this course.</p>
+<p>From your design sketches, select one design that you will refine in the remainder of this course.
+Then select two tasks that will be the focus of your design refinement.
+The selected tasks need to be representative of the experience of using your design.</p>
+<p>Prepare one paragraph describing why you selected the design you did.
+Draw upon feedback from critiques and data from your design research.</p>
+<ul>
+<li>Why this design and these tasks?</li>
+<li>What makes the design better suited to the people for whom you are targeting your design?</li>
+<li>Why are these tasks more compelling than the others?</li>
+</ul>
+<p>Convey a strong understanding of which design you chose, which tasks you chose, and why you chose them.</p>
+<p>Then create a storyboard of each task for your selected design.
+These should be done on paper, then scanned (i.e., do not create or recreate them in a drawing package).
+They should clearly indicate the functionality of the design and what the interface will be like,
+conveying the major aspects of the design in enough detail that a person not in your group can understand
+how the design supports each task.
+As needed, add descriptions that explicitly reference the storyboard, add more sketches, or annotate them in multiple colors.</p>
+<h4 id="samples-from-prior-offerings-6">Samples from Prior Offerings</h4>
+<p>Samples from prior offerings include:</p>
+<p><app-assignment-samples sampleToLink="2g"></app-assignment-samples></p>
+<p>Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
+Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
+Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.</p>
+<h4 id="submission-7">Submission</h4>
+<p>No more than one page of text in PDF format:</p>
+<ul>
+<li>discussion of your design and task choices (one paragraph)</li>
+<li>scanned images of your storyboards and associated descriptions</li>
+</ul>
+<p>Images do not count against your page limit, and are therefore effectively free.
+You should embed images throughout your PDF, keeping them near the text that references them.
+The limit applies to the approximate amount of text you would have if all images were removed.</p>
+<p>Submit via Canvas here:</p>
+<p><app-assignment-submission-link linkSubmission="{{ page.link_project_2g }}"></app-assignment-submission-link></p>
+<p>Be prepared to discuss your choices and storyboards with other teams and the course staff.</p>
+<h4 id="grading-7">Grading</h4>
+<p>This milestone will be graded on a scale of <strong>6 points</strong>:</p>
+<ol>
+<li><strong>Rationale for Choosing a Design Focus</strong>: (2 points)</li>
+<li><strong>Each of 2 Storyboards</strong>: (2 points)</li>
+</ol>
+<h3 id="id-2h-final-report">2h: Final Report</h3>
+<p><app-assignment-due-text dueText="{{ page.due_project_2h }}"></app-assignment-due-text></p>
+<p>The goal of this milestone is to communicate the design research that motivates your design.</p>
+<p>Prepare a report documenting your process of getting the right design.
+Your report should follow the outline below, and will be graded using the guidelines that follow.
+The provided page allocations are estimates, intended to help convey how to divide up the space.</p>
+<p>If you completed all of your milestones above, you will have much of the content for this report.
+But it is critical that you revise and update that content.
+You have received extensive feedback throughout your design process, and evaluation of your report will
+include how you have addressed and incorporated that feedback to improve relative to your prior milestones.</p>
+<ol>
+<li>
+<p><strong>Title</strong></p>
+<p>A short, creative, and marketable title capturing the key idea.</p>
+</li>
+<li>
+<p><strong>Each Team Member’s Name, and optionally Role(s)</strong></p>
+</li>
+<li>
+<p><strong>Problem and Solution Overview</strong>: (1 paragraph)</p>
+<p>A concise statement of the problem you are tackling and a brief synopsis of your proposed solution.</p>
+</li>
+<li>
+<p><strong>Design Research Goals, Stakeholders, and Participants</strong>: (1 page)</p>
+<p>Describe your design research, including the participants, their background, and their environment.</p>
+<p>Describe why you chose the particular methods and participants in your design research.</p>
+</li>
+<li>
+<p><strong>Design Research Results and Themes</strong>: (1 page)</p>
+<p>Discuss common themes, problems, and practices that emerged in your design research.</p>
+<p>Include any updated themes that emerged when considering your design research in your design process.</p>
+</li>
+<li>
+<p><strong>Answers to Task Analysis Questions</strong>: (2 pages)</p>
+<p>Provide brief answers to the task analysis questions.</p>
+<p>These should be updated according to your evolved understanding of the problem and your design.</p>
+</li>
+<li>
+<p><strong>Proposed Design Sketches - &quot;3x4&quot;</strong>: (1 page)</p>
+<p>Present scanned images of your three initial designs in the context of their four tasks.</p>
+<p>Include one paragraph for each design, discussing how it supports your tasks.</p>
+<p>Include one paragraph discussing your choice of design and tasks to further pursue.</p>
+</li>
+<li>
+<p><strong>Written Scenarios - &quot;1x2&quot;</strong>: (1 page)</p>
+<p>Convert your two tasks into written scenarios for your design.
+Scenarios include the steps a person will go through to accomplish the task, including references to your design.</p>
+<p>Scenarios do not need to detail every little step, but should be realistic, should be dependent upon the design
+you have chosen, should appropriately reference elements of your design, and should communicate how a person
+will accomplish the task using your design.</p>
+</li>
+<li>
+<p><strong>Storyboards of the Selected Design</strong></p>
+<p>Include updated storyboards of your design. Reference these appropriately in your scenarios.</p>
+</li>
+</ol>
+<p>Ensure your report is appropriately clear and easy to read. This includes:</p>
+<ul>
+<li>text should be clear and concise</li>
+<li>use section headings as appropriate</li>
+<li>include images in the body of the write-up with appropriate figure numbers and captions</li>
+<li>refer to the figures in the body of your text</li>
+<li>check for typos, spelling, and grammar errors</li>
+</ul>
+<p>Be sure your presentation looks good:</p>
+<ul>
+<li>choose appropriate colors, fonts, and styles</li>
+<li>make liberal use of whitespace</li>
+</ul>
+<h4 id="samples-from-prior-offerings-7">Samples from Prior Offerings</h4>
+<p>Samples from prior offerings include:</p>
+<p><app-assignment-samples sampleToLink="2h"></app-assignment-samples></p>
+<p>Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
+Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
+Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.</p>
+<h4 id="submission-8">Submission</h4>
+<p>No more than eight pages of text in PDF format, following the above outline.</p>
+<p>Images do not count against your page limit, and are therefore effectively free.
+You should embed images throughout your PDF, keeping them near the text that references them.
+The limit applies to the approximate amount of text you would have if all images were removed.</p>
+<p>Submit via Canvas here:</p>
+<p><app-assignment-submission-link linkSubmission="{{ page.link_project_2h }}"></app-assignment-submission-link></p>
+<p>Names of participants should be replaced with pseudonyms in all documents.
+It is important to protect participant anonymity, even in the case that reporting seems harmless.</p>
+<h4 id="grading-8">Grading</h4>
+<p>This report will be graded on a scale of <strong>25 points</strong>:</p>
+<ol>
+<li><strong>Title</strong>: (1 point)</li>
+<li><strong>Team Member Names, and Optionally Roles</strong>: (1 point)</li>
+<li><strong>Problem and Solution Overview</strong>: (2 points)</li>
+<li><strong>Design Research Goals, Stakeholders, and Participants</strong>: (2 points)</li>
+<li><strong>Design Research Results and Themes</strong>: (3 points)</li>
+<li><strong>Answers to Task Analysis Questions</strong>: (3 points)</li>
+<li><strong>Proposed Design Sketches - &quot;3x4&quot;</strong>: (3 points)</li>
+<li><strong>Written Scenarios - &quot;1x2&quot;</strong>: (3 points)</li>
+<li><strong>Storyboards of the Selected Design</strong>: (3 points)</li>
+<li><strong>Report Clarity and Presentation</strong>: (4 points)</li>
+</ol>
+<h3 id="id-2i-presentation">2i: Presentation</h3>
+<p><app-assignment-due-text dueText="{{ page.due_project_2i }}"></app-assignment-due-text></p>
+<p>Prepare a presentation of your process in getting the right design. It should encompass all of your work in Assignment 2.</p>
+<ul>
+<li>Two members of your team should deliver the presentation, each speaking to relatively equal portions.</li>
+<li>A seven minute time limit will be strictly enforced, with additional time for questions.</li>
+</ul>
+<p>A suggested organization of this presentation is:</p>
+<ol>
+<li>
+<p><strong>Title</strong>:</p>
+<p>A short, creative, and marketable title capturing the key idea. Include team member names, and optionally include roles.</p>
+</li>
+<li>
+<p><strong>Overall Problem</strong>:</p>
+<p>Tell this as a story, instead of simply reading the slide. Motivate your audience to be interested in your problem.</p>
+</li>
+<li>
+<p><strong>Design Research</strong>:</p>
+<p>Include images that give your audience a feeling for your fieldwork. Convey that you have seen and understand the challenge.</p>
+</li>
+<li>
+<p><strong>6 Tasks</strong>:</p>
+<p>At most one sentence per task. Convey the breadth of tasks you have considered.</p>
+</li>
+<li>
+<p><strong>3 Design Sketches</strong>:</p>
+<p>Convey the breadth of designs you considered.</p>
+</li>
+<li>
+<p><strong>Selected Design Storyboards and Tasks</strong>:</p>
+<p>Convey your rationale for choosing a design focus.</p>
+<p>Present your storyboards, ensuring they effectively illustrate your selected design and tasks.</p>
+</li>
+<li>
+<p><strong>Summary</strong>:</p>
+<p>Summarize the lessons learned in your design process.</p>
+</li>
+</ol>
+<p>We strongly recommend rehearsing your presentation beforehand.
+For example, arrange to practice together with another group or two, giving each other feedback on your presentations.</p>
+<p>Note that we have not provided recommendations for the number of slides in each section of this presentation.
+You can deliver your presentation using as many or as few slides as you want,
+as long as you successfully address the above points and the presentation falls within the time restriction.</p>
+<h4 id="samples-from-prior-offerings-8">Samples from Prior Offerings</h4>
+<p>Samples from prior offerings include:</p>
+<p><app-assignment-samples sampleToLink="2i"></app-assignment-samples></p>
+<p>Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
+Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
+Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.</p>
+<h4 id="submission-9">Submission</h4>
+<p>Your presentation may be in PPT, PPTX, or PDF format.</p>
+<p>To minimize switching time, we will have all presentations on a single laptop running Microsoft Windows.
+You should optimize your presentation for portability (e.g., ensure any necessary fonts are embedded).
+If we detect any obvious formatting issues on the presentation machine, we may fix them or contact you to fix them.
+But you are ultimately responsible for your presentation.</p>
+<p>Submit via Canvas here:</p>
+<p><app-assignment-submission-link linkSubmission="{{ page.link_project_2i }}"></app-assignment-submission-link></p>
+<p>Names of participants should be replaced with pseudonyms in all documents.
+It is important to protect participant anonymity, even in the case that reporting seems harmless.</p>
+<h4 id="in-class-feedback-forms">In-Class Feedback Forms</h4>
+<p>The course staff will have a feedback form they keep during your presentation:</p>
+<p><app-generated-link linkHREF="/assets/assignments/2i-presentation-staff-form.pdf" linkText="2i-presentation-staff-form.pdf"></app-generated-link></p>
+<h3 id="grading-9">Grading</h3>
+<p>The content of this presentation will be graded on a scale of <strong>10 points</strong>:</p>
+<ul>
+<li>Presentation shows appropriate preparation, with visual aids that are effective, properly prepared, and properly employed.</li>
+<li>Slides are legible, such that people in the back of the room can still see them.</li>
+<li>Presentation should not have an outline slide. It is short enough to be told as a story of your process.</li>
+<li>Problem is presented in a manner that is compelling and achievable.</li>
+<li>Design research is carried out in an appropriate manner.</li>
+<li>Design research results are illuminating in terms of the problem.</li>
+<li>Tasks presented provide coverage of the functionality.</li>
+<li>Tasks were neither too easy nor too hard.</li>
+<li>Tasks were motivated by the design research.</li>
+<li>Design ideas have a strong connection to results of design research.</li>
+<li>Design ideas are appropriate for the supported tasks.</li>
+<li>Design ideas and storyboards were at the proper fidelity.</li>
+<li>Presentation covered the required scope within the allowed time period.</li>
+</ul>
+<p>The delivery of this presentation will be graded on a scale of <strong>4 points</strong>:</p>
+<ul>
+<li>Presenter makes eye contact with the audience.</li>
+<li>Presenter projects their voice well and is audible throughout the room.</li>
+<li>Presenter feels casual and engaged with the content, not just reading it.</li>
+<li>Presentation covered the required scope within the allowed time period.</li>
+</ul>
+<h3 id="id-2j-team-peer-feedback">2j: Team Peer Feedback</h3>
+<p><app-assignment-due-text dueText="{{ page.due_project_2j }}"></app-assignment-due-text></p>
+<p>Submit peer feedback using the form distributed to the class by email.</p>
+</ng-template>
+
+<ng-container *ngTemplateOutlet="content"></ng-container>
