@@ -1,0 +1,299 @@
+<ng-template #content>
+<h1 id="assignment-1-project-proposal">Assignment 1: Project Proposal</h1>
+<div class="alert alert-danger">
+This page is still being migrated and developed. All content remains subject to change.
+</div>
+<h2 id="overview">Overview</h2>
+<p>You are to propose a <strong>problem</strong> and an <strong>approach</strong> that could form the basis of a project for this course.
+Successful projects will observe the need for good human-centered design in an interactive computing system,
+analyze the needs and opportunities in the problem, explore potential designs, and propose a compelling solution.</p>
+<p>This assignment is worth <strong>3%</strong> of your overall course grade:</p>
+<ul>
+<li><strong>0.5%</strong> for the proposal brainstorm</li>
+<li><strong>2.5%</strong> for the project proposal</li>
+</ul>
+<h2 id="milestones">Milestones</h2>
+<p>This is an individual assignment, consisting of three milestones.</p>
+<ul>
+<li>
+<app-generated-link linkHREF="#id-1a-proposal-brainstorm" linkText="Assignment 1a: Proposal Brainstorm"></app-generated-link>
+<p><app-assignment-due-text dueText="{{ page.due_project_1a }}"></app-assignment-due-text></p>
+</li>
+<li>
+<app-generated-link linkHREF="#id-1b-project-proposal" linkText="Assignment 1b: Project Proposal"></app-generated-link>
+<p><app-assignment-due-text dueText="{{ page.due_project_1b }}"></app-assignment-due-text></p>
+</li>
+<li>
+<app-generated-link linkHREF="#id-1c-project-bid" linkText="Assignment 1c: Project Bid"></app-generated-link>
+<p><app-assignment-due-text dueText="{{ page.due_project_1c }}"></app-assignment-due-text></p>
+</li>
+</ul>
+<h2 id="project-description">Project Description</h2>
+<div class="alert alert-danger">
+The theme for projects in this course is __tracking beyond the self__, an extension of __personal informatics__:
+<blockquote>
+<p>Personal informatics systems are systems that help people collect personally relevant information for the purpose of
+self-reflection and gaining self-knowledge.</p>
+<app-generated-link linkHREF="/readings/PersonalInformatics-Li2010.pdf" linkText="Li _et al._, 2010"></app-generated-link>.
+</blockquote>
+<p>Self-tracking and personal informatics are closely related to the <app-generated-link linkHREF="http://quantifiedself.com/" linkText="Quantified Self"></app-generated-link> movement, which emphasizes:</p>
+<blockquote>
+<p>Self-knowledge through numbers.</p>
+<app-generated-link linkHREF="http://archive.wired.com/medtech/health/magazine/17-07/lbnp_knowthyself" linkText="Gary Wolf, 2009"></app-generated-link>
+</blockquote>
+<p>As a focus for Autumn 2017, we will ask students to explore <strong>tracking beyond the self</strong>.
+Instead of limiting self-tracking to dashboards for an isolated self-analyst,
+we will ask students to consider the many different ways people might gather and interact around personal data.</p>
+<p>Tracking can therefore take many mobile forms:</p>
+<ul>
+<li>wearable sensors</li>
+<li>phone and watch applications</li>
+<li>appliances and other artifacts in the environment</li>
+<li>hybrid forms (e.g., semi-automated capture, mobile capture with later annotation or review)</li>
+</ul>
+<p>Tracking can include many social contexts:</p>
+<ul>
+<li>co-located relationships (e.g., families, friends, co-workers)</li>
+<li>remote relationships (e.g., families, friends, co-workers)</li>
+<li>communities organizing (e.g., people in a building, community volunteers)</li>
+<li>people seeking help from peers (e.g., social sharing, support networks)</li>
+<li>people seeking help from experts (e.g., health providers)</li>
+</ul>
+<p>And tracking can explore new forms of interaction:</p>
+<ul>
+<li>conversational interfaces</li>
+<li>tangible interfaces</li>
+<li>ubiquitous computing interfaces (e.g., enabled by the Internet of Things)</li>
+</ul>
+<p>Any problem where people gather or seek value in personal data
+introduces opportunities and challenges in designing for effective interaction around that data.</p>
+</div>
+<h2 id="background-material">Background Material</h2>
+<div class="alert alert-danger">
+Examples of widely-used personal informatics systems exist in a variety of domains.
+Some designs emphasize passive tracking (e.g., via sensing),
+while other designs emphasize more active engagement (e.g., via journaling).
+Of course, there also many axes along which designs can vary:
+<ul>
+<li>Finances
+<ul>
+<li>
+<app-generated-link linkHREF="http://www.mint.com/" linkText="Mint"></app-generated-link> (for tracking finances)
+</li>
+</ul>
+</li>
+<li>Health and Wellness
+<ul>
+<li>
+<app-generated-link linkHREF="http://glooko.com/" linkText="Glooko"></app-generated-link> (for tracking diabetes outcomes)
+</li>
+<li>
+<app-generated-link linkHREF="https://www.trackyourhappiness.org/" linkText="Track your Happiness"></app-generated-link> (for tracking happiness)
+</li>
+</ul>
+</li>
+<li>Media
+<ul>
+<li>
+<app-generated-link linkHREF="http://www.last.fm" linkText="Last.fm"></app-generated-link> (for tracking music listening)
+</li>
+</ul>
+</li>
+<li>Physical Activity
+<ul>
+<li>
+<app-generated-link linkHREF="http://www.fitbit.com/" linkText="FitBit"></app-generated-link> (for tracking physical activity)
+</li>
+<li>
+<app-generated-link linkHREF="http://www.moves-app.com/" linkText="Moves"></app-generated-link> (for tracking location)
+</li>
+<li>
+<app-generated-link linkHREF="http://www.myfitnesspal.com/" linkText="MyFitnessPal"></app-generated-link> (for tracking food intake)
+</li>
+<li>
+<app-generated-link linkHREF="http://www.runkeeper.com/" linkText="RunKeeper"></app-generated-link> (for tracking physical activity)
+</li>
+</ul>
+</li>
+</ul>
+<p>Individuals have gone much deeper into their own data:</p>
+<ul>
+<li>
+<app-generated-link linkHREF="http://feltron.com/" linkText="Feltron Report"></app-generated-link> (a designer who tracked all of his activities to create and release an annual report)
+</li>
+</ul>
+<p>Researchers have also studied current processes, challenges, and opportunities:</p>
+<ul>
+<li>
+<app-generated-link linkHREF="/readings/PersonalInformatics-Li2010.pdf" linkText="Li et al., 2010, A Stage-Based Model of Personal Informatics Systems"></app-generated-link>
+</li>
+<li>
+<app-generated-link linkHREF="/readings/PersonalInformatics-Choe2014.pdf" linkText="Choe et al., 2014, Understanding Quantified-Selfer's Practices in Collecting and Exploring Personal Data"></app-generated-link>
+</li>
+<li>
+<app-generated-link linkHREF="/readings/PersonalInformatics-Rooksby2014.pdf" linkText="Rooksby et al., 2014, Personal Tracking as Lived Informatics"></app-generated-link>
+</li>
+<li>
+<app-generated-link linkHREF="/readings/PersonalInformatics-Cordeiro2015.pdf" linkText="Cordeiro et al., 2015, Barriers and Negative Nudges: Exploring Challenges in Food Journaling"></app-generated-link>
+</li>
+<li>
+<app-generated-link linkHREF="/readings/PersonalInformatics-Epstein2015.pdf" linkText="Epstein et al., 2015, A Lived Informatics Model of Personal Informatics"></app-generated-link>
+</li>
+<li>
+<app-generated-link linkHREF="/readings/PersonalInformatics-Pina2017.pdf" linkText="Pina et al., 2017, From Personal Informatics to Family Informatics: Understanding Family Practices around Health Monitoring"></app-generated-link>
+</li>
+<li>
+<app-generated-link linkHREF="/readings/PersonalInformatics-Schroeder2017.pdf" linkText="Schroeder et al., 2017, Supporting Patient-Provider Collaboration to Identify Individual Triggers using Food and Symptom Journals"></app-generated-link>
+</li>
+<li>
+<app-generated-link linkHREF="/readings/PersonalInformatics-Choe2017.pdf" linkText="Choe et al., 2017, Semi-Automated Tracking: A Balanced Approach for Self-Monitoring Applications"></app-generated-link>
+</li>
+</ul>
+</div>
+<h2 id="thinking-big">Thinking Big</h2>
+<p>Your proposal must go beyond a technology-centric proposal of a webpage, phone application, or interaction. Instead think about
+the problems that people face in their lives, how we can approach those problems, and the role for interactive computing.
+This first assignment is your opportunity to think broadly about identifying a problem. Subsequent assignments will provide
+opportunities to focus on designing a specific technological solution to a specific set of tasks.</p>
+<p>You should identify and consider goals and activities that are important to people. Potential domains include:</p>
+<ul>
+<li>living a healthy life</li>
+<li>managing finances effectively</li>
+<li>managing time effectively</li>
+<li>reducing environmental impact</li>
+</ul>
+<div class="alert alert-danger"> 
+Activities within personal informatics can include:
+<ul>
+<li>planning to track</li>
+<li>helping remember to track</li>
+<li>the actual act of tracking</li>
+<li>identifying activity patterns</li>
+<li>sharing accomplishments with friends and family</li>
+<li>deciding to abandon tracking</li>
+</ul>
+</div>
+<p>Do not start with a focus on concrete one-time tasks (e.g., logging into your bank account).
+Instead identify problems in long-lived activities that span many different social or technological contexts.
+If you want to help people manage their money, do not immediately propose a website that addresses one specific task.
+Instead consider the range of other opportunities (e.g., personal mobile devices, shared family computers, point of sale systems).</p>
+<p>Focus on creating or improving a specific application or service that addresses the issues of specific people.
+You must be able to create and evaluate a design within the timeframe of this course, so consider whether you
+can reasonably gain access to the necessary people.</p>
+<p>We encourage you to think big, expanding your thinking to include new ideas for interaction techniques or technology platforms.
+Do not feel constrained by current devices or immediate implementation, but instead aim to explore an exciting design that could potentially
+motivate the development of new enabling technology. For example, see how Artefact presents the Dialog concept.
+This concept has not been implemented, and might not even be immediately possible.
+But it has been developed in substantial detail, understanding implications for design and implementation:</p>
+<ul>
+<li>
+<app-generated-link linkHREF="http://www.artefactgroup.com/content/work/dialog/" linkText="Dialog: Better Decisions, Better Health - Artefact"></app-generated-link>
+</li>
+</ul>
+<p>Similarly, projects from prior offerings can help you be comfortable thinking beyond immediate implementation:</p>
+<p><app-assignment-samples sampleToLink="website"></app-assignment-samples></p>
+<div class="alert alert-danger">
+Finally, the project theme requires your proposal present some opportunity for __tracking beyond the self__.
+But you will ultimately follow your design process where it leads you, which may or may not emphasize tracking.
+Focusing on problems and opportunities, rather than specific design features,
+will leave room for your design to emerge and be refined in the course of this project.
+</div>
+<h2 id="going-forward">Going Forward</h2>
+<p>The course staff will select a subset of submitted proposals for sponsorship. Sponsored proposals will be posted,
+and students will then bid on the projects they want to pursue in this course. Your proposal is thus an effort to
+convince both the staff and your classmates that a problem is interesting, tractable within the timeline and
+constraints of this course, and worthy of investigation.</p>
+<h2 id="deliverables">Deliverables</h2>
+<h3 id="id-1a-proposal-brainstorm">1a: Proposal Brainstorm</h3>
+<p><app-assignment-due-text dueText="{{ page.due_project_1a }}"></app-assignment-due-text></p>
+<p>The goal of this milestone is to help get you started in thinking of some ideas for potential project proposals.
+Friday's section will then build on these in brainstorming additional potential directions for project proposals.</p>
+<p>Propose three starting points for brainstorming domains, problems, and goals that might be supported via self-tracking.</p>
+<p>By domain, we mean an aspect of life. Domains that are already common in self-tracking include:</p>
+<ul>
+<li>finances (e.g., tracking investments, spending)</li>
+<li>wellness (e.g., tracking physical activity, sleep, weight)</li>
+<li>health (e.g., tracking for post-surgical pain management, allergies or other personal triggers, major weight loss)</li>
+<li>mood (e.g., tracking mood, identifying depressive symptoms)</li>
+</ul>
+<p>Be sure to focus on problems and goals, not potential design solutions.
+One way to help yourself identify a hierarchy of problems and goals is to ask &quot;why?&quot;. For example:</p>
+<ul>
+<li>Why is a person using Mint?</li>
+<li>Why is a person tracking their spending?</li>
+<li>Why do they want to know how much they spend on leisure activities?</li>
+<li>Why do they have a goal of saving for a major purchase?</li>
+</ul>
+<p>Each idea should be a single sentence, identifying the domain and the problem or goal.
+At most one of your ideas may come from any of the domains above.
+You other two ideas should be from domains not in this list, in order to broaden the brainstorm.
+Ensure the ideas are significantly different, not small variations on the same idea.</p>
+<h4 id="submission">Submission</h4>
+<p>Ensure your name and section are at the top of your submission.</p>
+<p>No more than one page of text in PDF format. Submit via Canvas here:</p>
+<p><app-assignment-submission-link linkSubmission="{{ page.link_project_1a }}"></app-assignment-submission-link></p>
+<p>If you are still attempting to add, or otherwise unable to access the submission system, submit via the staff email address.</p>
+<p>In section, be prepared to contribute your initial ideas as part of a larger brainstorm.</p>
+<h4 id="grading">Grading</h4>
+<p>This milestone will be graded on a scale of <strong>3 points</strong>:</p>
+<ul>
+<li>1 point for each unique proposed idea (i.e., do not submit small variations on the same idea).</li>
+</ul>
+<h3 id="id-1b-project-proposal">1b: Project Proposal</h3>
+<p><app-assignment-due-text dueText="{{ page.due_project_1b }}"></app-assignment-due-text></p>
+<p>The goal of this milestone is to propose and analyze a problem that could form the basis of a design project for this class.</p>
+<p>In one paragraph, describe the design problem and motivation.
+This description should convince the reader that this is a difficult and interesting problem, worth spending a quarter considering.
+State what the problem is and why it is a problem, or describe a new idea and why it will enhance an existing application or practice.</p>
+<p>In another paragraph, analyze the problem or idea to give more background and context.
+Do not just focus on the negative aspects of the current situation, but also identify some positive aspects that may be beneficial to retain.
+A few salient examples from existing systems or practices could be used to support those claims.
+If appropriate, you may conduct this analysis by describing a scenario that illustrates how someone might encounter and resolve the problem.</p>
+<p>Ensure your report is appropriately clear and easy to read. This includes:</p>
+<ul>
+<li>text should be clear and concise</li>
+<li>use section headings as appropriate</li>
+<li>include images in the body of the write-up with appropriate figure numbers and captions</li>
+<li>refer to the figures in the body of your text</li>
+<li>check for typos, spelling, and grammar errors</li>
+</ul>
+<p>Be sure your presentation looks good:</p>
+<ul>
+<li>choose appropriate colors, fonts, and styles</li>
+<li>make liberal use of whitespace</li>
+</ul>
+<h4 id="samples-from-prior-offerings">Samples from Prior Offerings</h4>
+<p>Samples from prior offerings include:</p>
+<p><app-assignment-samples sampleToLink="1b"></app-assignment-samples></p>
+<p>Note that details of assignments may have changed since prior offerings, so their reports may not map to the current project.
+Also note these samples are intended to illustrate a variety of approaches, none of which is intended to be ideal or exemplary.
+Be sure to understand and carefully consider project requirements and feedback from the course staff in the context of your own work.</p>
+<h4 id="submission-2">Submission</h4>
+<p>Ensure your name and section are at the top of your submission.</p>
+<p>No more than one page of text in PDF format.</p>
+<p>Images do not count against your page limit, and are therefore effectively free.
+You should embed images throughout your PDF, keeping them near the text that references them.
+The limit applies to the approximate amount of text you would have if all images were removed.</p>
+<p>Submit via Canvas here:</p>
+<p><app-assignment-submission-link linkSubmission="{{ page.link_project_1b }}"></app-assignment-submission-link></p>
+<h4 id="grading-2">Grading</h4>
+<p>This proposal will be graded on a scale of <strong>10 points</strong>:</p>
+<ol>
+<li><strong>Problem and Motivation</strong>: (3 points)</li>
+<li><strong>Analysis of Problem</strong>: (3 points)</li>
+<li><strong>Novelty and Creativity</strong>: (2 points)</li>
+<li><strong>Report Clarity and Presentation</strong>: (2 points)</li>
+</ol>
+<h3 id="id-1c-project-bid">1c: Project Bid</h3>
+<p><app-assignment-due-text dueText="{{ page.due_project_1c }}"></app-assignment-due-text></p>
+<p>Review the sponsored projects and course staff comments regarding those projects:</p>
+<p><app-assignment-submission-link linkSubmission="{{ page.link_project_1c_projects }}"></app-assignment-submission-link></p>
+<p>You will submit a bid on projects and potential partners. Course staff will use your bids to assign projects and groups.</p>
+<h4 id="submission-3">Submission</h4>
+<p>Submit your bid on projects and potential partners here:</p>
+<p><app-assignment-submission-link linkSubmission="{{ page.link_project_1c_bids }}"></app-assignment-submission-link></p>
+<h4 id="grading-3">Grading</h4>
+<p>Submitting a project bid is a requirement for proceeding in the class.</p>
+</ng-template>
+
+<ng-container *ngTemplateOutlet="content"></ng-container>

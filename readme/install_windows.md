@@ -48,37 +48,7 @@ pip install -r requirements3.txt
 
 ## Installing Node
 
-[https://nodejs.org/dist/v8.12.0/node-v8.12.0-x64.msi](https://nodejs.org/dist/v8.12.0/node-v8.12.0-x64.msi)
+[https://nodejs.org/dist/v10.14.1/node-v10.14.1-x64.msi](https://nodejs.org/dist/v10.14.1/node-v10.14.1-x64.msi)
 
 The default installation options are appropriate.
-
-## Installing Ruby
-
-[https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-2.5.1-2/rubyinstaller-devkit-2.5.1-2-x86.exe](https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-2.5.1-2/rubyinstaller-devkit-2.5.1-2-x86.exe)
-
-This documentation assumes an installation path of `c:\Ruby251`.
-
-When installing Ruby:
-
-- On 'Installation Destination and Optional Tasks':
-
-  Set an installation path of `c:\Ruby251`.
-
-  Check 'Add Ruby executables to your PATH'.
-
-  Uncheck 'Associate .rb and .rbw files with this Ruby installation' and 'Use UTF-8 as default external encoding'.
-
-- On 'Select Components':
-
-  Check 'MSYS2 development toolchain 2018-06-24'.
-
-- On 'Completing the Ruby 2.5.1-2-x86 with MSYS2 Setup Wizard':
-
-  Check 'Run 'ridk install' to setup MSYS2 and development toolchain.
-
-- On 'Ruby Installer 2 for Windows'
-
-  Press Enter for '[1, 2, 3]'.
-
-  Press Enter for '[]'.
 

@@ -19,7 +19,3 @@
 
 # Secrets that should not be committed, such as passwords or keys
 /secrets
-
-# Jekyll's build of the site
-.jekyll-metadata
-_site

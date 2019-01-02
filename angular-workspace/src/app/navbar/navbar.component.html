@@ -1,0 +1,58 @@
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+  <a class="navbar-brand" routerLink="">CSE 440 - Introduction to HCI - Winter 2019</a>
+
+  <button class="navbar-toggler" type="button" (click)="isNavbarCollapsed = !isNavbarCollapsed" aria-controls="navbarDefault" aria-expanded="false" aria-label="Navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div [ngbCollapse]="isNavbarCollapsed" class="collapse navbar-collapse" id="navbarDefault">
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item active"><a class="nav-link" routerLink="/">Home</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/calendar">Calendar</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/assignments/assignment0">Assignments</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!--
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="{{ site.baseurl }}/index.html">
+        {% if page.brandtext %}
+          {{ page.brandtext }}
+        {% else %}
+          {% capture exists_brand_png %}{% file_exists {{ site.brandimage }} %}{% endcapture %}
+
+          {% if exists_brand_png == 'true' %}
+            <img src="{{ site.baseurl }}/{{ site.brandimage }}" alt="{{ site.brandtext }}"/>
+          {% else %}
+            {{ site.brandtext }}
+          {% endif %}
+        {% endif %}
+      </a>
+
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#baseNavbarContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="baseNavbarContent">
+      <div>
+        <ul class="nav navbar-nav navbar-right">
+          {% for item_nav in site.navbar.items %}
+            {% capture item_nav_computed_url %}/{{ item_nav.link }}{% endcapture %}
+            {% if page.url == item_nav_computed_url %}
+              <li class="active">
+            {% elsif page.url == '/' and item_nav.link == 'index.html' %}
+              <li class="active">
+            {% else %}
+              <li>
+            {% endif %}
+                <a href="{{ site.baseurl }}/{{ item_nav.link }}">{{ item_nav.text }}</a>
+              </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+-->
