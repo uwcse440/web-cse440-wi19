@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { page as PageData } from "./assignment4.component.pagedata";
 
 @Component({
   selector: 'app-assignment4',
@@ -6,10 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./assignment4.component.scss']
 })
 export class Assignment4Component implements OnInit {
+  page = PageData;
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }
-
 }
