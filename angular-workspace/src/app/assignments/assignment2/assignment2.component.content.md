@@ -26,8 +26,6 @@ The content of [Assignment 2i: Presentation](#id-2i-presentation) is worth __5%_
 
 Your delivery of a presentation this quarter is worth __2%__ of your overall course grade.
 
-`fix anchors [^#]#[^#]`
-
 ## Milestones
 
 This is a group assignment, consisting of nine milestones.
@@ -127,7 +125,7 @@ More specifically, you will do the following:
     
 6. Summarize your design process in a report and presentation.
 
-   ([Assignment 2h](#id-2h-final-report)), ([Presentation](#id-2i-presentation))
+   ([Assignment 2h](#id-2h-final-report)), ([Assignment 2i](#id-2i-presentation))
 
 ## Deliverables
 
@@ -170,7 +168,7 @@ Submit via Canvas here:
 
 You will be able to take your paper with you, and you should continue brainstorming throughout your project.
 
-### Grading
+#### Grading
 
 This milestone will be graded on a scale of __3 points__ based on participation in generating ideas during the brainstorming exercise.
 
@@ -308,7 +306,7 @@ This milestone will be graded on a scale of __6 points__:
 The goal of this milestone is to reflect on what you observed and learned in your design research,
 organizing observations around themes to tasks to help inform your design.
 
-##### Themes
+#### Themes
 
 Complete design research with at least three participants. Discuss your process and what you learned:
 
@@ -760,3 +758,5 @@ The delivery of this presentation will be graded on a scale of __4 points__:
 <app-assignment-due-text dueText="{{ page.due_project_2j }}"></app-assignment-due-text>
 
 Submit peer feedback using the form distributed to the class by email.
+
+Course staff will request a second round of team peer feedback at the end of the course.

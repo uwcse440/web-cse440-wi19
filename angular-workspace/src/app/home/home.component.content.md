@@ -33,7 +33,7 @@ The course is overwhelmingly organized around a group project, in which students
       <p>[James Fogarty](https://homes.cs.washington.edu/~jfogarty/)</p>
     </div>
     <div class="col-md-2">
-      <p><img src="assets/images/annie_photo.png" height="140" alt="Anne Spencer Ross"/></p>
+      <p><img src="assets/images/annie_photo.jpg" height="140" alt="Anne Spencer Ross"/></p>
       <p>[Anne Spencer Ross](https://homes.cs.washington.edu/~ansross/)</p>
     </div>
     <div class="col-md-2">
