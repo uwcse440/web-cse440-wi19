@@ -16,10 +16,10 @@ This assignment is worth __14%__ of your overall course grade:
 - __10%__ for [Assignment 3f: Final Report](#id-3f-final_report) 
 - __4%__ for the milestones 
   - __0.5%__ for [Assignment 3a: Paper Prototype](#id-3a-paper_prototype) 
-  - __0.5%__ for [Assignment 3b: Heuristic Evaluation](#id-3b-heuristic_evaluation) 
-  - __1%__ for [Assignment 3c: Usability Testing Check-In](#id-3c-usability_testing) 
-  - __1%__ for [Assignment 3d: Usability Testing Review](#id-3d-usability_testing) 
-  - __1%__ for [Assignment 3e: Digital Mockup](#id-3e-digital_mockup)
+  - __0.5%__ for [Assignment 3b: Heuristic Evaluation](#id-3b-heuristic-evaluation) 
+  - __1%__ for [Assignment 3c: Usability Testing Check-In](#id-3c-usability-testing) 
+  - __1%__ for [Assignment 3d: Usability Testing Review](#id-3d-usability-testing) 
+  - __1%__ for [Assignment 3e: Digital Mockup](#id-3e-digital-mockup)
 	
 The content of [Assignment 3g: Presentation](#id-3g-presentation) is worth __5%__ of your overall course grade.
 
@@ -33,23 +33,23 @@ This is a group assignment, consisting of five milestones.
 
   <app-assignment-due-text dueText="{{ page.due_project_3a }}"></app-assignment-due-text>
 
-* [Assignment 3b: Heuristic Evaluation](#id-3b-heuristic_evaluation) 
+* [Assignment 3b: Heuristic Evaluation](#id-3b-heuristic-evaluation) 
 
   <app-assignment-due-text dueText="{{ page.due_project_3b }}"></app-assignment-due-text>
 
-* [Assignment 3c: Usability Testing Check-In](#id-3c-usability_testing_checkin)
+* [Assignment 3c: Usability Testing Check-In](#id-3c-usability-testing-checkin)
 
   <app-assignment-due-text dueText="{{ page.due_project_3c }}"></app-assignment-due-text>
 
-* [Assignment 3d: Usability Testing Review](#id-3d-usability_testing_review)
+* [Assignment 3d: Usability Testing Review](#id-3d-usability-testing-review)
 
   <app-assignment-due-text dueText="{{ page.due_project_3d }}"></app-assignment-due-text>
 
-* [Assignment 3e: Digital Mockup](#id-3e-digital_mockup) 
+* [Assignment 3e: Digital Mockup](#id-3e-digital-mockup) 
 
   <app-assignment-due-text dueText="{{ page.due_project_3e }}"></app-assignment-due-text>
 
-* [Assignment 3f: Final Report](#id-3f-final_report)
+* [Assignment 3f: Final Report](#id-3f-final-report)
 
   <app-assignment-due-text dueText="{{ page.due_project_3f }}"></app-assignment-due-text>
 
@@ -73,7 +73,7 @@ Finally, you will present your design process in a report and presentation.
    But it also contains more details than your prior exploratory designs.
    If necessary or appropriate, revise your tasks or scenarios based on what your learn in prototyping.
 
-   ([Assignment 3a](#id-3a-paper_prototype))
+   ([Assignment 3a](#id-3a-paper-prototype))
    
 2. Conduct a heuristic evaluation of your paper prototype.
    You will perform an evaluation in class, and will supplement this with another evaluation.
@@ -81,7 +81,7 @@ Finally, you will present your design process in a report and presentation.
    Revise your paper prototype based on what you learn in heuristic evaluation.
    Your tasks and scenarios are likely stable, but revise them if your evaluation reveals a need.
 
-   ([Assignment 3b](#id-3b-heuristic_evaluation))
+   ([Assignment 3b](#id-3b-heuristic-evaluation))
 
 3. Conduct usability tests with _three_ participants, each completing your _two_ primary tasks.
 
@@ -118,7 +118,7 @@ Finally, you will present your design process in a report and presentation.
    This can and should include fixing major issues as soon as they are detected, before additional tests.
    Your tasks and scenarios are likely stable, but revise them if your evaluation reveals a need.
 
-   ([Assignment 3c](#id-3c-usability_testing_checkin)), ([Assignment 3d](#id-3d-usability_testing_review))
+   ([Assignment 3c](#id-3c-usability-testing-checkin)), ([Assignment 3d](#id-3d-usability-testing-review))
 
 4. After refining your paper prototype based on your usability testing, construct a digital mockup of your design.
 
@@ -152,11 +152,11 @@ Finally, you will present your design process in a report and presentation.
    Implement your digital mockup to include key frames that illustrate your design.
    It should convey all critical aspects of your design, including walkthroughs for your two primary tasks.
 
-   ([Assignment 3e](#id-3e-digital_mockup))
+   ([Assignment 3e](#id-3e-digital-mockup))
 
 5. Summarize your design process in a report and presentation.
 
-   ([Assignment 3f](#id-3f-final_report)), ([Assignment 3g](#id-3g-presentation))
+   ([Assignment 3f](#id-3f-final-report)), ([Assignment 3g](#id-3g-presentation))
 
 ## Deliverables 
 
