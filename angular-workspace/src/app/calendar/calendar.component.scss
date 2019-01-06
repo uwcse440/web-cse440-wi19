@@ -47,29 +47,35 @@
   .assignment,
   .holiday,
   .lecture,
+  .major,
   .section
   {
+    padding: 4px;
+
     p {
       margin-bottom: 0;
-
-      padding: 2px;
     }
   }
 
   .assignment
   {
-    font-size: smaller;
+    font-size: $font-size-sm;
     background-color: lightgreen;
   }
 
   .holiday
   {
-      background-color: orange;
+    background-color: orange;
   }
 
   .lecture
   {
     background-color: lightsalmon;
+  }
+
+  .major
+  {
+    background-color: lavender;
   }
 
   .section
