@@ -45,9 +45,11 @@
   }
 
   .assignment,
+  .away,
   .holiday,
   .lecture,
   .major,
+  .officeHours,
   .section
   {
     padding: 4px;
@@ -55,12 +57,27 @@
     p {
       margin-bottom: 0;
     }
+
+    .location {
+      font-size: $font-size-sm;
+    }
+  }
+
+  .assignment,
+  .officeHours,
+  .away
+  {
+    font-size: $font-size-sm;
   }
 
   .assignment
   {
-    font-size: $font-size-sm;
     background-color: lightgreen;
+  }
+
+  .away
+  {
+    background-color: lightpink;
   }
 
   .holiday
@@ -76,6 +93,11 @@
   .major
   {
     background-color: lavender;
+  }
+
+  .officeHours
+  {
+      background-color: lightgoldenrodyellow;
   }
 
   .section

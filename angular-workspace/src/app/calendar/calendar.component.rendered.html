@@ -7,23 +7,17 @@ This page is still being migrated and developed. All content remains subject to 
     <div class="week" *ngFor="let currentWeek of datesOfInstructionByWeek()">
       <div class="day" *ngFor="let currentDay of datesOfWeekdaysForWeek(currentWeek)">
         <p>{{ moment(currentDay).format('MMM D') }}</p>
-        <!-- Holiday
-          --
-            <div class="item holiday">
-              {{ currentholiday.name }}
-            </div>
+        <!-- 
+          -- Holiday
           -->        
         <div *ngFor="let currentHoliday of getHolidaysForDay(currentDay)">
           <div class="holiday">
             <p>{{ currentHoliday.name }}</p>
           </div>
         </div>
-        <!-- Lecture 
+        <!--  
+          -- Lecture
           --
-            {% assign currentlocation = currentlecture.location %}
-            {% if currentlocation == nil %}
-              {% assign currentlocation = "lectures" %}
-            {% endif %}
             <div class="item lecture">
               <br>
               {% if currentlecture.slides != nil %}
@@ -42,20 +36,22 @@ This page is still being migrated and developed. All content remains subject to 
                 {% endfor %}
               </small>
             </div>
-        -->
+          -->
         <div *ngFor="let currentLecture of getLecturesForDay(currentDay)">
           <div class="lecture">
             <!-- Name or placeholder 'Lecture' -->
             <p *ngIf="currentLecture.name" [innerHTML]="currentLecture.name"></p>
             <p *ngIf="!(currentLecture.name)">Lecture</p>
+            <div *ngIf="currentLecture.location" class="location">
+              <div *ngFor="let currentLocation of currentLecture.location">
+                <p>{{ currentLocation.time }} | {{ currentLocation.location }}</p>
+              </div>
+            </div>            
           </div>
         </div>
-        <!-- Section
-          -- 
-            {% assign currentlocation = currentsection.location %}
-            {% if currentlocation == nil %}
-              {% assign currentlocation = "sections" %}
-            {% endif %}
+        <!-- 
+          -- Section
+          --
             <div class="item section">
               {% if currentsection.slides != nil %}
                 <a href="{{ site.baseurl }}/{{ currentsection.slides }}">
@@ -75,15 +71,21 @@ This page is still being migrated and developed. All content remains subject to 
                 {% endfor %}
               </small>
             </div>
-        -->
+          -->
         <div *ngFor="let currentSection of getSectionsForDay(currentDay)">
           <div class="section">
             <!-- Name or placeholder 'Section' -->
             <p *ngIf="currentSection.name" [innerHTML]="currentSection.name"></p>
             <p *ngIf="!(currentSection.name)">Section</p>
+            <div *ngIf="currentSection.location" class="location">
+              <div *ngFor="let currentLocation of currentSection.location">
+                <p>{{ currentLocation.time }} | {{ currentLocation.location }}</p>
+              </div>
+            </div>            
           </div>
         </div>
         <!--
+          -- Major
           --
             {% assign currentlocation = currentmajor.location %}
             <div class="item major">
@@ -109,10 +111,17 @@ This page is still being migrated and developed. All content remains subject to 
             <!-- Otherwise, identical content but without the link -->
             <p *ngIf="!(currentMajor.link)">
               {{ currentMajor.name }}
-            </p>            
+            </p>
+            <!-- Location if specified -->
+            <div *ngIf="currentMajor.location" class="location">
+              <div *ngFor="let currentLocation of currentMajor.location">
+                <p>{{ currentLocation.time }} | {{ currentLocation.location }}</p>
+              </div>
+            </div>            
           </div>
         </div>
-        <!-- Assignments
+        <!-- 
+          -- Assignments
           --
             <div class="item assignment">
               <small>
@@ -122,7 +131,7 @@ This page is still being migrated and developed. All content remains subject to 
                   {% if currentassignment.link != nil %}</a>{% endif %}
               </small>
             </div>
-        -->
+          -->
         <div *ngFor="let currentAssignment of getAssignmentsForDay(currentDay)">
           <div class="assignment">
             <!-- If the link exists, apply that -->
@@ -141,6 +150,27 @@ This page is still being migrated and developed. All content remains subject to 
                 <br>{{ currentAssignment.dueNote }}
               </ng-container>
             </p>            
+          </div>
+        </div>
+        <!-- 
+          -- Office Hours
+          -->
+        <div *ngFor="let currentOfficeHours of getOfficeHoursForDay(currentDay)">
+          <div class="officeHours">
+            <p>{{ currentOfficeHours.name }}</p>
+            <div *ngIf="currentOfficeHours.location" class="location">
+              <div *ngFor="let currentLocation of currentOfficeHours.location">
+                <p>{{ currentLocation.time }} | {{ currentLocation.location }}</p>
+              </div>
+            </div>            
+          </div>
+        </div>
+        <!-- 
+          -- Aways
+          -->
+        <div *ngFor="let currentAway of getAwaysForDay(currentDay)">
+          <div class="away">
+            <p [innerHTML]="currentAway.name"></p>
           </div>
         </div>
       </div>
