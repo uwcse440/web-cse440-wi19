@@ -6,6 +6,48 @@ class CalendarData {
     end:   moment('Sat 2019-03-23', 'ddd YYYY-MM-DD')   // Must be a Saturday
   };
 
+  locations = {
+    lecture: [
+      {
+        time: '11:30 - 12:50',
+        location: 'NAN 181'
+      }
+    ],
+
+    section: [
+      {
+        time: '10:30 - 11:20',
+        location: 'MGH 295'
+      },
+      {
+        time: '11:30 - 12:20',
+        location: 'MGH 058'
+      },
+      {
+        time: '1:30 - 2:20',
+        location: 'MGH 295'
+      },
+      {
+        time: '2:30 - 3:20',
+        location: 'MGH 295'
+      }
+    ],
+
+    posterSession: [
+      {
+        time: '4:00 - 5:00',
+        location: 'CSE Atrium'
+      }
+    ],
+
+    officeHoursJames: [
+      {
+        time: "3:30 - 4:30",
+        location: "CSE 632"
+      }
+    ]
+  };
+
   holidays = [
     {
       date: moment('2019-01-21', 'YYYY-MM-DD'),
@@ -190,43 +232,51 @@ class CalendarData {
   majors = [
     {
       date: moment('2019-02-14', 'YYYY-MM-DD'),
-      name: "Presentations",
-      // location: "lectures",
-      link: "/assignments/assignment2#id-2i-presentation"
+      name: 'Presentations',
+      locationName: 'lecture',
+      link: '/assignments/assignment2#id-2i-presentation'
     },
     {
       date: moment('2019-02-15', 'YYYY-MM-DD'),
-      name: "Presentations",
-      // location: "sections_afternoononly",
-      link: "/assignments/assignment2#id-2i-presentation"
+      name: 'Presentations',
+      locationName: 'section',
+      link: '/assignments/assignment2#id-2i-presentation'
     },
     {
       date: moment('2019-02-26', 'YYYY-MM-DD'),
-      name: "Exam",
-      // location: "exam",
-      // link: "slides/lecture/cse440-consolidated-17au.pdf"
+      name: 'Exam',
+      locationName: 'lecture',
+      // link: 'slides/lecture/cse440-consolidated-17au.pdf'
     },
     {
       date: moment('2019-03-07', 'YYYY-MM-DD'),
-      name: "Presentations",
-      // location: "lectures",
-      link: "/assignments/assignment3#id-3g-presentation"
+      name: 'Presentations',
+      locationName: 'lecture',
+      link: '/assignments/assignment3#id-3g-presentation'
     },
     {
       date: moment('2019-03-08', 'YYYY-MM-DD'),
-      name: "Presentations",
-      // location: "sections_morningonly",
-      link: "/assignments/assignment3#id-3g-presentation"
+      name: 'Presentations',
+      locationName: 'section',
+      link: '/assignments/assignment3#id-3g-presentation'
     },
     {
       date: moment('2019-03-20', 'YYYY-MM-DD'),
-      name: "Poster Session",
-      // location: "postersession",
-      link: "/assignments/assignment4#id-4d-final-poster-final-video-final-website"
+      name: 'Poster Session',
+      locationName: 'posterSession',
+      link: '/assignments/assignment4#id-4d-final-poster-final-video-final-website'
     }
   ];
 
   assignments = [
+    // Assignment 0
+    {
+      date: moment('2019-01-10', 'YYYY-MM-DD'),
+      name: "0 - Introduction Slide",
+      dueNote: "[due end of day]",
+      link: "/assignments/assignment0/"
+    },
+
     // Assignment 1
     {
       date: moment('2019-01-10', 'YYYY-MM-DD'),
@@ -250,139 +300,232 @@ class CalendarData {
     // Assignment 2
     {
       date: moment('2019-01-18', 'YYYY-MM-DD'),
-      name: "2a - Project Ideation",
-      dueNote: "[done in section]",
-      link: "/assignments/assignment2#id-2a-project-ideation"
+      name: '2a - Project Ideation',
+      dueNote: '[done in section]',
+      link: '/assignments/assignment2#id-2a-project-ideation'
     },
     {
       date: moment('2019-01-21', 'YYYY-MM-DD'),
-      name: "2b - Design Research Plan",
-      dueNote: "[due night before class]",
-      link: "/assignments/assignment2#id-2b-design-research-plan"
+      name: '2b - Design Research Plan',
+      dueNote: '[due night before class]',
+      link: '/assignments/assignment2#id-2b-design-research-plan'
     },
     {
       date: moment('2019-01-24', 'YYYY-MM-DD'),
-      name: "2c - Design Research Check-In",
-      dueNote: "[due night before section]",
-      link: "/assignments/assignment2#id-2c-design-research-check-in"
+      name: '2c - Design Research Check-In',
+      dueNote: '[due night before section]',
+      link: '/assignments/assignment2#id-2c-design-research-check-in'
     },
     {
       date: moment('2019-01-28', 'YYYY-MM-DD'),
-      name: "2d - Design Research Review",
-      dueNote: "[due night before class]",
-      link: "/assignments/assignment2#id-2d-design-research-review"
+      name: '2d - Design Research Review',
+      dueNote: '[due night before class]',
+      link: '/assignments/assignment2#id-2d-design-research-review'
     },
     {
       date: moment('2019-01-31', 'YYYY-MM-DD'),
-      name: "2e - Task Review",
-      dueNote: "[due night before section]",
-      link: "/assignments/assignment2#id-2e-task-review"
+      name: '2e - Task Review',
+      dueNote: '[due night before section]',
+      link: '/assignments/assignment2#id-2e-task-review'
     },
     {
       date: moment('2019-02-04', 'YYYY-MM-DD'),
-      name: "2f - Design Check-In",
-      dueNote: "[due night before class]",
-      link: "/assignments/assignment2#id-2f-design-check-in-3x4",
+      name: '2f - Design Check-In',
+      dueNote: '[due night before class]',
+      link: '/assignments/assignment2#id-2f-design-check-in-3x4',
     },
     {
       date: moment('2019-02-07', 'YYYY-MM-DD'),
-      name: "2g - Design Review",
-      dueNote: "[due night before section]",
-      link: "/assignments/assignment2#id-2d-design-research-review"
+      name: '2g - Design Review',
+      dueNote: '[due night before section]',
+      link: '/assignments/assignment2#id-2d-design-research-review'
     },
     {
       date: moment('2019-02-11', 'YYYY-MM-DD'),
-      name: "2h - Getting the Right Design",
-      dueNote: "[due night before class]",
-      link: "/assignments/assignment2#id-2h-final-report"
+      name: '2h - Getting the Right Design',
+      dueNote: '[due night before class]',
+      link: '/assignments/assignment2#id-2h-final-report'
     },
     {
       date: moment('2019-02-13', 'YYYY-MM-DD'),
-      name: "2i - Presentation",
-      dueNote: "[due night before class]",
-      link: "/assignments/assignment2#id-2i-presentation"
+      name: '2i - Presentation',
+      dueNote: '[due night before class]',
+      link: '/assignments/assignment2#id-2i-presentation'
     },
     {
       date: moment('2019-02-15', 'YYYY-MM-DD'),
-      name: "2j - Team Peer Feedback",
-      dueNote: "[due end of day]",
-      link: "/assignments/assignment2#id-2j-team-peer-feedback"
+      name: '2j - Team Peer Feedback',
+      dueNote: '[due end of day]',
+      link: '/assignments/assignment2#id-2j-team-peer-feedback'
     },
 
     // Assignment 3
     {
       date: moment('2019-02-18', 'YYYY-MM-DD'),
-      name: "3a - Paper Protoype",
-      dueNote: "[due night before class]",
-      link: "/assignments/assignment3#id-3a-paper_prototype"
+      name: '3a - Paper Protoype',
+      dueNote: '[due night before class]',
+      link: '/assignments/assignment3#id-3a-paper_prototype'
     },
     {
       date: moment('2019-02-20', 'YYYY-MM-DD'),
-      name: "3b - Heuristic Evaluation",
-      dueNote: "[due end of day]",
-      link: "/assignments/assignment3#id-3b-heuristic-evaluation"
+      name: '3b - Heuristic Evaluation',
+      dueNote: '[due end of day]',
+      link: '/assignments/assignment3#id-3b-heuristic-evaluation'
     },
     {
       date: moment('2019-02-21', 'YYYY-MM-DD'),
-      name: "3c - Usability Testing Check-In",
-      dueNote: "[due end of day]",
-      link: "/assignments/assignment3#id-3c-usability-testing-check-in"
+      name: '3c - Usability Testing Check-In',
+      dueNote: '[due end of day]',
+      link: '/assignments/assignment3#id-3c-usability-testing-check-in'
     },
     {
       date: moment('2019-02-28', 'YYYY-MM-DD'),
-      name: "3d - Usability Testing Review",
-      dueNote: "[due night before section]",
-      link: "/assignments/assignment3#id-3d-usability-testing-review"
+      name: '3d - Usability Testing Review',
+      dueNote: '[due night before section]',
+      link: '/assignments/assignment3#id-3d-usability-testing-review'
     },
     {
       date: moment('2019-03-04', 'YYYY-MM-DD'),
-      name: "3e - Digital Mockup",
-      dueNote: "[due night before class]",
-      link: "/assignments/assignment3#id-3e-digital-mockup"
+      name: '3e - Digital Mockup',
+      dueNote: '[due night before class]',
+      link: '/assignments/assignment3#id-3e-digital-mockup'
     },
     {
       date: moment('2019-03-05', 'YYYY-MM-DD'),
-      name: "3f - Getting the Design Right",
-      dueNote: "[due end of day]",
-      link: "/assignments/assignment3#id-3f-final_report"
+      name: '3f - Getting the Design Right',
+      dueNote: '[due end of day]',
+      link: '/assignments/assignment3#id-3f-final_report'
     },
     {
       date: moment('2019-03-06', 'YYYY-MM-DD'),
-      name: "3g - Presentation",
-      dueNote: "[due night before class]",
-      link: "/assignments/assignment3#id-3g-presentation"
+      name: '3g - Presentation',
+      dueNote: '[due night before class]',
+      link: '/assignments/assignment3#id-3g-presentation'
     },
 
     // Assignment 4
     {
       date: moment('2019-03-11', 'YYYY-MM-DD'),
-      name: "4a - Initial Website",
-      dueNote: "[due night before class]",
-      link: "/assignments/assignment4#id-4a-initial-website"
+      name: '4a - Initial Website',
+      dueNote: '[due night before class]',
+      link: '/assignments/assignment4#id-4a-initial-website'
     },
     {
       date: moment('2019-03-11', 'YYYY-MM-DD'),
-      name: "4b - Initial Video Prototype",
-      dueNote: "[due night before class]",
-      link: "/assignments/assignment4#id-4b-initial-video-prototype"
+      name: '4b - Initial Video Prototype',
+      dueNote: '[due night before class]',
+      link: '/assignments/assignment4#id-4b-initial-video-prototype'
     },
     {
       date: moment('2019-03-13', 'YYYY-MM-DD'),
-      name: "4c - Initial Poster and Pitch",
-      dueNote: "[due night before class]",
-      link: "/assignments/assignment4#id-4c-poster-critique-and-pitch"
+      name: '4c - Initial Poster and Pitch',
+      dueNote: '[due night before class]',
+      link: '/assignments/assignment4#id-4c-poster-critique-and-pitch'
     },
     {
       date: moment('2019-03-15', 'YYYY-MM-DD'),
-      name: "4d - Final Poster, Video, Website",
-      dueNote: "[due end of day]",
-      link: "/assignments/assignment4#id-4d-final-poster-final-video-final-website"
+      name: '4d - Final Poster, Video, Website',
+      dueNote: '[due end of day]',
+      link: '/assignments/assignment4#id-4d-final-poster-final-video-final-website'
     },
     {
       date: moment('2019-03-18', 'YYYY-MM-DD'),
-      name: "4e - Team Peer Feedback",
-      dueNote: "[due end of day]",
-      link: "/assignments/assignment4#id-4e-team-peer-feedback"
+      name: '4e - Team Peer Feedback',
+      dueNote: '[due end of day]',
+      link: '/assignments/assignment4#id-4e-team-peer-feedback'
+    }
+  ];
+
+  officeHours = [
+    {
+      date: moment('2019-01-15', 'YYYY-MM-DD'),
+      name: 'Office Hours - James',
+      locationName: 'officeHoursJames'
+    },
+    {
+      date: moment('2019-01-22', 'YYYY-MM-DD'),
+      name: 'Office Hours - James',
+      locationName: 'officeHoursJames'
+    },
+    {
+      date: moment('2019-01-29', 'YYYY-MM-DD'),
+      name: 'Office Hours - James',
+      locationName: 'officeHoursJames'
+    },
+    {
+      date: moment('2019-02-05', 'YYYY-MM-DD'),
+      name: 'Office Hours - James',
+      locationName: 'officeHoursJames'
+    },
+    {
+      date: moment('2019-02-12', 'YYYY-MM-DD'),
+      name: 'Office Hours - James',
+      locationName: 'officeHoursJames'
+    },
+    {
+      date: moment('2019-02-19', 'YYYY-MM-DD'),
+      name: 'Office Hours - James',
+      locationName: 'officeHoursJames'
+    },
+    {
+      date: moment('2019-03-05', 'YYYY-MM-DD'),
+      name: 'Office Hours - James',
+      locationName: 'officeHoursJames'
+    }
+  ];
+
+  aways = [
+    {
+      date: moment('2019-01-08', 'YYYY-MM-DD'),
+      name: 'Manaswi Away',
+    },
+    {
+      date: moment('2019-01-10', 'YYYY-MM-DD'),
+      name: 'Jeremy Away from Lecture',
+    },
+    {
+      date: moment('2019-01-17', 'YYYY-MM-DD'),
+      name: 'Jeremy Away from Lecture',
+    },
+    {
+      date: moment('2019-01-24', 'YYYY-MM-DD'),
+      name: 'Jeremy Away from Lecture',
+    },
+    {
+      date: moment('2019-01-31', 'YYYY-MM-DD'),
+      name: 'Jeremy Away from Lecture',
+    },
+    {
+      date: moment('2019-02-07', 'YYYY-MM-DD'),
+      name: 'Jeremy Away from Lecture',
+    },
+    {
+      date: moment('2019-02-14', 'YYYY-MM-DD'),
+      name: 'Jeremy Away from Lecture',
+    },
+    {
+      date: moment('2019-02-21', 'YYYY-MM-DD'),
+      name: 'Jeremy Away from Lecture',
+    },
+    {
+      date: moment('2019-02-28', 'YYYY-MM-DD'),
+      name: 'Jeremy Away from Lecture',
+    },
+    {
+      date: moment('2019-03-07', 'YYYY-MM-DD'),
+      name: 'Jeremy Away from Lecture',
+    },
+    {
+      date: moment('2019-03-14', 'YYYY-MM-DD'),
+      name: 'Jeremy Away from Lecture',
+    },
+    {
+      date: moment('2019-03-18', 'YYYY-MM-DD'),
+      name: 'James Away @ <a href="https://iui.acm.org/2019/">IUI 2019</a>',
+    },
+    {
+      date: moment('2019-03-19', 'YYYY-MM-DD'),
+      name: 'James Away @ <a href="https://iui.acm.org/2019/">IUI 2019</a>',
     }
   ];
 }

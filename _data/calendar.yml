@@ -1,25 +1,4 @@
 locations:
-  lectures:
-    - time: "12:00 - 1:20"
-      location: "PAA A110"
-  lecturesdenny:
-    - time: "12:00 - 1:20"
-      location: "DEN 303"
-
-  exam:
-    - time: "12:00 - 1:20"
-      location: "DEN 303"
-
-  sections:
-    - time: "9:30 - 10:20"
-      location: "MGH 058"
-    - time: "10:30 - 11:20"
-      location: "MGH 058"
-    - time: "12:30 - 1:20"
-      location: "MGH 058"
-    - time: "1:30 - 2:20"
-      location: "MGH 058"
-
   sections_afternoononly:
     - time: "12:30 - 1:20"
       location: "MGH 058"
@@ -32,16 +11,6 @@ locations:
     - time: "10:30 - 11:20"
       location: "MGH 058"
 
-  postersession:
-    - time: "11:00 - 12:20"
-      location: "CSE Atrium"
-
-  officehoursjames:
-    - time: "3:30 - 4:30"
-      location: "CSE 632"
-  officehoursjames1128:
-    - time: "2:00 - 3:30"
-      location: "CSE 632"
   officehoursdhruv:
     - time: "1:30 - 2:30"
       location: "CSE 021"
@@ -65,181 +34,25 @@ sections:
     location: "examqa"
     slides: "slides/lecture/cse440-consolidated-17au.pdf"
 
-#    slides: "slides/section/s01-brainstorm.pdf"
-#    slides: "slides/section/s02-ideation.pdf"
-#    slides: "slides/section/s03-ci.pdf"
-#    slides: "slides/section/s04-tasks.pdf"
-#    slides: "slides/section/s05-design.pdf"
-#    slides: "slides/section/s07-paper.pdf"
-#    slides: "slides/section/s08-mockup.pdf"
-#    location: "lectures"
 
 assignments:
-  - date: "2017-10-05"
-    name: "0 - Introduction Slide"
-    duenote: "[due end of day]"
-    link: "assignments/assignment0/"
   - date: "2017-10-05"
     name: "Reading 1: Contextual Inquiry<br>and Design Research"
     duenote: "[due night before section]"
     link: "assignments/readings/#design_research"
-
   - date: "2017-10-20"
     name: "Reading 2: Storyboarding<br>and Video Prototyping"
     duenote: "[due end of day on Saturday Oct 21]"
     link: "assignments/readings/#storyboarding"
-
   - date: "2017-11-03"
     name: "Reading 3: Paper Prototyping<br>and Usability Testing"
     duenote: "[due end of day on Saturday Nov 4]"
     link: "assignments/readings/#paperprototyping"
-
   - date: "2017-11-10"
     name: "Reading 4: Design Patterns"
     duenote: "[due end of day on Saturday Nov 11]"
     link: "assignments/readings/#patterns"
-
   - date: "2017-12-01"
     name: "Reading 5: Research Paper"
     duenote: "[due end of day on Saturday Dec 2]"
     link: "assignments/readings/#research"
-
-
-aways:
-  - date: "2017-09-28"
-    name: Nigini Away
-  - date: "2017-09-29"
-    name: Nigini Away,<br>
-          Kailey in All Sections
-  - date: "2017-10-02"
-    name: Nigini Away
-  - date: "2017-10-03"
-    name: Nigini Away
-  - date: "2017-10-04"
-    name: Nigini Away
-  - date: "2017-10-05"
-    name: Nigini Away
-  - date: "2017-10-06"
-    name: Nigini Away,<br>
-          Kailey in All Sections
-  - date: "2017-10-13"
-    name: Dhruv Away,<br>
-          Jihoon Away Afternoon,<br>
-          Jihoon in Morning Sections,<br>
-          Chris in All Sections,<br>
-          Nigini in All Sections<br>
-  - date: "2017-10-23"
-    name: >
-          James Away<br>
-          <small><a href="http://cra.org/ccc/events/computing-research-addressing-national-priorities-societal-needs-2017/">@ CCC Symposium</a></small>
-  - date: "2017-10-24"
-    name: >
-          James Away<br>
-          <small><a href="http://cra.org/ccc/events/computing-research-addressing-national-priorities-societal-needs-2017/">@ CCC Symposium</a></small>
-  - date: "2017-12-04"
-    name: Nigini Away
-  - date: "2017-12-05"
-    name: Nigini Away
-  - date: "2017-12-08"
-    name: Kailey / Nigini Switch Sections
-
-officehours:
-  - date: "2017-10-03"
-    name: "James Office Hour"
-    location: officehoursjames
-  - date: "2017-10-17"
-    name: "James Office Hour"
-    location: officehoursjames
-  - date: "2017-11-07"
-    name: "James Office Hour"
-    location: officehoursjames
-  - date: "2017-11-14"
-    name: "James Office Hour"
-    location: officehoursjames
-  - date: "2017-11-28"
-    name: "James Office Hour"
-    location: officehoursjames1128
-  - date: "2017-12-05"
-    name: "James Office Hour"
-    location: officehoursjames
-
-  - date: "2017-10-05"
-    name: "Dhruv Office Hour"
-    location: officehoursdhruv
-  - date: "2017-10-12"
-    name: "Dhruv Office Hour"
-    location: officehoursdhruv
-  - date: "2017-10-19"
-    name: "Dhruv Office Hour"
-    location: officehoursdhruv
-  - date: "2017-10-26"
-    name: "Dhruv Office Hour"
-    location: officehoursdhruv
-  - date: "2017-11-09"
-    name: "Dhruv Office Hour"
-    location: officehoursdhruv
-  - date: "2017-11-16"
-    name: "Dhruv Office Hour"
-    location: officehoursdhruv
-  - date: "2017-11-30"
-    name: "Dhruv Office Hour"
-    location: officehoursdhruv
-  - date: "2017-12-04"
-    name: "Dhruv Office Hour"
-    location: officehoursnigini
-
-  - date: "2017-10-04"
-    name: "Kailey Office Hour"
-    location: officehourskailey
-  - date: "2017-10-11"
-    name: "Kailey Office Hour"
-    location: officehourskailey
-  - date: "2017-10-18"
-    name: "Kailey Office Hour"
-    location: officehourskailey
-  - date: "2017-10-25"
-    name: "Kailey Office Hour"
-    location: officehourskailey
-  - date: "2017-11-01"
-    name: "Kailey Office Hour"
-    location: officehourskailey
-  - date: "2017-11-08"
-    name: "Kailey Office Hour"
-    location: officehourskailey
-  - date: "2017-11-15"
-    name: "Kailey Office Hour"
-    location: officehourskailey
-  - date: "2017-11-27"
-    name: "Kailey Office Hour"
-    location: officehoursnigini007
-  - date: "2017-12-06"
-    name: "Kailey Office Hour"
-    location: officehourskailey
-
-  - date: "2017-10-09"
-    name: "Nigini Office Hour"
-    location: officehoursnigini
-  - date: "2017-10-16"
-    name: "Nigini Office Hour"
-    location: officehoursnigini
-  - date: "2017-10-23"
-    name: "Nigini Office Hour"
-    location: officehoursnigini
-  - date: "2017-10-30"
-    name: "Nigini Office Hour"
-    location: officehoursnigini
-  - date: "2017-11-06"
-    name: "Nigini Office Hour"
-    location: officehoursnigini
-  - date: "2017-11-13"
-    name: "Nigini Office Hour"
-    location: officehoursnigini
-  - date: "2017-11-29"
-    name: "Nigini Office Hour"
-    location: officehourskailey
-  - date: "2017-12-07"
-    name: "Nigini Office Hour"
-    location: officehoursdhruv
-  - date: "2017-12-11"
-    name: "Nigini Office Hour"
-    location: officehoursnigini

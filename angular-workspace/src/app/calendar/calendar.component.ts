@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {calendar, calendar as CalendarData} from '../../data/calendardata';
+import { calendar as CalendarData} from '../../data/calendardata';
 
 import * as Moment from 'moment';
 import * as MomentRange from 'moment-range';
@@ -21,8 +21,8 @@ export class CalendarComponent implements OnInit {
 
   datesOfInstructionByWeek() {
     return moment.range(
-      calendar.datesOfInstruction.start,
-      calendar.datesOfInstruction.end
+      this.calendar.datesOfInstruction.start,
+      this.calendar.datesOfInstruction.end
     ).snapTo('weeks').by('weeks');
   }
 
@@ -34,32 +34,72 @@ export class CalendarComponent implements OnInit {
   }
 
   getAssignmentsForDay(currentDay: Date) {
-    return calendar.assignments.filter(function (assignmentCurrent) {
+    return this.calendar.assignments.filter((assignmentCurrent) => {
       return moment(assignmentCurrent.date).isSame(moment(currentDay));
     });
   }
 
+  getAwaysForDay(currentDay: Date) {
+    return this.calendar.aways.filter((awayCurrent) => {
+      return moment(awayCurrent.date).isSame(moment(currentDay));
+    });
+  }
+
   getHolidaysForDay(currentDay: Date) {
-    return calendar.holidays.filter(function (holidayCurrent) {
+    return this.calendar.holidays.filter((holidayCurrent) => {
       return moment(holidayCurrent.date).isSame(moment(currentDay));
     });
   }
 
   getLecturesForDay(currentDay: Date) {
-    return calendar.lectures.filter(function (lectureCurrent) {
+    return this.calendar.lectures.filter((lectureCurrent) => {
       return moment(lectureCurrent.date).isSame(moment(currentDay));
+    }).map((lectureCurrent) => {
+      if('locationName' in lectureCurrent) {
+        lectureCurrent.location = this.calendar.locations[lectureCurrent.locationName];
+      } else {
+        lectureCurrent.location = this.calendar.locations.lecture;
+      }
+
+      return lectureCurrent;
+    });
+  }
+
+  getOfficeHoursForDay(currentDay: Date) {
+    return this.calendar.officeHours.filter((officeHourCurrent) => {
+      return moment(officeHourCurrent.date).isSame(moment(currentDay));
+    }).map((officeHourCurrent) => {
+      if('locationName' in officeHourCurrent) {
+        officeHourCurrent.location = this.calendar.locations[officeHourCurrent.locationName];
+      }
+
+      return officeHourCurrent;
     });
   }
 
   getMajorsForDay(currentDay: Date) {
-    return calendar.majors.filter(function (majorCurrent) {
+    return this.calendar.majors.filter((majorCurrent) => {
       return moment(majorCurrent.date).isSame(moment(currentDay));
+    }).map((majorCurrent) => {
+      if('locationName' in majorCurrent) {
+        majorCurrent.location = this.calendar.locations[majorCurrent.locationName];
+      }
+
+      return majorCurrent;
     });
   }
 
   getSectionsForDay(currentDay: Date) {
-    return calendar.sections.filter(function (sectionCurrent) {
+    return this.calendar.sections.filter((sectionCurrent) => {
       return moment(sectionCurrent.date).isSame(moment(currentDay));
+    }).map((sectionCurrent) => {
+      if('locationName' in sectionCurrent) {
+        sectionCurrent.location = this.calendar.locations[sectionCurrent.locationName];
+      } else {
+        sectionCurrent.location = this.calendar.locations.section;
+      }
+
+      return sectionCurrent;
     });
   }
 
