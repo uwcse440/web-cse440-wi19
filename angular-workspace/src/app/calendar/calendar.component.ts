@@ -56,9 +56,11 @@ export class CalendarComponent implements OnInit {
       return moment(lectureCurrent.date).isSame(moment(currentDay));
     }).map((lectureCurrent) => {
       if('locationName' in lectureCurrent) {
-        lectureCurrent.location = this.calendar.locations[lectureCurrent.locationName];
+        // ! per https://github.com/Microsoft/TypeScript/issues/11498
+        lectureCurrent!.location = this.calendar.locations[lectureCurrent.locationName];
       } else {
-        lectureCurrent.location = this.calendar.locations.lecture;
+        // ! per https://github.com/Microsoft/TypeScript/issues/11498
+        lectureCurrent!.location = this.calendar.locations.lecture;
       }
 
       return lectureCurrent;
@@ -70,7 +72,8 @@ export class CalendarComponent implements OnInit {
       return moment(officeHourCurrent.date).isSame(moment(currentDay));
     }).map((officeHourCurrent) => {
       if('locationName' in officeHourCurrent) {
-        officeHourCurrent.location = this.calendar.locations[officeHourCurrent.locationName];
+        // ! per https://github.com/Microsoft/TypeScript/issues/11498
+        officeHourCurrent!.location = this.calendar.locations[officeHourCurrent.locationName];
       }
 
       return officeHourCurrent;
@@ -94,9 +97,11 @@ export class CalendarComponent implements OnInit {
       return moment(sectionCurrent.date).isSame(moment(currentDay));
     }).map((sectionCurrent) => {
       if('locationName' in sectionCurrent) {
-        sectionCurrent.location = this.calendar.locations[sectionCurrent.locationName];
+        // ! per https://github.com/Microsoft/TypeScript/issues/11498
+        sectionCurrent!.location = this.calendar.locations[sectionCurrent.locationName];
       } else {
-        sectionCurrent.location = this.calendar.locations.section;
+        // ! per https://github.com/Microsoft/TypeScript/issues/11498
+        sectionCurrent!.location = this.calendar.locations.section;
       }
 
       return sectionCurrent;
