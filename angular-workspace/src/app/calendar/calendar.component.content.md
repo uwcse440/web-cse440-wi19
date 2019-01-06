@@ -15,7 +15,7 @@ This page is still being migrated and developed. All content remains subject to 
           -->        
         <div *ngFor="let currentHoliday of getHolidaysForDay(currentDay)">
           <div class="holiday">
-            {{ currentHoliday.name }}
+            <p>{{ currentHoliday.name }}</p>
           </div>
         </div>
         <!-- Lecture 
@@ -81,6 +81,35 @@ This page is still being migrated and developed. All content remains subject to 
             <!-- Name or placeholder 'Section' -->
             <p *ngIf="currentSection.name" [innerHTML]="currentSection.name"></p>
             <p *ngIf="!(currentSection.name)">Section</p>
+          </div>
+        </div>
+        <!--
+          --
+            {% assign currentlocation = currentmajor.location %}
+            <div class="item major">
+              {% if currentmajor.link != nil %}<a href="{{ site.baseurl }}/{{ currentmajor.link }}">{% endif %}
+                {{ currentmajor.name }}<br>
+                {% if currentmajor.link != nil %}</a>{% endif %}
+              <small>
+                {% for currentlocationitem in site.data.calendar.locations[currentlocation] %}
+                    {{ currentlocationitem.time }} |
+                    {{ currentlocationitem.location }}<br>
+                {% endfor %}
+              </small>
+            </div>
+          -->
+        <div *ngFor="let currentMajor of getMajorsForDay(currentDay)">
+          <div class="major">
+            <!-- If the link exists, apply that -->
+            <p *ngIf="currentMajor.link">
+              <a href="{{ currentMajor.link }}">
+                {{ currentMajor.name }}
+              </a>
+            </p>
+            <!-- Otherwise, identical content but without the link -->
+            <p *ngIf="!(currentMajor.link)">
+              {{ currentMajor.name }}
+            </p>            
           </div>
         </div>
         <!-- Assignments

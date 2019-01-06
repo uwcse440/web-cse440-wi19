@@ -51,6 +51,12 @@ export class CalendarComponent implements OnInit {
     });
   }
 
+  getMajorsForDay(currentDay: Date) {
+    return calendar.majors.filter(function (majorCurrent) {
+      return moment(majorCurrent.date).isSame(moment(currentDay));
+    });
+  }
+
   getSectionsForDay(currentDay: Date) {
     return calendar.sections.filter(function (sectionCurrent) {
       return moment(sectionCurrent.date).isSame(moment(currentDay));

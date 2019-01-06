@@ -36,22 +36,7 @@ This page is still being migrated and developed. All content remains subject to 
 
         Section was here
 
-        {% for currentmajor in site.data.calendar.majors %}
-          {% if currentdate == currentmajor.date %}
-            {% assign currentlocation = currentmajor.location %}
-            <div class="item major">
-              {% if currentmajor.link != nil %}<a href="{{ site.baseurl }}/{{ currentmajor.link }}">{% endif %}
-                {{ currentmajor.name }}<br>
-                {% if currentmajor.link != nil %}</a>{% endif %}
-              <small>
-                {% for currentlocationitem in site.data.calendar.locations[currentlocation] %}
-                    {{ currentlocationitem.time }} |
-                    {{ currentlocationitem.location }}<br>
-                {% endfor %}
-              </small>
-            </div>
-          {% endif %}
-        {% endfor %}
+        Major was here
 
         Assignment was here
 

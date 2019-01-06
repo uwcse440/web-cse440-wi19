@@ -17,8 +17,8 @@ This assignment is worth __14%__ of your overall course grade:
 - __4%__ for the milestones 
   - __0.5%__ for [Assignment 3a: Paper Prototype](#id-3a-paper_prototype) 
   - __0.5%__ for [Assignment 3b: Heuristic Evaluation](#id-3b-heuristic-evaluation) 
-  - __1%__ for [Assignment 3c: Usability Testing Check-In](#id-3c-usability-testing) 
-  - __1%__ for [Assignment 3d: Usability Testing Review](#id-3d-usability-testing) 
+  - __1%__ for [Assignment 3c: Usability Testing Check-In](#id-3c-usability-testing-check-in) 
+  - __1%__ for [Assignment 3d: Usability Testing Review](#id-3d-usability-testing-review) 
   - __1%__ for [Assignment 3e: Digital Mockup](#id-3e-digital-mockup)
 	
 The content of [Assignment 3g: Presentation](#id-3g-presentation) is worth __5%__ of your overall course grade.
@@ -37,7 +37,7 @@ This is a group assignment, consisting of five milestones.
 
   <app-assignment-due-text dueText="{{ page.due_project_3b }}"></app-assignment-due-text>
 
-* [Assignment 3c: Usability Testing Check-In](#id-3c-usability-testing-checkin)
+* [Assignment 3c: Usability Testing Check-In](#id-3c-usability-testing-check-in)
 
   <app-assignment-due-text dueText="{{ page.due_project_3c }}"></app-assignment-due-text>
 
@@ -118,7 +118,7 @@ Finally, you will present your design process in a report and presentation.
    This can and should include fixing major issues as soon as they are detected, before additional tests.
    Your tasks and scenarios are likely stable, but revise them if your evaluation reveals a need.
 
-   ([Assignment 3c](#id-3c-usability-testing-checkin)), ([Assignment 3d](#id-3d-usability-testing-review))
+   ([Assignment 3c](#id-3c-usability-testing-check-in)), ([Assignment 3d](#id-3d-usability-testing-review))
 
 4. After refining your paper prototype based on your usability testing, construct a digital mockup of your design.
 
