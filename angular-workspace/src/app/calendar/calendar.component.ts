@@ -33,6 +33,30 @@ export class CalendarComponent implements OnInit {
     ).by('days');
   }
 
+  getAssignmentsForDay(currentDay: Date) {
+    return calendar.assignments.filter(function (assignmentCurrent) {
+      return moment(assignmentCurrent.date).isSame(moment(currentDay));
+    });
+  }
+
+  getHolidaysForDay(currentDay: Date) {
+    return calendar.holidays.filter(function (holidayCurrent) {
+      return moment(holidayCurrent.date).isSame(moment(currentDay));
+    });
+  }
+
+  getLecturesForDay(currentDay: Date) {
+    return calendar.lectures.filter(function (lectureCurrent) {
+      return moment(lectureCurrent.date).isSame(moment(currentDay));
+    });
+  }
+
+  getSectionsForDay(currentDay: Date) {
+    return calendar.sections.filter(function (sectionCurrent) {
+      return moment(sectionCurrent.date).isSame(moment(currentDay));
+    });
+  }
+
   moment(currentDay: Date) {
     return moment(currentDay);
   }
