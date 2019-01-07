@@ -1,0 +1,107 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
+.calendar {
+  .week {
+    @include make-row;
+
+    @include media-breakpoint-down(sm) {
+      border: solid;
+      border-color: #d3d3d3;
+      border-width: 1rem 0 0 0;
+    }
+  }
+
+  .day {
+    @include make-col-ready();
+
+    @include media-breakpoint-up(md) {
+      @include make-col(2.4);
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+
+    padding-top: .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    padding-bottom: 1rem;
+
+    @include media-breakpoint-up(md) {
+      border: solid;
+      border-width: 1px 1px 1px 1px;
+      border-color: #d3d3d3;
+    }
+  }
+  @include media-breakpoint-up(md) {
+    .day:first-child {
+      border-left-width: 0;
+    }
+    .day:last-child {
+      border-right-width: 0;
+    }
+  }
+
+  .assignment,
+  .away,
+  .holiday,
+  .lecture,
+  .major,
+  .officeHours,
+  .section
+  {
+    padding: 4px;
+
+    p {
+      margin-bottom: 0;
+    }
+
+    .location {
+      font-size: $font-size-sm;
+    }
+  }
+
+  .assignment,
+  .officeHours,
+  .away
+  {
+    font-size: $font-size-sm;
+  }
+
+  .assignment
+  {
+    background-color: lightgreen;
+  }
+
+  .away
+  {
+    background-color: lightpink;
+  }
+
+  .holiday
+  {
+    background-color: orange;
+  }
+
+  .lecture
+  {
+    background-color: lightsalmon;
+  }
+
+  .major
+  {
+    background-color: lavender;
+  }
+
+  .officeHours
+  {
+      background-color: lightgoldenrodyellow;
+  }
+
+  .section
+  {
+    background-color: lightblue;
+  }
+}

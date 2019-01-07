@@ -16,11 +16,11 @@ This assignment is worth __21%__ of your overall course grade:
 - __6%__ for the milestones 
   - __0.5%__ for [Assignment 2a: Project Ideation](#id-2a-project-ideation) 
   - __0.5%__ for [Assignment 2b: Design Research Plan](#id-2b-design-research-plan)
-  - __1%__ for [Assignment 2c: Design Research Check-In](#id-2c-design-research-checkin)
+  - __1%__ for [Assignment 2c: Design Research Check-In](#id-2c-design-research-check-in)
   - __1%__ for [Assignment 2d: Design Research Review](#id-2d-design-research-review)
   - __1%__ for [Assignment 2e: Task Review](#id-2e-task-review)
-  - __1%__ for [Assignment 2f: Design Check-In ("3x4")](#id-2f-design-checkin)
-  - __1%__ for [Assignment 2g: Design Review ("1x2")](#id-2g-design-review)
+  - __1%__ for [Assignment 2f: Design Check-In ("3x4")](#id-2f-design-check-in-3x4)
+  - __1%__ for [Assignment 2g: Design Review ("1x2")](#id-2g-design-review-1x2)
 
 The content of [Assignment 2i: Presentation](#id-2i-presentation) is worth __5%__ of your overall course grade.
 
@@ -38,7 +38,7 @@ This is a group assignment, consisting of nine milestones.
 
   <app-assignment-due-text dueText="{{ page.due_project_2b }}"></app-assignment-due-text>
   
-* [Assignment 2c: Design Research Check-In](#id-2c-design-research-checkin)
+* [Assignment 2c: Design Research Check-In](#id-2c-design-research-check-in)
 
   <app-assignment-due-text dueText="{{ page.due_project_2c }}"></app-assignment-due-text>
 
@@ -50,11 +50,11 @@ This is a group assignment, consisting of nine milestones.
 
   <app-assignment-due-text dueText="{{ page.due_project_2e }}"></app-assignment-due-text>
   
-* [Assignment 2f: Design Check-In ("3x4")](#id-2f-design-checkin)
+* [Assignment 2f: Design Check-In ("3x4")](#id-2f-design-check-in-3x4)
 
   <app-assignment-due-text dueText="{{ page.due_project_2f }}"></app-assignment-due-text>
 
-* [Assignment 2g: Design Review ("1x2")](#id-2g-design-review)
+* [Assignment 2g: Design Review ("1x2")](#id-2g-design-review-1x2)
 
   <app-assignment-due-text dueText="{{ page.due_project_2g }}"></app-assignment-due-text>
 
@@ -88,7 +88,7 @@ More specifically, you will do the following:
     
 2. Conduct design research (e.g., contextual inquiry, interviews, observations) to learn from at least __three__ people who might use your design.
 
-   ([Assignment 2b](#id-2b-design-research-plan)), ([Assignment 2c](#id-2c-design-research-checkin)), ([Assignment 2d](#id-2d-design-research-review))
+   ([Assignment 2b](#id-2b-design-research-plan)), ([Assignment 2c](#id-2c-design-research-check-in)), ([Assignment 2d](#id-2d-design-research-review))
 
 3. Develop __six__ tasks that might be performed with your design. 
 
@@ -112,7 +112,7 @@ More specifically, you will do the following:
    The purpose of these sketches is to explore the design space before you lock yourself into a single design.
    They must demonstrate significant consideration of substantially different approaches to your problem.
 
-   ([Assignment 2f](#id-2f-design-checkin)) 
+   ([Assignment 2f](#id-2f-design-check-in-3x4)) 
 
 5. From your sketches, select __one__ design to pursue for the remainder of the quarter and __two__ tasks that emphasize
    critical functionality of your design. These tasks should be non-trivial, critical to solving your problem, and should 
@@ -121,7 +121,7 @@ More specifically, you will do the following:
 
    Storyboard your chosen design for your chosen tasks, illustrating how the tasks are accomplished in your design.
 
-   ([Assignment 2g](#id-2g-design-review))
+   ([Assignment 2g](#id-2g-design-review-1x2))
     
 6. Summarize your design process in a report and presentation.
 
