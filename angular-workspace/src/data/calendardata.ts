@@ -1,4 +1,39 @@
 import * as moment from 'moment';
+import { Moment } from "moment";
+
+interface Location {
+  time: string;
+  location: string;
+}
+
+interface Lecture {
+  date: Date|Moment;
+  name?: string;
+  location?: Location[];
+  locationName?: string;
+}
+
+interface Major {
+  date: Date|Moment;
+  name?: string;
+  link?: string;
+  location?: Location[];
+  locationName?: string;
+}
+
+interface OfficeHour {
+  date: Date|Moment;
+  name?: string;
+  location?: Location[];
+  locationName?: string;
+}
+
+interface Section {
+  date: Date|Moment;
+  name?: string;
+  location?: Location[];
+  locationName?: string;
+}
 
 class CalendarData {
   datesOfInstruction = {
@@ -40,7 +75,7 @@ class CalendarData {
       }
     ],
 
-    officeHoursJames: [
+    officeHourJames: [
       {
         time: "3:30 - 4:30",
         location: "CSE 632"
@@ -59,7 +94,7 @@ class CalendarData {
     }
   ];
 
-  lectures = [
+  lectures: Lecture[] = [
     {
       date: moment('2019-01-08', 'YYYY-MM-DD'),
       name: 'Introduction,<br>Project Overview',
@@ -193,7 +228,7 @@ class CalendarData {
   //   panopto: 'https://uw.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=13d54897-953d-4b90-a841-7e1e0c14145f'
   ];
 
-  sections = [
+  sections: Section[] = [
     {
       date: moment('2019-01-11', 'YYYY-MM-DD'),
     },
@@ -209,18 +244,12 @@ class CalendarData {
     {
       date: moment('2019-02-08', 'YYYY-MM-DD'),
     },
-    // {
-    //   date: moment('2019-02-15', 'YYYY-MM-DD'),
-    // },
     {
       date: moment('2019-02-22', 'YYYY-MM-DD'),
     },
     {
       date: moment('2019-03-01', 'YYYY-MM-DD'),
     },
-    // {
-    //   date: moment('2019-03-08', 'YYYY-MM-DD'),
-    // },
     {
       date: moment('2019-03-14', 'YYYY-MM-DD'),
     },
@@ -229,7 +258,7 @@ class CalendarData {
     }
   ];
 
-  majors = [
+  majors: Major[] = [
     {
       date: moment('2019-02-14', 'YYYY-MM-DD'),
       name: 'Presentations',
@@ -436,41 +465,41 @@ class CalendarData {
     }
   ];
 
-  officeHours = [
+  officeHours: OfficeHour[] = [
     {
       date: moment('2019-01-15', 'YYYY-MM-DD'),
       name: 'Office Hours - James',
-      locationName: 'officeHoursJames'
+      locationName: 'officeHourJames'
     },
     {
       date: moment('2019-01-22', 'YYYY-MM-DD'),
-      name: 'Office Hours - James',
-      locationName: 'officeHoursJames'
+      name: 'Office Hour - James',
+      locationName: 'officeHourJames'
     },
     {
       date: moment('2019-01-29', 'YYYY-MM-DD'),
-      name: 'Office Hours - James',
-      locationName: 'officeHoursJames'
+      name: 'Office Hour - James',
+      locationName: 'officeHourJames'
     },
     {
       date: moment('2019-02-05', 'YYYY-MM-DD'),
-      name: 'Office Hours - James',
-      locationName: 'officeHoursJames'
+      name: 'Office Hour - James',
+      locationName: 'officeHourJames'
     },
     {
       date: moment('2019-02-12', 'YYYY-MM-DD'),
-      name: 'Office Hours - James',
-      locationName: 'officeHoursJames'
+      name: 'Office Hour - James',
+      locationName: 'officeHourJames'
     },
     {
       date: moment('2019-02-19', 'YYYY-MM-DD'),
-      name: 'Office Hours - James',
-      locationName: 'officeHoursJames'
+      name: 'Office Hour - James',
+      locationName: 'officeHourJames'
     },
     {
       date: moment('2019-03-05', 'YYYY-MM-DD'),
-      name: 'Office Hours - James',
-      locationName: 'officeHoursJames'
+      name: 'Office Hour - James',
+      locationName: 'officeHourJames'
     }
   ];
 
