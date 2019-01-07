@@ -21,7 +21,26 @@ class SiteData {
 
     projects: {
       autumn2017: [
-
+        {
+          name: "BackTrack",
+          link: "https://courses.cs.washington.edu/courses/cse440/17au/projects/backtrack/",
+          suffix: "backtrack"
+        },
+        {
+          name: "Hermes",
+          link: "https://courses.cs.washington.edu/courses/cse440/17au/projects/hermes/",
+          suffix: "hermes"
+        },
+        {
+          name: "Pilltender",
+          link: "https://courses.cs.washington.edu/courses/cse440/17au/projects/pilltender/",
+          suffix: "pilltender"
+        },
+        {
+          name: "SimPark",
+          link: "https://courses.cs.washington.edu/courses/cse440/17au/projects/simpark/",
+          suffix: "simpark"
+        }
       ],
 
       winter2017: [
