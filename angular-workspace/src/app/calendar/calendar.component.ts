@@ -85,7 +85,8 @@ export class CalendarComponent implements OnInit {
       return moment(majorCurrent.date).isSame(moment(currentDay));
     }).map((majorCurrent) => {
       if('locationName' in majorCurrent) {
-        majorCurrent.location = this.calendar.locations[majorCurrent.locationName];
+        // ! per https://github.com/Microsoft/TypeScript/issues/11498
+        majorCurrent!.location = this.calendar.locations[majorCurrent.locationName];
       }
 
       return majorCurrent;
