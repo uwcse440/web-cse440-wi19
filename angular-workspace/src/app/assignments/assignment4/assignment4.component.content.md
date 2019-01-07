@@ -13,16 +13,15 @@ a __video prototype__, a __poster__, and a __pitch__.
 
 This assignment is worth __15%__ of your overall course grade:
 
-- __4%__ for [Assignment 4e: Final Video Prototype](#id-4e-final-poster-final-video-final-website)
-- __4%__ for [Assignment 4e: Final Website](#id-4e-final-poster-final-video-final-website)
-- __4%__ for [Assignment 4e: Final Poster](#id-4e-final-poster-final-video-final-website)
+- __4%__ for [Assignment 4d: Final Video Prototype](#id-4e-final-poster-final-video-final-website)
+- __4%__ for [Assignment 4d: Final Website](#id-4e-final-poster-final-video-final-website)
+- __4%__ for [Assignment 4d: Final Poster](#id-4e-final-poster-final-video-final-website)
 - __3%__ for the milestones 
   - __1%__ for [Assignment 4a: Initial Website](#id-4a-initial-website)
   - __1%__ for [Assignment 4b: Initial Video Prototype](#id-4b-initial-video-prototype)
-  - __1%__ for [Assignment 4c: Poster Critique and Pitch](#id-4c-poster-pitch) 
+  - __1%__ for [Assignment 4c: Initial Poster and Pitch](#id-4c-initial-poster-and-pitch) 
 
-[Assignment 4d: Communication Critique](#id-4d-communication-critique) and 
-[Assignment 4g: Poster Session](#id-4g-poster-session) are intentionally not graded.
+[Assignment 4f: Poster Session](#id-4f-poster-session) is intentionally not graded.
 
 ## Milestones
 
@@ -36,25 +35,21 @@ This is a group assignment, consisting of six milestones.
 
   <app-assignment-due-text dueText="{{ page.due_project_4b }}"></app-assignment-due-text>
 
-* [Assignment 4c: Poster Critique and Pitch](#id-4c-poster-pitch)
+* [Assignment 4c: Poster Critique and Pitch](#id-4c-initial-poster-and-pitch)
 
   <app-assignment-due-text dueText="{{ page.due_project_4c }}"></app-assignment-due-text>
 
-* [Assignment 4d: Communication Critique](#id-4d-communication-critique)
+* [Assignment 4d: Final Poster, Final Video, Final Website](#id-4d-final-poster-final-video-final-website)
 
   <app-assignment-due-text dueText="{{ page.due_project_4d }}"></app-assignment-due-text>
 
-* [Assignment 4e: Final Poster, Final Video, Final Website](#id-4e-final-poster-final-video-final-website)
+* [Assignment 4e: Team Peer Feedback](#id-4e-team-peer-feedback)
 
   <app-assignment-due-text dueText="{{ page.due_project_4e }}"></app-assignment-due-text>
 
-* [Assignment 4f: Team Peer Feedback](#id-4f-team-peer-feedback)
+* [Assignment 4f: Poster Session](#id-4f-poster-session)
 
   <app-assignment-due-text dueText="{{ page.due_project_4f }}"></app-assignment-due-text>
-
-* [Assignment 4g: Poster Session](#id-4g-poster-session)
-
-  <app-assignment-due-text dueText="{{ page.due_project_4g }}"></app-assignment-due-text>
 
 ## Project Description
 
@@ -116,8 +111,9 @@ It is also link via a thumbnail from the projects page:
 [Projects Page](/projects.html)
 
 You can build your website however you like, but everything needed for your site must be in your directory.
-Do not attempt to integrate with the Jekyll functionality used for this course website.
+Do not attempt to integrate with the functionality used for this course website.
 Simply build your website and submit the set of static files to be served from your directory. 
+Because you must provide a set of static files for your website, you may not use external site builders (e.g., Wix).
 
 You will later add your video to the website. You may want to plan ahead for that additional content.
 
@@ -198,7 +194,7 @@ This milestone will be graded on a scale of __6 points__:
 Your video prototype should be complete and will be evaluated as such.
 But later critique and refinement will help further improve it before the final poster session.
 
-### 4c: Poster Critique and Pitch
+### 4c: Initial Poster and Pitch
 
 <app-assignment-due-text dueText="{{ page.due_project_4c }}"></app-assignment-due-text>
 
@@ -256,22 +252,9 @@ This milestone will be graded on a scale of __6 points__:
 1.  __Initial Poster__: (3 points)
 2.  __Initial Pitch__: (3 points)
 
-### 4d: Communication Critique
+### 4d: Final Poster, Final Video, Final Website
 
 <app-assignment-due-text dueText="{{ page.due_project_4d }}"></app-assignment-due-text>
-
-This is a flexible critique day. 
-The purpose of this day is to help you refine whichever of your remaining deliverables you feel needs feedback. 
-Be prepared to present your video, website, and/or poster. 
-This is the last opportunity for you to get in-class critical feedback, so use it wisely.
-
-#### Submission
-
-Bring at least one of your artifacts to class (e.g., be prepared to show them on a laptop).
-
-### 4e: Final Poster, Final Video, Final Website
-
-<app-assignment-due-text dueText="{{ page.due_project_4e }}"></app-assignment-due-text>
 
 Course staff need your finalized poster as soon as possible, to organize printing and preparing for the poster session.
 
@@ -281,7 +264,7 @@ Finalize your video prototype and website so we can finalize grading.
 
 Submit your final poster as soon as possible here:
 
-<app-assignment-submission-link linkSubmission="{{ page.link_project_4e_poster }}"></app-assignment-submission-link>
+<app-assignment-submission-link linkSubmission="{{ page.link_project_4d_poster }}"></app-assignment-submission-link>
 
 Submit a pull request containing your website. We will merge as quickly as possible. 
 You can submit multiple requests if needed to fix issues or improve your website.
@@ -294,7 +277,7 @@ Depending on how you embed your video in your website, it may or may not be part
 For example, embedding a YouTube or Vimeo player does not give us your video.
 We therefore explicitly ask that final videos also be submitted via Canvas here: 
 
-<app-assignment-submission-link linkSubmission="{{ page.link_project_4e_video }}"></app-assignment-submission-link>
+<app-assignment-submission-link linkSubmission="{{ page.link_project_4d_video }}"></app-assignment-submission-link>
 
 #### Grading
 
@@ -333,15 +316,15 @@ Your final video, final website, and final poster will each be graded on a scale
 - __Presentation__: (5 points)
   - Looks professional and is something you would consider including in a design portfolio
 
-### 4f: Team Peer Feedback
+### 4e: Team Peer Feedback
 
-<app-assignment-due-text dueText="{{ page.due_project_4f }}"></app-assignment-due-text>
+<app-assignment-due-text dueText="{{ page.due_project_4e }}"></app-assignment-due-text>
 
 Submit peer feedback using the form distributed to the class by email.
 
-### 4g: Poster Session
+### 4f: Poster Session
 
-<app-assignment-due-text dueText="{{ page.due_project_4g }}"></app-assignment-due-text>
+<app-assignment-due-text dueText="{{ page.due_project_4f }}"></app-assignment-due-text>
 
 Come to the poster session to show off your work and engage with your classmates.
 Present your pitch to a team of judges.
