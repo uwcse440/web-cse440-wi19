@@ -6,7 +6,6 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./generated-link.component.scss']
 })
 export class GeneratedLinkComponent implements OnInit {
-  @Input() linkText: string;
   @Input() linkHREF: string;
 
   constructor() {
@@ -26,6 +25,13 @@ export class GeneratedLinkComponent implements OnInit {
     return (
       !this.isExternal()
       && !this.isPageAnchor()
+    );
+  }
+
+  isInternalWithAnchor(): boolean {
+    return (
+      this.isInternal()
+      && (this.linkHREF.split('#').length > 1)
     );
   }
 

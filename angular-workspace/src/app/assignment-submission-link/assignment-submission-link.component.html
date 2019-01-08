@@ -1,5 +1,5 @@
 <ng-container *ngIf="isValid(); else invalid">
-  <p><app-generated-link linkHREF="{{ linkSubmission }}" linkText="{{ linkSubmission }}"></app-generated-link></p>
+  <p><app-generated-link linkHREF="{{ linkSubmission }}">{{ linkSubmission }}</app-generated-link></p>
 </ng-container>
 <ng-template #invalid>
   <p class="text-warning">Link to be added</p>

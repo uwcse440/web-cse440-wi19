@@ -64,12 +64,6 @@ This page is still being migrated and developed. All content remains subject to 
               {% if currentsection.slides != nil %}
                 </a>
               {% endif %}
-              <small>
-                {% for currentlocationitem in site.data.calendar.locations[currentlocation] %}
-                    {{ currentlocationitem.time }} |
-                    {{ currentlocationitem.location }}<br>
-                {% endfor %}
-              </small>
             </div>
           -->
         <div *ngFor="let currentSection of getSectionsForDay(currentDay)">
@@ -104,9 +98,7 @@ This page is still being migrated and developed. All content remains subject to 
           <div class="major">
             <!-- If the link exists, apply that -->
             <p *ngIf="currentMajor.link">
-              <a href="{{ currentMajor.link }}">
-                {{ currentMajor.name }}
-              </a>
+              <app-generated-link linkHREF="{{ currentMajor.link }}">{{ currentMajor.name }}</app-generated-link>
             </p>
             <!-- Otherwise, identical content but without the link -->
             <p *ngIf="!(currentMajor.link)">
@@ -136,12 +128,12 @@ This page is still being migrated and developed. All content remains subject to 
           <div class="assignment">
             <!-- If the link exists, apply that -->
             <p *ngIf="currentAssignment.link">
-              <a href="{{ currentAssignment.link }}">
+              <app-generated-link linkHREF="{{ currentAssignment.link }}">
                 {{ currentAssignment.name }}
                 <ng-container *ngIf="currentAssignment.dueNote">
                   <br>{{ currentAssignment.dueNote }}
                 </ng-container>
-              </a>
+              </app-generated-link>
             </p>
             <!-- Otherwise, identical content but without the link -->
             <p *ngIf="!(currentAssignment.link)">
