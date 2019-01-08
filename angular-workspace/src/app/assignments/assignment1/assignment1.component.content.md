@@ -33,23 +33,43 @@ This is an individual assignment, consisting of three milestones.
 
 ## Project Description
 
-<div class="alert alert-danger">
-The theme for projects in this course is __tracking beyond the self__, an extension of __personal informatics__:
+The theme for projects in this course is __self-tracking and everyday interaction with personal intelligences__.
 
-> Personal informatics systems are systems that help people collect personally relevant information for the purpose of 
-> self-reflection and gaining self-knowledge.
->
-> [Li _et al._, 2010](/readings/PersonalInformatics-Li2010.pdf).
+People have long sought to better understand themselves, but continuing technology advances enable new approaches.
+Students will examine problems people encounter in gathering and gaining value from personal data,
+then explore how a combination of design and machine intelligence can 
+help go beyond simple data fetishes to help people in using personal data as part of reaching their goals.
 
-Self-tracking and personal informatics are closely related to the [Quantified Self](http://quantifiedself.com/) movement, which emphasizes:
+Understanding and designing for self-tracking is also known as personal informatics:
 
-> Self-knowledge through numbers.
->
-> [Gary Wolf, 2009](http://archive.wired.com/medtech/health/magazine/17-07/lbnp_knowthyself)
+<html>
+  <blockquote class="blockquote">
+    <p>
+      Personal informatics systems are systems that help people collect 
+      personally relevant information for the purpose of self-reflection and gaining self-knowledge.
+    </p>
+    <footer class="blockquote-footer">
+      [Li et al., 2010](readings/PersonalInformatics-Li2010.pdf).
+    </footer>
+  </blockquote>
+</html>
 
-As a focus for Autumn 2017, we will ask students to explore __tracking beyond the self__.
+Self-tracking and personal informatics are related to the [Quantified Self](http://quantifiedself.com/) movement, which describes itself as:
+
+<html>
+  <blockquote class="blockquote">
+    <p>
+      Self-knowledge through numbers.
+    </p>
+    <footer class="blockquote-footer">
+      [Gary Wolf, 2009](http://archive.wired.com/medtech/health/magazine/17-07/lbnp_knowthyself)
+    </footer>
+  </blockquote>
+</html>
+
 Instead of limiting self-tracking to dashboards for an isolated self-analyst,
-we will ask students to consider the many different ways people might gather and interact around personal data.
+we will ask students to consider the many different ways people might gather and interact with personal data,
+together with how machine intelligence might add meaningful value to these activities.
 
 Tracking can therefore take many mobile forms:
 
@@ -66,15 +86,16 @@ Tracking can include many social contexts:
 - people seeking help from peers (e.g., social sharing, support networks)
 - people seeking help from experts (e.g., health providers)
 
-And tracking can explore new forms of interaction:
+Tracking can explore new forms of interaction:
 
 - conversational interfaces
 - tangible interfaces
-- ubiquitous computing interfaces (e.g., enabled by the Internet of Things) 
+- ubiquitous computing interfaces (e.g., enabled by the Internet of Things)
 
 Any problem where people gather or seek value in personal data
 introduces opportunities and challenges in designing for effective interaction around that data.
-</div>
+It can also present opportunities and challenges in 
+how integrated machine intelligence can provide meaningful value to that individual.
 
 ## Background Material
 
@@ -127,7 +148,6 @@ You should identify and consider goals and activities that are important to peop
  - managing time effectively
  - reducing environmental impact
  
-<div class="alert alert-danger"> 
 Activities within personal informatics can include:
 
  - planning to track
@@ -136,7 +156,6 @@ Activities within personal informatics can include:
  - identifying activity patterns 
  - sharing accomplishments with friends and family
  - deciding to abandon tracking
-</div>
 
 Do not start with a focus on concrete one-time tasks (e.g., logging into your bank account). 
 Instead identify problems in long-lived activities that span many different social or technological contexts. 

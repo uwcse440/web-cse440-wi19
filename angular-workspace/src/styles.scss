@@ -12,3 +12,16 @@ div.app-main {
   margin-bottom: 20px;
   padding-top: 20px;
 }
+
+.blockquote {
+  // https://www.webnots.com/how-to-create-block-quotes-with-bootstrap-css/
+
+  font-size: $font-size-base;
+
+  border: 1px solid #b3b3b3;
+  border-left: 10px solid #b3b3b3;
+  border-radius: 0px;
+  background: #fafafa;
+  margin: 10px;
+  padding: 10px 20px;
+}
