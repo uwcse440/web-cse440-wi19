@@ -13,12 +13,15 @@ import { PATHS_DATA } from "./markdown.paths";
 let markdownIt = MarkdownIt("commonmark")
   .use(MarkdownItAnchor, {
     slugify: function (input: string) {
-      // Default slug was encoding colons that are common in our titles
+      // Default slug was encoding colons that are common in our titles, encode hyphen for any special characters
       let slug = input;
       slug = slug.trim();
       slug = slug.toLowerCase();
       slug = slug.replace(/[^a-z|0-9]/g, '-');
       slug = slug.replace(/\-+/g, '-');
+
+      // Don't end with trailing hyphens
+      slug = slug.replace(/[-+]$/, '');
 
       // ID cannot start with a number
       slug = slug.replace(/^([0-9])/, 'id-$1')
@@ -38,7 +41,7 @@ function renderMarkdown(markdown: string) {
     tokenLinkText = tokenLinkText.replace(/\"/g, '&quot;');
 
     // Replace it with an Angular component that will render the link according to its properties
-    let generated = `<html><app-generated-link linkHREF="${tokenLinkHREF}" linkText="${tokenLinkText}"></app-generated-link></html>`;
+    let generated = `<html><app-generated-link linkHREF="${tokenLinkHREF}">${tokenLinkText}</app-generated-link></html>`;
 
     return generated;
   });
