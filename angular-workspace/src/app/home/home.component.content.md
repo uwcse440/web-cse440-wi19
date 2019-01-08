@@ -74,39 +74,53 @@ Check the calendar for non-standard times, locations, or staffing.
 
 __Office Hours__:
 
-<div class="alert alert-danger">
-
-- `James, Tuesdays 3:30 to 4:30, CSE 632`
+- James, Tuesdays 3:30 to 4:30, CSE 632
 - `Annie, TBD`
 - `Manaswi, TBD`
 
-</div>
-
-Scheduled hours are held most weeks, but check the calendar. Other meetings are by appointment.
+Scheduled office hours require that you email beforehand (i.e., at least one hour beforehand).
+If nobody has emailed regarding the office hour, staff may not be present.
+Hours are scheduled most weeks, but check the calendar. Other meetings are by appointment.
 
 ## Project Theme
 
-<div class="alert alert-danger">
-People have long sought to better understand themselves, but technology advances enable new approaches.
+As a focus for Winter 2019, we will ask students to explore __self-tracking and everyday interaction with personal intelligences__.
+
+People have long sought to better understand themselves, but continuing technology advances enable new approaches.
 Students will examine problems people encounter in gathering and gaining value from personal data,
-then explore how new technology can go beyond simple data fetishes to help people in using personal data as part of reaching their goals.
+then explore how a combination of design and machine intelligence can 
+help go beyond simple data fetishes to help people in using personal data as part of reaching their goals.
 
 Understanding and designing for self-tracking is also known as personal informatics:
 
-> Personal informatics systems are systems that help people collect personally relevant information for the purpose of
-> self-reflection and gaining self-knowledge.
->
-> [Li _et al._, 2010](readings/PersonalInformatics-Li2010.pdf).
+<html>
+  <blockquote class="blockquote">
+    <p>
+      Personal informatics systems are systems that help people collect 
+      personally relevant information for the purpose of self-reflection and gaining self-knowledge.
+    </p>
+    <footer class="blockquote-footer">
+      [Li et al., 2010](readings/PersonalInformatics-Li2010.pdf).
+    </footer>
+  </blockquote>
+</html>
 
 Self-tracking and personal informatics are related to the [Quantified Self](http://quantifiedself.com/) movement, which describes itself as:
 
-> Self-knowledge through numbers.
->
-> [Gary Wolf, 2009](http://archive.wired.com/medtech/health/magazine/17-07/lbnp_knowthyself)
+<html>
+  <blockquote class="blockquote">
+    <p>
+      Self-knowledge through numbers.
+    </p>
+    <footer class="blockquote-footer">
+      [Gary Wolf, 2009](http://archive.wired.com/medtech/health/magazine/17-07/lbnp_knowthyself)
+    </footer>
+  </blockquote>
+</html>
 
-As a focus for Autumn 2017, we will ask students to explore __tracking beyond the self__.
 Instead of limiting self-tracking to dashboards for an isolated self-analyst,
-we will ask students to consider the many different ways people might gather and interact around personal data.
+we will ask students to consider the many different ways people might gather and interact with personal data,
+together with how machine intelligence might add meaningful value to these activities.
 
 Tracking can therefore take many mobile forms:
 
@@ -123,7 +137,7 @@ Tracking can include many social contexts:
 - people seeking help from peers (e.g., social sharing, support networks)
 - people seeking help from experts (e.g., health providers)
 
-And tracking can explore new forms of interaction:
+Tracking can explore new forms of interaction:
 
 - conversational interfaces
 - tangible interfaces
@@ -131,7 +145,8 @@ And tracking can explore new forms of interaction:
 
 Any problem where people gather or seek value in personal data
 introduces opportunities and challenges in designing for effective interaction around that data.
-</div>
+It can also present opportunities and challenges in 
+how integrated machine intelligence can provide meaningful value to that individual.
 
 ## Project Structure
 
