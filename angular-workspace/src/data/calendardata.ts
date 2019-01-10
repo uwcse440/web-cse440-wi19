@@ -412,7 +412,15 @@ class CalendarData {
       name: '4e - Team Peer Feedback',
       dueNote: '[due end of day]',
       link: '/assignments/assignment4#id-4e-team-peer-feedback'
-    }
+    },
+
+    // Readings
+    {
+      date: moment('2019-01-17', 'YYYY-MM-DD'),
+      name: 'Reading 1: Contextual Inquiry<br>and Design Research',
+      dueNote: '[due night before section]',
+      link: '/assignments/readings/#reading-1-contextual-inquiry-and-design-research'
+    },
   ];
 
   officeHours: OfficeHour[] = [
