@@ -129,7 +129,7 @@ This page is still being migrated and developed. All content remains subject to 
             <!-- If the link exists, apply that -->
             <p *ngIf="currentAssignment.link">
               <app-generated-link linkHREF="{{ currentAssignment.link }}">
-                {{ currentAssignment.name }}
+                <span [innerHTML]="currentAssignment.name"></span>
                 <ng-container *ngIf="currentAssignment.dueNote">
                   <br>{{ currentAssignment.dueNote }}
                 </ng-container>
@@ -137,7 +137,7 @@ This page is still being migrated and developed. All content remains subject to 
             </p>
             <!-- Otherwise, identical content but without the link -->
             <p *ngIf="!(currentAssignment.link)">
-              {{ currentAssignment.name }}
+              <span [innerHTML]="currentAssignment.name"></span>
               <ng-container *ngIf="currentAssignment.dueNote">
                 <br>{{ currentAssignment.dueNote }}
               </ng-container>
