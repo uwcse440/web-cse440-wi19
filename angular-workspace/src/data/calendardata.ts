@@ -11,6 +11,7 @@ interface Lecture {
   name?: string;
   location?: Location[];
   locationName?: string;
+  slides?: string;
 }
 
 interface Major {
@@ -112,6 +113,7 @@ class CalendarData {
     {
       date: moment('2019-01-08', 'YYYY-MM-DD'),
       name: 'Introduction,<br>Project Overview',
+      slides: 'https://canvas.uw.edu/files/53194777/download?download_frd=1'
     },
     {
       date: moment('2019-01-10', 'YYYY-MM-DD'),
@@ -119,6 +121,7 @@ class CalendarData {
       // Theoretical basis for expand/contract in design, should go early
       // Includes IDEO video, which works well early
       // Allows explaining the assignment milestones if needed
+      slides: 'https://canvas.uw.edu/files/53233436/download?download_frd=1'
     },
     {
       date: moment('2019-01-15', 'YYYY-MM-DD'),
