@@ -14,6 +14,10 @@ export class GeneratedLinkComponent implements OnInit {
   ngOnInit() {
   }
 
+  isAnchor(): boolean {
+    return (this.linkHREF.startsWith('#'));
+  }
+
   isExternal(): boolean {
     return (
       this.linkHREF.startsWith('http:')
@@ -21,21 +25,19 @@ export class GeneratedLinkComponent implements OnInit {
     );
   }
 
-  isInternal(): boolean {
+  isFile(): boolean {
     return (
-      !this.isExternal()
-      && !this.isPageAnchor()
+      this.linkHREF.toLowerCase().endsWith('.pdf')
     );
   }
 
-  isInternalWithAnchor(): boolean {
-    return (
-      this.isInternal()
-      && (this.linkHREF.split('#').length > 1)
-    );
-  }
+  isPageWithAnchor(): boolean {
+    let components = this.linkHREF.split('#');
 
-  isPageAnchor(): boolean {
-    return (this.linkHREF.startsWith('#'));
+    return (
+      components.length == 2
+      && components[0].length > 0
+      && components[1].length > 0
+    );
   }
 }
