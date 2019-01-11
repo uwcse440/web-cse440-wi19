@@ -80,6 +80,20 @@ class CalendarData {
         time: "3:30 - 4:30",
         location: "CSE 632"
       }
+    ],
+
+    officeHourAnnie: [
+      {
+        time: "1:15 to 2:15",
+        location: "CSE2 152"
+      }
+    ],
+
+    officeHourManaswi: [
+      {
+        time: "10:30 - 11:30",
+        location: "CSE2 153"
+      }
     ]
   };
 
@@ -424,6 +438,7 @@ class CalendarData {
   ];
 
   officeHours: OfficeHour[] = [
+    // James
     {
       date: moment('2019-01-15', 'YYYY-MM-DD'),
       name: 'Office Hours - James',
@@ -458,7 +473,91 @@ class CalendarData {
       date: moment('2019-03-05', 'YYYY-MM-DD'),
       name: 'Office Hour - James',
       locationName: 'officeHourJames'
-    }
+    },
+
+    // Annie
+    {
+      date: moment('2019-01-24', 'YYYY-MM-DD'),
+      name: 'Office Hour - Annie',
+      locationName: 'officeHourAnnie'
+    },
+    {
+      date: moment('2019-01-31', 'YYYY-MM-DD'),
+      name: 'Office Hour - Annie',
+      locationName: 'officeHourAnnie'
+    },
+    {
+      date: moment('2019-02-07', 'YYYY-MM-DD'),
+      name: 'Office Hour - Annie',
+      locationName: 'officeHourAnnie'
+    },
+    {
+      date: moment('2019-02-14', 'YYYY-MM-DD'),
+      name: 'Office Hour - Annie',
+      locationName: 'officeHourAnnie'
+    },
+    {
+      date: moment('2019-02-21', 'YYYY-MM-DD'),
+      name: 'Office Hour - Annie',
+      locationName: 'officeHourAnnie'
+    },
+    {
+      date: moment('2019-02-28', 'YYYY-MM-DD'),
+      name: 'Office Hour - Annie',
+      locationName: 'officeHourAnnie'
+    },
+    {
+      date: moment('2019-03-07', 'YYYY-MM-DD'),
+      name: 'Office Hour - Annie',
+      locationName: 'officeHourAnnie'
+    },
+    {
+      date: moment('2019-03-14', 'YYYY-MM-DD'),
+      name: 'Office Hour - Annie',
+      locationName: 'officeHourAnnie'
+    },
+
+    // Manaswi
+    {
+      date: moment('2019-01-23', 'YYYY-MM-DD'),
+      name: 'Office Hour - Manaswi',
+      locationName: 'officeHourManaswi'
+    },
+    {
+      date: moment('2019-01-30', 'YYYY-MM-DD'),
+      name: 'Office Hour - Manaswi',
+      locationName: 'officeHourManaswi'
+    },
+    {
+      date: moment('2019-02-06', 'YYYY-MM-DD'),
+      name: 'Office Hour - Manaswi',
+      locationName: 'officeHourManaswi'
+    },
+    {
+      date: moment('2019-02-13', 'YYYY-MM-DD'),
+      name: 'Office Hour - Manaswi',
+      locationName: 'officeHourManaswi'
+    },
+    {
+      date: moment('2019-02-20', 'YYYY-MM-DD'),
+      name: 'Office Hour - Manaswi',
+      locationName: 'officeHourManaswi'
+    },
+    {
+      date: moment('2019-02-27', 'YYYY-MM-DD'),
+      name: 'Office Hour - Manaswi',
+      locationName: 'officeHourManaswi'
+    },
+    {
+      date: moment('2019-03-06', 'YYYY-MM-DD'),
+      name: 'Office Hour - Manaswi',
+      locationName: 'officeHourManaswi'
+    },
+    {
+      date: moment('2019-03-13', 'YYYY-MM-DD'),
+      name: 'Office Hour - Manaswi',
+      locationName: 'officeHourManaswi'
+    },
   ];
 
   aways = [

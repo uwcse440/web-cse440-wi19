@@ -1,6 +1,8 @@
+<!--
 <div class="alert alert-danger">
 This page is still being migrated and developed. All content remains subject to change.
 </div>
+-->
 
 ## Course Description
 
@@ -74,9 +76,9 @@ Check the calendar for non-standard times, locations, or staffing.
 
 __Office Hours__:
 
-- James, Tuesdays 3:30 to 4:30, CSE 632
-- `Annie, TBD`
-- `Manaswi, TBD`
+- James, Tuesdays 3:30 to 4:30, [CSE 632](https://uw.edu/maps/?cse)
+- Annie, Thursdays 1:15 to 2:15, [CSE2 152](https://uw.edu/maps/?cse2)
+- Manaswi, Wednesdays 10:30 to 11:30, [CSE2 153](https://uw.edu/maps/?cse2)
 
 Scheduled office hours require that you email beforehand (i.e., at least one hour beforehand).
 If nobody has emailed regarding the office hour, staff may not be present.
