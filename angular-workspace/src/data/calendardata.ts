@@ -581,6 +581,10 @@ class CalendarData {
       name: 'Jeremy Away from Lecture',
     },
     {
+      date: moment('2019-01-25', 'YYYY-MM-DD'),
+      name: 'Mandy Away<br>Manaswi in 10:30<br>Jeremy in 11:30',
+    },
+    {
       date: moment('2019-01-31', 'YYYY-MM-DD'),
       name: 'Jeremy Away from Lecture',
     },
