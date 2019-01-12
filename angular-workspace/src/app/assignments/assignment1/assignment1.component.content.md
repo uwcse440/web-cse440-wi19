@@ -1,8 +1,10 @@
 # Assignment 1: Project Proposal
 
+<!--
 <div class="alert alert-danger">
 This page is still being migrated and developed. All content remains subject to change.
 </div>
+-->
 
 ## Overview
 
@@ -99,7 +101,6 @@ how integrated machine intelligence can provide meaningful value to that individ
 
 ## Background Material
 
-<div class="alert alert-danger">
 Examples of widely-used personal informatics systems exist in a variety of domains.
 Some designs emphasize passive tracking (e.g., via sensing),
 while other designs emphasize more active engagement (e.g., via journaling).
@@ -114,7 +115,6 @@ Of course, there also many axes along which designs can vary:
   - [Last.fm](http://www.last.fm) (for tracking music listening)
 - Physical Activity
   - [FitBit](http://www.fitbit.com/) (for tracking physical activity)
-  - [Moves](http://www.moves-app.com/) (for tracking location)
   - [MyFitnessPal](http://www.myfitnesspal.com/) (for tracking food intake)
   - [RunKeeper](http://www.runkeeper.com/) (for tracking physical activity)
 
@@ -122,7 +122,7 @@ Individuals have gone much deeper into their own data:
 
 - [Feltron Report](http://feltron.com/) (a designer who tracked all of his activities to create and release an annual report)
 
-Researchers have also studied current processes, challenges, and opportunities:
+Researchers have also studied current processes, challenges, and opportunities in personal informatics:
 
 - [Li et al., 2010, A Stage-Based Model of Personal Informatics Systems](/readings/PersonalInformatics-Li2010.pdf)
 - [Choe et al., 2014, Understanding Quantified-Selfer's Practices in Collecting and Exploring Personal Data](/readings/PersonalInformatics-Choe2014.pdf)
@@ -130,9 +130,7 @@ Researchers have also studied current processes, challenges, and opportunities:
 - [Cordeiro et al., 2015, Barriers and Negative Nudges: Exploring Challenges in Food Journaling](/readings/PersonalInformatics-Cordeiro2015.pdf)
 - [Epstein et al., 2015, A Lived Informatics Model of Personal Informatics](/readings/PersonalInformatics-Epstein2015.pdf)
 - [Pina et al., 2017, From Personal Informatics to Family Informatics: Understanding Family Practices around Health Monitoring](/readings/PersonalInformatics-Pina2017.pdf)
-- [Schroeder et al., 2017, Supporting Patient-Provider Collaboration to Identify Individual Triggers using Food and Symptom Journals](/readings/PersonalInformatics-Schroeder2017.pdf)
 - [Choe et al., 2017, Semi-Automated Tracking: A Balanced Approach for Self-Monitoring Applications](/readings/PersonalInformatics-Choe2017.pdf)
-</div>
 
 ## Thinking Big
  
@@ -178,12 +176,10 @@ Similarly, projects from prior offerings can help you be comfortable thinking be
 
 <app-assignment-samples sampleToLink="website"></app-assignment-samples>
 
-<div class="alert alert-danger">
-Finally, the project theme requires your proposal present some opportunity for __tracking beyond the self__.
+Finally, the project theme requires your proposal present some opportunity for __self-tracking and everyday interaction with personal intelligences__.
 But you will ultimately follow your design process where it leads you, which may or may not emphasize tracking.
 Focusing on problems and opportunities, rather than specific design features,
 will leave room for your design to emerge and be refined in the course of this project.
-</div>
 
 ## Going Forward
 

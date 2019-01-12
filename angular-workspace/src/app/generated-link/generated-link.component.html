@@ -5,17 +5,42 @@
 
 <ng-template #content><ng-content></ng-content></ng-template>
 
-<ng-container *ngIf="isInternal()">
-  <a *ngIf="!isInternalWithAnchor()" [routerLink]="linkHREF">
-    <ng-container *ngTemplateOutlet="content"></ng-container>
-  </a>
-  <a *ngIf="isInternalWithAnchor()" [routerLink]="linkHREF.split('#')[0]" [fragment]="linkHREF.split('#')[1]">
+<!-- External links -->
+<ng-container *ngIf="isExternal()">
+  <a [href]="linkHREF" target="_blank">
     <ng-container *ngTemplateOutlet="content"></ng-container>
   </a>
 </ng-container>
-<a *ngIf="isPageAnchor()" [routerLink]="'./'" [fragment]="linkHREF.slice(1)">
-  <ng-container *ngTemplateOutlet="content"></ng-container>
-</a>
-<a *ngIf="isExternal()" [href]="linkHREF" target="_blank">
-  <ng-container *ngTemplateOutlet="content"></ng-container>
-</a>
+<!-- Internal links -->
+<ng-container *ngIf="!isExternal()">
+  <ng-container *ngIf="isFile()">
+    <!-- Internal file -->
+    <a [routerLink]="linkHREF" target="_blank">
+      <ng-container *ngTemplateOutlet="content"></ng-container>
+    </a>
+  </ng-container>
+  <ng-container *ngIf="!isFile()">
+    <ng-container *ngIf="isAnchor()">
+      <!-- Internal anchor -->
+      <a [routerLink]="'./'" [fragment]="linkHREF.slice(1)">
+        <ng-container *ngTemplateOutlet="content"></ng-container>
+      </a>
+    </ng-container>
+    <ng-container *ngIf="!isAnchor()">
+      <ng-container *ngIf="isPageWithAnchor()">
+        <!-- Internal page with anchor -->
+        <a [routerLink]="linkHREF.split('#')[0]" [fragment]="linkHREF.split('#')[1]">
+          <ng-container *ngTemplateOutlet="content"></ng-container>
+        </a>
+      </ng-container>
+      <ng-container *ngIf="!isPageWithAnchor()">
+        <!-- Internal page -->
+        <a [routerLink]="linkHREF">
+          <ng-container *ngTemplateOutlet="content"></ng-container>
+        </a>
+      </ng-container>
+    </ng-container>
+  </ng-container>
+</ng-container>
+
+
