@@ -1,7 +1,56 @@
 <ng-template #content>
+<h1 id="readings">Readings</h1>
 <div class="alert alert-danger">
 This page is still being migrated and developed. All content remains subject to change.
 </div>
+<h2 id="overview">Overview</h2>
+<p>Assigned readings are worth <strong>5%</strong> of your overall course grade.</p>
+<p>We expect to assign approximately five readings over the length of the quarter.
+Each assigned reading has a corresponding open-ended question that will be submitted and graded.
+We have tried to set reading deadlines that give you the flexibility to read before or after the related lectures.
+Do whichever is best for your personal learning style.</p>
+<p>Responses are expected to be at most several paragraphs.
+Their role is to get you engaged with and thinking about the material.
+They will be graded according to whether they provide evidence you understood and considered the material in responding.</p>
+<p>We will make additional resources available for students as interested.</p>
+<h2 id="reading-1-contextual-inquiry-and-design-research">Reading 1: Contextual Inquiry and Design Research</h2>
+<p><app-assignment-due-text dueText="{{ page.due_reading_design_research }}"></app-assignment-due-text></p>
+<p>Read:</p>
+<ul>
+<li>
+<app-generated-link linkHREF="{{ page.link_reading_design_research_file_contextual_inquiry }}">Beyer and Holtzblatt (1997). Contextual Design. Chapter 3.</app-generated-link>
+</li>
+</ul>
+<p>Optionally, check out these additional design method resources:</p>
+<ul>
+<li>
+<app-generated-link linkHREF="{{ page.link_reading_design_research_file_ideo_method_cards }}">IDEO (2003). Method Cards.</app-generated-link>
+</li>
+<li>
+<app-generated-link linkHREF="{{ page.link_reading_design_research_file_universal_methods }}">Martin and Hanington (2012). Universal Methods of Design.</app-generated-link>
+</li>
+</ul>
+<p>After reading, consider how you might apply this approach to a project proposed in Assignment 1b.
+You may complete this reading in terms of your own project proposal,
+or you may complete this reading in terms of a &quot;funded&quot; proposal on which you have bid.</p>
+<ul>
+<li>Briefly, what was the proposal (e.g., two sentences).</li>
+<li>Who and what might you propose to observe in a contextual inquiry (e.g., two sentences).</li>
+<li>What focus might you bring to your observation, and why? (e.g., two or three sentences).</li>
+<li>Identify a pitfall or limitation of contextual inquiry (i.e., as a method) or your experience (i.e., as a new design researcher) that seems likely (e.g., two or three sentences).</li>
+<li>Describe how you might avoid or attempt to correct for this pitfall in your inquiry while still primarily using a contextual inquiry method (e.g., two or three sentences).</li>
+</ul>
+<p>Then consider alternative design research methods, such as those in the resources above.
+Note that you are still in early-stage research,
+so the relevant methods from Universal Methods of Design are likely in Design Phase 1 or Design Phase 2.</p>
+<ul>
+<li>Suggest an alternative method you might propose to also apply to the above proposal (e.g., two sentences).</li>
+<li>Describe what additional benefit or complementary perspective it might provide (e.g., three or four sentences).</li>
+</ul>
+<p>This reading thus serves as some practice planning design research before moving on to your primary project.</p>
+<p>No more than one page of text in PDF format.</p>
+<p>Submit via Canvas here:</p>
+<p><app-assignment-submission-link linkSubmission="{{ page.link_reading_design_research }}"></app-assignment-submission-link></p>
 </ng-template>
 
 <ng-container *ngTemplateOutlet="content"></ng-container>

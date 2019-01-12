@@ -42,6 +42,9 @@ This page is still being migrated and developed. All content remains subject to 
             <!-- Name or placeholder 'Lecture' -->
             <p *ngIf="currentLecture.name" [innerHTML]="currentLecture.name"></p>
             <p *ngIf="!(currentLecture.name)">Lecture</p>
+            <div *ngIf="currentLecture.slides" class="slides">
+              <p>[<app-generated-link linkHREF="{{ currentLecture.slides }}">slides</app-generated-link>]</p>
+            </div>
             <div *ngIf="currentLecture.location" class="location">
               <div *ngFor="let currentLocation of currentLecture.location">
                 <p>{{ currentLocation.time }} | {{ currentLocation.location }}</p>
@@ -129,7 +132,7 @@ This page is still being migrated and developed. All content remains subject to 
             <!-- If the link exists, apply that -->
             <p *ngIf="currentAssignment.link">
               <app-generated-link linkHREF="{{ currentAssignment.link }}">
-                {{ currentAssignment.name }}
+                <span [innerHTML]="currentAssignment.name"></span>
                 <ng-container *ngIf="currentAssignment.dueNote">
                   <br>{{ currentAssignment.dueNote }}
                 </ng-container>
@@ -137,7 +140,7 @@ This page is still being migrated and developed. All content remains subject to 
             </p>
             <!-- Otherwise, identical content but without the link -->
             <p *ngIf="!(currentAssignment.link)">
-              {{ currentAssignment.name }}
+              <span [innerHTML]="currentAssignment.name"></span>
               <ng-container *ngIf="currentAssignment.dueNote">
                 <br>{{ currentAssignment.dueNote }}
               </ng-container>

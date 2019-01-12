@@ -36,10 +36,6 @@ sections:
 
 
 assignments:
-  - date: "2017-10-05"
-    name: "Reading 1: Contextual Inquiry<br>and Design Research"
-    duenote: "[due night before section]"
-    link: "assignments/readings/#design_research"
   - date: "2017-10-20"
     name: "Reading 2: Storyboarding<br>and Video Prototyping"
     duenote: "[due end of day on Saturday Oct 21]"
