@@ -206,9 +206,11 @@ On a second page, provide more detail regarding your primary proposed method. Fo
   and any other strategies you intend to pursue for gaining insight through your observations.
 - If you propose interviews, give an example set of talking points, such as these
   (note these are all longer than a page, but intended to illustrate a thorough script):
+  
   - [Menstrual Interview Protocol](https://canvas.uw.edu/files/53396968/download?download_frd=1)
   - [Migraine Interview Protocol](https://canvas.uw.edu/files/53396967/download?download_frd=1)
   - [Migraine Provider Protocol](https://canvas.uw.edu/files/53396970/download?download_frd=1)
+  
 - If you propose a diary study, give details of what and how you will ask participants to diary.  
 
 #### Samples from Prior Offerings
