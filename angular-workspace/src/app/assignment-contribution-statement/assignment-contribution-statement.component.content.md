@@ -1,5 +1,5 @@
 <div class="alert alert-warning" markdown="1">
-This required was not included in prior offerings, so you will not see this prior samples.
+This requirement was not included in prior offerings. It does not appear in prior samples.
 </div>
 
 Your submission must also include a team contribution statement, as an additional page in your submission.

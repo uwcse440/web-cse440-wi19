@@ -214,11 +214,13 @@ On a second page, provide more detail regarding your primary proposed method. Fo
 #### Samples from Prior Offerings
 
 <div class="alert alert-warning" markdown="1">
-The request for more detail is a new part of this milestone, and does not appear in prior samples.
 
-Relative to prior plans, our goal in soliciting this additional detail is to:
+The request for a second page of more detail regarding the proposed primary method was new in the Autumn 2017 offering. It does not appear in prior samples.
+
+The goal in soliciting this additional detail is to:
 - Encourage you to work through more of the details.
-- Help improve those details through critique and peer feedback.
+- Help improve those details through critique and peer feedback prior to your initial design research.
+
 </div>
 
 Samples from prior offerings include:
