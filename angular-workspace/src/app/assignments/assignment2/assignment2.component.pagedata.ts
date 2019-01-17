@@ -1,5 +1,5 @@
 class PageData {
-  due_project_2a: string = "Completed in Section on "; 
+  due_project_2a: string = "Completed in Section on January 18, 2019"; 
   link_project_2a: string = "https://canvas.uw.edu/courses/1254716/assignments/4621054"; 
   
   due_project_2b: string = "Uploaded Monday, January 21, 2019"; 
