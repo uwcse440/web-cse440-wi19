@@ -128,12 +128,12 @@ class CalendarData {
       name: 'Contextual Inquiry,<br>Design Research',
       // Required for 2b planning of design research over weekend
       // Can allow pre-project-team in-class exercise considering strengths/weakness of different design research methods for a project
+      slides: 'https://canvas.uw.edu/files/53322268/download?download_frd=1'
     },
     {
       date: moment('2019-01-17', 'YYYY-MM-DD'),
-      // name: 'Design of Everyday Things'
-      // or
-      // name: 'Background in Personal Informatics and Machine Learning'
+      name: 'Design of Everyday Things',
+      slides: 'https://canvas.uw.edu/files/53393652/download?download_frd=1'
     },
     {
       date: moment('2019-01-22', 'YYYY-MM-DD'),
@@ -147,8 +147,6 @@ class CalendarData {
     },
     {
       date: moment('2019-01-29', 'YYYY-MM-DD'),
-      // name: 'Design of Everyday Things'
-      // or
       // name: 'Background in Personal Informatics and Machine Learning'
     },
     {

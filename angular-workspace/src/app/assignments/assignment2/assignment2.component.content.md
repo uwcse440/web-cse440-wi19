@@ -206,19 +206,23 @@ On a second page, provide more detail regarding your primary proposed method. Fo
   and any other strategies you intend to pursue for gaining insight through your observations.
 - If you propose interviews, give an example set of talking points, such as these
   (note these are all longer than a page, but intended to illustrate a thorough script):
-  - [Menstrual Interview Protocol](https://canvas.uw.edu/files/44093099/download?download_frd=1)
-  - [Migraine Interview Protocol](https://canvas.uw.edu/files/44093100/download?download_frd=1)
-  - [Migraine Provider Protocol](https://canvas.uw.edu/files/44093101/download?download_frd=1)
+  
+  - [Menstrual Interview Protocol](https://canvas.uw.edu/files/53396968/download?download_frd=1)
+  - [Migraine Interview Protocol](https://canvas.uw.edu/files/53396967/download?download_frd=1)
+  - [Migraine Provider Protocol](https://canvas.uw.edu/files/53396970/download?download_frd=1)
+  
 - If you propose a diary study, give details of what and how you will ask participants to diary.  
 
 #### Samples from Prior Offerings
 
 <div class="alert alert-warning" markdown="1">
-The request for more detail is a new part of this milestone, and does not appear in prior samples.
 
-Relative to prior plans, our goal in soliciting this additional detail is to:
+The request for a second page of more detail regarding the proposed primary method was new in the Autumn 2017 offering. It does not appear in prior samples.
+
+The goal in soliciting this additional detail is to:
 - Encourage you to work through more of the details.
-- Help improve those details through critique and peer feedback.
+- Help improve those details through critique and peer feedback prior to your initial design research.
+
 </div>
 
 Samples from prior offerings include:
@@ -236,6 +240,10 @@ No more than two pages of text in PDF format. Submit via Canvas here:
 <app-assignment-submission-link linkSubmission="{{ page.link_project_2b }}"></app-assignment-submission-link>
 
 Be prepared to discuss your design research with other teams and the course staff.
+
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
 
 #### Grading
 
@@ -291,6 +299,10 @@ Names of participants should be replaced with pseudonyms in all documents.
 It is important to protect participant anonymity, even in the case that reporting seems harmless.
 
 Be prepared to discuss your design research with other teams and the course staff.
+
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
 
 #### Grading
 
@@ -368,6 +380,10 @@ It is important to protect participant anonymity, even in the case that reportin
 
 Be prepared to discuss your design research with other teams and the course staff.
 
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
+
 #### Grading
 
 This milestone will be graded on a scale of __6 points__:
@@ -412,6 +428,10 @@ Submit via Canvas here:
 <app-assignment-submission-link linkSubmission="{{ page.link_project_2e }}"></app-assignment-submission-link>
 
 Be prepared to discuss your design research with other teams and the course staff.
+
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
 
 #### Grading
 
@@ -464,6 +484,10 @@ Submit via Canvas here:
 <app-assignment-submission-link linkSubmission="{{ page.link_project_2f }}"></app-assignment-submission-link>
 
 Be prepared to discuss your designs with other teams and the course staff.
+
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
 
 #### Grading
 
@@ -523,6 +547,10 @@ Submit via Canvas here:
 <app-assignment-submission-link linkSubmission="{{ page.link_project_2g }}"></app-assignment-submission-link>
 
 Be prepared to discuss your choices and storyboards with other teams and the course staff.
+
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
 
 #### Grading
 
@@ -633,6 +661,10 @@ Submit via Canvas here:
 Names of participants should be replaced with pseudonyms in all documents.
 It is important to protect participant anonymity, even in the case that reporting seems harmless.
 
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
+
 #### Grading
 
 This report will be graded on a scale of __25 points__:
@@ -721,6 +753,10 @@ Submit via Canvas here:
 
 Names of participants should be replaced with pseudonyms in all documents.
 It is important to protect participant anonymity, even in the case that reporting seems harmless.
+
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
 
 #### In-Class Feedback Forms
 
