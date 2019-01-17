@@ -9,6 +9,11 @@ class MarkdownPathData {
 
 export const PATHS_DATA:MarkdownPathData[] = [
   new MarkdownPathData(
+    'src/app/assignment-contribution-statement',
+    'assignment-contribution-statement.component',
+    ['content']
+  ),
+  new MarkdownPathData(
     'src/app/assignments',
     'assignments.component',
     ['content']

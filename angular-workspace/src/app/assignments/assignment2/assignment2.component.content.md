@@ -237,6 +237,10 @@ No more than two pages of text in PDF format. Submit via Canvas here:
 
 Be prepared to discuss your design research with other teams and the course staff.
 
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
+
 #### Grading
 
 This milestone will be graded on a scale of __3 points__:
@@ -291,6 +295,10 @@ Names of participants should be replaced with pseudonyms in all documents.
 It is important to protect participant anonymity, even in the case that reporting seems harmless.
 
 Be prepared to discuss your design research with other teams and the course staff.
+
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
 
 #### Grading
 
@@ -368,6 +376,10 @@ It is important to protect participant anonymity, even in the case that reportin
 
 Be prepared to discuss your design research with other teams and the course staff.
 
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
+
 #### Grading
 
 This milestone will be graded on a scale of __6 points__:
@@ -412,6 +424,10 @@ Submit via Canvas here:
 <app-assignment-submission-link linkSubmission="{{ page.link_project_2e }}"></app-assignment-submission-link>
 
 Be prepared to discuss your design research with other teams and the course staff.
+
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
 
 #### Grading
 
@@ -464,6 +480,10 @@ Submit via Canvas here:
 <app-assignment-submission-link linkSubmission="{{ page.link_project_2f }}"></app-assignment-submission-link>
 
 Be prepared to discuss your designs with other teams and the course staff.
+
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
 
 #### Grading
 
@@ -523,6 +543,10 @@ Submit via Canvas here:
 <app-assignment-submission-link linkSubmission="{{ page.link_project_2g }}"></app-assignment-submission-link>
 
 Be prepared to discuss your choices and storyboards with other teams and the course staff.
+
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
 
 #### Grading
 
@@ -633,6 +657,10 @@ Submit via Canvas here:
 Names of participants should be replaced with pseudonyms in all documents.
 It is important to protect participant anonymity, even in the case that reporting seems harmless.
 
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
+
 #### Grading
 
 This report will be graded on a scale of __25 points__:
@@ -721,6 +749,10 @@ Submit via Canvas here:
 
 Names of participants should be replaced with pseudonyms in all documents.
 It is important to protect participant anonymity, even in the case that reporting seems harmless.
+
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
 
 #### In-Class Feedback Forms
 
