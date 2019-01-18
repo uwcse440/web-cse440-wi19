@@ -179,9 +179,7 @@ This milestone will be graded on a scale of __3 points__ based on participation 
 The goal of this milestone is to develop an initial plan for your design research.
 
 In one paragraph, describe the people who might use your design and other stakeholders to consider in your design. 
-Describe the particular design research methods and participants you plan to pursue,
-including such details as their background and the environment where you will examine their current practices.
-Give enough information to convince us that you can actually find and engage with your target participants in the next week.
+Describe the __participants__ you plan to pursue, including such details as their background and the environment where you will examine their current practices. Give enough information to convince us that you can actually find and engage with your target participants in the next week.
 
 - For example, your target participants should not be "doctors" but instead a specific group of doctors 
   (e.g., Family Practitioners in the UW Roosevelt Clinic). 
@@ -189,10 +187,7 @@ Give enough information to convince us that you can actually find and engage wit
   describe the steps you have already taken to gain access and your plans to recover if you are unable to gain access.
   Indicate when you will be conducting your design research, being as specific as possible.
 
-In another paragraph, describe the methods you will use to engage with and learn from these people.
-Our starting assumption is that you will conduct contextual inquiries with three participants.
-You can and should propose alternative or additional design research methods according to your needs.
-Please be as specific as possible, providing relevant details for you proposed methods. For example:
+In another paragraph, describe the __particular design research methods__ you will use to engage with and learn from these people. The most common method used is contextual inquiry with three participants. However,  we encourage you to propose alternative or additional design research methods according to your needs. Please be as specific as possible, providing relevant details for you proposed methods. For example:
 
 - If you propose contextual inquiries, discuss current behaviors you want to observe and your planned focus.
 - If you propose interviews, discuss the types of questions you plan to explore.
@@ -247,11 +242,12 @@ Be prepared to discuss your design research with other teams and the course staf
 
 #### Grading
 
-This milestone will be graded on a scale of __3 points__:
+This milestone will be graded on a scale of __10 points__:
 
-1. __People and Plan__: (1 point)
-2. __Feasibility__: (1 point)
-3. __Specificity__: (1 point)
+1. __Feasibility and Specificity of People__: (3 points)
+2. __Feasibility and Specificity of Design Methods__: (3 points)
+3. __Protocol__: (2 points)
+4. __Report Clarity and Presentation__: (2 points)
 
 ### 2c: Design Research Check-In
 
@@ -306,10 +302,11 @@ Be prepared to discuss your design research with other teams and the course staf
 
 #### Grading
 
-This milestone will be graded on a scale of __6 points__:
+This milestone will be graded on a scale of __8 points__:
 
-1. __Information from First Participant__: (3 points)
-2. __Plan for Remaining Participants__: (3 points)
+1. __Information from the First Participant__: (4 points)
+2. __Plan for Remaining Participants__: (2 points)
+3. __Report Clarity and Presentation__: (2 points)
 
 ### 2d: Design Research Review
 
@@ -386,10 +383,12 @@ Be prepared to discuss your design research with other teams and the course staf
 
 #### Grading
 
-This milestone will be graded on a scale of __6 points__:
+This milestone will be graded on a scale of __12 points__:
 
-1. __Description of Participants and Quality of Themes Developed__: (3 points)
-2. __Answers to Task Analysis Questions__: (3 points)
+1. __Description of Participants__ : (3 points) 
+2. __Quality of Themes Developed__: (3 points)
+3. __Answers to Task Analysis Questions__: (4 points)
+4. __Report Clarity and Presentation__: (2 points)
 
 ### 2e: Task Review
 
@@ -397,7 +396,7 @@ This milestone will be graded on a scale of __6 points__:
 
 The goal of this milestone is to develop a set of tasks that you will explore in a set of potential designs.
 
-Building on what you learned in your design research, design six tasks that you believe are integral to your overall design goal:
+Building on what you learned in your design research, design __six tasks__ that you believe are integral to your overall design goal:
 
  - You should include existing tasks (i.e., tasks people already do) and new tasks (i.e., tasks that will be enabled by your design). 
  - These should be real world tasks that have details (e.g., instead of "programming a DVR", details like "programming a DVR to record the Simpsons on Sundays"). 
@@ -435,9 +434,10 @@ Be prepared to discuss your design research with other teams and the course staf
 
 #### Grading
 
-This milestone will be graded on a scale of __6 points__:
+This milestone will be graded on a scale of __8 points__:
 
 1. __Each of 6 Tasks__: (1 point)
+2. __Report Clarity and Presentation__: (2 points)
 
 ### 2f: Design Check-In ("3x4")
 
@@ -446,7 +446,7 @@ This milestone will be graded on a scale of __6 points__:
 The goal of this milestone is to develop distinct design ideas that address your tasks.
 
 You have identified and described six important tasks for your design problem. 
-You will now brainstorm and sketch three very different initial designs for your interface:
+You will now brainstorm and sketch three very different __initial designs__ for your interface:
  
  - Each design should support four of your tasks, but they do not necessarily need to all support the same four tasks.
  - Sketch key aspects needed to illustrate the functionality in your four tasks. A design may imply additional tasks, but do not illustrate the entire design. 
@@ -491,9 +491,11 @@ Be prepared to discuss your designs with other teams and the course staff.
 
 #### Grading
 
-This milestone will be graded on a scale of __6 points__:
+This milestone will be graded on a scale of __10 points__:
 
-1. __Each of 3 Designs__: (2 points)
+1. __Six Task Descriptions__: (2 points)
+2. __Each of 3 Designs__: (2 points)
+3. __Report Clarity and Presentation__: (2 points)
 
 ### 2g: Design Review ("1x2")
 
@@ -505,7 +507,7 @@ From your design sketches, select one design that you will refine in the remaind
 Then select two tasks that will be the focus of your design refinement. 
 The selected tasks need to be representative of the experience of using your design. 
 
-Prepare one paragraph describing why you selected the design you did. 
+Prepare one paragraph describing _why you selected the design_ you did. 
 Draw upon feedback from critiques and data from your design research.
 
  - Why this design and these tasks? 
@@ -514,7 +516,7 @@ Draw upon feedback from critiques and data from your design research.
 
 Convey a strong understanding of which design you chose, which tasks you chose, and why you chose them.
 
-Then create a storyboard of each task for your selected design.
+Then _create a storyboard of each task_ for your selected design.
 These should be done on paper, then scanned (i.e., do not create or recreate them in a drawing package).
 They should clearly indicate the functionality of the design and what the interface will be like,
 conveying the major aspects of the design in enough detail that a person not in your group can understand 
@@ -554,10 +556,11 @@ Be prepared to discuss your choices and storyboards with other teams and the cou
 
 #### Grading
 
-This milestone will be graded on a scale of __6 points__:
+This milestone will be graded on a scale of __8 points__:
 
-1. __Rationale for Choosing a Design Focus__: (2 points)
+1. __Rationale for Choosing a Design Focus and Tasks__: (2 points)
 2. __Each of 2 Storyboards__: (2 points)
+3. __Report Clarity and Presentation__: (2 points)
 
 ### 2h: Final Report
 
