@@ -20,6 +20,7 @@ import { ReadingsComponent } from './assignments/readings/readings.component';
 import { AssignmentDueTextComponent } from './assignment-due-text/assignment-due-text.component';
 import { AssignmentSubmissionLinkComponent } from './assignment-submission-link/assignment-submission-link.component';
 import { AssignmentSamplesComponent } from './assignment-samples/assignment-samples.component';
+import { AssignmentContributionStatementComponent } from './assignment-contribution-statement/assignment-contribution-statement.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { AssignmentSamplesComponent } from './assignment-samples/assignment-samp
     AssignmentDueTextComponent,
     AssignmentSubmissionLinkComponent,
     AssignmentSamplesComponent,
+    AssignmentContributionStatementComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({appId: 'angular-workspace'}),
