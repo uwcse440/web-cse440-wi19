@@ -124,13 +124,13 @@ Individuals have gone much deeper into their own data:
 
 Researchers have also studied current processes, challenges, and opportunities in personal informatics:
 
-- [Li et al., 2010, A Stage-Based Model of Personal Informatics Systems](/readings/PersonalInformatics-Li2010.pdf)
-- [Choe et al., 2014, Understanding Quantified-Selfer's Practices in Collecting and Exploring Personal Data](/readings/PersonalInformatics-Choe2014.pdf)
-- [Rooksby et al., 2014, Personal Tracking as Lived Informatics](/readings/PersonalInformatics-Rooksby2014.pdf)
-- [Cordeiro et al., 2015, Barriers and Negative Nudges: Exploring Challenges in Food Journaling](/readings/PersonalInformatics-Cordeiro2015.pdf)
-- [Epstein et al., 2015, A Lived Informatics Model of Personal Informatics](/readings/PersonalInformatics-Epstein2015.pdf)
-- [Pina et al., 2017, From Personal Informatics to Family Informatics: Understanding Family Practices around Health Monitoring](/readings/PersonalInformatics-Pina2017.pdf)
-- [Choe et al., 2017, Semi-Automated Tracking: A Balanced Approach for Self-Monitoring Applications](/readings/PersonalInformatics-Choe2017.pdf)
+- [Li et al., 2010, A Stage-Based Model of Personal Informatics Systems](/assets/readings/PersonalInformatics-Li2010.pdf)
+- [Choe et al., 2014, Understanding Quantified-Selfer's Practices in Collecting and Exploring Personal Data](/assets/readings/PersonalInformatics-Choe2014.pdf)
+- [Rooksby et al., 2014, Personal Tracking as Lived Informatics](/assets/readings/PersonalInformatics-Rooksby2014.pdf)
+- [Cordeiro et al., 2015, Barriers and Negative Nudges: Exploring Challenges in Food Journaling](/assets/readings/PersonalInformatics-Cordeiro2015.pdf)
+- [Epstein et al., 2015, A Lived Informatics Model of Personal Informatics](/assets/readings/PersonalInformatics-Epstein2015.pdf)
+- [Pina et al., 2017, From Personal Informatics to Family Informatics: Understanding Family Practices around Health Monitoring](/assets/readings/PersonalInformatics-Pina2017.pdf)
+- [Choe et al., 2017, Semi-Automated Tracking: A Balanced Approach for Self-Monitoring Applications](/assets/readings/PersonalInformatics-Choe2017.pdf)
 
 ## Thinking Big
  

@@ -11,19 +11,6 @@ locations:
     - time: "10:30 - 11:20"
       location: "MGH 058"
 
-  officehoursdhruv:
-    - time: "1:30 - 2:30"
-      location: "CSE 021"
-  officehourskailey:
-    - time: "3:30 - 4:30"
-      location: "CSE 021"
-  officehoursnigini:
-    - time: "3:30 - 4:30"
-      location: "CSE 021"
-  officehoursnigini007:
-    - time: "3:30 - 4:30"
-      location: "CSE 007"
-
   examqa:
     - time: "3:00 - 4:00"
       location: "CSE 403"
@@ -33,22 +20,3 @@ sections:
     name: "Exam Q&A"
     location: "examqa"
     slides: "slides/lecture/cse440-consolidated-17au.pdf"
-
-
-assignments:
-  - date: "2017-10-20"
-    name: "Reading 2: Storyboarding<br>and Video Prototyping"
-    duenote: "[due end of day on Saturday Oct 21]"
-    link: "assignments/readings/#storyboarding"
-  - date: "2017-11-03"
-    name: "Reading 3: Paper Prototyping<br>and Usability Testing"
-    duenote: "[due end of day on Saturday Nov 4]"
-    link: "assignments/readings/#paperprototyping"
-  - date: "2017-11-10"
-    name: "Reading 4: Design Patterns"
-    duenote: "[due end of day on Saturday Nov 11]"
-    link: "assignments/readings/#patterns"
-  - date: "2017-12-01"
-    name: "Reading 5: Research Paper"
-    duenote: "[due end of day on Saturday Dec 2]"
-    link: "assignments/readings/#research"
