@@ -1,8 +1,10 @@
 # Assignment 2: Getting the Right Design
 
+<!--
 <div class="alert alert-danger">
 This page is still being migrated and developed. All content remains subject to change.
 </div>
+-->
 
 ## Overview
 
@@ -147,7 +149,7 @@ We will provide large sheets of paper. Divide a large sheet of paper into 32 squ
 Sketch your ideas, one in each square. Each idea should be either a quick doodle with a caption or a one-sentence idea. 
 A person familiar with your project but not in your group should be able to understand the idea each sketch conveys.
 
-The goal is to begin exploring the space of possibilities, not attempting to polish some particular possibility. 
+The goal is to begin exploring the space of possibilities, not attempting to polish some individual possibility. 
 Focus on the quantity of ideas, not the quality of any one idea. 
 You may include ideas from existing products. No two ideas should be alike.
 When you get stuck, find a context to inspire new ideas.
@@ -187,7 +189,7 @@ Describe the __participants__ you plan to pursue, including such details as thei
   describe the steps you have already taken to gain access and your plans to recover if you are unable to gain access.
   Indicate when you will be conducting your design research, being as specific as possible.
 
-In another paragraph, describe the __particular design research methods__ you will use to engage with and learn from these people. The most common method used is contextual inquiry with three participants. However,  we encourage you to propose alternative or additional design research methods according to your needs. Please be as specific as possible, providing relevant details for you proposed methods. For example:
+In another paragraph, describe the __specific design research methods__ you will use to engage with and learn from these people. The most common method used is contextual inquiry with three participants. However,  we encourage you to propose alternative or additional design research methods according to your needs. Please be as specific as possible, providing relevant details for you proposed methods. For example:
 
 - If you propose contextual inquiries, discuss current behaviors you want to observe and your planned focus.
 - If you propose interviews, discuss the types of questions you plan to explore.
@@ -404,7 +406,7 @@ Building on what you learned in your design research, design __six tasks__ that 
  - Your six tasks should span a wide range of functionality and difficulty, from easy to hard tasks.
 
 Each task should be described in text. Tasks say what is accomplished, leaving open how to accomplish it.
-Be sure that your task conveys a problem and what is accomplished, rather than a step-by-step walkthrough of scenario with a particular design.
+Be sure that your task conveys a problem and what is accomplished, rather than a step-by-step walkthrough of scenario with a specific design.
 
 #### Samples from Prior Offerings
 
@@ -591,7 +593,7 @@ include how you have addressed and incorporated that feedback to improve relativ
 
    Describe your design research, including the participants, their background, and their environment.
     
-   Describe why you chose the particular methods and participants in your design research.
+   Describe why you chose the specific methods and participants in your design research.
 
 5. __Design Research Results and Themes__: (1 page)
 
