@@ -83,6 +83,13 @@ class CalendarData {
       }
     ],
 
+    officeHourJamesEarlier: [
+      {
+        time: "3:00 - 4:00",
+        location: "CSE 632"
+      }
+    ],
+
     officeHourAnnie: [
       {
         time: "1:15 to 2:15",
@@ -453,7 +460,7 @@ class CalendarData {
     {
       date: moment('2019-01-29', 'YYYY-MM-DD'),
       name: 'Office Hour - James',
-      locationName: 'officeHourJames'
+      locationName: 'officeHourJamesEarlier'
     },
     {
       date: moment('2019-02-05', 'YYYY-MM-DD'),
