@@ -443,6 +443,30 @@ class CalendarData {
       dueNote: '[due night before section]',
       link: '/assignments/readings/#reading-1-contextual-inquiry-and-design-research'
     },
+    {
+      date: moment('2019-01-28', 'YYYY-MM-DD'),
+      name: 'Reading 2: Research Paper',
+      dueNote: '[due night before class]',
+      link: '/assignments/readings/#reading-2-research-paper'
+    },
+    {
+      date: moment('2019-02-01', 'YYYY-MM-DD'),
+      name: 'Reading 3: Storyboarding<br>and Video Prototyping',
+      dueNote: '[due end of day Sat Feb 2]',
+      link: '/assignments/readings/#reading-3-storyboarding-and-video-prototyping'
+    },
+    {
+      date: moment('2019-02-08', 'YYYY-MM-DD'),
+      name: 'Reading 4: Paper Prototyping<br>and Usability Testing',
+      dueNote: '[due end of day Sat Feb 9]',
+      link: '/assignments/readings/#reading-4-paper-prototyping-and-usability-testing'
+    },
+    {
+      date: moment('2019-02-15', 'YYYY-MM-DD'),
+      name: 'Reading 5: Design Patterns',
+      dueNote: '[due end of day Sat Feb 16]',
+      link: '/assignments/readings/#reading-5-patterns'
+    },
   ];
 
   officeHours: OfficeHour[] = [
