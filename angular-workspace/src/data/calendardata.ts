@@ -150,8 +150,9 @@ class CalendarData {
     },
     {
       date: moment('2019-01-24', 'YYYY-MM-DD'),
-      name: 'Task Analysis'
+      name: 'Task Analysis',
       // Required for Project 2d
+      slides: 'https://canvas.uw.edu/files/53557644/download?download_frd=1'
     },
     {
       date: moment('2019-01-29', 'YYYY-MM-DD'),
@@ -620,7 +621,7 @@ class CalendarData {
     },
     {
       date: moment('2019-01-25', 'YYYY-MM-DD'),
-      name: 'Jeremy Away<br>Annie in 1:30',
+      name: 'Jeremy Away<br>Annie in 2:30',
     },
     {
       date: moment('2019-01-31', 'YYYY-MM-DD'),
