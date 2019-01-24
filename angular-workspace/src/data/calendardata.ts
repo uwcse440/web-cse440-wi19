@@ -146,6 +146,7 @@ class CalendarData {
       date: moment('2019-01-22', 'YYYY-MM-DD'),
       name: 'Critique',
       // Required to be day that 2b is due, includes in-class critique of 2b
+      slides: 'https://canvas.uw.edu/files/53493463/download?download_frd=1'
     },
     {
       date: moment('2019-01-24', 'YYYY-MM-DD'),
@@ -611,7 +612,15 @@ class CalendarData {
     },
     {
       date: moment('2019-01-25', 'YYYY-MM-DD'),
-      name: 'Mandy Away<br>Manaswi in 10:30<br>Jeremy in 11:30',
+      name: 'Mandy Away<br>Manaswi in 10:30',
+    },
+    {
+      date: moment('2019-01-25', 'YYYY-MM-DD'),
+      name: 'Jeremy Away<br>Mandy in 1:30',
+    },
+    {
+      date: moment('2019-01-25', 'YYYY-MM-DD'),
+      name: 'Jeremy Away<br>Annie in 1:30',
     },
     {
       date: moment('2019-01-31', 'YYYY-MM-DD'),
@@ -640,14 +649,6 @@ class CalendarData {
     {
       date: moment('2019-03-14', 'YYYY-MM-DD'),
       name: 'Jeremy Away from Lecture',
-    },
-    {
-      date: moment('2019-03-18', 'YYYY-MM-DD'),
-      name: 'James Away @ <a href="https://iui.acm.org/2019/">IUI 2019</a>',
-    },
-    {
-      date: moment('2019-03-19', 'YYYY-MM-DD'),
-      name: 'James Away @ <a href="https://iui.acm.org/2019/">IUI 2019</a>',
     }
   ];
 }
