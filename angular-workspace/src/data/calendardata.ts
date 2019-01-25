@@ -367,7 +367,7 @@ class CalendarData {
       date: moment('2019-02-18', 'YYYY-MM-DD'),
       name: '3a - Paper Protoype',
       dueNote: '[due night before class]',
-      link: '/assignments/assignment3#id-3a-paper_prototype'
+      link: '/assignments/assignment3#id-3a-paper-prototype'
     },
     {
       date: moment('2019-02-20', 'YYYY-MM-DD'),
@@ -397,7 +397,7 @@ class CalendarData {
       date: moment('2019-03-05', 'YYYY-MM-DD'),
       name: '3f - Getting the Design Right',
       dueNote: '[due end of day]',
-      link: '/assignments/assignment3#id-3f-final_report'
+      link: '/assignments/assignment3#id-3f-final-report'
     },
     {
       date: moment('2019-03-06', 'YYYY-MM-DD'),
