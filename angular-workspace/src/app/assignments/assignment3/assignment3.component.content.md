@@ -204,7 +204,7 @@ This milestone will be graded on a scale of __9 points__:
 1. __Overall Completeness and Appropriateness of Paper Prototype__: (3 points)
 2. __Completeness, Appropriateness, and Documentation of Each Task__: (3 points per task)
 
-### 3b: Heuristic Evaluations 
+### 3b: Heuristic Evaluation
 
 <app-assignment-due-text dueText="{{ page.due_project_3b }}"></app-assignment-due-text>
 
