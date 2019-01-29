@@ -37,6 +37,11 @@ function renderMarkdown(markdown: string) {
   // Need lazy matching to handle multiple links in a line, parentheses around a link (i.e., "([text](href))")
   let regexLink = /\[(.+?)\]\((.+?)\)/g;
   markdown = markdown.replace(regexLink, function (match: string, tokenLinkText: string, tokenLinkHREF: string) {
+    // Trim the link HREF
+    if (tokenLinkHREF) {
+      tokenLinkHREF = tokenLinkHREF.trim();
+    }
+
     // Encode quotes in the link text
     tokenLinkText = tokenLinkText.replace(/\"/g, '&quot;');
 

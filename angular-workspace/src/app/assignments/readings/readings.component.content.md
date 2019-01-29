@@ -149,8 +149,8 @@ Submit via Canvas here:
 
 Read these storyboarding resources:
 
-  - [Colville-Hyde (2016). UX Comics: Visually Communicating User Experiences.]( {{ page.link_reading_storyboarding_file_ux_comics}} )
-  - [Excerpts from Greenberg et al. (2012). Sketching User Experiences: The Workbook]( {{ page.link_reading_storyboarding_file_sketching_excerpts }} )
+  - [Colville-Hyde (2016). UX Comics: Visually Communicating User Experiences.]( {{ page.link_reading_storyboarding_file_ux_comics }} )
+  - [Excerpts from Greenberg et al. (2012). Sketching User Experiences: The Workbook.]( {{ page.link_reading_storyboarding_file_sketching_excerpts }} )
 
 Watch the video prototypes linked from the lecture on Storyboarding and Video Prototyping,
 noting the context in which they are linked as a comment on aspects of their effectiveness.
