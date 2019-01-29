@@ -13,9 +13,9 @@ __user testing__. Design refinement culminates in a __digital mockup__.
 
 This assignment is worth __14%__ of your overall course grade:
 	
-- __10%__ for [Assignment 3f: Final Report](#id-3f-final_report) 
+- __10%__ for [Assignment 3f: Final Report](#id-3f-final-report) 
 - __4%__ for the milestones 
-  - __0.5%__ for [Assignment 3a: Paper Prototype](#id-3a-paper_prototype) 
+  - __0.5%__ for [Assignment 3a: Paper Prototype](#id-3a-paper-prototype) 
   - __0.5%__ for [Assignment 3b: Heuristic Evaluation](#id-3b-heuristic-evaluation) 
   - __1%__ for [Assignment 3c: Usability Testing Check-In](#id-3c-usability-testing-check-in) 
   - __1%__ for [Assignment 3d: Usability Testing Review](#id-3d-usability-testing-review) 
