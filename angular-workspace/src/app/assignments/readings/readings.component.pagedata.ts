@@ -13,14 +13,14 @@ class PageData {
   // # Reading 2
   // ####################
   due_reading_research_paper: string = 'Uploaded Monday, January 28, 2019 (before class on Tuesday, January 29, 2019)';
-  link_reading_research_paper_writeup: string = ''; //https://canvas.uw.edu/courses/1173784/assignments/3939031
-  link_reading_research_paper_paper: string = ''; //https://canvas.uw.edu/courses/1173784/assignments/3939051
+  link_reading_research_paper_writeup: string = 'https://canvas.uw.edu/courses/1254716/assignments/4632979';
+  link_reading_research_paper_paper: string = 'https://canvas.uw.edu/courses/1254716/assignments/4632982';
 
   // ####################
   // # Reading 3
   // ####################
   due_reading_storyboarding: string = 'Uploaded Saturday, February 2, 2019';
-  link_reading_storyboarding: string = ''; //https://canvas.uw.edu/courses/1173784/assignments/3928187
+  link_reading_storyboarding: string = ''; // https://canvas.uw.edu/courses/1173784/assignments/3928187
 
   link_reading_storyboarding_lecture: string = ''; // to be linked
   link_reading_storyboarding_file_ux_comics: string = 'https://constructive.co/insights/ux-comics-visually-communicating-user-experiences/';

@@ -69,6 +69,28 @@ class CalendarData {
       }
     ],
 
+    sectionMorningOnly: [
+      {
+        time: '10:30 - 11:20',
+        location: 'MGH 295'
+      },
+      {
+        time: '11:30 - 12:20',
+        location: 'MGH 058'
+      }
+    ],
+
+    sectionAfternoonOnly: [
+      {
+        time: '1:30 - 2:20',
+        location: 'MGH 295'
+      },
+      {
+        time: '2:30 - 3:20',
+        location: 'MGH 295'
+      }
+    ],
+
     posterSession: [
       {
         time: '4:00 - 5:00',
@@ -100,6 +122,13 @@ class CalendarData {
     officeHourManaswi: [
       {
         time: "10:30 - 11:30",
+        location: "CSE2 153"
+      }
+    ],
+
+    officeHourManaswiShorter: [
+      {
+        time: "10:30 - 11:00",
         location: "CSE2 153"
       }
     ]
@@ -156,7 +185,8 @@ class CalendarData {
     },
     {
       date: moment('2019-01-29', 'YYYY-MM-DD'),
-      // name: 'Background in Personal Informatics and Machine Learning'
+      name: 'Additional Background<br>in Personal Informatics<br>and Machine Learning',
+      slides: 'https://canvas.uw.edu/files/53684392/download?download_frd=1'
     },
     {
       date: moment('2019-01-31', 'YYYY-MM-DD'),
@@ -242,7 +272,7 @@ class CalendarData {
     {
       date: moment('2019-02-15', 'YYYY-MM-DD'),
       name: 'Presentations',
-      locationName: 'section',
+      locationName: 'sectionMorningOnly',
       link: '/assignments/assignment2#id-2i-presentation'
     },
     {
@@ -260,7 +290,7 @@ class CalendarData {
     {
       date: moment('2019-03-08', 'YYYY-MM-DD'),
       name: 'Presentations',
-      locationName: 'section',
+      locationName: 'sectionAfternoonOnly',
       link: '/assignments/assignment3#id-3g-presentation'
     },
     {
@@ -452,21 +482,21 @@ class CalendarData {
       link: '/assignments/readings/#reading-2-research-paper'
     },
     {
-      date: moment('2019-02-01', 'YYYY-MM-DD'),
+      date: moment('2019-02-04', 'YYYY-MM-DD'),
       name: 'Reading 3: Storyboarding<br>and Video Prototyping',
-      dueNote: '[due end of day Sat Feb 2]',
+      dueNote: '[due night before class]',
       link: '/assignments/readings/#reading-3-storyboarding-and-video-prototyping'
     },
     {
-      date: moment('2019-02-08', 'YYYY-MM-DD'),
+      date: moment('2019-02-11', 'YYYY-MM-DD'),
       name: 'Reading 4: Paper Prototyping<br>and Usability Testing',
-      dueNote: '[due end of day Sat Feb 9]',
+      dueNote: '[due night before class]',
       link: '/assignments/readings/#reading-4-paper-prototyping-and-usability-testing'
     },
     {
-      date: moment('2019-02-15', 'YYYY-MM-DD'),
+      date: moment('2019-02-18', 'YYYY-MM-DD'),
       name: 'Reading 5: Design Patterns',
-      dueNote: '[due end of day Sat Feb 16]',
+      dueNote: '[due night before class]',
       link: '/assignments/readings/#reading-5-patterns'
     },
   ];
@@ -570,7 +600,7 @@ class CalendarData {
     {
       date: moment('2019-02-13', 'YYYY-MM-DD'),
       name: 'Office Hour - Manaswi',
-      locationName: 'officeHourManaswi'
+      locationName: 'officeHourManaswiShorter'
     },
     {
       date: moment('2019-02-20', 'YYYY-MM-DD'),
@@ -629,10 +659,6 @@ class CalendarData {
     },
     {
       date: moment('2019-02-07', 'YYYY-MM-DD'),
-      name: 'Jeremy Away from Lecture',
-    },
-    {
-      date: moment('2019-02-14', 'YYYY-MM-DD'),
       name: 'Jeremy Away from Lecture',
     },
     {
