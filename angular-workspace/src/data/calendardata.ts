@@ -190,9 +190,10 @@ class CalendarData {
     },
     {
       date: moment('2019-01-31', 'YYYY-MM-DD'),
-      name: 'Storyboarding,<br>Video Prototyping'
+      name: 'Storyboarding,<br>Video Prototyping',
       // Required for 2g
       // Doing before 2f allows including a bit of a refresh on sketching
+      slides: 'https://canvas.uw.edu/files/53735652/download?download_frd=1'
     },
     {
       date: moment('2019-02-05', 'YYYY-MM-DD'),
