@@ -10,7 +10,7 @@ class PageData {
 
   due_project_4d: string = "Uploaded Friday, March 15"; // Uploaded Monday, December 11, 2017
   link_project_4d_poster: string = "https://canvas.uw.edu/courses/1254716/assignments/4635409"; 
-  link_project_4d_video: string = ""; // https://canvas.uw.edu/courses/1173784/assignments/3960522
+  link_project_4d_video: string = "https://canvas.uw.edu/courses/1254716/assignments/4637124"; // https://canvas.uw.edu/courses/1173784/assignments/3960522
 
   due_project_4e: string = "Submitted Monday March 18. 2019"; // 
 
