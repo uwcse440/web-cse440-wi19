@@ -93,7 +93,7 @@ class CalendarData {
 
     posterSession: [
       {
-        time: '4:00 - 5:00',
+        time: '4:30 - 5:30',
         location: 'CSE Atrium'
       }
     ],
