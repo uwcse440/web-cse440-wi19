@@ -28,6 +28,7 @@ export class GeneratedLinkComponent implements OnInit {
   isFile(): boolean {
     return (
       this.linkHREF.toLowerCase().endsWith('.pdf')
+      || this.linkHREF.toLowerCase().endsWith('.mp4')
     );
   }
 
