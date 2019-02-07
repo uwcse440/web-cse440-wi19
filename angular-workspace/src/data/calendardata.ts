@@ -195,16 +195,17 @@ class CalendarData {
       // Doing before 2f allows including a bit of a refresh on sketching
       slides: 'https://canvas.uw.edu/files/53735652/download?download_frd=1'
     },
-    {
-      date: moment('2019-02-05', 'YYYY-MM-DD'),
-      name: 'Human Performance'
-    },
+    // {
+    //   date: moment('2019-02-05', 'YYYY-MM-DD'),
+    //   name: 'Human Performance'
+    // },
     {
       date: moment('2019-02-07', 'YYYY-MM-DD'),
-      name: 'Presentations,<br>Paper Prototyping,<br>Testing'
+      name: 'Presentations,<br>Paper Prototyping,<br>Testing',
       // Should be week before Assignment 2 presentations,
       // so they can benefit from this as this as they make their presentations
       // Required for 3a
+      slides: 'https://canvas.uw.edu/files/53899032/download?download_frd=1'
     },
     {
       date: moment('2019-02-12', 'YYYY-MM-DD'),
@@ -273,7 +274,7 @@ class CalendarData {
     {
       date: moment('2019-02-15', 'YYYY-MM-DD'),
       name: 'Presentations',
-      locationName: 'sectionMorningOnly',
+      locationName: 'section',
       link: '/assignments/assignment2#id-2i-presentation'
     },
     {
@@ -291,7 +292,7 @@ class CalendarData {
     {
       date: moment('2019-03-08', 'YYYY-MM-DD'),
       name: 'Presentations',
-      locationName: 'sectionAfternoonOnly',
+      locationName: 'section',
       link: '/assignments/assignment3#id-3g-presentation'
     },
     {
@@ -520,11 +521,6 @@ class CalendarData {
       locationName: 'officeHourJamesEarlier'
     },
     {
-      date: moment('2019-02-05', 'YYYY-MM-DD'),
-      name: 'Office Hour - James',
-      locationName: 'officeHourJames'
-    },
-    {
       date: moment('2019-02-12', 'YYYY-MM-DD'),
       name: 'Office Hour - James',
       locationName: 'officeHourJames'
@@ -657,6 +653,10 @@ class CalendarData {
     {
       date: moment('2019-01-31', 'YYYY-MM-DD'),
       name: 'Jeremy Away from Lecture',
+    },
+    {
+      date: moment('2019-02-05', 'YYYY-MM-DD'),
+      name: 'Snow Cancellation'
     },
     {
       date: moment('2019-02-07', 'YYYY-MM-DD'),
