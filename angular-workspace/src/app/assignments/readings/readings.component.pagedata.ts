@@ -34,7 +34,7 @@ class PageData {
   // ####################
   // # Reading 4
   // ####################
-  due_reading_paper_prototyping: string = 'Uploaded Saturday, February 9, 2019';
+  due_reading_paper_prototyping: string = 'Uploaded Saturday, February 11, 2019';
   link_reading_paper_prototyping: string = 'https://canvas.uw.edu/courses/1254716/assignments/4633361'; 
 
   link_reading_paper_prototyping_file_tiny_fingers: string = 'https://canvas.uw.edu/files/53468003/download?download_frd=1';
@@ -47,7 +47,7 @@ class PageData {
   // ####################
   // # Reading 5
   // ####################
-  due_reading_patterns: string = 'Uploaded Saturday, February 16, 2019';
+  due_reading_patterns: string = 'Uploaded Saturday, February 18, 2019';
   link_reading_patterns: string = 'https://canvas.uw.edu/courses/1254716/assignments/4633362';
 
   link_reading_patterns_file_design_of_sites: string = ''; //https://canvas.uw.edu/files/44674307/download?download_frd=1
