@@ -1,8 +1,10 @@
 # Assignment 3: Getting the Design Right
 
+<!--
 <div class="alert alert-danger" markdown="1">
 This page is still being migrated and developed. All content remains subject to change.
 </div>
+-->
 
 ## Overview
 
@@ -197,6 +199,10 @@ Submit via Canvas here:
 
 Bring your prototype to class. You will need it to conduct Heuristic Evaluation.
 
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
+
 #### Grading
 
 This milestone will be graded on a scale of __9 points__:
@@ -246,6 +252,10 @@ Submit via Canvas here:
 
 <app-assignment-submission-link linkSubmission="{{ page.link_project_3b }}"></app-assignment-submission-link>
 
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
+
 #### Grading
 
 This milestone will be graded on a scale of __6 points__:
@@ -271,7 +281,7 @@ Present your iterative revisions and your plan going forward:
   - The severity of the issue assigned by the team.
   - An image and explanation of any revision implemented as a result.
 
-- Discuss your first usability test. Provide a description of the test, including the participant, the environment, 
+- Discuss your first usability test. Provide a description of the test, including the participant, the environment where you conducted the test, 
   why you chose this participant and environment, the test protocol, and the roles of each team member who participated in the test. 
   Discuss anything you learned about the testing process itself, or any revisions you decided you need to make to your testing process.
 
@@ -287,6 +297,15 @@ Present your iterative revisions and your plan going forward:
 
 - Present your plan for the remainder of your usability tests. Describe who you will target for participation, what
   goals you have for the additional tests, planned roles for each team member, and any new approaches you will employ.
+
+As you assemble this documentation of the iterative improvement of your design, 
+you may find that some changes feel minor relative to the overhead of documenting those changes.
+Your goals in this documentation are to:
+
+- Show your work in the iterative design process, giving us enough insight to understand your progress.
+- Capture a record to which you can return in preparing your report and presentation.
+
+You may choose to not fully document minor changes, but be sure to document enough for these two goals.
 
 #### Samples from Prior Offerings
 
@@ -313,6 +332,10 @@ Submit via Canvas here:
 Be prepared to discuss your iterative revision of your paper prototype.
 Also bring your prototype, and be prepared to demonstrate it for critique.
 
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
+
 #### Grading
 
 This milestone will be graded on a scale of __12 points__:
@@ -332,7 +355,7 @@ Complete your three usability tests and finalize your paper prototype according 
 
 Present the results of your usability testing and your final paper prototype:
 
-- Discuss your three usability tests. Provide a description of each test, including the participant, the environment, 
+- Discuss your three usability tests. Provide a description of each test, including the participant, the environment where you conducted the test, 
   why you chose this participant and environment, the test protocol, and the roles of each team member who participated in the test. 
   Briefly discuss revisions you made in your process and prototype over the course of your testing.
 
@@ -349,6 +372,15 @@ Present the results of your usability testing and your final paper prototype:
 - Discuss two to four revisions that you consider to be the most salient and important modifications to your paper
   prototype based on issues identified in inspection, usability testing, or critique. These issues may already be 
   included in the above list, but discuss them in more detail and argue why detecting and fixing them is important to your design.
+
+As you assemble this documentation of the iterative improvement of your design, 
+you may find that some changes feel minor relative to the overhead of documenting those changes.
+Your goals in this documentation are to:
+
+- Show your work in the iterative design process, giving us enough insight to understand your progress.
+- Capture a record to which you can return in preparing your report and presentation.
+
+You may choose to not fully document minor changes, but be sure to document enough for these two goals.
 
 #### Samples from Prior Offerings
 
@@ -371,6 +403,10 @@ The limit applies to the approximate amount of text you would have if all images
 Submit via Canvas here: 
 
 <app-assignment-submission-link linkSubmission="{{ page.link_project_3d }}"></app-assignment-submission-link>
+
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
 
 #### Grading
 
@@ -402,6 +438,15 @@ Present your digital mockup together with discussion of the decisions and change
   
 - Discuss decisions and changes you made in implementing the digital mockup.
 
+As you assemble this documentation of the iterative improvement of your design, 
+you may find that some changes feel minor relative to the overhead of documenting those changes.
+Your goals in this documentation are to:
+
+- Show your work in the iterative design process, giving us enough insight to understand your progress.
+- Capture a record to which you can return in preparing your report and presentation.
+
+You may choose to not fully document minor changes, but be sure to document enough for these two goals.
+
 #### Samples from Prior Offerings
 
 Samples from prior offerings include:
@@ -425,7 +470,11 @@ Submit via Canvas here:
 <app-assignment-submission-link linkSubmission="{{ page.link_project_3e }}"></app-assignment-submission-link>
 
 Be prepared to discuss your iterative revision of your paper prototype in usability testing.
-Also be prepared to present and discuss your digital mockup, revisions the occurred in its creation.
+Also be prepared to present and discuss your digital mockup, revisions that occurred in its creation.
+
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
 
 #### Grading
 
@@ -529,12 +578,16 @@ Submit via Canvas here:
 
 <app-assignment-submission-link linkSubmission="{{ page.link_project_3f }}"></app-assignment-submission-link>
 
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
+
 #### Grading
 
 This report will be graded on a scale of __25 points__:
 
 1.  __Title__: (1 point) 
-2.  __Team Member Names and Roles__: (1 point)  
+2.  __Team Member Names__: (1 point)  
 3.  __Problem and Solution Overview__: (2 points)
 4.  __Initial Paper Prototype__: (3 points)
 5.  __Testing Process__: (2 points)
@@ -551,7 +604,7 @@ This report will be graded on a scale of __25 points__:
 Prepare a presentation of your process in getting the design right. It should encompass all of your work in Assignment 3.
 
 - Two members of your team should deliver the presentation, each speaking to relatively equal portions.
-- An seven minute time limit will be strictly enforced, with additional time for questions.
+- A seven minute time limit will be strictly enforced, with additional time for questions.
 - Your presenters should be different from your presenters in Assignment 2, such that everybody has presented at least once this quarter.
   If there is some reason this cannot work for your team, be sure you have communicated with us.
 
@@ -559,7 +612,7 @@ A suggested organization of this presentation is:
 
 1. __Title__:
  
-   A short, creative, and marketable title capturing the key idea. Include team member names and roles.
+   A short, creative, and marketable title capturing the key idea. Include team member names.
  
 2. __Overall Problem__: 
 
@@ -620,6 +673,10 @@ But you are ultimately responsible for your presentation.
 Submit via Canvas here: 
 
 <app-assignment-submission-link linkSubmission="{{ page.link_project_3g }}"></app-assignment-submission-link>
+
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
 
 #### In-Class Feedback Forms
 
