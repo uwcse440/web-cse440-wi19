@@ -60,8 +60,8 @@ You will create a website, a video prototype, a poster, and a pitch to present y
 
 1. Create a project website that provides an overview of the project, 
    presents your design process, and introduces team members. 
-   At a minimum, it must include links to your 
-   [Assignment 2](/assignments/assignment2/) report, 
+   At a minimum, it must include links to
+   your [Assignment 2](/assignments/assignment2/) report, 
    your [Assignment 3](/assignments/assignment3/) report, your video prototype, and your poster.
    Optionally, also include your presentations or other materials.
    Ideally, much of this same content will also be presented in a manner more appropriate for the web. 

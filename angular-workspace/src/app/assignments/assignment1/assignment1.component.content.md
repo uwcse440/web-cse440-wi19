@@ -70,7 +70,7 @@ Self-tracking and personal informatics are related to the [Quantified Self](http
 </html>
 
 Instead of limiting self-tracking to dashboards for an isolated self-analyst,
-we will ask students to consider the many different ways people might gather and interact with personal data,
+we ask you to consider the many different ways people might gather and interact with personal data,
 together with how machine intelligence might add meaningful value to these activities.
 
 Tracking can therefore take many mobile forms:
