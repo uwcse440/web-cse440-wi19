@@ -1,8 +1,10 @@
 # Assignment 4: Communicating Your Design
 
+<!--
 <div class="alert alert-danger" markdown="1">
 This page is still being migrated and developed. All content remains subject to change.
 </div>
+-->
 
 ## Overview
 
@@ -58,8 +60,8 @@ You will create a website, a video prototype, a poster, and a pitch to present y
 
 1. Create a project website that provides an overview of the project, 
    presents your design process, and introduces team members. 
-   At a minimum, it must include links to your 
-   [Assignment 2](/assignments/assignment2/) report, 
+   At a minimum, it must include links to
+   your [Assignment 2](/assignments/assignment2/) report, 
    your [Assignment 3](/assignments/assignment3/) report, your video prototype, and your poster.
    Optionally, also include your presentations or other materials.
    Ideally, much of this same content will also be presented in a manner more appropriate for the web. 
@@ -140,6 +142,10 @@ If you are absolutely unable to submit a pull request, submit via Canvas here:
 
 <app-assignment-submission-link linkSubmission="{{ page.link_project_4a }}"></app-assignment-submission-link>
 
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
+
 #### Grading
 
 This milestone will be graded on a scale of __8 points__:
@@ -183,6 +189,10 @@ Be sure to understand and carefully consider project requirements and feedback f
 Submit via Canvas here: 
 
 <app-assignment-submission-link linkSubmission="{{ page.link_project_4b }}"></app-assignment-submission-link>
+
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
 
 #### Grading
 
@@ -245,6 +255,10 @@ Your source file is due as above, we will then coordinate with you for proofread
 
 Be prepared to give your pitch.
 
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
+
 #### Grading
 
 This milestone will be graded on a scale of __6 points__:
@@ -278,6 +292,10 @@ For example, embedding a YouTube or Vimeo player does not give us your video.
 We therefore explicitly ask that final videos also be submitted via Canvas here: 
 
 <app-assignment-submission-link linkSubmission="{{ page.link_project_4d_video }}"></app-assignment-submission-link>
+
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
 
 #### Grading
 

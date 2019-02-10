@@ -70,7 +70,7 @@ Self-tracking and personal informatics are related to the [Quantified Self](http
 </html>
 
 Instead of limiting self-tracking to dashboards for an isolated self-analyst,
-we will ask students to consider the many different ways people might gather and interact with personal data,
+we ask you to consider the many different ways people might gather and interact with personal data,
 together with how machine intelligence might add meaningful value to these activities.
 
 Tracking can therefore take many mobile forms:
@@ -296,7 +296,7 @@ This proposal will be graded on a scale of __10 points__:
 1. __Problem and Motivation__: (3 points)
 2. __Analysis of Problem__: (3 points)
 3. __Novelty and Creativity__: (2 points)
-4. __Report Clarity and Presentation__: (2 points)
+4. __Clarity and Presentation__: (2 points)
 
 ### 1c: Project Bid
 
