@@ -50,7 +50,7 @@ class PageData {
   due_reading_patterns: string = 'Uploaded Monday, February 18, 2019';
   link_reading_patterns: string = 'https://canvas.uw.edu/courses/1254716/assignments/4633362';
 
-  link_reading_patterns_file_design_of_sites: string = ''; //https://canvas.uw.edu/files/44674307/download?download_frd=1
+  link_reading_patterns_file_design_of_sites: string = 'https://canvas.uw.edu/files/53962484/download?download_frd=1';
 }
 
 export const page = new PageData();
