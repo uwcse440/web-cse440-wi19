@@ -158,7 +158,7 @@ Given a space of possible directions, your project needs to begin to gather info
 Following up on the above, additionally brainstorm:
  
 - People: types of people you might work with to learn more.
-- Foci: potential foci you might apply in your learning.
+- Focus: on what parts of the problem you might focus your learning.
 
 #### Submission
 
@@ -185,7 +185,7 @@ This milestone will be graded on a scale of __3 points__ based on participation 
 The goal of this milestone is to develop an initial plan for your design research.
 
 In one paragraph, describe the people who might use your design and other stakeholders to consider in your design. 
-Describe the __participants__ you plan to pursue, including such details as their background and the environment where you will examine their current practices. Give enough information to convince us that you can actually find and engage with your target participants in the next week.
+Among potential stakeholders, describe the __participants__ you plan to pursue, including such details as their background and the environment where you will examine their current practices. Give enough information to convince us that you can actually find and engage with your target participants in the next week.
 
 - For example, your target participants should not be "doctors" but instead a specific group of doctors 
   (e.g., Family Practitioners in the UW Roosevelt Clinic). 
@@ -323,7 +323,7 @@ organizing observations around themes to tasks to help inform your design.
 
 #### Themes
 
-Complete design research with at least three participants. Discuss your process and what you learned:
+Complete design research with a total of at least three participants. Discuss your process and what you learned:
 
 - Who you observed or interviewed, their background, and the environment.
 - Note anything unique about each participant and comment on the rationale behind these observations.
@@ -331,7 +331,7 @@ Complete design research with at least three participants. Discuss your process 
 Across your participants, we expect some emergence of common themes, problems, and practices.
 
 - Identify high-level themes and problems the participants share in their practices.
-- Do these themes, problems, and practices suggest tasks to important to design for?
+- Do these themes, problems, and practices suggest tasks that are important to design for?
 
 If you are having trouble identifying high-level themes, problems, and practices,
 it may indicate a need to develop additional understanding through more design research.
@@ -587,7 +587,7 @@ include how you have addressed and incorporated that feedback to improve relativ
 
    A short, creative, and marketable title capturing the key idea.
 
-2. __Each Team Member’s Name, and optionally Role(s)__
+2. __Each Team Member’s Name__
 
 3. __Problem and Solution Overview__: (1 paragraph)
 
@@ -679,7 +679,7 @@ It is important to protect participant anonymity, even in the case that reportin
 This report will be graded on a scale of __25 points__:
 
 1.  __Title__: (1 point) 
-2.  __Team Member Names, and Optionally Roles__: (1 point)  
+2.  __Team Member Names__: (1 point)  
 3.  __Problem and Solution Overview__: (2 points) 
 4.  __Design Research Goals, Stakeholders, and Participants__: (2 points)
 5.  __Design Research Results and Themes__: (3 points)
@@ -702,7 +702,7 @@ A suggested organization of this presentation is:
 
 1. __Title__: 
  
-   A short, creative, and marketable title capturing the key idea. Include team member names, and optionally include roles.
+   A short, creative, and marketable title capturing the key idea. Include team member names.
  
 2. __Overall Problem__:  
 
