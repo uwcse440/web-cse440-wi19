@@ -253,7 +253,7 @@ This milestone will be graded on a scale of __10 points__:
 1. __Feasibility and Specificity of People__: (3 points)
 2. __Feasibility and Specificity of Design Methods__: (3 points)
 3. __Protocol__: (2 points)
-4. __Report Clarity and Presentation__: (2 points)
+4. __Clarity and Presentation__: (2 points)
 
 ### 2c: Design Research Check-In
 
@@ -312,7 +312,7 @@ This milestone will be graded on a scale of __8 points__:
 
 1. __Information from the First Participant__: (4 points)
 2. __Plan for Remaining Participants__: (2 points)
-3. __Report Clarity and Presentation__: (2 points)
+3. __Clarity and Presentation__: (2 points)
 
 ### 2d: Design Research Review
 
@@ -394,7 +394,7 @@ This milestone will be graded on a scale of __12 points__:
 1. __Description of Participants__ : (3 points) 
 2. __Quality of Themes Developed__: (3 points)
 3. __Answers to Task Analysis Questions__: (4 points)
-4. __Report Clarity and Presentation__: (2 points)
+4. __Clarity and Presentation__: (2 points)
 
 ### 2e: Task Review
 
@@ -443,7 +443,7 @@ Be prepared to discuss your design research with other teams and the course staf
 This milestone will be graded on a scale of __8 points__:
 
 1. __Each of 6 Tasks__: (1 point)
-2. __Report Clarity and Presentation__: (2 points)
+2. __Clarity and Presentation__: (2 points)
 
 ### 2f: Design Check-In ("3x4")
 
@@ -501,7 +501,7 @@ This milestone will be graded on a scale of __10 points__:
 
 1. __Six Task Descriptions__: (2 points)
 2. __Each of 3 Designs__: (2 points)
-3. __Report Clarity and Presentation__: (2 points)
+3. __Clarity and Presentation__: (2 points)
 
 ### 2g: Design Review ("1x2")
 
@@ -566,7 +566,7 @@ This milestone will be graded on a scale of __8 points__:
 
 1. __Rationale for Choosing a Design Focus and Tasks__: (2 points)
 2. __Each of 2 Storyboards__: (2 points)
-3. __Report Clarity and Presentation__: (2 points)
+3. __Clarity and Presentation__: (2 points)
 
 ### 2h: Final Report
 
@@ -687,7 +687,7 @@ This report will be graded on a scale of __25 points__:
 7.  __Proposed Design Sketches - "3x4"__: (3 points)
 8.  __Written Scenarios - "1x2"__: (3 points)
 9.  __Storyboards of the Selected Design__: (3 points)
-10. __Report Clarity and Presentation__: (4 points)
+10. __Clarity and Presentation__: (4 points)
 
 ### 2i: Presentation
 
