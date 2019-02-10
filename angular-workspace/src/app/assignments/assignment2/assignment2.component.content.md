@@ -170,6 +170,10 @@ Submit via Canvas here:
 
 You will be able to take your paper with you, and you should continue brainstorming throughout your project.
 
+#### Contribution Statement
+
+This submission does not require a team contribution statement.
+
 #### Grading
 
 This milestone will be graded on a scale of __3 points__ based on participation in generating ideas during the brainstorming exercise.

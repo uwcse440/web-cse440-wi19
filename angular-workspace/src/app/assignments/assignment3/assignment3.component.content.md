@@ -197,6 +197,10 @@ Submit via Canvas here:
 
 Bring your prototype to class. You will need it to conduct Heuristic Evaluation.
 
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
+
 #### Grading
 
 This milestone will be graded on a scale of __9 points__:
@@ -245,6 +249,10 @@ Similarly, be careful to keep a detailed record of any changes that are made, as
 Submit via Canvas here:
 
 <app-assignment-submission-link linkSubmission="{{ page.link_project_3b }}"></app-assignment-submission-link>
+
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
 
 #### Grading
 
@@ -313,6 +321,10 @@ Submit via Canvas here:
 Be prepared to discuss your iterative revision of your paper prototype.
 Also bring your prototype, and be prepared to demonstrate it for critique.
 
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
+
 #### Grading
 
 This milestone will be graded on a scale of __12 points__:
@@ -372,6 +384,10 @@ Submit via Canvas here:
 
 <app-assignment-submission-link linkSubmission="{{ page.link_project_3d }}"></app-assignment-submission-link>
 
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
+
 #### Grading
 
 This milestone will be graded on a scale of __12 points__:
@@ -426,6 +442,10 @@ Submit via Canvas here:
 
 Be prepared to discuss your iterative revision of your paper prototype in usability testing.
 Also be prepared to present and discuss your digital mockup, revisions the occurred in its creation.
+
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
 
 #### Grading
 
@@ -529,6 +549,10 @@ Submit via Canvas here:
 
 <app-assignment-submission-link linkSubmission="{{ page.link_project_3f }}"></app-assignment-submission-link>
 
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
+
 #### Grading
 
 This report will be graded on a scale of __25 points__:
@@ -620,6 +644,10 @@ But you are ultimately responsible for your presentation.
 Submit via Canvas here: 
 
 <app-assignment-submission-link linkSubmission="{{ page.link_project_3g }}"></app-assignment-submission-link>
+
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
 
 #### In-Class Feedback Forms
 
