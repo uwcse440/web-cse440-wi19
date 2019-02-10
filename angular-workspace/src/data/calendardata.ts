@@ -376,9 +376,9 @@ class CalendarData {
       link: '/assignments/assignment2#id-2d-design-research-review'
     },
     {
-      date: moment('2019-02-11', 'YYYY-MM-DD'),
+      date: moment('2019-02-12', 'YYYY-MM-DD'),
       name: '2h - Getting the Right Design',
-      dueNote: '[due night before class]',
+      dueNote: '[due end of day]',
       link: '/assignments/assignment2#id-2h-final-report'
     },
     {
