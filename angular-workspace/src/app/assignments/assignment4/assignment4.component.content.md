@@ -140,6 +140,10 @@ If you are absolutely unable to submit a pull request, submit via Canvas here:
 
 <app-assignment-submission-link linkSubmission="{{ page.link_project_4a }}"></app-assignment-submission-link>
 
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
+
 #### Grading
 
 This milestone will be graded on a scale of __8 points__:
@@ -183,6 +187,10 @@ Be sure to understand and carefully consider project requirements and feedback f
 Submit via Canvas here: 
 
 <app-assignment-submission-link linkSubmission="{{ page.link_project_4b }}"></app-assignment-submission-link>
+
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
 
 #### Grading
 
@@ -245,6 +253,10 @@ Your source file is due as above, we will then coordinate with you for proofread
 
 Be prepared to give your pitch.
 
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
+
 #### Grading
 
 This milestone will be graded on a scale of __6 points__:
@@ -278,6 +290,10 @@ For example, embedding a YouTube or Vimeo player does not give us your video.
 We therefore explicitly ask that final videos also be submitted via Canvas here: 
 
 <app-assignment-submission-link linkSubmission="{{ page.link_project_4d_video }}"></app-assignment-submission-link>
+
+#### Contribution Statement
+
+<app-assignment-contribution-statement></app-assignment-contribution-statement>
 
 #### Grading
 
