@@ -14,7 +14,7 @@ class PageData {
 
   due_project_4e: string = "Submitted Monday March 18. 2019"; // 
 
-  due_project_4f: string = "Attend 4:00-5:00, Wednesday, March 20, 2019"; 
+  due_project_4f: string = "Attend 4:30-5:30, Wednesday, March 20, 2019";
 }
 
 export const page = new PageData();
