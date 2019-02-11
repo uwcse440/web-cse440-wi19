@@ -236,9 +236,9 @@ Submit via Canvas here:
 
 This assignment will be graded on a scale of __10 points__:
 - State Effective Method: 1 pt
-- Describe Why it’s Effective: 3 pts
+- Describe Why the Method Is Effective: 3 pts
 - State Ineffective Method: 1 pt
-- Describe Ineffective Method: 3 pts 
+- Describe Why the Method is Ineffective: 3 pts 
 - Report Clarity and Presentation: 2 points
 
 ## Reading 4: Paper Prototyping and Usability Testing
