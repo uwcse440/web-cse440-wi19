@@ -61,6 +61,15 @@ Submit via Canvas here:
 
 <app-assignment-submission-link linkSubmission="{{ page.link_reading_design_research }}"></app-assignment-submission-link>
 
+#### Grading
+
+This assignment will be graded on a scale of __10 points__:
+- Proposal: 1 pt
+- People, Data, and Focus : 2 pts
+- Limitation (method or experience) and How to Avoid/Overcome : 2 pts
+- Alternative Method and Benefit: 3 pts
+- Report Clarity and Presentation: 2 pts
+
 ## Reading 2: Research Paper
 
 <app-assignment-due-text dueText="{{ page.due_reading_research_paper }}"></app-assignment-due-text>
@@ -143,6 +152,15 @@ Submit via Canvas here:
 
 <app-assignment-submission-link linkSubmission="{{ page.link_reading_research_paper_paper }}"></app-assignment-submission-link>
 
+#### Grading
+
+This assignment will be graded on a scale of __10 points__:
+- Main points: 2 pts
+- Critiques and Limitations: 2 pts
+- How Would You Change the Paper Methods?: 2 pts
+- Applying Insights and Improving Design: 2 pts
+- Report Clarity and Presentation: 2 pts
+
 ## Reading 3: Storyboarding and Video Prototyping
 
 <app-assignment-due-text dueText="{{ page.due_reading_storyboarding }}"></app-assignment-due-text>
@@ -214,6 +232,15 @@ Submit via Canvas here:
 
 <app-assignment-submission-link linkSubmission="{{ page.link_reading_storyboarding }}"></app-assignment-submission-link>
 
+#### Grading
+
+This assignment will be graded on a scale of __10 points__:
+- State Effective Method: 1 pt
+- Describe Why it’s Effective: 3 pts
+- State Ineffective Method: 1 pt
+- Describe Ineffective Method: 3 pts 
+- Report Clarity and Presentation: 2 points
+
 ## Reading 4: Paper Prototyping and Usability Testing
 
 <app-assignment-due-text dueText="{{ page.due_reading_paper_prototyping }}"></app-assignment-due-text>
@@ -232,7 +259,7 @@ Optionally, check out these additionally paper prototyping resources:
 
 After reading, consider how you might apply these techniques in your paper prototyping and usability testing.
 
-- Describe an specific idea or thought you might be able to apply in your paper prototyping and usability testing.
+- Describe a specific idea or thought you might be able to apply in your paper prototyping and usability testing.
 - Describe why this idea is non-obvious or how it well help ensure good results for your paper prototyping and usability testing.
 - Describe what in the readings gave you this idea.
 
@@ -252,6 +279,14 @@ Submit via Canvas here:
 
 <app-assignment-submission-link linkSubmission="{{ page.link_reading_paper_prototyping }}"></app-assignment-submission-link>
 
+#### Grading
+
+This assignment will be graded on a scale of __10 points__:
+- Describe Specific Idea You Might Apply: 3 pts
+- Describe Why It Is Non-Obvious and/or How It Will Help: 4 pts
+- Describe What in the Reading Gave You the Idea: 1 pts
+- Report Clarity and Presentation: 2 points
+
 ## Reading 5: Patterns
 
 <app-assignment-due-text dueText="{{ page.due_reading_patterns }}"></app-assignment-due-text>
@@ -265,7 +300,7 @@ Consider how one of these patterns, or a pattern you find elsewhere, may be rele
 - Briefly, what pattern did you identify as relevant (e.g., by name and ID from Design of Sites, by URL to another pattern).
 - Describe why this pattern is relevant in your design.
 - Describe how you might incorporate the pattern in your design or adjust your design process based on perspective surfaced by the pattern.
-  (e.g., describes changes with text describing what you might change, or consider providing before / after images).
+  (e.g., describes with text what you might change, or consider providing before / after images).
 
 If you wish, you can do this assignment in __pairs__ from your project team.
 If you do, include both names in your document.
@@ -280,3 +315,13 @@ No more than one page of text in PDF format.
 Submit via Canvas here:
 
 <app-assignment-submission-link linkSubmission="{{ page.link_reading_patterns }}"></app-assignment-submission-link>
+
+#### Grading
+
+This assignment will be graded on a scale of __10 points__:
+- Identify Relevant Pattern: 1 pt
+- Describe Why It Is Relevant: 3 pts
+- Describe How You Might Incorporate the Pattern or Adjust Your Process: 4 pts 
+- Report Clarity and Presentation: 2 points
+
+
