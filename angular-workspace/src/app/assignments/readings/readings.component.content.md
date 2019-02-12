@@ -66,7 +66,7 @@ Submit via Canvas here:
 This assignment will be graded on a scale of __10 points__:
 - Proposal: 1 pt
 - People, Data, and Focus : 2 pts
-- Limitation (method or experience) and How to Avoid/Overcome : 2 pts
+- Limitation of Method or Experience and How to Avoid/Overcome : 2 pts
 - Alternative Method and Benefit: 3 pts
 - Report Clarity and Presentation: 2 pts
 
@@ -155,10 +155,9 @@ Submit via Canvas here:
 #### Grading
 
 This assignment will be graded on a scale of __10 points__:
-- Main points: 2 pts
+- Main Points of Paper: 3 pts
 - Critiques and Limitations: 2 pts
-- How Would You Change the Paper Methods?: 2 pts
-- Applying Insights and Improving Design: 2 pts
+- Applying Insights to Project: 3 pts
 - Report Clarity and Presentation: 2 pts
 
 ## Reading 3: Storyboarding and Video Prototyping
@@ -235,9 +234,9 @@ Submit via Canvas here:
 #### Grading
 
 This assignment will be graded on a scale of __10 points__:
-- State Effective Method: 1 pt
+- State an Effective Method: 1 pt
 - Describe Why the Method Is Effective: 3 pts
-- State Ineffective Method: 1 pt
+- State an Ineffective Method: 1 pt
 - Describe Why the Method is Ineffective: 3 pts 
 - Report Clarity and Presentation: 2 points
 
@@ -282,7 +281,7 @@ Submit via Canvas here:
 #### Grading
 
 This assignment will be graded on a scale of __10 points__:
-- Describe Specific Idea You Might Apply: 3 pts
+- Describe a Specific Idea You Might Apply: 3 pts
 - Describe Why It Is Non-Obvious and/or How It Will Help: 4 pts
 - Describe What in the Reading Gave You the Idea: 1 pts
 - Report Clarity and Presentation: 2 points
