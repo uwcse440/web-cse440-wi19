@@ -195,10 +195,6 @@ class CalendarData {
       // Doing before 2f allows including a bit of a refresh on sketching
       slides: 'https://canvas.uw.edu/files/53735652/download?download_frd=1'
     },
-    // {
-    //   date: moment('2019-02-05', 'YYYY-MM-DD'),
-    //   name: 'Human Performance'
-    // },
     {
       date: moment('2019-02-07', 'YYYY-MM-DD'),
       name: 'Presentations,<br>Paper Prototyping,<br>Testing',
@@ -208,7 +204,7 @@ class CalendarData {
       slides: 'https://canvas.uw.edu/files/53899032/download?download_frd=1'
     },
     {
-      date: moment('2019-02-12', 'YYYY-MM-DD'),
+      date: moment('2019-02-14', 'YYYY-MM-DD'),
       name: 'Testing,<br>Patterns'
     },
     {
@@ -218,8 +214,12 @@ class CalendarData {
     },
     {
       date: moment('2019-02-21', 'YYYY-MM-DD'),
-      name: 'Interface Implementation'
+      name: 'Human Performance'
     },
+    // {
+    //   date: moment('2019-02-21', 'YYYY-MM-DD'),
+    //   name: 'Interface Implementation'
+    // },
     {
       date: moment('2019-02-28', 'YYYY-MM-DD'),
       name: 'Designing for Diverse Needs',
@@ -265,12 +265,12 @@ class CalendarData {
   ];
 
   majors: Major[] = [
-    {
-      date: moment('2019-02-14', 'YYYY-MM-DD'),
-      name: 'Presentations',
-      locationName: 'lecture',
-      link: '/assignments/assignment2#id-2i-presentation'
-    },
+    // {
+    //   date: moment('2019-02-14', 'YYYY-MM-DD'),
+    //   name: 'Presentations',
+    //   locationName: 'lecture',
+    //   link: '/assignments/assignment2#id-2i-presentation'
+    // },
     {
       date: moment('2019-02-15', 'YYYY-MM-DD'),
       name: 'Presentations',
@@ -382,7 +382,7 @@ class CalendarData {
       link: '/assignments/assignment2#id-2h-final-report'
     },
     {
-      date: moment('2019-02-13', 'YYYY-MM-DD'),
+      date: moment('2019-02-14', 'YYYY-MM-DD'),
       name: '2i - Presentation',
       dueNote: '[due night before class]',
       link: '/assignments/assignment2#id-2i-presentation'
@@ -521,11 +521,6 @@ class CalendarData {
       locationName: 'officeHourJamesEarlier'
     },
     {
-      date: moment('2019-02-12', 'YYYY-MM-DD'),
-      name: 'Office Hour - James',
-      locationName: 'officeHourJames'
-    },
-    {
       date: moment('2019-02-19', 'YYYY-MM-DD'),
       name: 'Office Hour - James',
       locationName: 'officeHourJames'
@@ -661,6 +656,10 @@ class CalendarData {
     {
       date: moment('2019-02-07', 'YYYY-MM-DD'),
       name: 'Jeremy Away from Lecture',
+    },
+    {
+      date: moment('2019-02-12', 'YYYY-MM-DD'),
+      name: 'Snow Cancellation'
     },
     {
       date: moment('2019-02-21', 'YYYY-MM-DD'),
