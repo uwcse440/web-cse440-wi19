@@ -271,7 +271,8 @@ and to begin usability testing of your revised prototype with participants.
 
 You received two heuristic evaluations of your paper prototype. 
 If desired, you may also conduct a heuristic evaluation or cognitive walkthrough for your own paper prototype.
-Also complete one usability test with your paper prototype.
+
+Complete one usability test with your paper prototype.
 
 Present your iterative revisions and your plan going forward:
 
@@ -351,7 +352,7 @@ This milestone will be graded on a scale of __12 points__:
 
 The goal of this milestone is to complete usability testing of your prototype with participants.
 
-Complete your three usability tests and finalize your paper prototype according to what you learn.
+Complete a total of at least three usability tests and finalize your paper prototype according to what you learn.
 
 Present the results of your usability testing and your final paper prototype:
 

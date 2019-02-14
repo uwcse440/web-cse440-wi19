@@ -205,7 +205,8 @@ class CalendarData {
     },
     {
       date: moment('2019-02-14', 'YYYY-MM-DD'),
-      name: 'Testing,<br>Patterns'
+      name: 'Testing,<br>Patterns',
+      slides: 'https://canvas.uw.edu/files/54055773/download?download_frd=1'
     },
     {
       date: moment('2019-02-19', 'YYYY-MM-DD'),
