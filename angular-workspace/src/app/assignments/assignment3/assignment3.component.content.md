@@ -601,7 +601,7 @@ This report will be graded on a scale of __25 points__:
 7.  __Final Paper Prototype__: (3 points)
 8.  __Digital Mockup__: (3 points)
 9.  __Discussion__: (3 points)
-10. __Report Clarity and Presentation__: (4 points)
+10. __Clarity and Presentation__: (4 points)
 
 ### 3g: Presentation
 
