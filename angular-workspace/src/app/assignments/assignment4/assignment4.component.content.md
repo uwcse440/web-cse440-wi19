@@ -151,7 +151,7 @@ If you are absolutely unable to submit a pull request, submit via Canvas here:
 This milestone will be graded on a scale of __8 points__:
 
 1.  __Completeness of Content__: (3 points)
-2.  __Appropriately Polished Presentation__: (3 points)
+2.  __Appropriately Clear and Polished Presentation__: (3 points)
 3.  __Submitted via Pull Request__: (2 points)
 
 Your website should be complete and will be evaluated as such.
@@ -199,7 +199,7 @@ Submit via Canvas here:
 This milestone will be graded on a scale of __6 points__:
 
 1.  __Conveys Problem, Design, Context, and Satisfaction__: (3 points)
-2.  __Appropriately Polished and Timed__: (3 points)
+2.  __Appropriately Clear, Polished, and Timed__: (3 points)
 
 Your video prototype should be complete and will be evaluated as such.
 But later critique and refinement will help further improve it before the final poster session.
@@ -261,10 +261,11 @@ Be prepared to give your pitch.
 
 #### Grading
 
-This milestone will be graded on a scale of __6 points__:
+This milestone will be graded on a scale of __8 points__:
 
 1.  __Initial Poster__: (3 points)
 2.  __Initial Pitch__: (3 points)
+3. __Clarity and Presentation__: (2 points)
 
 ### 4d: Final Poster, Final Video, Final Website
 
