@@ -205,10 +205,11 @@ Bring your prototype to class. You will need it to conduct Heuristic Evaluation.
 
 #### Grading
 
-This milestone will be graded on a scale of __9 points__:
+This milestone will be graded on a scale of __12 points__:
 
-1. __Overall Completeness and Appropriateness of Paper Prototype__: (3 points)
+1. __Overall Completeness and Appropriateness of Paper Prototype__: (4 points)
 2. __Completeness, Appropriateness, and Documentation of Each Task__: (3 points per task)
+3. __Clarity and Presentation__: (2 points)
 
 ### 3b: Heuristic Evaluation
 
@@ -258,9 +259,10 @@ Submit via Canvas here:
 
 #### Grading
 
-This milestone will be graded on a scale of __6 points__:
+This milestone will be graded on a scale of __8 points__:
 
 1. __Participation of Each Half-Team__: (3 points per half-team)
+2. __Clarity and Presentation__: (2 points)
 
 ### 3c: Usability Testing Check-In
 
@@ -339,12 +341,13 @@ Also bring your prototype, and be prepared to demonstrate it for critique.
 
 #### Grading
 
-This milestone will be graded on a scale of __12 points__:
+This milestone will be graded on a scale of __14 points__:
 
 1. __Issues Identified from Inspection, Revisions Made in Response__: (3 points)
 2. __Discussion of Usability Test and Plan__: (3 points)
 3. __Issues Identified in Usability Test, Revisions Made in Response__: (3 points)
 4. __Updated Images of Paper Prototype__: (3 points)
+5. __Clarity and Presentation__: (2 points)
 
 ### 3d: Usability Testing Review
 
@@ -411,12 +414,13 @@ Submit via Canvas here:
 
 #### Grading
 
-This milestone will be graded on a scale of __12 points__:
+This milestone will be graded on a scale of __14 points__:
 
 1. __Discussion of Usability Tests and Plan__: (3 points)
 2. __Issues Identified in Usability Tests, Revisions Made in Response__: (3 points)
 3. __Updated Images of Paper Prototype__: (3 points)
 4. __Discussion of Key Revisions in Design Process__: (3 points)
+5. __Clarity and Presentation__: (2 points)
 
 ### 3e: Digital Mockup 
 
@@ -479,11 +483,12 @@ Also be prepared to present and discuss your digital mockup, revisions that occu
 
 #### Grading
 
-This milestone will be graded on a scale of __12 points__:
+This milestone will be graded on a scale of __14 points__:
 
 1. __Overall Completeness and Appropriateness of Digital Mockup__: (3 points)
 2. __Completeness, Appropriateness, and Documentation of Each Task__: (3 points each)
 3. __Discussion of Decisions and Changes in Implementation__: (3 points)
+4. __Clarity and Presentation__: (2 points)
 
 ### 3f: Final Report
 	
