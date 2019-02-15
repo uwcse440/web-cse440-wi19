@@ -199,7 +199,7 @@ Submit via Canvas here:
 This milestone will be graded on a scale of __6 points__:
 
 1.  __Conveys Problem, Design, Context, and Satisfaction__: (3 points)
-2.  __Appropriately Clear, Polished and Timed__: (3 points)
+2.  __Appropriately Clear, Polished, and Timed__: (3 points)
 
 Your video prototype should be complete and will be evaluated as such.
 But later critique and refinement will help further improve it before the final poster session.
