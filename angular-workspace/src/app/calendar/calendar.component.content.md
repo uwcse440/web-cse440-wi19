@@ -76,6 +76,9 @@ This page is still being migrated and developed. All content remains subject to 
             <!-- Name or placeholder 'Section' -->
             <p *ngIf="currentSection.name" [innerHTML]="currentSection.name"></p>
             <p *ngIf="!(currentSection.name)">Section</p>
+            <div *ngIf="currentSection.slides" class="slides">
+              <p>[<app-generated-link linkHREF="{{ currentSection.slides }}">slides</app-generated-link>]</p>
+            </div>
             <div *ngIf="currentSection.location" class="location">
               <div *ngFor="let currentLocation of currentSection.location">
                 <p>{{ currentLocation.time }} | {{ currentLocation.location }}</p>
