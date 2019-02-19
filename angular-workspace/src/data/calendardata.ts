@@ -34,6 +34,7 @@ interface Section {
   name?: string;
   location?: Location[];
   locationName?: string;
+  slides?: string;
 }
 
 class CalendarData {
@@ -95,6 +96,13 @@ class CalendarData {
       {
         time: '4:30 - 5:30',
         location: 'CSE Atrium'
+      }
+    ],
+
+    examQA: [
+      {
+        time: "TBD",
+        location: "TBD"
       }
     ],
 
@@ -256,10 +264,17 @@ class CalendarData {
       date: moment('2019-02-22', 'YYYY-MM-DD'),
     },
     {
+      date: moment('2019-02-25', 'YYYY-MM-DD'),
+      name: 'Exam Q&A',
+      locationName: 'examQA',
+      slides: 'https://canvas.uw.edu/files/54172899/download?download_frd=1'
+    },
+    {
       date: moment('2019-03-01', 'YYYY-MM-DD'),
     },
     {
       date: moment('2019-03-14', 'YYYY-MM-DD'),
+      locationName: 'lecture',
     },
     {
       date: moment('2019-03-15', 'YYYY-MM-DD'),
