@@ -34,6 +34,7 @@ interface Section {
   name?: string;
   location?: Location[];
   locationName?: string;
+  slides?: string;
 }
 
 class CalendarData {
@@ -95,6 +96,13 @@ class CalendarData {
       {
         time: '4:30 - 5:30',
         location: 'CSE Atrium'
+      }
+    ],
+
+    examQA: [
+      {
+        time: "TBD",
+        location: "TBD"
       }
     ],
 
@@ -210,17 +218,14 @@ class CalendarData {
     },
     {
       date: moment('2019-02-19', 'YYYY-MM-DD'),
-      name: 'Inspection'
+      name: 'Inspection',
       // Required to be day that 3a is due, includes in-class start on 3b'
+      slides: 'https://canvas.uw.edu/files/54169471/download?download_frd=1'
     },
     {
       date: moment('2019-02-21', 'YYYY-MM-DD'),
       name: 'Human Performance'
     },
-    // {
-    //   date: moment('2019-02-21', 'YYYY-MM-DD'),
-    //   name: 'Interface Implementation'
-    // },
     {
       date: moment('2019-02-28', 'YYYY-MM-DD'),
       name: 'Designing for Diverse Needs',
@@ -228,6 +233,10 @@ class CalendarData {
     {
       date: moment('2019-03-05', 'YYYY-MM-DD'),
       name: 'History',
+    },
+    {
+      date: moment('2019-03-07', 'YYYY-MM-DD'),
+      name: 'Interface Implementation'
     },
     {
       date: moment('2019-03-12', 'YYYY-MM-DD'),
@@ -255,10 +264,17 @@ class CalendarData {
       date: moment('2019-02-22', 'YYYY-MM-DD'),
     },
     {
+      date: moment('2019-02-25', 'YYYY-MM-DD'),
+      name: 'Exam Q&A',
+      locationName: 'examQA',
+      slides: 'https://canvas.uw.edu/files/54172899/download?download_frd=1'
+    },
+    {
       date: moment('2019-03-01', 'YYYY-MM-DD'),
     },
     {
       date: moment('2019-03-14', 'YYYY-MM-DD'),
+      locationName: 'lecture',
     },
     {
       date: moment('2019-03-15', 'YYYY-MM-DD'),
@@ -284,12 +300,12 @@ class CalendarData {
       locationName: 'lecture',
       // link: 'slides/lecture/cse440-consolidated-17au.pdf'
     },
-    {
-      date: moment('2019-03-07', 'YYYY-MM-DD'),
-      name: 'Presentations',
-      locationName: 'lecture',
-      link: '/assignments/assignment3#id-3g-presentation'
-    },
+    // {
+    //   date: moment('2019-03-07', 'YYYY-MM-DD'),
+    //   name: 'Presentations',
+    //   locationName: 'lecture',
+    //   link: '/assignments/assignment3#id-3g-presentation'
+    // },
     {
       date: moment('2019-03-08', 'YYYY-MM-DD'),
       name: 'Presentations',
@@ -433,7 +449,7 @@ class CalendarData {
       link: '/assignments/assignment3#id-3f-final-report'
     },
     {
-      date: moment('2019-03-06', 'YYYY-MM-DD'),
+      date: moment('2019-03-07', 'YYYY-MM-DD'),
       name: '3g - Presentation',
       dueNote: '[due night before class]',
       link: '/assignments/assignment3#id-3g-presentation'
@@ -497,7 +513,7 @@ class CalendarData {
       link: '/assignments/readings/#reading-4-paper-prototyping-and-usability-testing'
     },
     {
-      date: moment('2019-02-18', 'YYYY-MM-DD'),
+      date: moment('2019-02-22', 'YYYY-MM-DD'),
       name: 'Reading 5: Design Patterns',
       dueNote: '[due night before class]',
       link: '/assignments/readings/#reading-5-patterns'
@@ -524,7 +540,7 @@ class CalendarData {
     {
       date: moment('2019-02-19', 'YYYY-MM-DD'),
       name: 'Office Hour - James',
-      locationName: 'officeHourJames'
+      locationName: 'officeHourJamesEarlier'
     },
     {
       date: moment('2019-03-05', 'YYYY-MM-DD'),
