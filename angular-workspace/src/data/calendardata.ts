@@ -101,8 +101,12 @@ class CalendarData {
 
     examQA: [
       {
-        time: "TBD",
-        location: "TBD"
+        time: "2:00 - 3:00",
+        location: "CSE 305"
+      },
+      {
+        time: "5:00 - 6:00",
+        location: "CSE 403"
       }
     ],
 
@@ -224,7 +228,8 @@ class CalendarData {
     },
     {
       date: moment('2019-02-21', 'YYYY-MM-DD'),
-      name: 'Human Performance'
+      name: 'Human Performance',
+      slides: 'https://canvas.uw.edu/files/54211841/download?download_frd=1'
     },
     {
       date: moment('2019-02-28', 'YYYY-MM-DD'),
@@ -267,7 +272,7 @@ class CalendarData {
       date: moment('2019-02-25', 'YYYY-MM-DD'),
       name: 'Exam Q&A',
       locationName: 'examQA',
-      slides: 'https://canvas.uw.edu/files/54172899/download?download_frd=1'
+      slides: 'https://canvas.uw.edu/files/54211809/download?download_frd=1'
     },
     {
       date: moment('2019-03-01', 'YYYY-MM-DD'),
