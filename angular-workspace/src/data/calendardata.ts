@@ -113,7 +113,14 @@ class CalendarData {
       }
     ],
 
-    officeHourJamesEarlier: [
+    officeHourJamesAt200: [
+      {
+        time: "2:00 - 3:00",
+        location: "CSE 632"
+      }
+    ],
+
+    officeHourJamesAt300: [
       {
         time: "3:00 - 4:00",
         location: "CSE 632"
@@ -229,6 +236,7 @@ class CalendarData {
     {
       date: moment('2019-02-28', 'YYYY-MM-DD'),
       name: 'Designing for Diverse Needs',
+      slides: 'https://canvas.uw.edu/files/54425066/download?download_frd=1'
     },
     {
       date: moment('2019-03-05', 'YYYY-MM-DD'),
@@ -535,17 +543,17 @@ class CalendarData {
     {
       date: moment('2019-01-29', 'YYYY-MM-DD'),
       name: 'Office Hour - James',
-      locationName: 'officeHourJamesEarlier'
+      locationName: 'officeHourJamesAt300'
     },
     {
       date: moment('2019-02-19', 'YYYY-MM-DD'),
       name: 'Office Hour - James',
-      locationName: 'officeHourJamesEarlier'
+      locationName: 'officeHourJamesAt300'
     },
     {
       date: moment('2019-03-05', 'YYYY-MM-DD'),
       name: 'Office Hour - James',
-      locationName: 'officeHourJames'
+      locationName: 'officeHourJamesAt200'
     },
 
     // Annie
@@ -685,6 +693,14 @@ class CalendarData {
     {
       date: moment('2019-02-28', 'YYYY-MM-DD'),
       name: 'Jeremy Away from Lecture',
+    },
+    {
+      date: moment('2019-03-01', 'YYYY-MM-DD'),
+      name: 'Jeremy Away<br>Annie in 1:30',
+    },
+    {
+      date: moment('2019-03-01', 'YYYY-MM-DD'),
+      name: 'Jeremy Away<br>Annie in 2:30',
     },
     {
       date: moment('2019-03-07', 'YYYY-MM-DD'),
