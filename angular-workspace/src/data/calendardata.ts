@@ -245,7 +245,8 @@ class CalendarData {
     },
     {
       date: moment('2019-03-07', 'YYYY-MM-DD'),
-      name: 'Interface Implementation'
+      name: 'Interface Implementation',
+      slides: 'https://canvas.uw.edu/files/54631576/download?download_frd=1'
     },
     {
       date: moment('2019-03-12', 'YYYY-MM-DD'),
