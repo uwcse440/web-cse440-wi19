@@ -1,32 +1,38 @@
+<!--
 <div class="alert alert-danger">
 This page is still being migrated and developed. All content remains subject to change.
 </div>
+-->
 
 ## Project Theme
 
-<div class="alert alert-danger">
-People have long sought to better understand themselves, but recently technology advances enable new approaches.
-Projects explored opportunities and challenges in self-tracking, also known as personal informatics:
+As a focus for Winter 2019, we asked students to explore __self-tracking and everyday interaction with personal intelligences__.
 
-> Personal informatics systems are systems that help people collect personally relevant information for the purpose of
-> self-reflection and gaining self-knowledge.
->
-> [Li _et al._, 2010](readings/PersonalInformatics-Li2010.pdf).
-
-Self-tracking and personal informatics are closely related to the [Quantified Self](http://quantifiedself.com/) movement, which emphasizes:
-
-> Self-knowledge through numbers.
->
-> [Gary Wolf, 2009](http://archive.wired.com/medtech/health/magazine/17-07/lbnp_knowthyself)
-
-As a focus for Autumn 2017, students were asked to explore __tracking beyond the self__.
-Instead of limiting self-tracking to dashboards for an isolated self-analyst,
-we asked students to consider the many different ways people might gather and interact around personal data.
-Students have examined the problems people encounter,
-then explored how new technology design help people in using data to reach their goals.
-</div>
+People have long sought to better understand themselves, but continuing technology advances enable new approaches.
+Students examined problems people encounter in gathering and gaining value from personal data,
+then explored how a combination of design and machine intelligence can 
+help go beyond simple data fetishes to help people in using personal data as part of reaching their goals.
 
 ## Project Websites
+
+<html>
+  <ng-container>
+    <div class="row">
+      <div class="col-md-3 col-sm-6 col-xs-12" *ngFor="let project of projects.projects">
+        <p>
+          <app-generated-link linkHREF="assets/projects/{{ project.path }}/" forceExternal="true">{{ project.name }}</app-generated-link>
+        </p>
+        <div class="projectThumbBox">
+          <p>
+            <app-generated-link linkHREF="assets/projects/{{ project.path }}/" forceExternal="true">
+              <img src="assets/projects/{{ project.path }}/project_thumb.png" width="150" class="projectThumbImage" alt="{{ project.name }}"/>
+            </app-generated-link>
+          </p>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+</html>
 
 <!--
 {% assign projects_count = site.data.projects.projects | size %}
@@ -41,7 +47,7 @@ Will be linked here as course projects are proposed and developed.
     <div class="col-sm-3 col-xs-6">
       <p>
         {% if item_project.publishlink %}
-        <a href="{{ site.baseurl }}/projects/{{ item_project.path }}/" target="_blank">
+        <a href="{{ item_project.path }}/" target="_blank">
           {{ item_project.name }}
         </a>
         {% else %}
@@ -54,7 +60,6 @@ Will be linked here as course projects are proposed and developed.
         {% endif %}
           {% capture thumb_exists %}{% file_exists projects/{{ item_project.path }}/project_thumb.png %}{% endcapture %}
           {% if thumb_exists == "true" %}
-            <img src="{{ site.baseurl }}/projects/{{ item_project.path }}/project_thumb.png" width="150" class="projectThumbnail" alt="{{ item_project.name }}"/>
           {% else %}
             <img src="{{ site.baseurl }}/projects/150x150.png" width="150" class="projectThumbnail" alt="{{ item_project.name }}"/>
           {% endif %}
