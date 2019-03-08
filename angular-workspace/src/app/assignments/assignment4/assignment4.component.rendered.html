@@ -102,13 +102,20 @@ This pitch should convince the audience your problem was worth investigating and
 <p>We will use your websites to advertise the poster session.
 Although this is an initial website on which you will get feedback and will be able to update,
 you should submit a complete and high-quality version of your website appropriate for advertising the course projects.</p>
-<p>Your website will be served from a subdirectory of this course website.
-It is also link via a thumbnail from the projects page:</p>
-<app-generated-link linkHREF="/projects.html">Projects Page</app-generated-link>
+<p>Your website will be served from a subdirectory of this course website.</p>
+<p>Within the GitHub repository of the course:</p>
+<p><app-generated-link linkHREF="https://github.com/uwcse440/web-cse440-wi19">https://github.com/uwcse440/web-cse440-wi19</app-generated-link></p>
+<p>You will submit your website as a set of static files in your project directory:</p>
+<p><code>angular-workspace/src/assets/projects/**projectpath**</code></p>
+<p>It is also linked via a thumb from the projects page:</p>
+<p><app-generated-link linkHREF="/projects.html">Projects Page</app-generated-link></p>
+<p>You should provide an appropriate 150x150 thumb at:</p>
+<p><code>angular-workspace/src/assets/projects/**projectpath**/project_thumb.png</code></p>
 <p>You can build your website however you like, but everything needed for your site must be in your directory.
 Do not attempt to integrate with the functionality used for this course website.
 Simply build your website and submit the set of static files to be served from your directory.
 Because you must provide a set of static files for your website, you may not use external site builders (e.g., Wix).</p>
+<p>Because your website will be served from a directory, be sure to use relative paths within your source.</p>
 <p>You will later add your video to the website. You may want to plan ahead for that additional content.</p>
 <h4 id="samples-from-prior-offerings">Samples from Prior Offerings</h4>
 <p>Samples from prior offerings include:</p>
@@ -138,13 +145,21 @@ But later critique and refinement will help further improve it before the final 
 <h3 id="id-4b-initial-video-prototype">4b: Initial Video Prototype</h3>
 <p><app-assignment-due-text dueText="{{ page.due_project_4b }}"></app-assignment-due-text></p>
 <p>The goal of this milestone is to create a video that communicates your design to a broad audience.</p>
-<p>Submit your video prototype in a portable and playable format.
-It should be sufficiently high-resolution for projection, but sufficiently compressed that it can be played on a typical laptop.
-Specifically, it should be playable on a Windows laptop and Mac OS laptop without special codecs installed (e.g., H.264 in an mp4 container).
-It should be less than 50 MB in size.</p>
 <p>Remember it should probably not be more than 2 minutes long.</p>
-<p>We have had good experiences encoding video using the open-source tool HandBrake together with its iPad preset.</p>
-<p>If you contact us regarding early drafts of your video, we will test that they play properly.</p>
+<p>You are required to include appropriate captions for the accessibility of your video.
+The staff has prepared simple instructions on how to do that using a script of your video together with YouTube's captioning tools:</p>
+<p><app-generated-link linkHREF="https://canvas.uw.edu/files/53767196/download?download_frd=1">https://canvas.uw.edu/files/53767196/download?download_frd=1</app-generated-link></p>
+<p>Be sure to check the quality of the resulting captions and correct them as necessary.</p>
+<!--
+Submit your video prototype in a portable and playable format.
+It should be sufficiently high-resolution for projection, but sufficiently compressed that it can be played on a typical laptop. 
+Specifically, it should be playable on a Windows laptop and Mac OS laptop without special codecs installed (e.g., H.264 in an mp4 container). 
+It should be less than 50 MB in size. 
+
+We have had good experiences encoding video using the open-source tool HandBrake together with its presets.
+
+If you contact us regarding early drafts of your video, we will test that they play properly.
+-->
 <h4 id="samples-from-prior-offerings-2">Samples from Prior Offerings</h4>
 <p>Samples from prior offerings include:</p>
 <p><app-assignment-samples sampleToLink="4b"></app-assignment-samples></p>
@@ -161,6 +176,7 @@ Be sure to understand and carefully consider project requirements and feedback f
 <ol>
 <li><strong>Conveys Problem, Design, Context, and Satisfaction</strong>: (3 points)</li>
 <li><strong>Appropriately Clear, Polished, and Timed</strong>: (3 points)</li>
+<li><strong>Appropriately Captioned for Accessibility</strong>: (3 points)</li>
 </ol>
 <p>Your video prototype should be complete and will be evaluated as such.
 But later critique and refinement will help further improve it before the final poster session.</p>
