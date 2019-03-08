@@ -7,6 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class GeneratedLinkComponent implements OnInit {
   @Input() linkHREF: string;
+  @Input() forceExternal?: boolean = false;
 
   constructor() {
   }
@@ -20,7 +21,8 @@ export class GeneratedLinkComponent implements OnInit {
 
   isExternal(): boolean {
     return (
-      this.linkHREF.startsWith('http:')
+      this.forceExternal
+      || this.linkHREF.startsWith('http:')
       || this.linkHREF.startsWith('https:')
     );
   }
