@@ -108,14 +108,29 @@ Although this is an initial website on which you will get feedback and will be a
 you should submit a complete and high-quality version of your website appropriate for advertising the course projects.
 
 Your website will be served from a subdirectory of this course website.
-It is also link via a thumbnail from the projects page:
 
-[Projects Page](/projects.html)
+Within the GitHub repository of the course:
+
+<p>[https://github.com/uwcse440/web-cse440-wi19](https://github.com/uwcse440/web-cse440-wi19)</p>
+
+You will submit your website as a set of static files in your project directory:
+
+`angular-workspace/src/assets/projects/**projectpath**`
+ 
+It is also linked via a thumb from the projects page:
+
+<p>[Projects Page](/projects.html)</p>
+
+You should provide an appropriate 150x150 thumb at:
+
+`angular-workspace/src/assets/projects/**projectpath**/project_thumb.png`
 
 You can build your website however you like, but everything needed for your site must be in your directory.
 Do not attempt to integrate with the functionality used for this course website.
 Simply build your website and submit the set of static files to be served from your directory. 
 Because you must provide a set of static files for your website, you may not use external site builders (e.g., Wix).
+
+Because your website will be served from a directory, be sure to use relative paths within your source.
 
 You will later add your video to the website. You may want to plan ahead for that additional content.
 
@@ -163,16 +178,25 @@ But later critique and refinement will help further improve it before the final 
 
 The goal of this milestone is to create a video that communicates your design to a broad audience.
 
+Remember it should probably not be more than 2 minutes long.
+
+You are required to include appropriate captions for the accessibility of your video. 
+The staff has prepared simple instructions on how to do that using a script of your video together with YouTube's captioning tools:
+
+<p>[https://canvas.uw.edu/files/53767196/download?download_frd=1](https://canvas.uw.edu/files/53767196/download?download_frd=1)</p>
+
+Be sure to check the quality of the resulting captions and correct them as necessary.
+
+<!--
 Submit your video prototype in a portable and playable format.
 It should be sufficiently high-resolution for projection, but sufficiently compressed that it can be played on a typical laptop. 
 Specifically, it should be playable on a Windows laptop and Mac OS laptop without special codecs installed (e.g., H.264 in an mp4 container). 
 It should be less than 50 MB in size. 
 
-Remember it should probably not be more than 2 minutes long.
-
-We have had good experiences encoding video using the open-source tool HandBrake together with its iPad preset.
+We have had good experiences encoding video using the open-source tool HandBrake together with its presets.
 
 If you contact us regarding early drafts of your video, we will test that they play properly.
+-->
 
 #### Samples from Prior Offerings
 
@@ -200,6 +224,7 @@ This milestone will be graded on a scale of __6 points__:
 
 1.  __Conveys Problem, Design, Context, and Satisfaction__: (3 points)
 2.  __Appropriately Clear, Polished, and Timed__: (3 points)
+3.  __Appropriately Captioned for Accessibility__: (3 points)
 
 Your video prototype should be complete and will be evaluated as such.
 But later critique and refinement will help further improve it before the final poster session.
