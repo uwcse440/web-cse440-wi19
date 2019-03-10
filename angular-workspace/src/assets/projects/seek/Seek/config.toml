@@ -21,10 +21,10 @@ theme = "hugo-elate-theme"
   [params.navigation]
     brand = "Seek"
     home = "Home"
-    work = "Work"
-    testimonials = "Testimonials"
-    services = "Services"
-    about = "About"
+    work = "Design Research"
+    testimonials = "Interactive Prototype"
+    services = "Features"
+    about = "Team"
     contact = "Contact"
 
     # You can add custom links before or after the default links
