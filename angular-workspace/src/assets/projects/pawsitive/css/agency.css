@@ -652,10 +652,17 @@ section#contact {
 
 section#contact .section-heading {
   color: #fff;
+  margin-bottom: 50px;
 }
 
 section#contact h4 {
   color: #fff;
+  text-align: center;
+}
+
+.pdf-icon {
+  width: 65%;
+  margin-bottom: 20px;
 }
 
 section#contact .form-group {
