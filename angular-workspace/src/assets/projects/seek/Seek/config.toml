@@ -1,7 +1,7 @@
 # Page settings
 relativeUrls = true
 publishDir = "../"
-title = "Elate theme"
+title = "Seek"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 
@@ -19,7 +19,7 @@ theme = "hugo-elate-theme"
 
   # Navigation
   [params.navigation]
-    brand = "Elate"
+    brand = "Seek"
     home = "Home"
     work = "Work"
     testimonials = "Testimonials"
@@ -52,7 +52,7 @@ theme = "hugo-elate-theme"
   [params.intro]
 
   [[params.intro.item]]
-    title = "Plan"
+    title = "Sexual Education"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     url = "#"
     button = "Get In Touch"
@@ -60,7 +60,7 @@ theme = "hugo-elate-theme"
     img = "img_7.jpg"
 
   [[params.intro.item]]
-    title = "Develop"
+    title = "Empowerment"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     url = "#"
     button = "Click Me"
@@ -68,7 +68,7 @@ theme = "hugo-elate-theme"
     img = "img_8.jpg"
 
   [[params.intro.item]]
-    title = "Launch"
+    title = "Knowledge"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     url = "#"
     button = "Why us?"
@@ -85,69 +85,33 @@ theme = "hugo-elate-theme"
   # Work section
   [params.work]
     enable = true
-    title = "Work"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Problem"
+    description = "Our goal was to BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH "
     footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
 
-    [[params.work.row]]
+  # Testimonials section
+  [params.testimonials]
+    enable = true
+    title = "Solutions"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+    [[params.testimonials.row]]
       img = "work_1.jpg"
       alt = "Image2"
       title = "Project 1"
       subtitle = "Branding"
 
-    [[params.work.row]]
+    [[params.testimonials.row]]
       img = "work_2.jpg"
       alt = "Image2"
       title = "Project 2"
       subtitle = "Design"
 
-    [[params.work.row]]
+    [[params.testimonials.row]]
       img = "work_3.jpg"
       alt = "Image3"
       title = "Project 3"
       subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_4.jpg"
-      alt = "Image4"
-      title = "Project 4"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_5.jpg"
-      alt = "Image5"
-      title = "Project 5"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_6.jpg"
-      alt = "Image6"
-      title = "Project 6"
-      subtitle = "Design"
-
-  # Testimonials section
-  [params.testimonials]
-    enable = true
-    title = "Testimonials"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
-      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person1.jpg"
-      alt = "Person1"
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
-      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person2.jpg"
-      alt = "Person2"
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
-      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person3.jpg"
-      alt = "Person3"
 
 
 
