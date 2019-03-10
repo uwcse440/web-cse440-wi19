@@ -1,0 +1,3 @@
+[submodule "angular-workspace/src/assets/projects/seek/WebSiteSource/Seek/themes/meghna-hugo"]
+	path = angular-workspace/src/assets/projects/seek/WebSiteSource/Seek/themes/meghna-hugo
+	url = https://github.com/themefisher/meghna-hugo
