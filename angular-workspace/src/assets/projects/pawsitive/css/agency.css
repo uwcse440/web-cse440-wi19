@@ -660,9 +660,15 @@ section#contact h4 {
   text-align: center;
 }
 
+.documents-item {
+  text-align: center;
+}
+
 .pdf-icon {
   width: 65%;
   margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 section#contact .form-group {
