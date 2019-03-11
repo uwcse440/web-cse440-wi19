@@ -302,7 +302,7 @@ section.features .device-container {
 
 .team a{
   color: inherit;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .team a:hover{
