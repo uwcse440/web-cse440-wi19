@@ -151,10 +151,10 @@ padding-top: 5%;
   height: 500px;
 }
 
-h1.mb-5.main_mogo {
+/* h1.mb-5.main_mogo {
     margin-bottom: 0 !important;
     font-size: 70px !important;
-}
+} */
 
 @media (min-width: 992px) {
   #mainNav {
@@ -213,8 +213,9 @@ header.masthead .header-content {
 }
 
 header.masthead .header-content h1 {
-  font-size: 30px;
+  font-size: 15px;
 }
+
 
 header.masthead .device-container {
   max-width: 325px;
@@ -243,6 +244,9 @@ header.masthead .device-container .screen img {
   header.masthead .header-content {
     margin-bottom: 0;
     text-align: left;
+  }
+  header.masthead .header-content .main_mogo h1 {
+    font-size: 70px;
   }
   header.masthead .header-content h1 {
     font-size: 50px;
@@ -361,6 +365,47 @@ section.video .video-content h2 {
   color: white;
 }
 
+@media (max-width: 768px) {
+  #mainNav .navbar-brand {
+    color: black;
+  }
+  h1.mb-5.main_mogo {
+      margin-bottom: 0;
+      font-size: 70px;
+  }
+  h1.mb-5 {
+    margin-bottom: 15px !important;
+  }
+  a.btn.btn-outline.btn-xl.js-scroll-trigger {
+    font-size: 9px;
+    padding: 3px 10px;
+  }
+  .logo_mogo{
+    padding-top: 0px;
+  }
+  header.masthead{
+    padding-bottom: 0px;
+    padding-top: 100px
+  }
+
+  header.masthead .header-content{
+    padding-top: 40px;
+    margin-bottom: 60px;
+  }
+  section.overview{
+    padding: 100px 10px;
+  }
+  section.overview p{
+    font-size: 12px;
+  }
+
+  section.features .device-container img.img-fluid{
+    display: none;
+  }
+  section.team .in-line_team{
+    display: block !important;
+  }
+}
 
 @media (min-width: 768px) {
   section.video .video-content h2 {
