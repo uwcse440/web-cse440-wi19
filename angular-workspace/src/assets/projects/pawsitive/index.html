@@ -34,7 +34,8 @@
   <!-- Navigation -->
   <nav role="navigation" class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top" style="font-style: normal; font-family: sans-serif"><span style="color: #FF8500">Paw</span><span style="color: #4A86E7">sitive</span></a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top" style="font-style: normal; font-family: sans-serif;">
+        <img id=logo src="img/dog_logo.png" alt="logo"></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -82,7 +83,7 @@
   </header>
 
   <!-- overview -->
-  <section id="services">
+  <section id="services" style="background-color: #f8f9fa" class="test_Header">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-left">
@@ -110,76 +111,47 @@
   </section>
 
   <!-- Portfolio Grid -->
-  <section class="bg-light" id="portfolio" style="background-color: #1d2029!important">
+  <section id="portfolio">
     <div class="container">
       <h2 class="section-heading text-uppercase" style="color:#FF8500">Features</h2>
-      <div style="margin-top:5%" class="row">
-          <div class="col-md-6 col-sm-6 align-self-center" >
-              <img src="img/feature/3.gif" alt="The button allows users to correct override the false response from the collar">
+      <section style="margin-top:5%" class="row">
+          <div class="col-md-8 col-sm-6 align-self-center" >
+              <img style="margin-right: 5%;" src="img/feature/buttons1-01.png" alt="The button allows users to correct override the false response from the collar">
+              <img src="img/feature/collar-01.png" alt="The collar that with a compiler and a light">
           </div>
-          <div style="color:white" class="col-md-6 col-sm-6 align-self-center">
+          <div style="color:#575757" class="col-md-4 col-sm-6 align-self-center">
               <h3 style="color:#FF8500">Hardware</h3>
               <div>When the participant takes their dog for a walk and encounters another dog, the collar flashes blue, indicating the interaction is positive. However, the participant notices his/her dog isn’t quite comfortable and uses the physical button to override the false response. The collar then flashes yellow.</div>
           </div>
-      </div>
-
-      <div style="margin-top:5%" class="row">
-          <div class="col-md-6 col-sm-6 align-self-center" >
-              <img src="img/feature/Stats.png" alt="A weekly data visualization for all the interactions">
-          </div>
-          <div style="color:white" class="col-md-6 col-sm-6 align-self-center">
-              <h3 style="color:#FF8500">Weekly Report</h3>
-              <div>The visual report and trait summary card helps give transparency as to what dogs are suggested for adoption and encourages owners to actively think about their dog’s social interactions more.</div>
-          </div>
-      </div>
-
-      <div style="margin-top:5%" class="row">
-          <div class="col-md-6 col-sm-6 align-self-center" >
-              <img src="img/feature/adoptionSuggestion.png" alt="A weekly data visualization for all the interactions">
-          </div>
-          <div style="color:white" class="col-md-6 col-sm-6 align-self-center">
-              <h3 style="color:#FF8500">Adoption Suggestion</h3>
-              <div>Provide location-based adotaion suggestions according to the your dog's compatible type of dogs</div>
-          </div>
-      </div>
-
-      <!-- <div class="row">
+        </section>
         
-            <div class="col-md-6 col-sm-6 align-self-center" >
-                <h3 style="color:#FF8500">Connect Physical Devices</h3>
-            </div>
-            <div class="col-md-6 col-sm-6">
-                <img src="img/feature/1.gif" alt="The Process of Connecting Physical Devices">
-            </div>
-      </div>
-      <div class="row">
-        <div class="col-md-8 col-sm-6" >
-            <img src="img/feature/2.gif" alt="The Process of Creating Dog Profile ">
+        <hr align="center" width="50%">
+
+      <section style="margin-top:5%" class="row align-self-center">
+        <div style="color:#575757" class="col-md-4 col-sm-6 align-self-center">
+            <h3 style="color:#FF8500">Weekly Report</h3>
+            <div>The visual report and trait summary card helps give transparency as to what dogs are suggested for adoption and encourages owners to actively think about their dog’s social interactions more.</div>
         </div>
-        <div class="col-md-4 col-sm-6 align-self-center">
-            <h3 style="color:#FF8500">Create Dog Profile</h3>
+        <div class="col-md-8 col-sm-6 align-self-center">
+          <img src="img/feature/Stats.png" alt="A weekly data visualization for all the interactions">
+          <img src="img/feature/CompatibleData.png" alt="conpatible dog data analysis">
         </div>
-      </div>
-      <div class="row">
+      </section>
+
+      <hr align="center" width="50%">
+
+      <section style="margin-top:5%" class="row">
         <div class="col-md-8 col-sm-6 align-self-center" >
-            <h3 style="color:#FF8500">Tutorials</h3>
+            <img src="img/feature/locadtionPicker.png" alt="The interface that allow users to change location">
+            <img src="img/feature/adoptionSuggestion.png" alt="A weekly data visualization for all the interactions">
         </div>
-        <div class="col-md-4 col-sm-6">
-            <img src="img/feature/3.gif" alt="The Tutorials for the app">
+        <div style="color:#575757" class="col-md-4 col-sm-6 align-self-center">
+            <h3 style="color:#FF8500">Adoption Suggestion</h3>
+            <div>Provide location-based adotaion suggestions according to the your dog's compatible type of dogs</div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-8 col-sm-6" >
-            <img src="img/feature/4.gif" alt="The Process of reviewing the walks with your dog ">
-        </div>
-        <div class="col-md-4 col-sm-6 align-self-center">
-            <h3 style="color:#FF8500">Review Your Walk</h3>
-        </div>
-      </div> -->
+      </section>
     </div>
   </section>
-
-  
 
   <!-- About -->
   <section id="about">
@@ -299,23 +271,22 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">About Us</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h2 class="section-heading text-uppercase", style="margin-bottom: 50px">About Us</h2>
         </div>
       </div>
       <div class="row">
         <div class="col-sm-3">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
+            <img class="mx-auto rounded-circle" src="img/team/grace.jpg" alt="">
             <h4>Grace Zhu</h4>
             <p class="text-muted">HCDE</p>
-            <ul class="list-inline social-buttons">
+         <!--   <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
-            </ul>
+            </ul>-->
           </div>
         </div>
         <div class="col-sm-3">
@@ -323,13 +294,13 @@
             <img class="mx-auto rounded-circle" src="img/team/megan.jpg" alt="">
             <h4>Megan Vo</h4>
             <p class="text-muted">Computer Science</p>
-            <ul class="list-inline social-buttons">
+            <!-- <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
-            </ul>
+            </ul>-->
           </div>
         </div>
         <div class="col-sm-3">
@@ -337,40 +308,40 @@
             <img class="mx-auto rounded-circle" src="img/team/zk.png" alt="">
             <h4>Zhiqi Lin</h4>
             <p class="text-muted">Informatics</p>
-            <ul class="list-inline social-buttons">
+            <!--<ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
-            </ul>
+            </ul>-->
           </div>
         </div>
         <div class="col-sm-3">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/aeronl2.png" alt="">
+            <img class="mx-auto rounded-circle" src="img/team/aeron.jpg" alt="">
             <h4>Aeron Langford</h4>
             <p class="text-muted">Computer Science</p>
-            <ul class="list-inline social-buttons">
+            <!-- <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
-            </ul>
+            </ul>-->
           </div>
         </div>
       </div>
-      <div class="row">
+      <!--<div class="row">
         <div class="col-lg-8 mx-auto text-center">
           <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
         </div>
-      </div>
+      </div>-->
     </div>
   </section>
 
   <!-- Clients -->
-  <section class="py-5">
+  <!-- <section class="py-5">
     <div class="container">
       <div class="row">
         <div class="col-md-3 col-sm-6">
@@ -395,16 +366,16 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Footer -->
   <footer>
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <span class="copyright">Copyright &copy; Your Website 2019</span>
+          <span class="copyright">Copyright &copy; Pawsitive 2019</span>
         </div>
-        <div class="col-md-4">
+        <!--<div class="col-md-4">
           <ul class="list-inline social-buttons">
             <li class="list-inline-item">
               <a href="#">
@@ -422,8 +393,8 @@
               </a>
             </li>
           </ul>
-        </div>
-        <div class="col-md-4">
+        </div>-->
+        <!--<div class="col-md-4">
           <ul class="list-inline quicklinks">
             <li class="list-inline-item">
               <a href="#">Privacy Policy</a>
@@ -432,7 +403,7 @@
               <a href="#">Terms of Use</a>
             </li>
           </ul>
-        </div>
+        </div>-->
       </div>
     </div>
   </footer>
