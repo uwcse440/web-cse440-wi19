@@ -774,21 +774,7 @@ ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
   background-color: #fed136;
 }
-/* 
-.test_Header{
-  box-sizing: border-box;
-  /* background: linear-gradient(to left,#ff2952,#ce1e3f);; */
-/* }  */
 
-.separator{
-  height: 125px;
-  margin-top:calc(125px * -1);
-  background-image: linear-gradient(to bottom right, transparent, transparent 50%, white 50%, white);
-  /* Using transparent for top of the gradient allows for a background image on the header. Alternatively you can just use a solid color that matches the header color. */
-}
-.separator_up{
-  height: 125px;
-  margin-top:calc(125px * -1);
-  background-image: linear-gradient(to bottom right, transparent, transparent 50%,  #f8f9fa 50%,  #f8f9fa);
-  /* Using transparent for top of the gradient allows for a background image on the header. Alternatively you can just use a solid color that matches the header color. */
+#logo {
+  width:200px
 }
