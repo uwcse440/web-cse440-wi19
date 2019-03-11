@@ -192,10 +192,10 @@ img::-moz-selection {
 header.masthead {
   text-align: left;
   color: white;
-  /* background-image: url('../img/background-test.png'); */
-  background-color:white;
+  background-image: url('../img/bgpic.png');
+  /* background-color: rgba(255, 255, 255, 0.0); */
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center center;
   background-size: cover;
 }
