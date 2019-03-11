@@ -52,7 +52,7 @@ theme = "elate"
 
   [[params.intro.item]]
     title = "Sexual Education"
-    description = "Fact: Only 13 US States currently require that sexual education courses present medically accurate information. The reality of this statistic, coupled with the fact that many students often look to their peers or the internet for guidance, can lead to unsafe practices and the spread of information. Our goal is to improve the quality of sexual education by enabling access to verifiable information and resources."
+    description = "Fact: Only 13 US States currently require that sexual education courses present medically accurate information. The reality of this statistic, coupled with the fact that many students often look to their peers or the internet for guidance, can lead to unsafe practices and the spread of misinformation. Our goal is to improve the quality of sexual education by enabling access to verifiable information and resources."
     icon = "icon-graduation"
     img = "img_7.jpg"
 
@@ -64,7 +64,7 @@ theme = "elate"
 
   [[params.intro.item]]
     title = "Knowledge"
-    description = "Our research has shown that students are unsatisfied with the breadth of material covered in generic sexual education classes. Valuable topics such as Consent and Healthy Relationships are often excluded entirely from curriculums, and nearly all sexual education courses neglect to address information specific to gender and sexual minorities. We aim to deliver students content relevant to their unique identities and interests."
+    description = "Our research has shown that students are unsatisfied with the breadth of material covered in generic sexual education classes. Valuable topics such as Consent and Healthy Relationships are often excluded from curriculums, and nearly all sexual education courses neglect to address information specific to gender and sexual minorities. We aim to solve this by delivering students content relevant to their unique identities and interests."
     icon = "icon-book-open"
     img = "img_10.jpg"
 
@@ -78,7 +78,7 @@ theme = "elate"
   # Work section
   [params.work]
     enable = true
-    title = "Work"
+    title = "Design Research"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
 
@@ -122,7 +122,7 @@ theme = "elate"
   # Services section
   [params.services]
     enable = true
-    title = "Services"
+    title = "Features"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.services.item]]
@@ -147,7 +147,7 @@ theme = "elate"
   # Testimonials section
   [params.testimonials]
     enable = true
-    title = "Testimonials"
+    title = "Interactive Prototype"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.testimonials.item]]
