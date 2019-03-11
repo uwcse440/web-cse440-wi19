@@ -688,7 +688,7 @@ Submit via Canvas here:
 
 The course staff will have a feedback form they keep during your presentation:
 
-[3g-presentation-staff-form.pdf](/assignments/assignment3/3g-presentation-staff-form.pdf)
+<p>[3g-presentation-staff-form.pdf](/assets/assignments/3g-presentation-staff-form.pdf)</p>
 
 #### Grading
 
