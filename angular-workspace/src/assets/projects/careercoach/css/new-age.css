@@ -202,9 +202,14 @@ header.masthead .device-container .screen img {
   }
 }
 
+section.contact {
+  background-color: #00e676; 
+}
+
 section.download {
   position: relative;
   padding: 150px 0;
+  background-color: #00e676; 
 }
 
 section.download h2 {
