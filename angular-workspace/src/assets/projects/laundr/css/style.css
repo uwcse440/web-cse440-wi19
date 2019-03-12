@@ -836,6 +836,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #23c2e1;
 }
 
+.team-img {
+  max-height: 241px;
+}
+
 /* ==================================================
   Footer Styling
   ================================================== */
