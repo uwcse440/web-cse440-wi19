@@ -1,0 +1,4 @@
+Kelvin: 25% - generated graphics for website
+Saba:   25% - worked on index and css (updated from template)
+Kyle:   25% - worked on index and css (updated from template)
+Yuma:   25% - generate graphics for website
