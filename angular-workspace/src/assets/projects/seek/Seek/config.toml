@@ -79,7 +79,7 @@ theme = "elate"
   [params.work]
     enable = true
     title = "Design Research"
-    description = 'Read our design research <a href="report.pdf"> here </a>'
+    description = 'Read our design research <a href="firstreport.pdf"> here. </a> </br> Read our design report <a href="report.pdf"> here. </a>'
     #footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
 
 
