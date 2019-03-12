@@ -82,56 +82,37 @@ theme = "elate"
     description = 'Read our design research <a href="firstreport.pdf"> here. </a> </br> Read our design report <a href="report.pdf"> here. </a>'
     #footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
 
-
-  # Services section
+   # Services section
   [params.services]
     enable = true
     title = "Features"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "The SEEK application has four main features."
 
     [[params.services.item]]
-      title = "Brand &amp; Strategy"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-anchor"
+      title = "Home Page Assignments List"
+      description = "The Home Page displays a list of assignments and their corresponding due dates. Students can click on any assignment to be brought to the video for that assignment. Once checkpoints in an assignment are completed, progress is highlighted under the assignment title in the Home Page."
+      icon = "icon-tasks"
 
     [[params.services.item]]
-      title = "Web &amp; Interface"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-layers2"
+      title = "Video Assignments using Customizable AI Agent"
+      description = "This is where an AI agent will lead students through a particular topic, utilizing the ability to learn about the student's preferences and pulling from current, reliable sources to keep the conversation engaging. Students can change the look of the AI agent, as well as its relationship type (teacher, doctor, parent or friend)."
+      icon = "icon-desktop"
+      
     [[params.services.item]]
-      title = "Photo &amp; Video"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-video2"
+      title = "Anonymous Question Tool"
+      description = "Clicking on the Ask a Question link in the footer navigates to the Anonymous Question Page. Here, students can send a question to their teacher anonymously. Each submitted question becomes a thread in a chat-like window, where students can view responses and submit follow-up questions later on."
+      icon = "icon-question"
 
       [[params.services.item]]
-      title = "CMS &amp; eCommerce"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-monitor"
+      title = "Resource Center"
+      description = "Students can access the Resouce Center by clicking the link in the footer. The Resource Center is filled with links to reliable websites, which are segmented by relevant sex ed topics. If students want to ask their teacher a question about something they read on one of these websites, they can link the website via the '?' button next to the applicable link."
+      icon = "icon-book-open"
 
   # Testimonials section
   [params.testimonials]
     enable = true
-    title = "Interactive Prototype"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
-      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person1.jpg"
-      alt = "Person1"
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
-      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person2.jpg"
-      alt = "Person2"
-
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
-      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person3.jpg"
-      alt = "Person3"
-
+    title = "Interactive Mockup"
+    description = '<iframe style="border: none;" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fg9Zd0ET7d0s0qFwdtUKcErSx%2FSEEK-Digital-Mockup%3Fnode-id%3D1%253A16" allowfullscreen></iframe>'
 
 
   # About section
