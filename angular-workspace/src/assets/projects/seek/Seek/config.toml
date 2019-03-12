@@ -52,13 +52,13 @@ theme = "elate"
 
   [[params.intro.item]]
     title = "Sexual Education"
-    description = "Fact: Only 13 US States currently require that sexual education courses present medically accurate information. The reality of this statistic, coupled with the fact that many students often look to their peers or the internet for guidance, can lead to unsafe practices and the spread of misinformation. Our goal is to improve the quality of sexual education by enabling access to verifiable information and resources."
+    description = "Fact: Only 13 US states currently require that sexual education courses contain scientific and medically accurate information. The reality of this statistic, coupled with the fact that many students often look to their peers or the internet for guidance, can lead to unsafe practices and the spread of misinformation. Our goal is to improve the quality of sexual education by enabling access to verifiable information and resources."
     icon = "icon-graduation"
     img = "img_7.jpg"
 
   [[params.intro.item]]
     title = "Empowerment"
-    description = "woo empowerment idk what to put here yet :/"
+    description = "Around adolescence is when students begin to develop their identities and explore new ideas. Sexual education courses provide information necessary to aid in this pursuit; however, they also contain sensitive topics that may be difficult to discuss in a classroom setting. Providing students with a comfortable environment in which they can have these conversations and grow a sense of confidence is a priority of ours."
     icon = "icon-energy"
     img = "img_8.jpg"
 
@@ -79,7 +79,7 @@ theme = "elate"
   [params.work]
     enable = true
     title = "Design Research"
-    description = 'Read our design research <a href="firstreport.pdf"> here. </a> </br> Read our design report <a href="report.pdf"> here. </a>'
+    description = 'The first phase of our design process involved creating and refining three different approaches to the problem at hand, ultimately choosing which one to pursue. After this, we iterated upon our chosen design and utilized different usability testing methods to solidify each aspect of the application.<br><br> Phase 1 (Getting the Right Design): <a href="firstreport.pdf"> Report </a> and  <a href="pres1.pptx"> Presentation </a><br> Phase 2 (Getting the Design Right): <a href="report.pdf"> Report </a> and <a href="pres2.pptx"> Presentation</a>'
     #footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
 
    # Services section
@@ -122,18 +122,18 @@ theme = "elate"
 
     [[params.about.item]]
       name = "Haley Ruth"
-      position = "Haley's major"
-      img = "person1.jpg"
+      position = "Senior Undergraduate<br>Computer Engineering"
+      img = "haley.jpg"
       alt = "Person1"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
+        ["icon-facebook", "https://www.facebook.com/haley.ruth.98"],
+        ["icon-instagram", "https://www.instagram.com/haleymariey/"],
+        ["icon-linkedin", "https://www.linkedin.com/in/haley-ruth/"]
       ]
 
     [[params.about.item]]
       name = "Laura DeBoldt"
-      position = "Junior<br>Computer Science"
+      position = "Junior Undergraduate<br>Computer Science"
       img = "laura.jpg"
       alt = "Person2"
       social = [
@@ -144,7 +144,7 @@ theme = "elate"
 
     [[params.about.item]]
       name = "Aishu Murari"
-      position = "Junior<br>Computer Science"
+      position = "Junior Undergraduate<br>Computer Science"
       img = "aishu.jpeg"
       alt = "Person4"
       social = [
@@ -155,7 +155,7 @@ theme = "elate"
 
     [[params.about.item]]
       name = "Max Kern"
-      position = "Senior<br>Computer Science"
+      position = "Senior Undergraduate<br>Computer Science"
       img = "max.png"
       alt = "Person5"
 
