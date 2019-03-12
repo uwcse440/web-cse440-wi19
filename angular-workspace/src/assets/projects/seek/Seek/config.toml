@@ -156,13 +156,9 @@ theme = "elate"
     [[params.about.item]]
       name = "Max Kern"
       position = "Senior<br>Computer Science"
-      img = "person3.jpg"
+      img = "max.png"
       alt = "Person5"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
-      ]
+
       
     [[params.about.item]]
       name = "Jingjing Bu"
