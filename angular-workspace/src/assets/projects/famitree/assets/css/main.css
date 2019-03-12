@@ -161,7 +161,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease, border-bottom 0.2s ease;
 		transition: color 0.2s ease, border-bottom 0.2s ease;
 		text-decoration: none;
-		border-bottom: dotted 1px;
+		//border-bottom: dotted 1px; TODO Took out dotted bottom
 		color: inherit;
 	}
 
@@ -2854,7 +2854,11 @@ input, select, textarea {
 		padding: 0;
 		list-style: none;
 		cursor: default;
-	}
+	    background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 49%, #d47586 57%, #d47586 100%);
+	    background: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 49%,#d47586 57%,#d47586 100%);
+	    background: linear-gradient(to bottom, #ffffff 0%,#ffffff 49%,#d47586 57%,#d47586 100%);
+	    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d47586',GradientType=0 );	
+		}
 
 		.statistics li {
 			-moz-flex: 1;
@@ -2913,6 +2917,10 @@ input, select, textarea {
 					font-size: 2.75rem;
 					line-height: 1.3;
 				}
+
+			.statistics > li > div > img {
+			    border-radius: 100%;
+			}
 
 		@media screen and (max-width: 980px) {
 
