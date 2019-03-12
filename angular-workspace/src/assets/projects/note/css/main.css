@@ -98,6 +98,16 @@ ul li {
 	margin-top: 60px;
 }
 
+.sub-title {
+	text-align: center;
+	color: #adadad;
+	margin-bottom: 50px;
+}
+
+.video {
+	display: flex;
+	justify-content: center;
+}
 /* ------------------------------------------------------------------------------
 	 Header
 -------------------------------------------------------------------------------*/
@@ -381,11 +391,12 @@ ul li {
 	 Works
 -------------------------------------------------------------------------------*/
 .work {
-	-moz-box-shadow: 0 0 0 1px #fff;
+	/* -moz-box-shadow: 0 0 0 1px #fff;
 	-webkit-box-shadow: 0 0 0 1px #fff;
 	box-shadow: 0 0 0 1px #fff;
 	overflow: hidden;
-	position: relative;
+	position: relative; */
+	background-color: #efefef;
 }
 .work img {
 	width: 100%;
@@ -506,7 +517,7 @@ ul li {
 	 Testimonials
 -------------------------------------------------------------------------------*/
 .testimonials {
-	background-color: #e84545;
+	background-color: #efefef;
 	position: relative;
 	text-align: center;
 }
