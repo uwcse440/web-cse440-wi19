@@ -139,7 +139,7 @@ theme = "elate"
       social = [
         ["icon-facebook", "https://www.facebook.com/laura.deboldt"],
         ["icon-linkedin", "https://www.linkedin.com/in/laura-deboldt/"],
-        ["icon-github", "https://github.com/ladebo"]
+        ["icon-instagram", "https://www.instagram.com/someonelikelaura/"]
       ]
 
     [[params.about.item]]
@@ -168,7 +168,7 @@ theme = "elate"
       social = [
         ["icon-facebook", "https://www.facebook.com/cristina.bu.12"],
         ["icon-linkedin", "https://www.linkedin.com/in/jingjingbu206/"],
-        ["icon-github", "https://github.com/cloudbubu"]
+        ["icon-instagram", "https://www.instagram.com/cloud.bubu/"]
       ]
 
 
