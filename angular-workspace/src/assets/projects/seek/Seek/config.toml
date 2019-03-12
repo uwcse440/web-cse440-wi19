@@ -152,29 +152,29 @@ theme = "elate"
 
     [[params.about.item]]
       name = "Laura DeBoldt"
-      position = "Laura's major"
-      img = "person2.jpg"
+      position = "Junior<br>Computer Science"
+      img = "laura.jpg"
       alt = "Person2"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
+        ["icon-facebook", "https://www.facebook.com/laura.deboldt"],
+        ["icon-linkedin", "https://www.linkedin.com/in/laura-deboldt/"],
+        ["icon-github", "https://github.com/ladebo"]
       ]
 
     [[params.about.item]]
       name = "Aishu Murari"
-      position = "Junior, Computer Science"
-      img = "person3.jpg"
+      position = "Junior<br>Computer Science"
+      img = "aishu.jpeg"
       alt = "Person4"
       social = [
-        ["icon-instagram", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
+        ["icon-facebook", "https://www.facebook.com/aishu.murari"],
+        ["icon-linkedin", "https://www.linkedin.com/in/aishwarya-murari/"],
+        ["icon-instagram", "https://instagram.com/aishu_murari"]
       ]
 
     [[params.about.item]]
       name = "Max Kern"
-      position = "Max's major"
+      position = "Senior<br>Computer Science"
       img = "person3.jpg"
       alt = "Person5"
       social = [
@@ -185,13 +185,13 @@ theme = "elate"
       
     [[params.about.item]]
       name = "Jingjing Bu"
-      position = "Jingjing's major"
-      img = "person3.jpg"
+      position = "2nd Year Master's<br>Landscape Architecture<br>Urban Planning & Design"
+      img = "jingjing.jpg"
       alt = "Person3"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
+        ["icon-facebook", "https://www.facebook.com/cristina.bu.12"],
+        ["icon-linkedin", "https://www.linkedin.com/in/jingjingbu206/"],
+        ["icon-github", "https://github.com/cloudbubu"]
       ]
 
 
