@@ -1,0 +1,172 @@
+# Page settings
+relativeUrls = true
+publishDir = "../"
+title = "Seek"
+languageCode = "en-us"
+theme = "elate"
+
+[params]
+
+  custom_css = ["css/custom1.css", "css/custom2.css"]
+
+  # Meta
+  author = ""
+  description = ""
+  email = ""
+
+  # Google Maps Javascript API Key (if not set will default to not passing a key)
+  googleMapsApiKey = ""
+
+  # Navigation
+  [params.navigation]
+    brand = "<img src='project_thumb.png' alt=logo height='32' width='32'>"
+    home = "Home"
+    work = "Design Research"
+    testimonials = "Interactive Prototype"
+    services = "Features"
+    about = "Team"
+
+    # You can add custom links before or after the default links
+    # Assign a weight to define the order
+
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+    # postpended links
+    #[[menu.postpend]]
+    #  url = "http://gohugo.io"
+    #  name = "External link"
+    #  weight = 10
+
+  # Hero section
+  [params.hero]
+    title = "SEEK is Bringing Sexual Education into the 21st Century"
+    subtitle = 'Supplement learning in your traditional classroom environment and engage discreetly with content tailored to your needs.'
+
+  # Intro section
+  # Available icons: http://simplelineicons.com/
+  [params.intro]
+
+  [[params.intro.item]]
+    title = "Sexual Education"
+    description = "Fact: Only 13 US states currently require that sexual education courses contain scientific and medically accurate information. The reality of this statistic, coupled with the fact that many students often look to their peers or the internet for guidance, can lead to unsafe practices and the spread of misinformation. Our goal is to improve the quality of sexual education by enabling access to verifiable information and resources."
+    icon = "icon-graduation"
+    img = "img_7.jpg"
+
+  [[params.intro.item]]
+    title = "Empowerment"
+    description = "Around adolescence is when students begin to develop their identities and explore new ideas. Sexual education courses provide information necessary to aid in this pursuit; however, they also contain sensitive topics that may be difficult to discuss in a classroom setting. Providing students with a comfortable environment in which they can have these conversations and grow a sense of confidence is a priority of ours."
+    icon = "icon-energy"
+    img = "img_8.jpg"
+
+  [[params.intro.item]]
+    title = "Knowledge"
+    description = "Our research has shown that students are unsatisfied with the breadth of material covered in generic sexual education classes. Valuable topics such as Consent and Healthy Relationships are often excluded from curriculums, and nearly all sexual education courses neglect to address information specific to gender and sexual minorities. We aim to solve this by delivering students content relevant to their unique identities and interests."
+    icon = "icon-book-open"
+    img = "img_10.jpg"
+
+  [params.intro.video]
+    enable = true
+    title = "Watch the video"
+    icon = "icon-play2"
+    url = "youtube.com/v=A6BKriqkZmk"
+
+
+  # Work section
+  [params.work]
+    enable = true
+    title = "Design Research"
+    description = 'The first phase of our design process involved creating and refining three different approaches to the problem at hand, ultimately choosing which one to pursue. After this, we iterated upon our chosen design and utilized different usability testing methods to solidify each aspect of the application.<br><br> Phase 1 (Getting the Right Design): <a href="firstreport.pdf"> Report </a> and  <a href="pres1.pptx"> Presentation </a><br> Phase 2 (Getting the Design Right): <a href="report.pdf"> Report </a> and <a href="pres2.pptx"> Presentation</a>'
+    #footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+
+   # Services section
+  [params.services]
+    enable = true
+    title = "Features"
+    description = "The SEEK application has four main features."
+
+    [[params.services.item]]
+      title = "Home Page Assignments List"
+      description = "The Home Page displays a list of assignments and their corresponding due dates. Students can click on any assignment to be brought to the video for that assignment. Once checkpoints in an assignment are completed, progress is highlighted under the assignment title in the Home Page."
+      icon = "icon-tasks"
+
+    [[params.services.item]]
+      title = "Video Assignments using Customizable AI Agent"
+      description = "This is where an AI agent will lead students through a particular topic, utilizing the ability to learn about the student's preferences and pulling from current, reliable sources to keep the conversation engaging. Students can change the look of the AI agent, as well as its relationship type (teacher, doctor, parent or friend)."
+      icon = "icon-desktop"
+      
+    [[params.services.item]]
+      title = "Anonymous Question Tool"
+      description = "Clicking on the Ask a Question link in the footer navigates to the Anonymous Question Page. Here, students can send a question to their teacher anonymously. Each submitted question becomes a thread in a chat-like window, where students can view responses and submit follow-up questions later on."
+      icon = "icon-question"
+
+      [[params.services.item]]
+      title = "Resource Center"
+      description = "Students can access the Resouce Center by clicking the link in the footer. The Resource Center is filled with links to reliable websites, which are segmented by relevant sex ed topics. If students want to ask their teacher a question about something they read on one of these websites, they can link the website via the '?' button next to the applicable link."
+      icon = "icon-book-open"
+
+  # Testimonials section
+  [params.testimonials]
+    enable = true
+    title = "Interactive Mockup"
+    description = '<iframe style="border: none;" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fg9Zd0ET7d0s0qFwdtUKcErSx%2FSEEK-Digital-Mockup%3Fnode-id%3D1%253A16" allowfullscreen></iframe>'
+
+
+  # About section
+  [params.about]
+    enable = true
+    title = "Meet the Team"
+
+    [[params.about.item]]
+      name = "Haley Ruth"
+      position = "Senior Undergraduate<br>Computer Engineering"
+      img = "haley.jpg"
+      alt = "Person1"
+      social = [
+        ["icon-facebook", "https://www.facebook.com/haley.ruth.98"],
+        ["icon-instagram", "https://www.instagram.com/haleymariey/"],
+        ["icon-linkedin", "https://www.linkedin.com/in/haley-ruth/"]
+      ]
+
+    [[params.about.item]]
+      name = "Laura DeBoldt"
+      position = "Junior Undergraduate<br>Computer Science"
+      img = "laura.jpg"
+      alt = "Person2"
+      social = [
+        ["icon-facebook", "https://www.facebook.com/laura.deboldt"],
+        ["icon-linkedin", "https://www.linkedin.com/in/laura-deboldt/"],
+        ["icon-instagram", "https://www.instagram.com/someonelikelaura/"]
+      ]
+
+    [[params.about.item]]
+      name = "Aishu Murari"
+      position = "Junior Undergraduate<br>Computer Science"
+      img = "aishu.jpeg"
+      alt = "Person4"
+      social = [
+        ["icon-facebook", "https://www.facebook.com/aishu.murari"],
+        ["icon-linkedin", "https://www.linkedin.com/in/aishwarya-murari/"],
+        ["icon-instagram", "https://instagram.com/aishu_murari"]
+      ]
+
+    [[params.about.item]]
+      name = "Max Kern"
+      position = "Senior Undergraduate<br>Computer Science"
+      img = "max.png"
+      alt = "Person5"
+
+      
+    [[params.about.item]]
+      name = "Jingjing Bu"
+      position = "2nd Year Master's<br>Landscape Architecture<br>Urban Planning & Design"
+      img = "jingjing.jpg"
+      alt = "Person3"
+      social = [
+        ["icon-facebook", "https://www.facebook.com/cristina.bu.12"],
+        ["icon-linkedin", "https://www.linkedin.com/in/jingjingbu206/"],
+        ["icon-instagram", "https://www.instagram.com/cloud.bubu/"]
+      ]
