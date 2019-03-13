@@ -78,6 +78,11 @@ input, select, textarea {
 		box-sizing: border-box;
 	}
 
+	.test {
+		display: flex;
+  	justify-content: space-between;
+	}
+
 	*, *:before, *:after {
 		box-sizing: inherit;
 	}
@@ -627,6 +632,24 @@ input, select, textarea {
 	}
 
 /* Container */
+#container2 {
+  height: 125px;
+  text-align: justify;
+  border: 10px solid black;
+  font-size: 0.1px; /* IE 9/10 don't like font-size: 0; */
+  min-width: 600px;
+}
+#container2 div {
+  width: 150px;
+  height: 125px;
+  display: inline-block;
+  background: red;
+}
+#container2:after {
+  content: '';
+  width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
+  display: inline-block;
+}
 
 	.container {
 		margin: 0 auto;
