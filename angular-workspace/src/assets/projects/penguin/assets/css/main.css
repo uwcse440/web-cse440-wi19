@@ -6,44 +6,32 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.items .item {
+    flex: 1 0 25%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+
+.title-image {
+    width: 100%;
+}
+
 video {
     width: 100%;
     height: auto;
 }
 
-ul.icons {
-    margin-top: 100px;
-}
-
-ul.images {
-    margin-top: 50px;
-}
-
-.icons > li,
-.images > li {
-    width: 22%;
-}
-
-.icons > li > a {
-    text-align: center;
-}
-
-.images > li > p {
-    text-align: center;
-}
-
-ul.images li {
-    display: inline-block;
-	padding: 0 0.75em 0 0;
-}
-
 img.icon {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
-    width: 100px;
-    height: auto;
+    margin: 10px auto 10px auto;
+    height: 150px;
+    width: auto;
     -webkit-filter: invert(80%);
 
 	-moz-transition: filter 0.2s ease;
@@ -54,9 +42,7 @@ img.icon {
 
 img.headshot {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
+    margin: 40px auto 10px auto;
     width: 200px;
     height: auto;
     border-radius: 50%;
@@ -75,10 +61,6 @@ img.icon:hover {
 
 img.headshot:hover {
     filter: none;
-}
-
-ul.images {
-    list-style: none;
 }
 
 html, body, div, span, applet, object,
@@ -226,7 +208,6 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
 		color: inherit;
 		text-decoration: none;
 	}
@@ -2515,7 +2496,7 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
 			border-color: #ffffff;
-			color: #b74e91;
+			color: #ff9900;
 			content: '\f00c';
 		}
 
@@ -3916,7 +3897,7 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: #ff9900;
 						}
 
 		}
@@ -3933,7 +3914,6 @@ input, select, textarea {
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("../../images/title.png");
 		background-position: top right;
 		background-repeat: no-repeat;
 	}
