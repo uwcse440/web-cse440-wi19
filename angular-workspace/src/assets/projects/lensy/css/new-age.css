@@ -242,6 +242,9 @@ section.features .section-heading {
 
 section.features .section-heading h2 {
   margin-top: 0;
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 300%;
 }
 
 section.features .section-heading p {
