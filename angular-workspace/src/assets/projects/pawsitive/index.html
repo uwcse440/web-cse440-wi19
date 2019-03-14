@@ -23,6 +23,7 @@
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <!-- Custom styles for this template -->
   <link href="css/agency.css" rel="stylesheet">
@@ -69,15 +70,13 @@
         <div class="row"> 
           <div style="margin-bottom: 5%" class="col-md-8 col-sm-12 align-self-center">
               <img style="margin-bottom: 100px; width: 60%" src="img/dog_logo.png" class="animated fadeInDown" alt="Pawsitive's Logo">
-              <div class="intro-lead-in">Encouraging safe and positive social interactions for dogs</div>
-              <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services" style="background-color: #FF8500; border-color: #FF8500">Learn More</a>
-          </div>
+              <div class="intro-lead-in animated fadeInDown" style="animation-delay: 0.4s">Encouraging safe and positive social interactions for dogs</div>
+            </div>
           <div class="col-md-4 col-sm-12 align-self-center">
               <img style="width:100%" src="img/landing.png" alt="The landing page of the app">
           </div>
         </div>
-        
-        <!-- <div class="intro-heading text-uppercase">Pawsitive</div> -->
+        <div class="scroll-down"></div>
       </div>
     </div>
   </header>
@@ -86,7 +85,7 @@
   <section id="services" style="background-color: #f8f9fa" class="test_Header">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 text-left">
+        <div class="col-lg-12 text-left" data-aos="fade-up">
           <h2 class="section-heading text-uppercase">The Problem</h2>
           <p class="section-subheading text-muted">Socialization is a critical part of a dog's happiness 
           but is often difficult for owners to navigate. When out on walks, uncomfortable and sometimes tense interactions between
@@ -94,7 +93,7 @@
           For many owners, finding a way to slowly and safely expose their dogs to others is often a challenging task.</p>
         </div>
       </div>
-      <div class="row text-center">
+      <div class="row text-center" data-aos="fade-up">
         <div class="col-lg-12 text-left">
           <br/><br/><br/>
           <h2 class="section-heading text-uppercase">Our Solution</h2>
@@ -113,8 +112,8 @@
   <!-- Portfolio Grid -->
   <section id="portfolio">
     <div class="container">
-      <h2 class="section-heading text-uppercase" style="color:#FF8500">Features</h2>
-      <section style="margin-top:5%" class="row">
+      <h2 data-aos="fade-up" class="section-heading text-uppercase" style="color:#FF8500">Features</h2>
+      <section data-aos="fade-up" style="margin-top:5%" class="row">
           <div class="col-md-8 col-sm-6 align-self-center" >
               <img style="margin-right: 5%;" src="img/feature/buttons1-01.png" alt="The button allows users to correct override the false response from the collar">
               <img src="img/feature/collar-01.png" alt="The collar that with a compiler and a light">
@@ -127,7 +126,7 @@
         
         <hr align="center" width="50%">
 
-      <section style="margin-top:5%" class="row align-self-center">
+      <section data-aos="fade-up" style="margin-top:5%" class="row align-self-center">
         <div style="color:#575757" class="col-md-4 col-sm-6 align-self-center">
             <h3 style="color:#FF8500">Weekly Report</h3>
             <div>The visual report and trait summary feature help give transparency as to what dogs are likely to be compatible. This promotes active reflection about the dog’s social interactions.</div>
@@ -140,7 +139,7 @@
 
       <hr align="center" width="50%">
 
-      <section style="margin-top:5%" class="row">
+      <section data-aos="fade-up" style="margin-top:5%" class="row">
         <div class="col-md-8 col-sm-6 align-self-center" >
             <img src="img/feature/locadtionPicker.png" alt="The interface that allow users to change location">
             <img src="img/feature/adoptionSuggestion.png" alt="A weekly data visualization for all the interactions">
@@ -154,24 +153,24 @@
   </section>
 
   <!-- About -->
-  <section id="about" style="background-color: #f8f9fa">
-    <div class="container">
+  <section  id="about" style="background-color: #f8f9fa">
+    <div data-aos="fade-up" class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Video Prototype</h2>
           <h3 class="section-subheading text-muted"></h3>
         </div>
 
-          <iframe 
-            src="https://www.youtube.com/embed/lbadVvmagus">
+          <iframe style="width: 100%; height: 600px;"
+            src="https://www.youtube.com/embed/7EQZnTkkvD4">
           </iframe>
 
       </div>
     </div>
   </section>
 
-    <!-- Docs -->
-  <section id="contact">
+  <!-- Docs -->
+  <section data-aos="fade-up" id="contact">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -182,36 +181,36 @@
         <div class="col-md-4 col-sm-6 documents-item">
           <a class="portfolio-link" data-toggle="modal" href="documents/Assignment2Report.pdf">
             <img class="img-fluid pdf-icon"  src="img/portfolio/pdf.png" alt="">
-            <h4>Assignment 2 Report</h4>
+            <h4 style="font-size:20px">User Research Report</h4>
           </a>
         </div>
         <div class="col-md-4 col-sm-6 documents-item">
           <a class="portfolio-link" data-toggle="modal" href="documents/Assignment3Report.pdf">
             <img class="img-fluid pdf-icon" src="img/portfolio/pdf.png" alt="">
-            <h4>Assignment 3 Report</h4>
+            <h4 style="font-size:20px">Design Report</h4>
           </a>
         </div>
         <div class="col-md-4 col-sm-6 documents-item">
           <a class="portfolio-link" data-toggle="modal" href="documents/Assignment4Poster.pdf">
             <img class="img-fluid pdf-icon" src="img/portfolio/pdf.png" alt="">
-            <h4>Assignment 4 Poster</h4>
+            <h4 style="font-size:20px">Poster</h4>
           </a>
         </div>
       </div>
     </div>
-        
+  
   </section>
 
   <!-- Team -->
   <section class="bg-light" id="team">
-    <div class="container">
+    <div data-aos="fade-up" class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase", style="margin-bottom: 50px">About Us</h2>
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-3">
+        <div data-aos="zoom-in" class="col-sm-3">
           <div class="team-member">
             <img class="mx-auto rounded-circle" src="img/team/grace.jpg" alt="">
             <h4>Grace Zhu</h4>
@@ -225,7 +224,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div data-aos="zoom-in" class="col-sm-3">
           <div class="team-member">
             <img class="mx-auto rounded-circle" src="img/team/megan.jpg" alt="">
             <h4>Megan Vo</h4>
@@ -239,8 +238,8 @@
             </ul>
           </div>
         </div>
-        <div class="col-sm-3">
-          <div class="team-member">
+        <div data-aos="zoom-in" class="col-sm-3">
+          <div data-aos="zoom-in" class="team-member">
             <img class="mx-auto rounded-circle" src="img/team/zk.png" alt="">
             <h4>Zhiqi Lin</h4>
             <p class="text-muted">Informatics</p>
@@ -254,7 +253,7 @@
           </div>
         </div>
         <div class="col-sm-3">
-          <div class="team-member">
+          <div data-aos="zoom-in" class="team-member">
             <img class="mx-auto rounded-circle" src="img/team/aeron.jpg" alt="">
             <h4>Aeron Langford</h4>
             <p class="text-muted">Computer Science</p>
@@ -268,41 +267,9 @@
           </div>
         </div>
       </div>
-      <!--<div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-          <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-        </div>
-      </div>-->
+
     </div>
   </section>
-
-  <!-- Clients -->
-  <!-- <section class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">
-          </a>
-        </div>
-      </div>
-    </div>
-  </section> -->
 
   <!-- Footer -->
   <footer>
@@ -534,6 +501,11 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 
