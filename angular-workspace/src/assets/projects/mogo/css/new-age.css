@@ -53,7 +53,7 @@ p {
 }
 
 section {
-  padding: 100px 0;
+  padding: 70px 0;
 }
 
 section h2 {
@@ -234,6 +234,14 @@ header.masthead .device-container .screen img {
 .mogo_image {
   width: 60%;
 }
+section.features .device-container img.img-fluid{
+  max-width: 90%;
+}
+
+
+section.features .device-container img.img-fluid{
+
+}
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
@@ -272,7 +280,7 @@ section.overview h2 {
 
 section.overview p{
   color: #555555;
-  text-align: center;
+  text-align: justify;
 }
 section.overview p {
   font-size: 18px;
@@ -325,17 +333,20 @@ section.features .device-container {
 }
 
 section.features .feature-item {
-  padding-top: 50px;
+  padding-top: 40px;
   /* padding-bottom: 50px; */
   text-align: center;
 }
 
 section.features .feature-item h3 {
-  font-size: 30px;
+  font-size: 20px;
+}
+section.features .feature-item p {
+  font-size: 15px;
 }
 
 section.features .feature-item i {
-  font-size: 80px;
+  font-size: 60px;
   display: block;
   margin-bottom: 15px;
   background: -webkit-gradient(linear, right top, left top, from(#87bbab), to(#3b6064));
