@@ -3032,8 +3032,7 @@ input, select, textarea {
 
 /* Spotlights */
 
-	.spotlights > section {
-		padding: 0 5em 0 5em ;
+.spotlights > section {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3043,40 +3042,49 @@ input, select, textarea {
 		-ms-flex-direction: row;
 		flex-direction: row;
 		min-height: 22.5em;
+        margin-left: 5%;
 	}
 
 		body.is-ie .spotlights > section {
 			min-height: 0;
 		}
 
-        .left2 {
-            margin: auto 0 auto 5em;
-        }
-
-        .right2 {
-            margin: auto 5em auto 0;
-        }
-
 		.spotlights > section > .image {
-            background-position: center center;
-            background-size: 100% 100%;
+			background-position: center center;
+			background-size: cover;
 			border-radius: 0;
 			display: block;
-			height: 20em;
-            width: 20em;
+			position: relative;
+			width: 20em;
+            height: 20em;
 		}
 
+        .spotlights > section > .l {
+            margin-left: 4em;
+        }
+
+        .spotlights > section > .r {
+            margin-right: 4em;
+        }
+
+			.spotlights > section > .image img {
+				border-radius: 0;
+				display: block;
+			}
 
 			.spotlights > section > .image:before {
 				-moz-transition: opacity 1s ease;
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-                background: white;
 				content: '';
+                background: white;
 				display: block;
 				height: 100%;
+				left: 0;
 				opacity: 0;
+				position: absolute;
+				top: 0;
 				width: 100%;
 			}
 
