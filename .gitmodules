@@ -1,6 +1,0 @@
-[submodule "angular-workspace/src/assets/projects/seek/WebSiteSource/Seek/themes/meghna-hugo"]
-	path = angular-workspace/src/assets/projects/seek/WebSiteSource/Seek/themes/meghna-hugo
-	url = https://github.com/themefisher/meghna-hugo
-[submodule "angular-workspace/src/assets/projects/seek/Seek/themes/hugo-elate-theme"]
-	path = angular-workspace/src/assets/projects/seek/Seek/themes/hugo-elate-theme
-	url = https://github.com/saey55/hugo-elate-theme
