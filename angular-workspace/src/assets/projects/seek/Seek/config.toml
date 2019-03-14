@@ -19,7 +19,7 @@ theme = "elate"
 
   # Navigation
   [params.navigation]
-    brand = "<img src='project_thumb.png' alt=logo height='32' width='32'>"
+    brand = "<img src='logo.png' alt=logo height='75' width='75'>"
     home = "Home"
     work = "Design Research"
     testimonials = "Interactive Prototype"
