@@ -4,18 +4,18 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 
-body {
+body{
   overflow-x: hidden;
   font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-
+    
     background-image: url('../img/bgpic.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
-}
+  }
 
 p {
   line-height: 1.75;
@@ -358,6 +358,7 @@ header.masthead .intro-text .intro-heading {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }
+  
 }
 
 .portfolio-modal {
@@ -864,4 +865,25 @@ ul.social-buttons li a:hover {
   0%   { transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
   50%  { opacity: 1;  }
   100% { transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+
+#skip{
+  position: absolute;
+  left: 6px;
+  top: -99px;
+}
+
+a#skip:focus, a#skip:active {
+  color: #fff;
+  background-color:transparent;
+  top: auto;
+  font-family: sans-serif;
+  height: auto;
+  overflow:auto;
+  padding:10px;
+  border-radius: 10px;
+  border:3px solid #ff8500;
+  text-align:center;
+  font-size:18px;
+  z-index:999;
 }
