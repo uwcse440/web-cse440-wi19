@@ -5,10 +5,12 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="Pawsitive, a product that encouraging safe and positive social interactions for dogs">
+  <meta name="author" content="Aeron Langford, Grace Zhu, Megan Vo, ZK Lin">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
 
   <title>Pawsitive</title>
+
 
   <link rel="icon" 
       type="image/png" 
@@ -23,20 +25,23 @@
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  
+  <!-- scroll animation -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <!-- Custom styles for this template -->
   <link href="css/agency.css" rel="stylesheet">
-
 </head>
 
 <body id="page-top">
 
+  <a id="skip" href="#main">Skip to Main</a>
   <!-- Navigation -->
   <nav role="navigation" class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
+      <h1 style="display:none">Pawsitive</h1>
       <a class="navbar-brand js-scroll-trigger" href="#page-top" style="font-style: normal; font-family: sans-serif;">
-        <img id=logo src="img/dog_logo.png" alt="logo"></a>
+        <img id=logo src="img/dog_logo.png" alt="Pawsitive logo"></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -64,8 +69,8 @@
   </nav>
 
   <!-- Header -->
-  <main>
-  <header class="masthead">
+  
+  <header class="masthead" aria-labelledby="Introduction">
     <div class="container">
       <div class="intro-text">
         <div class="row"> 
@@ -82,6 +87,7 @@
     </div>
   </header>
 
+  <main id="main">
   <!-- overview -->
   <section id="services" style="background-color: #f8f9fa" class="test_Header">
     <div class="container">
@@ -154,18 +160,16 @@
   </section>
 
   <!-- About -->
-  <section  id="about" style="background-color: #f8f9fa">
+  <section id="about" style="background-color: #f8f9fa">
     <div data-aos="fade-up" class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Video Prototype</h2>
           <h3 class="section-subheading text-muted"></h3>
         </div>
-
-          <iframe style="width: 100%; height: 720px;"
+          <iframe aria-describedby="A Video Prototype for our product" style="width: 100%; height: 720px;"
             src="https://www.youtube.com/embed/7EQZnTkkvD4">
           </iframe>
-
       </div>
     </div>
   </section>
@@ -181,19 +185,19 @@
       <div class="row">
         <div class="col-md-4 col-sm-6 documents-item">
           <a class="portfolio-link" data-toggle="modal" href="documents/Assignment2Report.pdf">
-            <img class="img-fluid pdf-icon"  src="img/pdf.png" alt="">
+            <img class="img-fluid pdf-icon"  src="img/pdf.png" alt="pdf icon">
             <h4 style="font-size:20px">User Research Report</h4>
           </a>
         </div>
         <div class="col-md-4 col-sm-6 documents-item">
           <a class="portfolio-link" data-toggle="modal" href="documents/Assignment3Report.pdf">
-            <img class="img-fluid pdf-icon" src="img/pdf.png" alt="">
+            <img class="img-fluid pdf-icon" src="img/pdf.png" alt="pdf icon">
             <h4 style="font-size:20px">Design Report</h4>
           </a>
         </div>
         <div class="col-md-4 col-sm-6 documents-item">
           <a class="portfolio-link" data-toggle="modal" href="documents/Assignment4Poster.pdf">
-            <img class="img-fluid pdf-icon" src="img/pdf.png" alt="">
+            <img class="img-fluid pdf-icon" src="img/pdf.png" alt="pdf icon">
             <h4 style="font-size:20px">Poster</h4>
           </a>
         </div>
@@ -218,7 +222,7 @@
             <p class="text-muted">HCDE</p>
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
-                <a href="https://www.linkedin.com/in/graceyxz/">
+                <a href="https://www.linkedin.com/in/graceyxz/" title="Grace Zhu's Linkedin">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
@@ -232,7 +236,7 @@
             <p class="text-muted">Computer Science</p>
              <ul class="list-inline social-buttons">
               <li class="list-inline-item">
-                <a href="https://github.com/megan-vo">
+                <a href="https://github.com/megan-vo" title="Megan Vo's Github">
                   <i class="fab fa-github"></i>
                 </a>
               </li>
@@ -246,7 +250,7 @@
             <p class="text-muted">Informatics</p>
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
-                <a href="https://www.linkedin.com/in/zhiqi-zk-lin/">
+                <a href="https://www.linkedin.com/in/zhiqi-zk-lin/" title="Zhiqi Lin's Linkedin">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
@@ -260,7 +264,7 @@
             <p class="text-muted">Computer Science</p>
              <ul class="list-inline social-buttons">
               <li class="list-inline-item">
-                <a href="https://www.linkedin.com/in/aeron-langford/">
+                <a href="https://www.linkedin.com/in/aeron-langford/" title="Aeron Langford's Linkedin"
                   <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
@@ -275,11 +279,11 @@
 
 
   <!-- Footer -->
-  <footer>
+  <footer role="contentinfo"> 
     <div class="container">
       <div class="row">
         <div class="col-md-12", style="opacity: 0.6">
-          <span class="copyright">Copyright &copy; Pawsitive 2019</span>
+          <span style="color:white" class="copyright">Copyright &copy; Pawsitive 2019</span>
         </div>
       </div>
     </div>
@@ -299,6 +303,7 @@
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
 
+  <!-- scroll animation -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
