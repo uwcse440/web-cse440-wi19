@@ -90,13 +90,13 @@ theme = "elate"
 
     [[params.services.item]]
       title = "Home Page Assignment List"
-      description = "The Home Page displays a list of assignments and their corresponding due dates. Once the student completes an assignment checkpoint, their progress on that assignment is highlighted."
+      description = "The Home Page displays a list of assignments and their corresponding due dates. Once the student completes an assignment checkpoint, their progress on that assignment is highlighted.s"
       icon = "icon-tasks"
 
     [[params.services.item]]
-      title = "Video Assignments using Customizable AI Agent"
-      description = "An AI agent will lead students through course topics in an interactive, video-style format. Students customize the AI agent to fit their preferences, and can ask the AI agent questions throughout assignments. In turn, it will learn about the student's prefences and pull from current sources to keep the conversation engaging."
-      icon = "icon-desktop"
+      title = "Video Assignments with Customizable AI Agent"
+      description = "A customizable AI agent will lead students through course topics via an interactive video conversation. Students can ask questions to gear the conversation towards what they want to know. In turn, the AI agent will cater to their preferences, pulling from current sources to keep the conversation engaging."
+      icon = "icon-desktop"h
       
     [[params.services.item]]
       title = "Anonymous Question Tool"
