@@ -43,8 +43,8 @@ theme = "elate"
 
   # Hero section
   [params.hero]
-    title = "Sex Education. Empowerment. Knowledge."
-    subtitle = 'Bringing sex education into the 21st century.'
+    title = "SEEK."
+    subtitle = 'Sexual Education, Empowerment, and Knowledge<br>in the 21st Century'
 
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -82,14 +82,14 @@ theme = "elate"
   [params.work]
     enable = true
     title = "Design Research"
-    description = 'The first phase of our design process involved creating and refining three different approaches to the problem at hand, ultimately choosing which one to pursue. After this, we iterated upon our chosen design and utilized different usability testing methods to solidify each aspect of the application.<br><br> Phase 1 (Getting the Right Design): <a href="firstreport.pdf"> Report </a> and  <a href="pres1.pptx"> Presentation </a><br> Phase 2 (Getting the Design Right): <a href="report.pdf"> Report </a> and <a href="pres2.pptx"> Presentation</a>'
+    description = 'The first phase of our design process involved creating and refining three different approaches to the problem at hand, ultimately choosing one to pursue. Then, we iterated upon our chosen design and utilized different usability testing methods to solidify each aspect of the application.<br><br> Phase 1 (Getting the Right Design): <a href="firstreport.pdf"> Report </a> and  <a href="pres1.pptx"> Presentation </a><br> Phase 2 (Getting the Design Right): <a href="report.pdf"> Report </a> and <a href="pres2.pptx"> Presentation</a>'
     #footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
 
    # Services section
   [params.services]
     enable = true
     title = "Features"
-    description = "The SEEK application has four main features."
+    description = "The SEEK application includes four main features designed to enhance the student experience."
 
     [[params.services.item]]
       title = "Home Page Assignment List"
@@ -99,7 +99,7 @@ theme = "elate"
     [[params.services.item]]
       title = "Video Assignments with Customizable AI Agent"
       description = "A customizable AI agent will lead students through course topics via an interactive video conversation. Students can ask questions to gear the conversation towards what they want to know. In turn, the AI agent will cater to their preferences, pulling from current sources to keep the conversation engaging."
-      icon = "icon-desktop"h
+      icon = "icon-desktop"
       
     [[params.services.item]]
       title = "Anonymous Question Tool"
