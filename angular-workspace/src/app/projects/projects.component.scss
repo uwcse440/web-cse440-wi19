@@ -1,12 +1,19 @@
+.posterSessionImage
+{
+  max-width: 100%;
+  max-height: 400px;
+  border: 1px solid gray;
+}
+
 .projectThumbBox
 {
-    height: 150px;
-    margin-bottom: 30px;
+  height: 150px;
+  margin-bottom: 30px;
 }
 
 .projectThumbImage
 {
-    max-width: 150px;
-    max-height: 150px;
-    border: 1px solid gray;
+  max-width: 150px;
+  max-height: 150px;
+  border: 1px solid gray;
 }
