@@ -52,19 +52,22 @@ theme = "elate"
 
   [[params.intro.item]]
     title = "Sexual Education"
-    description = "Only 13 US states currently require that sexual education courses contain scientific and medically accurate information.<br><br>We want to improve the quality of sexual education by enabling access to verifiable information and resources."
+    description = "Only 13 US states currently require that sexual education courses contain scientific and medically accurate information." 
+    description2 = "We want to improve the quality of sexual education by enabling access to verifiable information and resources."
     icon = "icon-graduation"
     img = "img_7.jpg"
 
   [[params.intro.item]]
     title = "Empowerment"
-    description = "Sexual education can be sensitive, complex, and difficult, but it's relevant for everyone.<br><br>We aim to provide students with a comfortable learning environment in which they feel supported and unashamed about asking any type of question."
+    description = "Sexual education can be sensitive, complex, and difficult, but it's relevant for everyone." 
+    description2 = "We aim to provide students with a comfortable learning environment in which they feel supported and unashamed about asking any type of question."
     icon = "icon-energy"
     img = "img_8.jpg"
 
   [[params.intro.item]]
     title = "Knowledge"
-    description = "The breadth and relevance of material covered in generic sex ed classes is often outdated.<br><br>We strive to deliver content relevant to the unique identities and interests of students in order to give them knowledge they can actually use in their lives."
+    description = "The breadth and relevance of material covered in generic sex ed classes is often outdated." 
+    description2 = "We strive to deliver content relevant to the unique identities and interests of students in order to give them knowledge they can actually use in their lives."
     icon = "icon-book-open"
     img = "img_10.jpg"
 
