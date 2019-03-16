@@ -25,11 +25,11 @@ footer p {
 
 #logo {
     float: left;
-    margin-top: 4px;
-    margin-right: 0;
+    margin-top: 3px;
+    margin-right: 7px;
     padding-right: 0;
-    height: 107px;
-    width: 112px;
+    height: 75px;
+    width: 72px;
 }
 
 #nav-brand {
@@ -47,6 +47,26 @@ footer p {
     font-size: 50px;
     color: white;
     font-family: 'Oswald', sans-serif;
+}
+
+.jumbotron {
+    background-image: url('background.jpg');
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron-title {
+    margin-top: -20px;
+    text-align: center;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+.jumbotron-image {
+    float: right;
+    margin-top: 60px;
+    margin-right: 100px;
 }
 
 .action-image {
@@ -100,10 +120,20 @@ footer p {
     font-family: 'Oswald', sans-serif;
 }
 
+.link {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 16px;
+}
+
 .space {
     height: 80px;
 }
 
 .small-space {
     height: 40px;
+}
+
+.extra-small-space {
+    height: 20px;
 }
