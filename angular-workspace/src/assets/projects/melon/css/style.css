@@ -37,11 +37,27 @@ Import Google Fonts
     color: white;
 }
 
-iframe {
+iframe, video {
     display: block;
     margin-left: auto;
     margin-right:auto;
 }
+
+.ctnt {
+    margin-top: 50px;
+}
+
+i {
+    color: #5C9B6F;
+}
+
+#features img {
+    padding-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
 
 
 
@@ -68,7 +84,7 @@ font-weight: 300;
 
 p {
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+    font-size: 60px;
     font-weight: 300;
 	line-height: 23px;
     letter-spacing: 0.2px;
@@ -251,9 +267,9 @@ header .intro-text .intro-heading {
 }
 
 .section-title p {
-    font-size: 15px;
+    font-size: 22px;
     font-weight: 300;
-    line-height: 25px;
+    line-height: 30px;
     margin: 20px 100px 60px 100px;
 }
 
@@ -263,7 +279,7 @@ header .intro-text .intro-heading {
 
 .mz-module-about h3 {
     font-weight: 500;
-    font-size: 17px;
+    font-size: 19px;
     text-transform: uppercase;
     color: #3A3A3A;
     letter-spacing: 2px;
@@ -271,9 +287,9 @@ header .intro-text .intro-heading {
 }
 
 .mz-module-about p {
-font-size: 14px;
+    font-size: 18px;
     font-weight: 300;
-    line-height: 22px;
+    line-height: 25px;
     color: #969696;
 }
 
@@ -399,36 +415,6 @@ figure.effect-bubba img {
 	transition: opacity 0.35s;
 }
 
-figure.effect-bubba:hover img {
-	opacity: 0.4;
-}
-
-figure.effect-bubba figcaption::before,
-figure.effect-bubba figcaption::after {
-	position: absolute;
-	top: 30px;
-	right: 30px;
-	bottom: 30px;
-	left: 30px;
-	content: '';
-	opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
-}
-
-figure.effect-bubba figcaption::before {
-	border-top: 1px solid #fff;
-	border-bottom: 1px solid #fff;
-	-webkit-transform: scale(0,1);
-	transform: scale(0,1);
-}
-
-figure.effect-bubba figcaption::after {
-	border-right: 1px solid #fff;
-	border-left: 1px solid #fff;
-	-webkit-transform: scale(1,0);
-	transform: scale(1,0);
-}
 
 figure.effect-bubba h2 {
     color: #fff;
@@ -454,19 +440,6 @@ figure.effect-bubba p {
 	transform: translate3d(0,20px,0);
 }
 
-figure.effect-bubba:hover figcaption::before,
-figure.effect-bubba:hover figcaption::after {
-	opacity: 1;
-	-webkit-transform: scale(1);
-	transform: scale(1);
-}
-
-figure.effect-bubba:hover h2,
-figure.effect-bubba:hover p {
-	opacity: 1;
-	-webkit-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
-}
 
 /*--------------------
 4.4. Dark Short section (counters, quote, etc)
