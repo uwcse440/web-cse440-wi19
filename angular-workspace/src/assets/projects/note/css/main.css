@@ -126,7 +126,11 @@ ul li {
 	background-color: #efefef;
 }
 .solution {
-	padding-top: 100px;
+	/* padding-top: 100px; */
+}
+
+.middle {
+	margin-top:80px;
 }
 
 img {
