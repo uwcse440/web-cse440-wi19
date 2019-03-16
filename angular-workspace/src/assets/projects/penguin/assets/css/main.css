@@ -6,6 +6,11 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+h2,
+p.desc {
+    text-align: center;
+}
+
 .items {
     display: flex;
     flex-wrap: wrap;
@@ -20,11 +25,6 @@
 
 .title-image {
     width: 100%;
-}
-
-video {
-    width: 100%;
-    height: auto;
 }
 
 img.icon {
@@ -81,6 +81,11 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font-family: 'Quicksand';
 	vertical-align: baseline;}
+
+video {
+    display: block;
+    margin: 50px auto 0 auto;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -2579,7 +2584,7 @@ input, select, textarea {
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #5052b5;
+					color: white;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
@@ -3032,8 +3037,7 @@ input, select, textarea {
 
 /* Spotlights */
 
-	.spotlights > section {
-		padding: 0 5em 0 5em ;
+.spotlights > section {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3043,38 +3047,34 @@ input, select, textarea {
 		-ms-flex-direction: row;
 		flex-direction: row;
 		min-height: 22.5em;
+        margin-left: 5%;
 	}
 
 		body.is-ie .spotlights > section {
 			min-height: 0;
 		}
 
-        .spotlights > section > img {
-            display: block;
-            height: 20em;
-        }
-
-        img.left {
-            margin: auto 0 auto 5em;
-        }
-
-        img.right {
-            margin: auto 5em auto 0;
-        }
-
 		.spotlights > section > .image {
-            background-position: center center;
-            background-size: cover;
+			background-position: center center;
+			background-size: cover;
 			border-radius: 0;
 			display: block;
 			position: relative;
-			width: 25em;
-            height: auto;
+			width: 20em;
+            height: 20em;
 		}
 
+        .spotlights > section > .l {
+            margin-left: 4em;
+        }
+
+        .spotlights > section > .r {
+            margin-right: 4em;
+        }
+
 			.spotlights > section > .image img {
-                max-height: 100%;
-                width: auto;
+				border-radius: 0;
+				display: block;
 			}
 
 			.spotlights > section > .image:before {
@@ -3082,8 +3082,8 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-                background: white;
 				content: '';
+                background: white;
 				display: block;
 				height: 100%;
 				left: 0;

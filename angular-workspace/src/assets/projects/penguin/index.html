@@ -28,7 +28,7 @@
                         <li><a href="#one">Overview</a></li>
                         <li><a href="#two">Features</a></li>
                         <li><a href="#three">Video</a></li>
-                        <li><a href="#four">Resources</a></li>
+                       <li><a href="#four">Resources</a></li>
                         <li><a href="#five">About Us</a></li>
                     </ul>
                 </nav>
@@ -39,7 +39,7 @@
         <div id="wrapper">
 
             <!-- Intro -->
-            <section id="intro" class="wrapper style1 fullscreen fade-up">
+            <section id="intro" class="wrapper style2 fullscreen fade-up">
                 <div class="inner">
                     <img class="title-image" src="images/title.png">
                 </div>
@@ -48,7 +48,9 @@
             <!-- One -->
             <section id="one" class="wrapper style2 spotlights">
                 <section>
-                    <img class="left" src="images/pen.png" alt="" data-position="right center" />
+                    <div class="image l">
+                    <img src="images/pen.png" alt="" data-position="right center" />
+                    </div>
                     <div class="content">
                         <div class="inner">
                             <h2>Record Mood in Class</h2>
@@ -69,10 +71,14 @@
                             exactly where you need to focus.</p>
                         </div>
                     </div>
-                    <img class="right" src="images/pic02.png" alt="" data-position="top center" />
+                    <div class="image r">
+                    <img src="images/pic02.png" alt="" data-position="top center" />
+                    </div>
                 </section>
                 <section>
-                    <img class="left" src="images/pic03.png" alt="" data-position="top center" />
+                    <div class="image l">
+                    <img src="images/pic03.png" alt="" data-position="top center" />
+                    </div>
                     <div class="content">
                         <div class="inner">
                             <h2>Connect to Resources</h2>
@@ -86,13 +92,11 @@
             </section>
 
             <!-- Two -->
-            <section id="two" class="wrapper style1 fade-up">
+            <section id="two" class="wrapper style2 fade-up">
                 <div class="inner">
                     <h2>Features</h2>
-                    <p>The magic of <b>penguin</b> lies in how much it can do for you
-                    while being far less distracting than using your phone in class.
-                    Here are just some of the ways <b>penguin</b> can help you to
-                    begin succeeding in your classes each and every time.</p>
+                    <p class="desc">The magic of <b>penguin</b> lies in how much it can do for you
+                    while still being less distracting than a phone in class.</p>
                     <div class="features">
                         <section>
                             <span class="icon major fa-pencil"></span>
@@ -110,7 +114,7 @@
                         <section>
                             <span class="icon major fa-refresh"></span>
                             <h3>Synced with Courses</h3>
-                            <p>Simply login to the <b>penguin</b> app with your school's
+                            <p>Simply log in to the <b>penguin</b> app with your school's
                             account so your recordings automatically sync with your classes.</p>
                         </section>
                         <section>
@@ -139,20 +143,18 @@
             <section id="three" class="wrapper style2 fade-up">
                 <div class="inner">
                     <h2>Video</h2>
-                    <p>Check out the video below to see <b>penguin</b> in action.</p>
-                    <video width="320" height="240" controls>
-                        <source src="movie.mp4" type="video/mp4">
-                            <source src="movie.ogg" type="video/ogg">
-                                Your browser does not support the video tag.
+                    <p class="desc">Check out the video below to see <b>penguin</b> in action.</p>
+                    <video width="720" height="540" controls>
+                        <source src="images/video.mp4" type="video/mp4">
                     </video>
                 </div>
             </section>
 
             <!-- Four -->
-            <section id="four" class="wrapper style1 fade-up">
+            <section id="four" class="wrapper style2 fade-up">
                 <div class="inner">
                     <h2>Resources</h2>
-                    <p>Want to learn more about the work we've done?  Check out
+                    <p class="desc">Want to learn more about the work we've done?  Check out
                     these resources for more details.</p>
                     <div class="items">
                         <div class="item">
@@ -183,6 +185,7 @@
             <section id="five" class="wrapper style2 fade-up">
                 <div class="inner">
                     <h2>About Us</h2>
+                    <p class="desc">We're students in CSE440 at the University of Washington, Winter 2019.</p>
                     <div class="items">
                         <div class="item headshots">
                             <img class="headshot" src="images/kelvin.jpg">
@@ -207,7 +210,7 @@
         </div>
 
         <!-- Footer -->
-        <footer id="footer" class="wrapper style1">
+        <footer id="footer" class="wrapper style2">
             <div class="inner">
                 <ul class="menu">
                     <li>&copy; penguin. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
