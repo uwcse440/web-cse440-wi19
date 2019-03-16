@@ -44,7 +44,7 @@ theme = "elate"
   # Hero section
   [params.hero]
     title = "SEEK."
-    subtitle = 'Sexual Education, Empowerment, and Knowledge<br>in the 21st Century'
+    subtitle = 'Sexual Education, Empowerment, and Knowledge in the 21st Century'
 
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -59,14 +59,14 @@ theme = "elate"
 
   [[params.intro.item]]
     title = "Empowerment"
-    description = "Sexual education can be sensitive, complex, and difficult, but it's relevant for everyone." 
-    description2 = "We aim to provide students with a comfortable learning environment in which they feel supported and unashamed about asking any type of question."
+    description = "Sexual education can be sensitive, complex, and difficult to discuss, but it's important for everyone to engage with it." 
+    description2 = "We aim to provide students with a comfortable learning environment in which they feel supported and comfortable asking any type of question."
     icon = "icon-energy"
     img = "img_8.jpg"
 
   [[params.intro.item]]
     title = "Knowledge"
-    description = "The breadth and relevance of material covered in generic sex ed classes is often outdated." 
+    description = "The breadth and relevance of material covered in generic sex ed classes is often limited." 
     description2 = "We strive to deliver content relevant to the unique identities and interests of students in order to give them knowledge they can actually use in their lives."
     icon = "icon-book-open"
     img = "img_10.jpg"
@@ -92,13 +92,13 @@ theme = "elate"
     description = "The SEEK application includes four main features designed to enhance the student experience."
 
     [[params.services.item]]
-      title = "Home Page Assignment List"
-      description = "The Home Page displays a list of assignments and their corresponding due dates. Once the student completes an assignment checkpoint, their progress on that assignment is highlighted.s"
-      icon = "icon-tasks"
+      title = "Customizable Agent"
+      description = "An agent will lead students through course topics via an interactive video conversation. Students have the ability to customize their agent at any time, changing the agent's appearance or personality to better suit their own preference and comfort level. "
+      icon = "icon-user"
 
     [[params.services.item]]
-      title = "Video Assignments with Customizable AI Agent"
-      description = "A customizable AI agent will lead students through course topics via an interactive video conversation. Students can ask questions to gear the conversation towards what they want to know. In turn, the AI agent will cater to their preferences, pulling from current sources to keep the conversation engaging."
+      title = "Interactive Video Assignments Using AI"
+      description = "As students watch each video, they can ask their agent questions to gear the content toward their interests. In turn, the agent will 'learn' more about the student and cater to these preferences, pulling from current sources to keep the conversation engaging."
       icon = "icon-desktop"
       
     [[params.services.item]]
@@ -130,8 +130,8 @@ theme = "elate"
       alt = "Person1"
       social = [
         ["icon-facebook", "https://www.facebook.com/haley.ruth.98"],
-        ["icon-instagram", "https://www.instagram.com/haleymariey/"],
-        ["icon-linkedin", "https://www.linkedin.com/in/haley-ruth/"]
+        ["icon-linkedin", "https://www.linkedin.com/in/haley-ruth/"],
+        ["icon-instagram", "https://www.instagram.com/haleymariey/"]
       ]
 
     [[params.about.item]]
