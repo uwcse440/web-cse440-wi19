@@ -345,7 +345,7 @@ img {
 	padding-bottom: 20px;	
 }
 .banner {
-	background-color: #F8EEC1;
+	background-image: url(../images/banner.png);
 	background-position: center top;
 	background-repeat: no-repeat;
 	-moz-background-size: cover;
