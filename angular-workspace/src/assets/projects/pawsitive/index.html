@@ -5,10 +5,12 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="Pawsitive, a product that encouraging safe and positive social interactions for dogs">
+  <meta name="author" content="Aeron Langford, Grace Zhu, Megan Vo, ZK Lin">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
 
   <title>Pawsitive</title>
+
 
   <link rel="icon" 
       type="image/png" 
@@ -23,19 +25,23 @@
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  
+  <!-- scroll animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <!-- Custom styles for this template -->
   <link href="css/agency.css" rel="stylesheet">
-
 </head>
 
 <body id="page-top">
 
+  <a id="skip" href="#main">Skip to Main</a>
   <!-- Navigation -->
   <nav role="navigation" class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
+      <h1 style="display:none">Pawsitive</h1>
       <a class="navbar-brand js-scroll-trigger" href="#page-top" style="font-style: normal; font-family: sans-serif;">
-        <img id=logo src="img/dog_logo.png" alt="logo"></a>
+        <img id=logo src="img/dog_logo.png" alt="Pawsitive logo"></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -63,30 +69,30 @@
   </nav>
 
   <!-- Header -->
-  <header class="masthead">
+  
+  <header class="masthead" aria-labelledby="Introduction">
     <div class="container">
       <div class="intro-text">
         <div class="row"> 
           <div style="margin-bottom: 5%" class="col-md-8 col-sm-12 align-self-center">
               <img style="margin-bottom: 100px; width: 60%" src="img/dog_logo.png" class="animated fadeInDown" alt="Pawsitive's Logo">
-              <div class="intro-lead-in">Encouraging safe and positive social interactions for dogs</div>
-              <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services" style="background-color: #FF8500; border-color: #FF8500">Learn More</a>
-          </div>
+              <div class="intro-lead-in animated fadeInDown" style="animation-delay: 0.4s">Encouraging safe and positive social interactions for dogs</div>
+            </div>
           <div class="col-md-4 col-sm-12 align-self-center">
               <img style="width:100%" src="img/landing.png" alt="The landing page of the app">
           </div>
         </div>
-        
-        <!-- <div class="intro-heading text-uppercase">Pawsitive</div> -->
+        <div class="scroll-down"></div>
       </div>
     </div>
   </header>
 
+  <main id="main">
   <!-- overview -->
   <section id="services" style="background-color: #f8f9fa" class="test_Header">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 text-left">
+        <div class="col-lg-12 text-left" data-aos="fade-up">
           <h2 class="section-heading text-uppercase">The Problem</h2>
           <p class="section-subheading text-muted">Socialization is a critical part of a dog's happiness 
           but is often difficult for owners to navigate. When out on walks, uncomfortable and sometimes tense interactions between
@@ -94,13 +100,13 @@
           For many owners, finding a way to slowly and safely expose their dogs to others is often a challenging task.</p>
         </div>
       </div>
-      <div class="row text-center">
+      <div class="row text-center" data-aos="fade-up">
         <div class="col-lg-12 text-left">
           <br/><br/><br/>
           <h2 class="section-heading text-uppercase">Our Solution</h2>
           <p class="section-subheading text-muted">Our proposed solution aims to support finding short and long-term compatibility 
-          between dogs. Our design encourages dog friendships by identifying positive interactions while alerting owners of possible negative 
-          interactions in advance. For long-term companionship, our design allows exploration of compatible adoptable dogs looking for a new home.
+          between dogs. <strong>Our design encourages dog friendships by identifying positive interactions while alerting owners of possible negative 
+          interactions in advance.</strong> For long-term companionship, our design allows exploration of compatible adoptable dogs looking for a new home.
           The components include an attachable button, collar, and app that work together to identify the compatibility of two dogs as they interact on walks.</p>
           <p class="section-subheading text-muted">Owner input about their dog's personality works as the basis for compatibility identification. When passing by another dog with 
           Pawsitive, the device in the collar will light up based on whether the dogs’ preference information matches. Different colors indicate the approachability of the dog 
@@ -113,37 +119,47 @@
   <!-- Portfolio Grid -->
   <section id="portfolio">
     <div class="container">
-      <h2 class="section-heading text-uppercase" style="color:#FF8500">Features</h2>
-      <section style="margin-top:5%" class="row">
+      <h2 data-aos="fade-up" class="section-heading text-uppercase" style="color:#FF8500">Features</h2>
+      <section data-aos="fade-up" style="margin-top:5%" class="row">
           <div class="col-md-8 col-sm-6 align-self-center" >
-              <img style="margin-right: 5%;" src="img/feature/buttons1-01.png" alt="The button allows users to correct override the false response from the collar">
-              <img src="img/feature/collar-01.png" alt="The collar that with a compiler and a light">
+          <figure>
+            <img style="margin-right: 5%;" src="img/feature/buttons1-01.png" alt="The button allows users to correct override the false response from the collar">
+            <img src="img/feature/collar-01.png" onmouseover="this.src='img/feature/blue_collar-01.png';" onmouseout="this.src='img/feature/collar-01.png';" style="cursor: pointer" alt="The collar that with a compiler and a light">
+            <figcaption align="center" style="font-family: Montserrat; font-size: 0.8em; opacity: 0.8">Button and Light-Up Collar</figcaption>
+          </figure>
+              
           </div>
           <div style="color:#575757" class="col-md-4 col-sm-6 align-self-center">
               <h3 style="color:#FF8500">Hardware</h3>
               <div>When an owner takes their dog for a walk and encounters another dog, the collar will display a blue light to indicate a possible compatibility and yellow if unlikely. However, the physical button can be used to override a false prediction.</div>
+              <br/>
+              <div><strong>Hover over the collar</strong> to see it in action.</div>
           </div>
         </section>
         
         <hr align="center" width="50%">
 
-      <section style="margin-top:5%" class="row align-self-center">
+      <section data-aos="fade-up" style="margin-top:5%" class="row align-self-center">
         <div style="color:#575757" class="col-md-4 col-sm-6 align-self-center">
             <h3 style="color:#FF8500">Weekly Report</h3>
             <div>The visual report and trait summary feature help give transparency as to what dogs are likely to be compatible. This promotes active reflection about the dog’s social interactions.</div>
         </div>
         <div class="col-md-8 col-sm-6 align-self-center">
-          <img src="img/feature/Stats.png" alt="A weekly data visualization for all the interactions">
-          <img src="img/feature/CompatibleData.png" alt="conpatible dog data analysis">
+          <figure>
+            <img src="img/feature/Stats.png" alt="A weekly data visualization for all the interactions">
+            <img src="img/feature/CompatibleData.png" alt="conpatible dog data analysis">
+            <figcaption align="center" style="font-family: Montserrat; font-size: 0.8em; opacity: 0.8">Socialization Information</figcaption>
+          </figure>
         </div>
       </section>
 
       <hr align="center" width="50%">
 
-      <section style="margin-top:5%" class="row">
+      <section data-aos="fade-up" style="margin-top:5%" class="row">
         <div class="col-md-8 col-sm-6 align-self-center" >
             <img src="img/feature/locadtionPicker.png" alt="The interface that allow users to change location">
             <img src="img/feature/adoptionSuggestion.png" alt="A weekly data visualization for all the interactions">
+            <figcaption align="center" style="font-family: Montserrat; font-size: 0.8em; opacity: 0.8">Compatible shelter dogs looking for a home</figcaption>
         </div>
         <div style="color:#575757" class="col-md-4 col-sm-6 align-self-center">
             <h3 style="color:#FF8500">Adoption Suggestion</h3>
@@ -155,23 +171,21 @@
 
   <!-- About -->
   <section id="about" style="background-color: #f8f9fa">
-    <div class="container">
+    <div data-aos="fade-up" class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Video Prototype</h2>
           <h3 class="section-subheading text-muted"></h3>
         </div>
-
-          <iframe 
-            src="https://www.youtube.com/embed/lbadVvmagus">
+          <iframe aria-describedby="A Video Prototype for our product" style="width: 100%; height: 720px;"
+            src="https://www.youtube.com/embed/L_7OxS2HLJQ">
           </iframe>
-
       </div>
     </div>
   </section>
 
-    <!-- Docs -->
-  <section id="contact">
+  <!-- Docs -->
+  <section data-aos="fade-up" id="contact">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -181,131 +195,101 @@
       <div class="row">
         <div class="col-md-4 col-sm-6 documents-item">
           <a class="portfolio-link" data-toggle="modal" href="documents/Assignment2Report.pdf">
-            <img class="img-fluid pdf-icon"  src="img/portfolio/pdf.png" alt="">
-            <h4>Assignment 2 Report</h4>
+            <img class="img-fluid pdf-icon"  src="img/pdf.png" alt="pdf icon">
+            <h4 style="font-size:20px">User Research Report</h4>
           </a>
         </div>
         <div class="col-md-4 col-sm-6 documents-item">
           <a class="portfolio-link" data-toggle="modal" href="documents/Assignment3Report.pdf">
-            <img class="img-fluid pdf-icon" src="img/portfolio/pdf.png" alt="">
-            <h4>Assignment 3 Report</h4>
+            <img class="img-fluid pdf-icon" src="img/pdf.png" alt="pdf icon">
+            <h4 style="font-size:20px">Design Report</h4>
           </a>
         </div>
         <div class="col-md-4 col-sm-6 documents-item">
-          <a class="portfolio-link" data-toggle="modal" href="documents/Assignment4Poster.pdf">
-            <img class="img-fluid pdf-icon" src="img/portfolio/pdf.png" alt="">
-            <h4>Assignment 4 Poster</h4>
+          <a class="portfolio-link" data-toggle="modal" href="documents/poster_final.pdf">
+            <img class="img-fluid pdf-icon" src="img/pdf.png" alt="pdf icon">
+            <h4 style="font-size:20px">Poster</h4>
           </a>
         </div>
       </div>
     </div>
-        
+  
   </section>
 
   <!-- Team -->
   <section class="bg-light" id="team">
-    <div class="container">
+    <div data-aos="fade-up" class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase", style="margin-bottom: 50px">About Us</h2>
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-3">
+        <div data-aos="zoom-in" class="col-sm-3">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/grace.jpg" alt="">
+            <img class="mx-auto rounded-circle" src="img/team/grace.jpeg" alt="">
             <h4>Grace Zhu</h4>
             <p class="text-muted">HCDE</p>
-         <!--   <ul class="list-inline social-buttons">
+            <ul class="list-inline social-buttons">
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https://www.linkedin.com/in/graceyxz/" title="Grace Zhu's Linkedin">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
-            </ul>-->
+            </ul>
           </div>
         </div>
-        <div class="col-sm-3">
+        <div data-aos="zoom-in" class="col-sm-3">
           <div class="team-member">
             <img class="mx-auto rounded-circle" src="img/team/megan.jpg" alt="">
             <h4>Megan Vo</h4>
             <p class="text-muted">Computer Science</p>
-            <!-- <ul class="list-inline social-buttons">
+             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
+                <a href="https://github.com/megan-vo" title="Megan Vo's Github">
+                  <i class="fab fa-github"></i>
                 </a>
               </li>
-            </ul>-->
+            </ul>
           </div>
         </div>
-        <div class="col-sm-3">
-          <div class="team-member">
+        <div data-aos="zoom-in" class="col-sm-3">
+          <div data-aos="zoom-in" class="team-member">
             <img class="mx-auto rounded-circle" src="img/team/zk.png" alt="">
             <h4>Zhiqi Lin</h4>
             <p class="text-muted">Informatics</p>
-            <!--<ul class="list-inline social-buttons">
+            <ul class="list-inline social-buttons">
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https://www.linkedin.com/in/zhiqi-zk-lin/" title="Zhiqi Lin's Linkedin">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
-            </ul>-->
+            </ul>
           </div>
         </div>
         <div class="col-sm-3">
-          <div class="team-member">
+          <div data-aos="zoom-in" class="team-member">
             <img class="mx-auto rounded-circle" src="img/team/aeron.jpg" alt="">
             <h4>Aeron Langford</h4>
             <p class="text-muted">Computer Science</p>
-            <!-- <ul class="list-inline social-buttons">
+             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https://www.linkedin.com/in/aeron-langford/" title="Aeron Langford's Linkedin"
                   <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
-            </ul>-->
+            </ul>
           </div>
         </div>
       </div>
-      <!--<div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-          <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-        </div>
-      </div>-->
+
     </div>
   </section>
+  </main>
 
-  <!-- Clients -->
-  <!-- <section class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">
-          </a>
-        </div>
-      </div>
-    </div>
-  </section> -->
 
   <!-- Footer -->
-  <footer>
+  <footer role="contentinfo"> 
     <div class="container">
       <div class="row">
         <div class="col-md-12", style="opacity: 0.6">
@@ -314,212 +298,6 @@
       </div>
     </div>
   </footer>
-
-  <!-- Portfolio Modals -->
-
-  <!-- Modal 1 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Threads</li>
-                  <li>Category: Illustration</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal 2 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Explore</li>
-                  <li>Category: Graphic Design</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal 3 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Finish</li>
-                  <li>Category: Identity</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal 4 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Lines</li>
-                  <li>Category: Branding</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal 5 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Southwest</li>
-                  <li>Category: Website Design</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal 6 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Window</li>
-                  <li>Category: Photography</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
@@ -534,6 +312,12 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
+
+  <!-- scroll animation -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 
