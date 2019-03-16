@@ -446,6 +446,9 @@ section.video .video-content h2 {
     width: 350px;
     height: 200px;
   }
+  section.video p {
+    font-size: 15px;
+  }
   .imgContainer.Initial-Presentation {
     margin-left: unset;
   }
