@@ -183,6 +183,36 @@ header.masthead .device-container .screen img {
   border-radius: 3px;
 }
 
+@media (min-width: 300px) {
+  video, .overlay {
+    width: 100%;
+  }
+}
+
+@media (min-width: 500px) {
+  video, .overlay {
+    width: 100%;
+  }
+}
+
+@media (min-width: 700px) {
+  video, .overlay {
+    width: 100%;
+  }
+}
+
+@media (min-width: 900) {
+  video, .overlay {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200) {
+  video, .overlay {
+    width: 100%;
+  }
+}
+
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
@@ -348,8 +378,8 @@ section.contact ul.list-social li a {
   font-size: 40px;
   line-height: 200px;
   display: block;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   color: white;
   border-radius: 100%;  
   background-size: cover;
@@ -363,6 +393,15 @@ section.contact ul.list-social li.braydon a {
 }
 
 section.contact ul.list-social li.braydon a:hover {
+  background-color: #0d95e8;
+}
+section.contact ul.list-social li.yukon a {
+  background-color: #1da1f2;
+  background-image: url("../img/Yukon_profile.jpg");
+  background-position: center right;
+}
+
+section.contact ul.list-social li.yukon a:hover {
   background-color: #0d95e8;
 }
 
