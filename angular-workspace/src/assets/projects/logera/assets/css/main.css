@@ -240,6 +240,66 @@ input, select, textarea {
 		text-align: right;
 	}
 
+	/* Meet the team */
+
+	/* Three columns side by side */
+.columnteam {
+  float: left;
+  width: 20%;
+  margin-bottom: 16px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .columnteam {
+    width: 100%;
+    display: block;
+  }
+}
+
+.row {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/* Add some shadows to create a card effect */
+.cardteam {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.containerteam h2 {
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+/* Clear floats */
+.containerteam::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.titleteam {
+  color: grey;
+}
+
+.buttonteam {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.buttonteam:hover {
+  background-color: #555;
+}
+
 /* Loader */
 
 	@-moz-keyframes spinner-show {
