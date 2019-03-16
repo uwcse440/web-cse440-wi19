@@ -183,6 +183,37 @@ header.masthead .device-container .screen img {
   border-radius: 3px;
 }
 
+@media (min-width: 300px) {
+  video, .overlay {
+    width: 100%;
+  }
+}
+
+@media (min-width: 500px) {
+  video, .overlay {
+    width: 100%;
+  }
+}
+
+@media (min-width: 700px) {
+  video, .overlay {
+    width: 100%;
+  }
+}
+
+@media (min-width: 900) {
+  video, .overlay {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200) {
+  video, .overlay {
+    width: 100%;
+  }
+}
+
+
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
