@@ -43,8 +43,8 @@ theme = "elate"
 
   # Hero section
   [params.hero]
-    title = "SEEK."
-    subtitle = 'Sexual Education, Empowerment, and Knowledge in the 21st Century'
+    title = "Sexual Education, Empowerment, and Knowledge"
+    subtitle = 'Bringing sexual education into the 21st Century.'
 
   # Intro section
   # Available icons: http://simplelineicons.com/
