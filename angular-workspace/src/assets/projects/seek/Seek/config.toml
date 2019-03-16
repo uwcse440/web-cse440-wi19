@@ -19,7 +19,7 @@ theme = "elate"
 
   # Navigation
   [params.navigation]
-    brand = "<img src='project_thumb.png' alt=logo height='32' width='32'>"
+    brand = "<img src='logo.png' alt=logo height='75' width='75'>"
     home = "Home"
     work = "Design Research"
     testimonials = "Interactive Prototype"
@@ -43,8 +43,8 @@ theme = "elate"
 
   # Hero section
   [params.hero]
-    title = "SEEK is Bringing Sexual Education into the 21st Century"
-    subtitle = 'Supplement learning in your traditional classroom environment and engage discreetly with content tailored to your needs.'
+    title = "Sexual Education, Empowerment, and Knowledge"
+    subtitle = 'Bringing sexual education into the 21st Century.'
 
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -52,19 +52,22 @@ theme = "elate"
 
   [[params.intro.item]]
     title = "Sexual Education"
-    description = "Fact: Only 13 US states currently require that sexual education courses contain scientific and medically accurate information. The reality of this statistic, coupled with the fact that many students often look to their peers or the internet for guidance, can lead to unsafe practices and the spread of misinformation. Our goal is to improve the quality of sexual education by enabling access to verifiable information and resources."
+    description = "Only 13 US states currently require that sexual education courses contain scientific and medically accurate information." 
+    description2 = "We want to improve the quality of sexual education by enabling access to verifiable information and resources."
     icon = "icon-graduation"
     img = "img_7.jpg"
 
   [[params.intro.item]]
     title = "Empowerment"
-    description = "Around adolescence is when students begin to develop their identities and explore new ideas. Sexual education courses provide information necessary to aid in this pursuit; however, they also contain sensitive topics that may be difficult to discuss in a classroom setting. Providing students with a comfortable environment in which they can have these conversations and grow a sense of confidence is a priority of ours."
+    description = "Sexual education can be sensitive, complex, and difficult to discuss, but it's important for everyone to engage with it." 
+    description2 = "We aim to provide students with a comfortable learning environment in which they feel supported and comfortable asking any type of question."
     icon = "icon-energy"
     img = "img_8.jpg"
 
   [[params.intro.item]]
     title = "Knowledge"
-    description = "Our research has shown that students are unsatisfied with the breadth of material covered in generic sexual education classes. Valuable topics such as Consent and Healthy Relationships are often excluded from curriculums, and nearly all sexual education courses neglect to address information specific to gender and sexual minorities. We aim to solve this by delivering students content relevant to their unique identities and interests."
+    description = "The breadth and relevance of material covered in generic sex ed classes is often limited." 
+    description2 = "We strive to deliver content relevant to the unique identities and interests of students in order to give them knowledge they can actually use in their lives."
     icon = "icon-book-open"
     img = "img_10.jpg"
 
@@ -72,44 +75,44 @@ theme = "elate"
     enable = true
     title = "Watch the video"
     icon = "icon-play2"
-    url = "youtube.com/v=A6BKriqkZmk"
+    url = "youtube.com/v=PrEqrDXWI7Q"
 
 
   # Work section
-  [params.work]
+  [params.testimonials]
     enable = true
     title = "Design Research"
-    description = 'The first phase of our design process involved creating and refining three different approaches to the problem at hand, ultimately choosing which one to pursue. After this, we iterated upon our chosen design and utilized different usability testing methods to solidify each aspect of the application.<br><br> Phase 1 (Getting the Right Design): <a href="firstreport.pdf"> Report </a> and  <a href="pres1.pptx"> Presentation </a><br> Phase 2 (Getting the Design Right): <a href="report.pdf"> Report </a> and <a href="pres2.pptx"> Presentation</a>'
+    description = 'The first phase of our design process involved creating and refining three different approaches to the problem at hand, ultimately choosing one to pursue. Then, we iterated upon our chosen design and utilized different usability testing methods to solidify each aspect of the application.<br><br> Phase 1 (Getting the Right Design): <a href="firstreport.pdf"> Report </a> and  <a href="pres1.pptx"> Presentation </a><br> Phase 2 (Getting the Design Right): <a href="report.pdf"> Report </a> and <a href="pres2.pptx"> Presentation</a>'
     #footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
 
    # Services section
   [params.services]
     enable = true
     title = "Features"
-    description = "The SEEK application has four main features."
+    description = "The SEEK application includes four main features designed to enhance the student experience."
 
     [[params.services.item]]
-      title = "Home Page Assignments List"
-      description = "The Home Page displays a list of assignments and their corresponding due dates. Students can click on any assignment to be brought to the video for that assignment. Once checkpoints in an assignment are completed, progress is highlighted under the assignment title in the Home Page."
-      icon = "icon-tasks"
+      title = "Customizable Agent"
+      description = "An agent will lead students through course topics via an interactive video conversation. Students have the ability to customize their agent at any time, changing the agent's appearance or personality to better suit their own preference and comfort level. "
+      icon = "icon-user"
 
     [[params.services.item]]
-      title = "Video Assignments using Customizable AI Agent"
-      description = "This is where an AI agent will lead students through a particular topic, utilizing the ability to learn about the student's preferences and pulling from current, reliable sources to keep the conversation engaging. Students can change the look of the AI agent, as well as its relationship type (teacher, doctor, parent or friend)."
+      title = "Interactive Video Assignments Using AI"
+      description = "As students watch each video, they can ask their agent questions to gear the content toward their interests. In turn, the agent will 'learn' more about the student and cater to these preferences, pulling from current sources to keep the conversation engaging."
       icon = "icon-desktop"
       
     [[params.services.item]]
       title = "Anonymous Question Tool"
-      description = "Clicking on the Ask a Question link in the footer navigates to the Anonymous Question Page. Here, students can send a question to their teacher anonymously. Each submitted question becomes a thread in a chat-like window, where students can view responses and submit follow-up questions later on."
+      description = "Students can ask their teacher a question anonymously via the Anonymous Question tool, free of judgment. Each submitted question becomes a thread in a chat-like window, where students can view responses and submit follow-up questions later on."
       icon = "icon-question"
 
       [[params.services.item]]
       title = "Resource Center"
-      description = "Students can access the Resouce Center by clicking the link in the footer. The Resource Center is filled with links to reliable websites, which are segmented by relevant sex ed topics. If students want to ask their teacher a question about something they read on one of these websites, they can link the website via the '?' button next to the applicable link."
+      description = "The Resource Center is filled with links to reliable websites. If a student wants to send their teacher a question about something they read online, they can include a link to the website within the Anonymous Question Tool."
       icon = "icon-book-open"
 
   # Testimonials section
-  [params.testimonials]
+  [params.work]
     enable = true
     title = "Interactive Mockup"
     description = '<iframe style="border: none;" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fg9Zd0ET7d0s0qFwdtUKcErSx%2FSEEK-Digital-Mockup%3Fnode-id%3D1%253A16" allowfullscreen></iframe>'
@@ -127,8 +130,8 @@ theme = "elate"
       alt = "Person1"
       social = [
         ["icon-facebook", "https://www.facebook.com/haley.ruth.98"],
-        ["icon-instagram", "https://www.instagram.com/haleymariey/"],
-        ["icon-linkedin", "https://www.linkedin.com/in/haley-ruth/"]
+        ["icon-linkedin", "https://www.linkedin.com/in/haley-ruth/"],
+        ["icon-instagram", "https://www.instagram.com/haleymariey/"]
       ]
 
     [[params.about.item]]
