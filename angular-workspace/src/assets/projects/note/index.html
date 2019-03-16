@@ -1,3 +1,404 @@
-<!DOCTYPE html>
-<title>Empty Project</title>
-<body><h1>Empty Project</h1></body>
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>notE -- simple, non-invasive account management</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/flexslider.css">
+<link rel="stylesheet" href="css/jquery.fancybox.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/animate.min.css">
+<link rel="stylesheet" href="css/font-icon.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<!-- header section -->
+<section class="banner" role="banner"> 
+  <!--header navigation -->
+  <header id="header">
+    <a href="#">
+      <img class="logo" src="images/logo-white.png"/>
+    </a>
+    <div class="header-content clearfix"> 
+      <nav class="navigation" role="navigation">
+        <ul class="primary-nav">
+          <li><a href="#intro">Overview</a></li>
+          <li><a href="#services">Design</a></li>
+          <li><a href="#works">Video</a></li>
+          <li><a href="#teams">Our Team</a></li>
+          <li><a href="#testimonials">Documents</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="nav-toggle">Menu<span></span></a> </div>
+  </header>
+  <!--header navigation --> 
+  <!-- banner text -->
+  <div class="container">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="banner-text text-center">
+        <h1>introducing notE</h1>
+        <p>A simple, non-invasive online account management notebook</p>
+        <!-- <nav role="navigation" class="arrow"> 
+          <a href="#intro" class="banner-btn">
+            <img src="images/down-arrow.png" alt="">
+          </a>
+        </nav> -->
+      </div>
+      <!-- banner text --> 
+    </div>
+  </div>
+  <nav role="navigation" class="arrow"> 
+      <a href="#intro" class="banner-btn">
+        <img src="images/down-arrow.png" alt="">
+      </a>
+  </nav>
+</section>
+<!-- header section --> 
+
+
+<!-- about section -->
+<section id="intro" class="section intro no-padding">
+    <h2 class="sub-title"> Overview </h2>
+  <div class="container-fluid">
+    <div class="row no-gutter">
+      <div class="flexslider">
+        <ul class="slides">
+          <li>
+            <div class="col-md-6">
+              <div class="avatar"> <img src="images/intro-img1.jpg" alt="" class="img-responsive"> </div>
+            </div>
+            <div class="col-md-6">
+              <blockquote>
+                <h1>The Problem</h1>
+                <p>As technology and the digital world develop, people are becoming increasingly reliant on a number of online services, which all require separate accounts to keep track of. At the same time, with so much personal information attached to these accounts, including names, addresses, financial information, and even SSN in some cases, it becomes increasingly important for people to protect their online accounts. However, we noticed that seniors are one particular demographic who often seem to neglect the security of their online presence. Thus, we sought to design a tool to help seniors be more secure online.</p>
+                
+              </blockquote>
+            </div>
+          </li>
+          <li>
+            <div class="col-md-6">
+              <div class="avatar"> <img src="images/intro-img2.jpg" alt="" class="img-responsive"> </div>
+            </div>
+            <div class="col-md-6">
+              <blockquote>
+                <h1>Our Solution</h1>
+                <p>After further investigation, we discovered that the problem is not that seniors lack awareness of what it means to be secure online, but rather that they know what is secure and still choose insecure practices in favor of simplicity and convenience in their everyday lives. This is the main inspiration behind notE, a smart notebook where seniors can manage their accounts easily, in a familiar and intuitive form. notE retains the look and feel of a normal notebook but has a few key differences that make it an optimal solution to the problem of online account security: it only shows account login information to recognized users, gives notifications and signals based on the status of its linked accounts, and allow users to choose either receive assistance from representatives of the companies or actively take actions to recover account. After a few rounds of iteration, we believe notE is intuitive and simplistic to our users while still give them flexibility to manage their online account security.</p>
+              </blockquote>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- about section --> 
+
+
+<!-- services section -->
+<section id="services" class="services service-section">
+    <h2 class="sub-title"> Design Features </h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-6 services"> <span class="icon icon-book-open"></span>
+        <div class="services-content">
+          <h5>Store Account Information</h5>
+          <p>Easily store information for all of your accounts to keep track of usernames, passwords, security questions, and more.</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 services"> <span class="icon icon-lock"></span>
+        <div class="services-content">
+          <h5>Protect your accounts</h5>
+          <p>NotE uses facial recognition to only show account information to recognized users, keeping account information secure if the notebook is lost or stolen.</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 services"> <span class="icon icon-clock"></span>
+        <div class="services-content">
+          <h5>Password Update Notifications</h5>
+          <p>NotE tracks when the password for each account was last updated and gives notifications to remind you to update in order to keep your accounts secure.</p>
+        </div>
+      </div>
+      
+      <div class="col-md-4 col-sm-6 services"> <span class="icon icon-caution"></span>
+        <div class="services-content">
+          <h5>Track Account Activity</h5>
+          <p>NotE automatically tracks the activity for all linked accounts for and sends you notifications if it detects any suspicious activity with an account.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6 services"> <span class="icon icon-chat"></span>
+        <div class="services-content">
+          <h5>Get Assistance with account issues</h5>
+          <p>Simply press the help button on each account page in order to receive assistance with recovering an account after it has been compromised.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- services section --> 
+
+
+<!-- video section -->
+<section id="works" class="works section no-padding">
+    <h2 class="sub-title"> Video Prototype </h2>
+  <!-- youtube video embed -->
+  <div class="video work">
+  <iframe width="840" height="473" src="https://www.youtube.com/embed/M0dbaIcUQO0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <!-- youtube video embed -->
+</section>
+<!-- video section --> 
+
+
+<!-- our team section -->
+<section id="teams" class="section teams">
+    <h2 class="sub-title"> Our Team </h2>
+  <div class="container">
+    <div class="row"> 
+      <!-- team member 1 -->
+      <div class="col-md-3 col-sm-8">
+        <div class="person"> <img src="images/team/augustina.jpg" alt="" class="img-responsive">
+          <div class="person-content">
+            <h4>Augustina Liu</h4>
+            <h5 class="role">Product Manager</h5>
+            <p>Human Centered Design & Engineering </p>
+          </div>
+          <ul class="social-icons clearfix">
+            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+            <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+            <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+            <li><a href="#"><span class="fa fa-dribbble"></span></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- team member 1 --> 
+      <!-- team member 2 -->
+      <div class="col-md-3 col-sm-8">
+        <div class="person"> <img src="images/team/bill.jpg" alt="" class="img-responsive">
+          <div class="person-content">
+            <h4>Bill Phung</h4>
+            <h5 class="role">Design Researcher</h5>
+            <p>Computer Science & Engineering</p>
+          </div>
+          <ul class="social-icons clearfix">
+            <li><a href="#" class=""><span class="fa fa-facebook"></span></a></li>
+            <li><a href="#" class=""><span class="fa fa-twitter"></span></a></li>
+            <li><a href="#" class=""><span class="fa fa-linkedin"></span></a></li>
+            <li><a href="#" class=""><span class="fa fa-google-plus"></span></a></li>
+            <li><a href="#" class=""><span class="fa fa-dribbble"></span></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- team member 2 --> 
+      <!-- team member 3 -->
+      <div class="col-md-3 col-sm-8">
+        <div class="person"> <img src="images/team/celeste.jpg" alt="" class="img-responsive">
+          <div class="person-content">
+            <h4>Celeste Bjorke</h4>
+            <h5 class="role">UX Designer</h5>
+            <p>Computer Science & Engineering</p>
+          </div>
+          <ul class="social-icons clearfix">
+            <li><a href="#" class=""><span class="fa fa-facebook"></span></a></li>
+            <li><a href="#" class=""><span class="fa fa-twitter"></span></a></li>
+            <li><a href="#" class=""><span class="fa fa-linkedin"></span></a></li>
+            <li><a href="#" class=""><span class="fa fa-google-plus"></span></a></li>
+            <li><a href="#" class=""><span class="fa fa-dribbble"></span></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- team member 3 --> 
+      <!-- team member 4 -->
+      <div class="col-md-3 col-sm-8">
+        <div class="person"> <img src="images/team/ethan.jpg" alt="" class="img-responsive">
+          <div class="person-content">
+            <h4>Ethan Cui</h4>
+            <h5 class="role">Design Researcher</h5>
+            <p>Computer Science & Engineering</p>
+          </div>
+          <ul class="social-icons clearfix">
+            <li><a href="#" class=""><span class="fa fa-facebook"></span></a></li>
+            <li><a href="#" class=""><span class="fa fa-twitter"></span></a></li>
+            <li><a href="#" class=""><span class="fa fa-linkedin"></span></a></li>
+            <li><a href="#" class=""><span class="fa fa-google-plus"></span></a></li>
+            <li><a href="#" class=""><span class="fa fa-dribbble"></span></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- team member 4 --> 
+    </div>
+  </div>
+</section>
+<!-- our team section --> 
+
+
+
+<!-- Documents section -->
+<section id="testimonials" class="section testimonials">
+    <h2 class="sub-title"> Design Documents </h2>
+    <div class="container">
+      <div class="row"> 
+        <!-- team member 1 -->
+        <div class="col-md-3 col-sm-8">
+          <a class="person" target="_blank" href="./docs/research-report.pdf">
+            <div class="person"> <img src="images/docs/research-report.jpg" alt="" class="img-responsive">
+              <div class="person-content">
+                <h4>Research Report</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- team member 1 --> 
+
+        <!-- team member 2 -->
+        <div class="col-md-3 col-sm-8">
+          <a class="person" target="_blank" href="./docs/research-presentation.pdf">
+            <div class="person"> <img src="images/docs/research-presentation.jpg" alt="" class="img-responsive">
+              <div class="person-content">
+                <h4>Research Presentation</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- team member 2 --> 
+
+        <!-- team member 3 -->
+        <div class="col-md-3 col-sm-8">
+          <a class="person " target="_blank" href="./docs/design-report.pdf">
+            <div class="person"> <img src="images/docs/design-report.jpg" alt="" class="img-responsive">
+              <div class="person-content">
+                <h4>Design Report</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- team member 3 --> 
+
+        <!-- team member 4 -->
+        <div class="col-md-3 col-sm-8">
+          <a target="_blank" href="./docs/design-presentation.pdf">
+            <div class="person"> <img src="images/docs/design-presentation.jpg" alt="" class="img-responsive">
+              <div class="person-content">
+                <h4>Design Presentation</h4>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- team member 4 --> 
+      </div>
+    </div>
+  </section>
+  
+<!-- Testimonials section --> 
+<!-- Get a quote section -->
+<!-- <section id="contact" class="section quote">
+  <div class="container">
+    <div class="col-md-8 col-md-offset-2 text-center">
+      <h3>Looking for a new brand? Let's work together!</h3>
+      <a href="#" class="btn btn-large">Get Quotation</a> </div>
+  </div>
+</section> -->
+<!-- Get a quote section --> 
+<!-- Footer section --
+<footer class="footer">
+  <div class="footer-top section">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col col-md-6">
+          <h5>Our Office Location</h5>
+          <p>Collins Street West Victoria 8007 Australia.<br>
+            1800 1234 56789 / 98532100987<br>
+            support@flosix.com</p>
+          <p>Copyright © 2015 Flosix Inc. All Rights Reserved. Made with <i class="fa fa-heart pulse"></i> by <a href="http://www.designstub.com/">Designstub</a></p>
+        </div>
+        <div class="footer-col col-md-3">
+          <h5>Services We Offer</h5>
+          <p>
+          <ul>
+            <li><a href="#">Digital Strategy</a></li>
+            <li><a href="#">Websites</a></li>
+            <li><a href="#">Videography</a></li>
+            <li><a href="#">Social Media</a></li>
+            <li><a href="#">User Experience</a></li>
+          </ul>
+          </p>
+        </div>
+        <div class="footer-col col-md-3">
+          <h5>Share with Love</h5>
+          <ul class="footer-share">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <!-- footer top --> 
+  
+<!-- Footer section --> 
+
+
+<!-- Footer section -->
+<footer class="footer">
+    <div class="footer-top section">
+      <!-- <div class="container">
+        <div class="row">
+          <div class="footer-col col-md-6">
+            <h5>Our Office Location</h5>
+            <p>Collins Street West Victoria 8007 Australia.<br>
+              1800 1234 56789 / 98532100987<br>
+              support@flosix.com</p>
+            <p>Copyright © 2015 Flosix Inc. All Rights Reserved. Made with <i class="fa fa-heart pulse"></i> by <a href="http://www.designstub.com/">Designstub</a></p>
+          </div>
+          <div class="footer-col col-md-3">
+            <h5>Services We Offer</h5>
+            <p>
+            <ul>
+              <li><a href="#">Digital Strategy</a></li>
+              <li><a href="#">Websites</a></li>
+              <li><a href="#">Videography</a></li>
+              <li><a href="#">Social Media</a></li>
+              <li><a href="#">User Experience</a></li>
+            </ul>
+            </p>
+          </div>
+          <div class="footer-col col-md-3">
+            <h5>Share with Love</h5>
+            <ul class="footer-share">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div> -->
+      
+    <p class="footer-text">© 2019 notE. All Rights Reserved.</p>
+    </div>
+    <!-- footer top --> 
+    
+  </footer>
+  <!-- Footer section --> 
+  
+<!-- JS FILES --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.flexslider-min.js"></script> 
+<script src="js/jquery.fancybox.pack.js"></script> 
+<script src="js/retina.min.js"></script> 
+<script src="js/modernizr.js"></script> 
+<script src="js/main.js"></script>
+</body>
+</html>
