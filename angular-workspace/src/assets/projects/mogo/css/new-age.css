@@ -301,24 +301,20 @@ section.overview h2 {
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 30px;
-  color: #364958
+  color: #364958;
 }
 
 section.overview p{
   color: #555555;
-  text-align: justify;
-}
-section.overview p {
+  text-align: left;
   font-size: 16px;
   color:#222222;
-
 }
 
 section.overview #overviewContent{
   display: inline-block;
 }
 section.overview #oProblem {
-
     width: 48%;
     float: left;
     margin-right: 4%
@@ -326,7 +322,6 @@ section.overview #oProblem {
 section.overview #oSolution {
     width: 48%;
     float: right;
-
 }
 
 section.features .section-heading {
@@ -490,7 +485,6 @@ section.video .video-content h2 {
     display: block;
   }
   section.overview #oProblem {
-
       width: 100%;
       padding-right: 10px;
       padding-left: 10px;
