@@ -308,7 +308,7 @@ section.overview p{
   color: #555555;
   text-align: left;
   font-size: 16px;
-  color:#222222;
+  color:#4c4c4c;
 }
 
 section.overview #overviewContent{
@@ -453,7 +453,9 @@ section.video .video-content h2 {
   .imgContainer.Final-Presentation{
     margin-left: unset;
   }
-
+  section.overview p{
+    text-align: center;
+  }
   div#hide {
     display: block;
     margin-top: 30px;
@@ -504,6 +506,7 @@ section.video .video-content h2 {
   }
   section.overview p{
     font-size: 12px;
+    color: #4c4c4c;
   }
 
   section.features .device-container img.img-fluid{
