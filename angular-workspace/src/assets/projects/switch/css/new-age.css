@@ -280,7 +280,7 @@ section.features .device-container {
   }
 }
 section.features .feature-item {
-  text-align: center;
+  text-align: left;
   margin-bottom: 100px;
 }
 section.features .feature-item h3 {
@@ -296,6 +296,7 @@ section.features .feature-item i {
   background: linear-gradient(to left, #7b4397, #dc2430);*/
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
 }
 @media (min-width: 992px) {
   section.features .device-container,
@@ -527,5 +528,9 @@ body {
 }
 
 
+.center {
+  margin-left: 35px;
+  width: 1120px;
+}
 
 
