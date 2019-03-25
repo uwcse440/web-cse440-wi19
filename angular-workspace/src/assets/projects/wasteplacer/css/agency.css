@@ -98,6 +98,11 @@ img::selection {
 img::-moz-selection {
   background: transparent;
 }
+/*me */
+img {
+  display: inline-block;
+  margin-bottom: 20px;
+}
 
 #mainNav {
   background-color: #212529;
@@ -411,8 +416,8 @@ header.masthead .intro-text .intro-heading {
 }
 
 .timeline > li .timeline-panel {
-  position: relative;
-  float: right;
+  /*position: relative;*/
+  float: left;
   width: 100%;
   padding: 0 20px 0 100px;
   text-align: left;
@@ -424,6 +429,7 @@ header.masthead .intro-text .intro-heading {
   border-right-width: 15px;
   border-left-width: 0;
 }
+
 
 .timeline > li .timeline-panel:after {
   right: auto;
@@ -452,6 +458,12 @@ header.masthead .intro-text .intro-heading {
   margin-top: 12px;
 }
 
+/*.timeline > li.timeline-inverted {
+  float: right;
+  padding: 0 20px 0 100px;
+  text-align: left;
+}
+
 .timeline > li.timeline-inverted > .timeline-panel {
   float: right;
   padding: 0 20px 0 100px;
@@ -470,7 +482,7 @@ header.masthead .intro-text .intro-heading {
   left: -14px;
   border-right-width: 14px;
   border-left-width: 0;
-}
+}*/
 
 .timeline > li:last-child {
   margin-bottom: 0;
@@ -479,6 +491,7 @@ header.masthead .intro-text .intro-heading {
 .timeline .timeline-heading h4 {
   margin-top: 0;
   color: inherit;
+  text-align: left;
 }
 
 .timeline .timeline-heading h4.subheading {
@@ -488,7 +501,9 @@ header.masthead .intro-text .intro-heading {
 .timeline .timeline-body > ul,
 .timeline .timeline-body > p {
   margin-bottom: 0;
+  text-align: left; /*for aligning timeline titles*/
 }
+
 
 @media (min-width: 768px) {
   .timeline:before {
